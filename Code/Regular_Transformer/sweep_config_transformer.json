@@ -1,0 +1,78 @@
+{
+    "method": "bayes",
+    "metric": {
+      "name": "val_loss",
+      "goal": "minimize"
+    },
+    "parameters": {
+      "embed_dim": {
+        "values": [64, 128, 256, 512]
+      },
+      "num_heads": {
+        "values": [4, 8, 16]
+      },
+      "ff_dim": {
+        "values": [32, 64, 128, 256]
+      },
+      "depth": {
+        "min": 4,
+        "max": 12,
+        "distribution": "int_uniform"
+      },
+      "dropout": {
+        "min": 0.1,
+        "max": 0.4,
+        "distribution": "uniform"
+      },
+      "mlp_units": {
+        "values": [32, 64, 128, 256, 512]
+      },
+      "learning_rate": {
+        "min": 0.00005,
+        "max": 0.001,
+        "distribution": "log_uniform_values"
+      },
+      "num_epochs": {
+        "value": 10
+      },
+      "model_type": {
+        "value": "transformer"
+      },
+      "batch_size": {
+        "value": 8
+      },
+      "weight_decay": {
+        "values": [0.0001, 0.001, 0.01]
+      },
+      "optimizer": {
+          "values": ["Adam", "SGD"]
+      },
+      "checkpoint_dir": {
+          "value": "/scratch/ALLOC1/UserA/models/checkpoints"
+      },
+      "num_devices": {
+          "value": 1
+      },
+      "num_precision": {
+          "value": 16
+      },
+      "is_sweep": {
+          "value": true
+      },
+      "data_path": {
+          "value": "/home1/ALLOC1/UserA/crystals/all_spacegroups_structures_230K_samples.h5_test_0.2_val_0.2.h5"
+      },
+      "num_classes": {
+          "value": 230
+      },
+      "model_path": {
+          "value": "/scratch/ALLOC1/UserA/models/"
+      },
+      "num_workers": {
+          "value": 12
+      },
+      "prefetch_factor": {
+          "value": 4
+      }
+    }
+}

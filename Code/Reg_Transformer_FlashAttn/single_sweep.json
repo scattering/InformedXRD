@@ -1,0 +1,84 @@
+{
+    "method": "bayes",
+    "metric": {
+      "name": "val_loss",
+      "goal": "minimize"
+    },
+    "parameters": {
+      "embed_dim": {
+        "values": [256]
+      },
+      "num_heads": {
+        "values": [4]
+      },
+      "ff_dim": {
+        "values": [128]
+      },
+      "depth": {
+        "values": [8]
+      },
+      "dropout": {
+        "values": [0]
+      },
+      "mlp_units": {
+        "values": [256]
+      },
+      "pos_encoding": {
+      "values": ["rope"]
+      },
+      "learning_rate": {
+        "values": [0.0003]
+      },
+      "scheduler_type": {
+        "value": "multistep"
+      },
+      "lr_milestones": {
+        "value": [3, 5, 7]
+      },
+      "lr_gamma": {
+        "value": 0.2
+      },
+      "num_epochs": {
+        "value": 8
+      },
+      "model_type": {
+        "value": "transformer"
+      },
+      "batch_size": {
+        "value": 128
+      },
+      "weight_decay": {
+        "values": [0.001]
+      },
+      "optimizer": {
+          "values": ["AdamW"]
+      },
+      "checkpoint_dir": {
+          "value": "/scratch/ALLOC1/UserA/models/checkpoints"
+      },
+      "num_devices": {
+          "value": 1
+      },
+      "num_precision": {
+          "value": 16
+      },
+      "is_sweep": {
+          "value": true
+      },
+      "data_path": {
+          "value": "/scratch/ALLOC1/UserA/data/10Million_pyxtal_RRUFFF-type_repacked.hdf5"
+      },
+      "num_classes": {
+          "value": 99
+      },
+      "model_path": {
+          "value": "/scratch/ALLOC1/UserA/models/"
+      },
+      "num_workers": {
+          "value": 16
+      },
+      "prefetch_factor": {
+          "value": 2
+      }
+    }
+}

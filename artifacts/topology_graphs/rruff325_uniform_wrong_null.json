@@ -1,0 +1,33 @@
+{
+  "null_definition": "For each benchmark true label, enumerate all 98 incorrect labels uniformly and summarize their positions on the condensed DAG.",
+  "graph_json": "artifacts/topology_graphs/extinction_group_adjacency.json",
+  "failure_json": "tmp/topology_animation/mixed2500k_compare_325_failure_modes_655279.json",
+  "source_model_key": "mixed2500k_655279_aux_bayes_t5",
+  "n_examples": 325,
+  "num_labels": 99,
+  "n_wrong_label_pairs": 31850,
+  "mean_wrong_distance": 2.944050235478807,
+  "pct_wrong_distance_le2": 30.646781789638933,
+  "distance_counts": {
+    "0": 17,
+    "1": 2008,
+    "2": 7736,
+    "3": 13450,
+    "4": 7373,
+    "5": 1150,
+    "6": 116
+  },
+  "directionality_counts": {
+    "descendant_pred_lower_sym": 3199,
+    "ancestor_pred_higher_sym": 9404,
+    "branch_jump": 19230,
+    "same_condensed_node": 17
+  },
+  "directionality_pct": {
+    "descendant_pred_lower_sym": 10.043956043956044,
+    "ancestor_pred_higher_sym": 29.525902668759812,
+    "branch_jump": 60.376766091051806,
+    "same_condensed_node": 0.05337519623233909
+  },
+  "descendant_including_same_condensed_node_pct": 10.097331240188383
+}

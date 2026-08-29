@@ -1,0 +1,38 @@
+[
+  {
+    "sample_index": 15,
+    "case_id": "Arsenopyrite__R050071-1__6130",
+    "true_eg": 100,
+    "decoder": "aux_bayes",
+    "aux_temperature": 5.0,
+    "topk_pred_egs": [
+      99,
+      4,
+      6,
+      17,
+      5
+    ],
+    "png": "/scratch/ALLOC3/UserE/attention_stage2c_rruff325_focus/attention_0015_Arsenopyrite__R050071-1__6130.png",
+    "attention_npy": "/scratch/ALLOC3/UserE/attention_stage2c_rruff325_focus/attention_0015_Arsenopyrite__R050071-1__6130.npy",
+    "hkl_annotated": true,
+    "hkl_error": null
+  },
+  {
+    "sample_index": 126,
+    "case_id": "Hematite__R040024-1__3048",
+    "true_eg": 77,
+    "decoder": "aux_bayes",
+    "aux_temperature": 5.0,
+    "topk_pred_egs": [
+      75,
+      4,
+      99,
+      17,
+      5
+    ],
+    "png": "/scratch/ALLOC3/UserE/attention_stage2c_rruff325_focus/attention_0126_Hematite__R040024-1__3048.png",
+    "attention_npy": "/scratch/ALLOC3/UserE/attention_stage2c_rruff325_focus/attention_0126_Hematite__R040024-1__3048.npy",
+    "hkl_annotated": true,
+    "hkl_error": null
+  }
+]

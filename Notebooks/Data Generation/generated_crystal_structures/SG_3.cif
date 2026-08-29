@@ -1,0 +1,46 @@
+#############################################################
+#             ______       _    _          _                #
+#            (_____ \     \ \  / /        | |               #
+#             _____) )   _ \ \/ / |_  ____| |               #
+#            |  ____/ | | | )  (|  _)/ _  | |               #
+#            | |    | |_| |/ /\ \ |_( (_| | |___            #
+#            |_|     \__  /_/  \_\___)__|_|_____)           #
+#                   (____/                                  #
+#---------------------(version    1.0.6)--------------------#
+#       A Python package for random crystal generation      #
+#       url: https://github.com/qzhu2017/pyxtal             #
+#       @Zhu's group at University of Nevada Las Vegas      #
+#############################################################
+data_from_pyxtal
+
+_symmetry_space_group_name_H-M 'P2'
+_symmetry_Int_Tables_number                    3
+_symmetry_cell_setting                monoclinic
+_cell_length_a            4.148338
+_cell_length_b           10.512391
+_cell_length_c            7.865927
+_cell_angle_alpha        90.000000
+_cell_angle_beta         62.826706
+_cell_angle_gamma        90.000000
+_cell_volume            305.164926
+
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+1 'x, y, z'
+2 '-x, y, -z'
+
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+Sb     Sb       2     0.650230    0.129727    0.754368 1
+Sb     Sb       2     0.030399    0.432551    0.214483 1
+O      O        2     0.830658    0.142825    0.902319 1
+Ra     Ra       2     0.125275    0.671678    0.252824 1
+#END
+

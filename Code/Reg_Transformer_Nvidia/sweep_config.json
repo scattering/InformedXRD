@@ -1,0 +1,79 @@
+{
+    "method": "bayes",
+    "metric": {
+      "name": "val_loss",
+      "goal": "minimize"
+    },
+    "parameters": {
+      "embed_dim": {
+        "values": [64, 128, 256, 512]
+      },
+      "num_heads": {
+        "values": [4, 8, 16]
+      },
+      "ff_dim": {
+        "values": [32, 64, 128, 256]
+      },
+      "depth": {
+        "min": 4,
+        "max": 12,
+        "distribution": "int_uniform"
+      },
+      "dropout": {
+        "values": [0.0, 0.1, 0.2, 0.3, 0.4]
+      },
+      "pos_encoding": {
+      "values": ["rope"]
+      },
+      "mlp_units": {
+        "values": [32, 64, 128, 256, 512]
+      },
+      "learning_rate": {
+        "min": 0.00005,
+        "max": 0.001,
+        "distribution": "log_uniform_values"
+      },
+      "num_epochs": {
+        "value": 5
+      },
+      "model_type": {
+        "value": "transformer"
+      },
+      "batch_size": {
+        "value": 32
+      },
+      "weight_decay": {
+        "values": [0.0001, 0.001, 0.01, 0.05, 0.1, 0.2]
+      },
+      "optimizer": {
+          "values": ["Adam", "AdamW"]
+      },
+      "checkpoint_dir": {
+          "value": "/scratch/ALLOC1/UserA/models/checkpoints"
+      },
+      "num_devices": {
+          "value": 1
+      },
+      "num_precision": {
+          "value": 16
+      },
+      "is_sweep": {
+          "value": true
+      },
+      "data_path": {
+          "value": "/scratch/ALLOC1/UserA/data/ext_99k_bal_ref_highres.h5"
+      },
+      "num_classes": {
+          "value": 99
+      },
+      "model_path": {
+          "value": "/scratch/ALLOC1/UserA/models/"
+      },
+      "num_workers": {
+          "value": 4
+      },
+      "prefetch_factor": {
+          "value": 2
+      }
+    }
+}

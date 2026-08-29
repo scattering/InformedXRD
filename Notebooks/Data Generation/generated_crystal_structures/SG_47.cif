@@ -1,0 +1,57 @@
+#############################################################
+#             ______       _    _          _                #
+#            (_____ \     \ \  / /        | |               #
+#             _____) )   _ \ \/ / |_  ____| |               #
+#            |  ____/ | | | )  (|  _)/ _  | |               #
+#            | |    | |_| |/ /\ \ |_( (_| | |___            #
+#            |_|     \__  /_/  \_\___)__|_|_____)           #
+#                   (____/                                  #
+#---------------------(version    1.0.6)--------------------#
+#       A Python package for random crystal generation      #
+#       url: https://github.com/qzhu2017/pyxtal             #
+#       @Zhu's group at University of Nevada Las Vegas      #
+#############################################################
+data_from_pyxtal
+
+_symmetry_space_group_name_H-M 'Pmmm'
+_symmetry_Int_Tables_number                   47
+_symmetry_cell_setting              orthorhombic
+_cell_length_a            8.971846
+_cell_length_b           10.168459
+_cell_length_c           22.223470
+_cell_angle_alpha        90.000000
+_cell_angle_beta         90.000000
+_cell_angle_gamma        90.000000
+_cell_volume           2027.443883
+
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+1 'x, y, z'
+2 '-x, -y, z'
+3 '-x, y, -z'
+4 'x, -y, -z'
+5 '-x, -y, -z'
+6 'x, y, -z'
+7 'x, -y, z'
+8 '-x, y, z'
+
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+Sr     Sr       2     0.000000    0.500000    0.857129 1
+Mn     Mn       2     0.206880    0.500000    0.500000 1
+Mn     Mn       2     0.000000    0.101534    0.500000 1
+Mn     Mn       2     0.500000    0.000000    0.236358 1
+Fr     Fr       4     0.731321    0.000000    0.203088 1
+Fr     Fr       1     0.000000    0.500000    0.000000 1
+Fr     Fr       1     0.500000    0.500000    0.500000 1
+Fr     Fr       4     0.831405    0.000000    0.350043 1
+Fr     Fr       2     0.719455    0.000000    0.500000 1
+#END
+

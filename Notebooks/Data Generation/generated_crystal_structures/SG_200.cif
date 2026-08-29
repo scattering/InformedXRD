@@ -1,0 +1,70 @@
+#############################################################
+#             ______       _    _          _                #
+#            (_____ \     \ \  / /        | |               #
+#             _____) )   _ \ \/ / |_  ____| |               #
+#            |  ____/ | | | )  (|  _)/ _  | |               #
+#            | |    | |_| |/ /\ \ |_( (_| | |___            #
+#            |_|     \__  /_/  \_\___)__|_|_____)           #
+#                   (____/                                  #
+#---------------------(version    1.0.6)--------------------#
+#       A Python package for random crystal generation      #
+#       url: https://github.com/qzhu2017/pyxtal             #
+#       @Zhu's group at University of Nevada Las Vegas      #
+#############################################################
+data_from_pyxtal
+
+_symmetry_space_group_name_H-M 'Pm-3'
+_symmetry_Int_Tables_number                  200
+_symmetry_cell_setting                     cubic
+_cell_length_a            9.667635
+_cell_length_b            9.667635
+_cell_length_c            9.667635
+_cell_angle_alpha        90.000000
+_cell_angle_beta         90.000000
+_cell_angle_gamma        90.000000
+_cell_volume            903.567724
+
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+1 'x, y, z'
+2 '-x, -y, z'
+3 '-x, y, -z'
+4 'x, -y, -z'
+5 'z, x, y'
+6 'z, -x, -y'
+7 '-z, -x, y'
+8 '-z, x, -y'
+9 'y, z, x'
+10 '-y, z, -x'
+11 'y, -z, -x'
+12 '-y, -z, x'
+13 '-x, -y, -z'
+14 'x, y, -z'
+15 'x, -y, z'
+16 '-x, y, z'
+17 '-z, -x, -y'
+18 '-z, x, y'
+19 'z, x, -y'
+20 'z, -x, y'
+21 '-y, -z, -x'
+22 'y, -z, x'
+23 '-y, z, x'
+24 'y, z, -x'
+
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+He     He       3     0.000000    0.500000    0.500000 1
+He     He       1     0.000000    0.000000    0.000000 1
+Zr     Zr       6     0.766349    0.500000    0.500000 1
+Zr     Zr      12     0.000000    0.108669    0.798573 1
+Zr     Zr       6     0.721613    0.500000    0.000000 1
+Cu     Cu       3     0.500000    0.000000    0.000000 1
+#END
+

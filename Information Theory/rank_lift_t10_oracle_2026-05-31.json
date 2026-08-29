@@ -1,0 +1,97 @@
+{
+  "n_samples": 325,
+  "n_classes": 99,
+  "topk": {
+    "1": {
+      "observed": 0.12615384615384614,
+      "prior_static_baseline": 0.12615384615384614,
+      "shuffle_null_closed_form": 0.12397633136094673,
+      "permutation_null": {
+        "observed": 0.12615384615384614,
+        "null_mean": 0.12400861538461541,
+        "null_std": 0.004027225063509536,
+        "null_95": [
+          0.11692307692307692,
+          0.13230769230769232
+        ],
+        "z": 0.5326821160644504,
+        "p_one_sided": 0.44935506449355067
+      },
+      "bootstrap": {
+        "mean": 0.12570615384615386,
+        "ci95": [
+          0.09230769230769231,
+          0.16307692307692306
+        ]
+      },
+      "pattern_conditional_lift": 0.0021452307692307326
+    },
+    "3": {
+      "observed": 0.28615384615384615,
+      "prior_static_baseline": 0.32,
+      "shuffle_null_closed_form": 0.2808331360946746,
+      "permutation_null": {
+        "observed": 0.28615384615384615,
+        "null_mean": 0.2804901538461539,
+        "null_std": 0.012816135700898481,
+        "null_95": [
+          0.2553846153846154,
+          0.3046153846153846
+        ],
+        "z": 0.4419188778450031,
+        "p_one_sided": 0.37416258374162586
+      },
+      "bootstrap": {
+        "mean": 0.28559846153846147,
+        "ci95": [
+          0.23684615384615385,
+          0.3353846153846154
+        ]
+      },
+      "pattern_conditional_lift": 0.0056636923076922585
+    },
+    "5": {
+      "observed": 0.4492307692307692,
+      "prior_static_baseline": 0.4369230769230769,
+      "shuffle_null_closed_form": 0.4347644970414201,
+      "permutation_null": {
+        "observed": 0.4492307692307692,
+        "null_mean": 0.43476923076923085,
+        "null_std": 0.005499624061985391,
+        "null_95": [
+          0.4246153846153846,
+          0.4461538461538462
+        ],
+        "z": 2.6295503648822356,
+        "p_one_sided": 0.007399260073992601
+      },
+      "bootstrap": {
+        "mean": 0.4486046153846154,
+        "ci95": [
+          0.39384615384615385,
+          0.5015384615384615
+        ]
+      },
+      "pattern_conditional_lift": 0.014461538461538359
+    }
+  },
+  "mean_true_rank": {
+    "observed": 13.28,
+    "permutation_null": {
+      "observed": 13.28,
+      "null_mean": 13.442719384615385,
+      "null_std": 0.09016777908074051,
+      "null_95": [
+        13.267692307692307,
+        13.618461538461538
+      ],
+      "z": 1.804628951411507,
+      "p_one_sided": 0.035896410358964105
+    },
+    "note": "1 = true label ranked top; lower is better; null = rank under shuffled labels (random pattern-label pairing)."
+  },
+  "tag": "t10_oracle_nll",
+  "posterior_npz": "/tmp/information_theory_outputs/rruff325_stage2c_9rwv1qly_t5.0_posteriors_s3.npz",
+  "posterior_key": "calibrated_probs",
+  "oracle_temperature": 10.0
+}

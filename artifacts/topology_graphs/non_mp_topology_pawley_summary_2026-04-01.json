@@ -1,0 +1,96 @@
+{
+  "result_root": "/work2/ALLOC3/UserE/rruff-benchmark/topology_probe_results_non_mp_20260401",
+  "n_cases": 8,
+  "exact_space_group_match_n": 4,
+  "exact_space_group_match_pct": 50.0,
+  "cases": [
+    {
+      "case_id": "Carrollite__R050089-1__4204",
+      "true_space_group": "Fd3m",
+      "best_symbol": "F4132",
+      "best_label": "F 41 - -",
+      "best_bic": 2580.4841090067343,
+      "second_symbol": "Fm-3m",
+      "second_bic": 2580.4841090070777,
+      "n_candidates": 5,
+      "exact_space_group_match": false
+    },
+    {
+      "case_id": "Hematite__R040024-1__3048",
+      "true_space_group": "R-3c",
+      "best_symbol": "R-3c",
+      "best_label": "R (obv)- - c (equiv: R (rev)- - c, R - - c)",
+      "best_bic": 2274.984206810072,
+      "second_symbol": "R32",
+      "second_bic": 2275.080950818599,
+      "n_candidates": 2,
+      "exact_space_group_match": true
+    },
+    {
+      "case_id": "Hematite__R050300-1__5695",
+      "true_space_group": "R-3c",
+      "best_symbol": "R-3c",
+      "best_label": "R (obv)- - c (equiv: R (rev)- - c, R - - c)",
+      "best_bic": 2037.0249621603987,
+      "second_symbol": "R32",
+      "second_bic": 2037.025059978057,
+      "n_candidates": 2,
+      "exact_space_group_match": true
+    },
+    {
+      "case_id": "Hematite__R070240-1__8278",
+      "true_space_group": "R-3c",
+      "best_symbol": "R-3c",
+      "best_label": "R (obv)- - c (equiv: R (rev)- - c, R - - c)",
+      "best_bic": 1900.4941362375412,
+      "second_symbol": "R32",
+      "second_bic": 1900.5995427758155,
+      "n_candidates": 2,
+      "exact_space_group_match": true
+    },
+    {
+      "case_id": "Magnetite__R060191-1__6706",
+      "true_space_group": "Fd3m",
+      "best_symbol": "Fd-3",
+      "best_label": "F d - -",
+      "best_bic": 1940.6374218295218,
+      "second_symbol": "F4132",
+      "second_bic": 1940.6374223410382,
+      "n_candidates": 5,
+      "exact_space_group_match": false
+    },
+    {
+      "case_id": "Magnetite__R060656-1__5151",
+      "true_space_group": "Fd3m",
+      "best_symbol": "Fm-3m",
+      "best_label": "F - - -",
+      "best_bic": 1785.4147565041653,
+      "second_symbol": "F4132",
+      "second_bic": 1785.4147565041653,
+      "n_candidates": 5,
+      "exact_space_group_match": false
+    },
+    {
+      "case_id": "Magnetite__R080025-1__9448",
+      "true_space_group": "Fd3m",
+      "best_symbol": "Fm-3m",
+      "best_label": "F - - -",
+      "best_bic": 1959.9574743503201,
+      "second_symbol": "F4132",
+      "second_bic": 1959.9574743641983,
+      "n_candidates": 5,
+      "exact_space_group_match": false
+    },
+    {
+      "case_id": "Rhodochrosite__R050019-1__4010",
+      "true_space_group": "R-3c",
+      "best_symbol": "R-3c",
+      "best_label": "R (obv)- - c (equiv: R (rev)- - c, R - - c)",
+      "best_bic": 2006.389294320816,
+      "second_symbol": "R32",
+      "second_bic": 2006.3930777825312,
+      "n_candidates": 2,
+      "exact_space_group_match": true
+    }
+  ]
+}

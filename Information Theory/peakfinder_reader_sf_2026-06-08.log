@@ -1,0 +1,20 @@
+recovered geom centers: 2823/2838 families positioned
+  finder 100/473
+  finder 200/473
+  finder 300/473
+  finder 400/473
+peak-finder at anchors: found 1236/2823 (43.8%), miss 1587
+
+CEILING (true absences): 66.5 / 85.6
+
+==== LogReg ====
+  global (no localization):         17.5 /  37.4
+  ORACLE (geom window):             29.0 /  46.3   [+11.4 localization]
+  PEAK-FINDER window (realistic):   27.7 /  46.1   [+10.1 -> 89% of localization survives]
+  PEAK-FINDER compact [found,dpos,snr]:  32.1 /  51.6   [+14.6 -> 128%]
+
+==== RandomForest ====
+  global (no localization):         16.3 /  29.8
+  ORACLE (geom window):             38.7 /  61.3   [+22.4 localization]
+  PEAK-FINDER window (realistic):   33.8 /  55.6   [+17.5 -> 78% of localization survives]
+  PEAK-FINDER compact [found,dpos,snr]:  34.9 /  58.4   [+18.6 -> 83%]

@@ -1,0 +1,59 @@
+#############################################################
+#             ______       _    _          _                #
+#            (_____ \     \ \  / /        | |               #
+#             _____) )   _ \ \/ / |_  ____| |               #
+#            |  ____/ | | | )  (|  _)/ _  | |               #
+#            | |    | |_| |/ /\ \ |_( (_| | |___            #
+#            |_|     \__  /_/  \_\___)__|_|_____)           #
+#                   (____/                                  #
+#---------------------(version    1.0.6)--------------------#
+#       A Python package for random crystal generation      #
+#       url: https://github.com/qzhu2017/pyxtal             #
+#       @Zhu's group at University of Nevada Las Vegas      #
+#############################################################
+data_from_pyxtal
+
+_symmetry_space_group_name_H-M 'Pccm'
+_symmetry_Int_Tables_number                   49
+_symmetry_cell_setting              orthorhombic
+_cell_length_a           15.764949
+_cell_length_b            7.418862
+_cell_length_c           11.050255
+_cell_angle_alpha        90.000000
+_cell_angle_beta         90.000000
+_cell_angle_gamma        90.000000
+_cell_volume           1292.415592
+
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+1 'x, y, z'
+2 '-x, -y, z'
+3 '-x, y, -z+1/2'
+4 'x, -y, -z+1/2'
+5 '-x, -y, -z'
+6 'x, y, -z'
+7 'x, -y, z+1/2'
+8 '-x, y, z+1/2'
+
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+Be     Be       2     0.000000    0.000000    0.000000 1
+Be     Be       2     0.500000    0.500000    0.250000 1
+Be     Be       4     0.183652    0.179134    0.000000 1
+Be     Be       4     0.369883    0.500000    0.250000 1
+Be     Be       4     0.774067    0.000000    0.250000 1
+U      U        8     0.710842    0.353726    0.297955 1
+U      U        4     0.361325    0.155479    0.000000 1
+U      U        2     0.500000    0.000000    0.250000 1
+U      U        2     0.000000    0.500000    0.250000 1
+Pa     Pa       8     0.550152    0.791260    0.371268 1
+Pa     Pa       8     0.273786    0.140305    0.394379 1
+#END
+

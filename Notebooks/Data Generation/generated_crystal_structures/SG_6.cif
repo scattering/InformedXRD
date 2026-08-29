@@ -1,0 +1,45 @@
+#############################################################
+#             ______       _    _          _                #
+#            (_____ \     \ \  / /        | |               #
+#             _____) )   _ \ \/ / |_  ____| |               #
+#            |  ____/ | | | )  (|  _)/ _  | |               #
+#            | |    | |_| |/ /\ \ |_( (_| | |___            #
+#            |_|     \__  /_/  \_\___)__|_|_____)           #
+#                   (____/                                  #
+#---------------------(version    1.0.6)--------------------#
+#       A Python package for random crystal generation      #
+#       url: https://github.com/qzhu2017/pyxtal             #
+#       @Zhu's group at University of Nevada Las Vegas      #
+#############################################################
+data_from_pyxtal
+
+_symmetry_space_group_name_H-M 'Pm'
+_symmetry_Int_Tables_number                    6
+_symmetry_cell_setting                monoclinic
+_cell_length_a            6.767485
+_cell_length_b            4.696011
+_cell_length_c            3.621501
+_cell_angle_alpha        90.000000
+_cell_angle_beta        120.406401
+_cell_angle_gamma        90.000000
+_cell_volume             99.261887
+
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+1 'x, y, z'
+2 'x, -y, z'
+
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+Sn     Sn       1     0.987769    0.500000    0.376074 1
+Sn     Sn       1     0.742656    0.500000    0.833759 1
+Fe     Fe       2     0.369240    0.667573    0.829801 1
+#END
+
