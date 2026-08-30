@@ -38,19 +38,32 @@ The four ViT checkpoints on the Hugging Face model repository
 | `case_studies/opxrd/` | opXRD metadata audit, Cu-Kα community surface construction, and six-model evaluation |
 | `README.md`, `PROVENANCE.md` | This packaging |
 
-## Third-party inputs
+## Third-party inputs and licenses
 
 - **RRUFF**: source archive for RRUFF-473/RRUFF-325 (benchmark payloads on
-  Hugging Face reference frozen scan identifiers).
-- **opXRD** (Hollarek et al.): source archive for the 98-record surface;
-  record identifiers are in `case_studies/opxrd/community_surface/*_manifest.csv`.
-- **SimXRD / XRDBench**: training corpus contract and architecture recipe for
-  the six-model study (unchanged public `train_1` contract).
+  Hugging Face reference frozen scan identifiers), following the same
+  redistribution posture as the frozen upstream release.
+- **opXRD** (Hollarek et al.): source archive for the 98-record surface,
+  distributed openly via Zenodo without use restrictions; the derived
+  resampled surfaces and record manifests in `case_studies/opxrd/` are
+  released with attribution to that archive. Record identifiers are in
+  `case_studies/opxrd/community_surface/*_manifest.csv`.
+- **SimXRD / XRDBench** (MIT License): training corpus contract and
+  architecture recipe for the six-model study (unchanged public `train_1`
+  contract). `case_studies/xrdbench/overrides/train.py` is a modified copy of
+  the upstream training script; the upstream MIT license text is included at
+  `case_studies/xrdbench/overrides/UPSTREAM_LICENSE`. The SimXRD corpus
+  itself is not redistributed here; released checkpoints are weights trained
+  by the authors of this work.
 - **EXPO extinction-symbol table** (derived from *International Tables for
   Crystallography*): underlying tabulation parsed, canonicalized, and inverted
   into `assets/lookups/`.
 - **ICSD structural community map** (Nguyen et al.): frozen projection used to
-  assign structural families on the opXRD surface.
+  assign structural families on the opXRD surface. Consistent with the
+  release's policy of shipping no raw ICSD structures or per-structure
+  records, only derived community labels and aggregate diagnostics are
+  included; per-record ICSD anchor identifiers were redacted from the
+  released overlap audit tables.
 
 ## Path redaction
 

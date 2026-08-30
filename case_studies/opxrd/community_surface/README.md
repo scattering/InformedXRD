@@ -1,5 +1,12 @@
 # opXRD Single-Phase Cu-Kalpha Community Surface
 
+> **Data attribution.** The patterns and metadata in this directory are derived
+> from the opXRD database (Hollarek et al., *opXRD: Open Experimental Powder
+> X-ray Diffraction Database*), distributed openly via Zenodo without use
+> restrictions. This directory redistributes only the resampled one-pattern,
+> one-label Cu-Ka surfaces and their record manifests, with attribution.
+
+
 ## Scope
 
 This directory contains candidate benchmark views derived from the public

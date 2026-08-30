@@ -1,3 +1,6 @@
+# New file written for this work; designed as a drop-in addition to the
+# public XRDBench benchmark suite (SimXRD; MIT License -- see
+# UPSTREAM_LICENSE in this directory).
 import json
 import time
 

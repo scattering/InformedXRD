@@ -1,3 +1,7 @@
+# Modified from the training script of the public XRDBench benchmark suite
+# (SimXRD; MIT License -- see UPSTREAM_LICENSE in this directory).
+# Modifications for this work: PT-shard dataset loading, model-module
+# registry, and evaluation-export hooks. Drop-in override for the upstream repo.
 import torch
 import torch.nn as nn
 import torch.optim as optim
