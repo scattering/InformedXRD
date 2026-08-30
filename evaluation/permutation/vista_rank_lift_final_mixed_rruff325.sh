@@ -22,7 +22,7 @@ source $SCRATCH/ai-diffraction-venv/bin/activate
 python "${code_root}/Information Theory/dump_rruff325_calibrated_posteriors.py" \
   --checkpoint $SCRATCH/ai_diffraction_models/xrd_model_82ept35h_best.pth \
   --config "${code_root}/Code/ViT_NVIDIA/config_rruff_conditioned_dualsource_2346k_500kpo_from_ic6gfmvm_physpe_coord.json" \
-  --eval-data-path /work2/09870/anon/rruff-benchmark/RRUFF_usable_plus_recoverable_325_with_labels_maxnorm.hdf5 \
+  --eval-data-path $WORK/rruff-benchmark/RRUFF_usable_plus_recoverable_325_with_labels_maxnorm.hdf5 \
   --prior-data-path $SCRATCH/ai_diffraction_generated/rruff_conditioned_500k_po_v1_trainready.hdf5 \
   --aux-temperature 5.0 \
   --num-workers 2 \

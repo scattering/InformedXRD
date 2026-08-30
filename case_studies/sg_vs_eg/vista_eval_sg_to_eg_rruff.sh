@@ -29,7 +29,7 @@ python "${code_root}/Code/ViT_NVIDIA/evaluate_sg_to_eg_rruff.py" \
   --eg-checkpoint $SCRATCH/ai_diffraction_models/xrd_model_xgy3h6uw_best.pth \
   --eg-config "${code_root}/Code/ViT_NVIDIA/config_uniform_2m_blackbird_from_ic6gfmvm_physpe_coord.json" \
   --canonical-table-path "${code_root}/Code/Post_Processing/canonical_extinction_to_space_group.csv" \
-  --benchmark rruff473=/work2/09870/anon/rruff-benchmark/RRUFF_option1_473_with_buckets_maxnorm.hdf5 \
-  --benchmark rruff325=/work2/09870/anon/rruff-benchmark/RRUFF_usable_plus_recoverable_325_with_labels_maxnorm.hdf5 \
+  --benchmark rruff473=$WORK/rruff-benchmark/RRUFF_option1_473_with_buckets_maxnorm.hdf5 \
+  --benchmark rruff325=$WORK/rruff-benchmark/RRUFF_usable_plus_recoverable_325_with_labels_maxnorm.hdf5 \
   --num-workers 4 \
   --output-json "${output_root}/sg_to_eg_real_rruff.json"

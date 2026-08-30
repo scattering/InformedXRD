@@ -20,8 +20,8 @@ code_root=${NEURIPS_REBUTTAL_CODE_ROOT:-$SCRATCH/neurips_rebuttal_20260726/repo}
 output_root=${NEURIPS_REBUTTAL_OUTPUT_ROOT:-$SCRATCH/neurips_rebuttal_20260726}
 converged_checkpoint=${1:-$SCRATCH/resnet_rruff_runs/submitted_resnet18_convergence/checkpoint_best.pt}
 submitted_checkpoint=${2:-$SCRATCH/resnet_rruff_runs/resume6_from_epoch3_bs128/checkpoint_epoch_06_frozen.pt}
-benchmark473=/work2/09870/anon/rruff-benchmark/RRUFF_option1_473_with_buckets_maxnorm.hdf5
-benchmark325=/work2/09870/anon/rruff-benchmark/RRUFF_usable_plus_recoverable_325_with_labels_maxnorm.hdf5
+benchmark473=$WORK/rruff-benchmark/RRUFF_option1_473_with_buckets_maxnorm.hdf5
+benchmark325=$WORK/rruff-benchmark/RRUFF_usable_plus_recoverable_325_with_labels_maxnorm.hdf5
 graph="${code_root}/artifacts/topology_graphs/extinction_group_adjacency.json"
 
 module purge

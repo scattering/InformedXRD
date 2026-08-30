@@ -3,7 +3,7 @@
   "checkpoint_label": "submitted_epoch6",
   "checkpoint_epoch": 6,
   "best_epoch_recorded": -1,
-  "eval_h5": "/work2/09870/anon/rruff-benchmark/RRUFF_option1_473_with_buckets_maxnorm.hdf5",
+  "eval_h5": "$WORK/rruff-benchmark/RRUFF_option1_473_with_buckets_maxnorm.hdf5",
   "n_samples": 473,
   "flat_metrics_pct": {
     "top1": 9.090909090909092,

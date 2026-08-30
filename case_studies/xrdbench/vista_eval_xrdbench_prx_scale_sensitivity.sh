@@ -22,8 +22,8 @@ venv=${base}/venv
 result_parent=${RESULT_PARENT:-$SCRATCH/xrdbench_normalization_sensitivity_20260726}
 run_root=${result_parent}/job_${SLURM_JOB_ID}_${normalization_mode}_targetmax_${input_target_max}
 mapping=${tools}/canonical_extinction_to_space_group.csv
-rruff473=/work2/09870/anon/rruff-benchmark/RRUFF_option1_473_with_buckets_maxnorm.hdf5
-rruff325=/work2/09870/anon/rruff-benchmark/RRUFF_usable_plus_recoverable_325_with_labels_maxnorm.hdf5
+rruff473=$WORK/rruff-benchmark/RRUFF_option1_473_with_buckets_maxnorm.hdf5
+rruff325=$WORK/rruff-benchmark/RRUFF_usable_plus_recoverable_325_with_labels_maxnorm.hdf5
 
 mkdir "${run_root}"
 

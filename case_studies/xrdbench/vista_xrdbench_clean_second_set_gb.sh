@@ -21,8 +21,8 @@ graph=${tools}/extinction_group_adjacency.json
 train_manifest=$SCRATCH/simxrd_train1_pt_shards/manifest.json
 val_manifest=$SCRATCH/simxrd_val_pt_shards/manifest.json
 test_manifest=$SCRATCH/simxrd_test_pt_shards/manifest.json
-rruff473=/work2/09870/anon/rruff-benchmark/RRUFF_option1_473_with_buckets_maxnorm.hdf5
-rruff325=/work2/09870/anon/rruff-benchmark/RRUFF_usable_plus_recoverable_325_with_labels_maxnorm.hdf5
+rruff473=$WORK/rruff-benchmark/RRUFF_option1_473_with_buckets_maxnorm.hdf5
+rruff325=$WORK/rruff-benchmark/RRUFF_usable_plus_recoverable_325_with_labels_maxnorm.hdf5
 
 module purge
 module load gcc/13.2.0 cuda/12.8 python3/3.11.8

@@ -29,8 +29,8 @@ cd "${code_root}/Code/Regular_CNN_Nvidia"
 
 python resnet_rruff_train.py \
   --train-h5 $SCRATCH/ai_diffraction_generated/rruff_conditioned_2346k_v1_trainready.hdf5 \
-  --eval-h5-473 /work2/09870/anon/rruff-benchmark/RRUFF_option1_473_with_buckets_maxnorm.hdf5 \
-  --eval-h5-325 /work2/09870/anon/rruff-benchmark/RRUFF_usable_plus_recoverable_325_with_labels_maxnorm.hdf5 \
+  --eval-h5-473 $WORK/rruff-benchmark/RRUFF_option1_473_with_buckets_maxnorm.hdf5 \
+  --eval-h5-325 $WORK/rruff-benchmark/RRUFF_usable_plus_recoverable_325_with_labels_maxnorm.hdf5 \
   --output-dir $SCRATCH/resnet_rruff_runs \
   --run-name "${run_name}" \
   --epochs "${target_epoch}" \
