@@ -1,0 +1,96 @@
+{
+  "n_samples": 473,
+  "n_classes": 99,
+  "topk": {
+    "1": {
+      "observed": 0.09936575052854123,
+      "prior_static_baseline": 0.12896405919661733,
+      "shuffle_null_closed_form": 0.12272436742666348,
+      "permutation_null": {
+        "observed": 0.09936575052854123,
+        "null_mean": 0.12275665961945033,
+        "null_std": 0.009071875954490133,
+        "null_95": [
+          0.10570824524312897,
+          0.1416490486257928
+        ],
+        "z": -2.5783982503368943,
+        "p_one_sided": 0.9969003099690031
+      },
+      "bootstrap": {
+        "mean": 0.09928329809725159,
+        "ci95": [
+          0.07399577167019028,
+          0.12684989429175475
+        ]
+      },
+      "pattern_conditional_lift": -0.0233909090909091
+    },
+    "3": {
+      "observed": 0.30655391120507397,
+      "prior_static_baseline": 0.34460887949260044,
+      "shuffle_null_closed_form": 0.31500163143803445,
+      "permutation_null": {
+        "observed": 0.30655391120507397,
+        "null_mean": 0.31511564482029597,
+        "null_std": 0.010862749198347642,
+        "null_95": [
+          0.2938689217758985,
+          0.3361522198731501
+        ],
+        "z": -0.7881737355895293,
+        "p_one_sided": 0.8113188681131887
+      },
+      "bootstrap": {
+        "mean": 0.3064640591966173,
+        "ci95": [
+          0.2642706131078224,
+          0.3467758985200843
+        ]
+      },
+      "pattern_conditional_lift": -0.008561733615222
+    },
+    "5": {
+      "observed": 0.507399577167019,
+      "prior_static_baseline": 0.5137420718816068,
+      "shuffle_null_closed_form": 0.485252247138279,
+      "permutation_null": {
+        "observed": 0.507399577167019,
+        "null_mean": 0.48517653276955597,
+        "null_std": 0.009456787134179247,
+        "null_95": [
+          0.46723044397463004,
+          0.5031712473572939
+        ],
+        "z": 2.3499571344683554,
+        "p_one_sided": 0.013098690130986902
+      },
+      "bootstrap": {
+        "mean": 0.5075327695560254,
+        "ci95": [
+          0.4608879492600423,
+          0.5539112050739958
+        ]
+      },
+      "pattern_conditional_lift": 0.022223044397463032
+    }
+  },
+  "mean_true_rank": {
+    "observed": 11.665961945031713,
+    "permutation_null": {
+      "observed": 11.665961945031713,
+      "null_mean": 11.841471247357292,
+      "null_std": 0.11433971701286448,
+      "null_95": [
+        11.617336152219874,
+        12.063424947145878
+      ],
+      "z": 1.5349810801464365,
+      "p_one_sided": 0.06079392060793921
+    },
+    "note": "1 = true label ranked top; lower is better; null = rank under shuffled labels (random pattern-label pairing)."
+  },
+  "tag": "rruff473_final_mixed_t5",
+  "posterior_npz": "$SCRATCH/information_theory_model_comparison_473/mixed2500k_rruff473_posteriors.npz",
+  "posterior_key": "calibrated_probs"
+}

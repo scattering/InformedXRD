@@ -1,0 +1,96 @@
+{
+  "n_samples": 473,
+  "n_classes": 99,
+  "topk": {
+    "1": {
+      "observed": 0.11839323467230443,
+      "prior_static_baseline": 0.12896405919661733,
+      "shuffle_null_closed_form": 0.12331436693499723,
+      "permutation_null": {
+        "observed": 0.11839323467230443,
+        "null_mean": 0.1234443974630021,
+        "null_std": 0.00783100361341538,
+        "null_95": [
+          0.10782241014799154,
+          0.13953488372093023
+        ],
+        "z": -0.6450211287604882,
+        "p_one_sided": 0.7874212578742126
+      },
+      "bootstrap": {
+        "mean": 0.1184154334038055,
+        "ci95": [
+          0.08879492600422834,
+          0.14799154334038056
+        ]
+      },
+      "pattern_conditional_lift": -0.005051162790697672
+    },
+    "3": {
+      "observed": 0.3107822410147992,
+      "prior_static_baseline": 0.34460887949260044,
+      "shuffle_null_closed_form": 0.30987042359282896,
+      "permutation_null": {
+        "observed": 0.3107822410147992,
+        "null_mean": 0.3101794926004228,
+        "null_std": 0.010511352776831096,
+        "null_95": [
+          0.28964059196617337,
+          0.33192389006342493
+        ],
+        "z": 0.05734261109070335,
+        "p_one_sided": 0.5174482551744826
+      },
+      "bootstrap": {
+        "mean": 0.3108594080338266,
+        "ci95": [
+          0.27061310782241016,
+          0.35306553911205074
+        ]
+      },
+      "pattern_conditional_lift": 0.0006027484143763528
+    },
+    "5": {
+      "observed": 0.49682875264270615,
+      "prior_static_baseline": 0.5137420718816068,
+      "shuffle_null_closed_form": 0.4970298888387291,
+      "permutation_null": {
+        "observed": 0.49682875264270615,
+        "null_mean": 0.49706871035940803,
+        "null_std": 0.008151224208567837,
+        "null_95": [
+          0.4799154334038055,
+          0.5137420718816068
+        ],
+        "z": -0.02943824271453815,
+        "p_one_sided": 0.5649435056494351
+      },
+      "bootstrap": {
+        "mean": 0.4970676532769556,
+        "ci95": [
+          0.452431289640592,
+          0.5433403805496829
+        ]
+      },
+      "pattern_conditional_lift": -0.00023995771670187738
+    }
+  },
+  "mean_true_rank": {
+    "observed": 11.60676532769556,
+    "permutation_null": {
+      "observed": 11.60676532769556,
+      "null_mean": 11.805985623678646,
+      "null_std": 0.10930482508837013,
+      "null_95": [
+        11.594027484143764,
+        12.019080338266384
+      ],
+      "z": 1.8226120925604012,
+      "p_one_sided": 0.0352964703529647
+    },
+    "note": "1 = true label ranked top; lower is better; null = rank under shuffled labels (random pattern-label pairing)."
+  },
+  "tag": "rruff473_stage2c_t5",
+  "posterior_npz": "$SCRATCH/corrected_flat_information_theory_20260623/corrected_flat37_stage2c_rruff473_t5_posteriors.npz",
+  "posterior_key": "calibrated_probs"
+}

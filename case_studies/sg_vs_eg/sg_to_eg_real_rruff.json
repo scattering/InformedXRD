@@ -1,0 +1,126 @@
+{
+  "comparison": "Matched synthetic-uniform checkpoints evaluated on identical RRUFF inputs in the common 99-way EG label space.",
+  "sg_checkpoint": "$SCRATCH/ai_diffraction_models/xrd_model_lw1dbmsm_best.pth",
+  "sg_config": "$SCRATCH/neurips_rebuttal_20260726/repo/Code/ViT_NVIDIA/config_uniform_2m_blackbird_sg230_physpe_coord_referee_rerun.json",
+  "eg_checkpoint": "$SCRATCH/ai_diffraction_models/xrd_model_xgy3h6uw_best.pth",
+  "eg_config": "$SCRATCH/neurips_rebuttal_20260726/repo/Code/ViT_NVIDIA/config_uniform_2m_blackbird_from_ic6gfmvm_physpe_coord.json",
+  "canonical_table_path": "$SCRATCH/neurips_rebuttal_20260726/repo/Code/Post_Processing/canonical_extinction_to_space_group.csv",
+  "benchmarks": {
+    "rruff473": {
+      "path": "$WORK/rruff-benchmark/RRUFF_option1_473_with_buckets_maxnorm.hdf5",
+      "n_samples": 473,
+      "represented_extinction_groups": 46,
+      "sg_to_eg_collapsed": {
+        "top1": 0.03382663847780127,
+        "top3": 0.05919661733615222,
+        "top5": 0.0824524312896406
+      },
+      "direct_eg_aux": {
+        "top1": 0.035940803382663845,
+        "top3": 0.05708245243128964,
+        "top5": 0.08456659619450317
+      },
+      "direct_eg_minus_collapsed_sg": {
+        "top1": 0.0021141649048625755,
+        "top3": -0.0021141649048625755,
+        "top5": 0.0021141649048625755
+      },
+      "paired_comparisons": {
+        "top1": {
+          "both_correct": 10,
+          "direct_eg_only_correct": 7,
+          "collapsed_sg_only_correct": 6,
+          "neither_correct": 450,
+          "direct_eg_minus_collapsed_sg": 0.0021141649048625794,
+          "paired_bootstrap_95": [
+            -0.012684989429175475,
+            0.016913319238900635
+          ],
+          "mcnemar_exact_two_sided_p": 1.0
+        },
+        "top3": {
+          "both_correct": 17,
+          "direct_eg_only_correct": 10,
+          "collapsed_sg_only_correct": 11,
+          "neither_correct": 435,
+          "direct_eg_minus_collapsed_sg": -0.0021141649048625794,
+          "paired_bootstrap_95": [
+            -0.021141649048625793,
+            0.016913319238900635
+          ],
+          "mcnemar_exact_two_sided_p": 1.0
+        },
+        "top5": {
+          "both_correct": 30,
+          "direct_eg_only_correct": 10,
+          "collapsed_sg_only_correct": 9,
+          "neither_correct": 424,
+          "direct_eg_minus_collapsed_sg": 0.0021141649048625794,
+          "paired_bootstrap_95": [
+            -0.016913319238900635,
+            0.021141649048625793
+          ],
+          "mcnemar_exact_two_sided_p": 1.0
+        }
+      }
+    },
+    "rruff325": {
+      "path": "$WORK/rruff-benchmark/RRUFF_usable_plus_recoverable_325_with_labels_maxnorm.hdf5",
+      "n_samples": 325,
+      "represented_extinction_groups": 45,
+      "sg_to_eg_collapsed": {
+        "top1": 0.015384615384615385,
+        "top3": 0.043076923076923075,
+        "top5": 0.07076923076923076
+      },
+      "direct_eg_aux": {
+        "top1": 0.027692307692307693,
+        "top3": 0.052307692307692305,
+        "top5": 0.08307692307692308
+      },
+      "direct_eg_minus_collapsed_sg": {
+        "top1": 0.012307692307692308,
+        "top3": 0.00923076923076923,
+        "top5": 0.012307692307692311
+      },
+      "paired_comparisons": {
+        "top1": {
+          "both_correct": 4,
+          "direct_eg_only_correct": 5,
+          "collapsed_sg_only_correct": 1,
+          "neither_correct": 315,
+          "direct_eg_minus_collapsed_sg": 0.012307692307692308,
+          "paired_bootstrap_95": [
+            -0.003076923076923077,
+            0.027692307692307693
+          ],
+          "mcnemar_exact_two_sided_p": 0.21875
+        },
+        "top3": {
+          "both_correct": 10,
+          "direct_eg_only_correct": 7,
+          "collapsed_sg_only_correct": 4,
+          "neither_correct": 304,
+          "direct_eg_minus_collapsed_sg": 0.009230769230769232,
+          "paired_bootstrap_95": [
+            -0.009230769230769232,
+            0.03076923076923077
+          ],
+          "mcnemar_exact_two_sided_p": 0.548828125
+        },
+        "top5": {
+          "both_correct": 18,
+          "direct_eg_only_correct": 9,
+          "collapsed_sg_only_correct": 5,
+          "neither_correct": 293,
+          "direct_eg_minus_collapsed_sg": 0.012307692307692308,
+          "paired_bootstrap_95": [
+            -0.009230769230769232,
+            0.036923076923076927
+          ],
+          "mcnemar_exact_two_sided_p": 0.4239501953125
+        }
+      }
+    }
+  }
+}

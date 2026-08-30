@@ -1,1 +1,6159 @@
-[{"true_eg": 2, "pred_eg": 99}, {"true_eg": 2, "pred_eg": 99}, {"true_eg": 2, "pred_eg": 99}, {"true_eg": 2, "pred_eg": 99}, {"true_eg": 2, "pred_eg": 99}, {"true_eg": 62, "pred_eg": 99}, {"true_eg": 62, "pred_eg": 99}, {"true_eg": 62, "pred_eg": 99}, {"true_eg": 62, "pred_eg": 99}, {"true_eg": 99, "pred_eg": 99}, {"true_eg": 99, "pred_eg": 99}, {"true_eg": 99, "pred_eg": 99}, {"true_eg": 99, "pred_eg": 99}, {"true_eg": 99, "pred_eg": 99}, {"true_eg": 73, "pred_eg": 99}, {"true_eg": 73, "pred_eg": 99}, {"true_eg": 73, "pred_eg": 99}, {"true_eg": 73, "pred_eg": 99}, {"true_eg": 73, "pred_eg": 99}, {"true_eg": 80, "pred_eg": 99}, {"true_eg": 80, "pred_eg": 99}, {"true_eg": 80, "pred_eg": 75}, {"true_eg": 80, "pred_eg": 75}, {"true_eg": 80, "pred_eg": 75}, {"true_eg": 4, "pred_eg": 99}, {"true_eg": 38, "pred_eg": 99}, {"true_eg": 38, "pred_eg": 99}, {"true_eg": 38, "pred_eg": 99}, {"true_eg": 38, "pred_eg": 99}, {"true_eg": 5, "pred_eg": 99}, {"true_eg": 5, "pred_eg": 99}, {"true_eg": 5, "pred_eg": 99}, {"true_eg": 70, "pred_eg": 75}, {"true_eg": 70, "pred_eg": 75}, {"true_eg": 70, "pred_eg": 75}, {"true_eg": 70, "pred_eg": 75}, {"true_eg": 4, "pred_eg": 99}, {"true_eg": 4, "pred_eg": 99}, {"true_eg": 4, "pred_eg": 99}, {"true_eg": 12, "pred_eg": 75}, {"true_eg": 12, "pred_eg": 75}, {"true_eg": 12, "pred_eg": 75}, {"true_eg": 30, "pred_eg": 75}, {"true_eg": 30, "pred_eg": 75}, {"true_eg": 30, "pred_eg": 75}, {"true_eg": 6, "pred_eg": 75}, {"true_eg": 6, "pred_eg": 75}, {"true_eg": 76, "pred_eg": 75}, {"true_eg": 76, "pred_eg": 75}, {"true_eg": 76, "pred_eg": 75}, {"true_eg": 3, "pred_eg": 75}, {"true_eg": 3, "pred_eg": 75}, {"true_eg": 3, "pred_eg": 75}, {"true_eg": 3, "pred_eg": 75}, {"true_eg": 6, "pred_eg": 75}, {"true_eg": 6, "pred_eg": 75}, {"true_eg": 6, "pred_eg": 75}, {"true_eg": 6, "pred_eg": 99}, {"true_eg": 17, "pred_eg": 99}, {"true_eg": 17, "pred_eg": 99}, {"true_eg": 17, "pred_eg": 99}, {"true_eg": 17, "pred_eg": 71}, {"true_eg": 17, "pred_eg": 99}, {"true_eg": 17, "pred_eg": 75}, {"true_eg": 17, "pred_eg": 99}, {"true_eg": 99, "pred_eg": 75}, {"true_eg": 99, "pred_eg": 75}, {"true_eg": 76, "pred_eg": 75}, {"true_eg": 76, "pred_eg": 99}, {"true_eg": 76, "pred_eg": 99}, {"true_eg": 17, "pred_eg": 75}, {"true_eg": 17, "pred_eg": 75}, {"true_eg": 21, "pred_eg": 99}, {"true_eg": 21, "pred_eg": 71}, {"true_eg": 73, "pred_eg": 75}, {"true_eg": 73, "pred_eg": 99}, {"true_eg": 73, "pred_eg": 99}, {"true_eg": 4, "pred_eg": 75}, {"true_eg": 4, "pred_eg": 75}, {"true_eg": 22, "pred_eg": 75}, {"true_eg": 75, "pred_eg": 75}, {"true_eg": 17, "pred_eg": 99}, {"true_eg": 17, "pred_eg": 99}, {"true_eg": 17, "pred_eg": 99}, {"true_eg": 75, "pred_eg": 75}, {"true_eg": 75, "pred_eg": 75}, {"true_eg": 75, "pred_eg": 75}, {"true_eg": 77, "pred_eg": 99}, {"true_eg": 4, "pred_eg": 75}, {"true_eg": 4, "pred_eg": 75}, {"true_eg": 97, "pred_eg": 75}, {"true_eg": 97, "pred_eg": 75}, {"true_eg": 97, "pred_eg": 75}, {"true_eg": 60, "pred_eg": 99}, {"true_eg": 54, "pred_eg": 99}, {"true_eg": 99, "pred_eg": 99}, {"true_eg": 99, "pred_eg": 75}, {"true_eg": 5, "pred_eg": 75}, {"true_eg": 5, "pred_eg": 99}, {"true_eg": 17, "pred_eg": 75}, {"true_eg": 99, "pred_eg": 75}, {"true_eg": 99, "pred_eg": 75}, {"true_eg": 99, "pred_eg": 75}, {"true_eg": 99, "pred_eg": 75}, {"true_eg": 99, "pred_eg": 99}, {"true_eg": 29, "pred_eg": 99}, {"true_eg": 29, "pred_eg": 99}, {"true_eg": 11, "pred_eg": 75}, {"true_eg": 4, "pred_eg": 75}, {"true_eg": 4, "pred_eg": 75}, {"true_eg": 89, "pred_eg": 75}, {"true_eg": 99, "pred_eg": 99}, {"true_eg": 99, "pred_eg": 99}, {"true_eg": 21, "pred_eg": 99}, {"true_eg": 21, "pred_eg": 99}, {"true_eg": 5, "pred_eg": 99}, {"true_eg": 5, "pred_eg": 99}, {"true_eg": 4, "pred_eg": 99}, {"true_eg": 4, "pred_eg": 75}, {"true_eg": 4, "pred_eg": 99}, {"true_eg": 17, "pred_eg": 75}, {"true_eg": 17, "pred_eg": 75}, {"true_eg": 17, "pred_eg": 75}, {"true_eg": 18, "pred_eg": 75}, {"true_eg": 4, "pred_eg": 75}, {"true_eg": 17, "pred_eg": 75}, {"true_eg": 17, "pred_eg": 99}, {"true_eg": 6, "pred_eg": 75}, {"true_eg": 99, "pred_eg": 75}, {"true_eg": 99, "pred_eg": 75}, {"true_eg": 5, "pred_eg": 99}, {"true_eg": 5, "pred_eg": 75}, {"true_eg": 2, "pred_eg": 75}, {"true_eg": 2, "pred_eg": 99}, {"true_eg": 4, "pred_eg": 99}, {"true_eg": 4, "pred_eg": 99}, {"true_eg": 12, "pred_eg": 75}, {"true_eg": 4, "pred_eg": 75}, {"true_eg": 4, "pred_eg": 75}, {"true_eg": 4, "pred_eg": 99}, {"true_eg": 4, "pred_eg": 99}, {"true_eg": 97, "pred_eg": 75}, {"true_eg": 5, "pred_eg": 75}, {"true_eg": 5, "pred_eg": 75}, {"true_eg": 73, "pred_eg": 99}, {"true_eg": 73, "pred_eg": 99}, {"true_eg": 6, "pred_eg": 75}, {"true_eg": 22, "pred_eg": 99}, {"true_eg": 22, "pred_eg": 99}, {"true_eg": 99, "pred_eg": 75}, {"true_eg": 63, "pred_eg": 75}, {"true_eg": 63, "pred_eg": 75}, {"true_eg": 5, "pred_eg": 75}, {"true_eg": 17, "pred_eg": 75}, {"true_eg": 17, "pred_eg": 99}, {"true_eg": 4, "pred_eg": 99}, {"true_eg": 4, "pred_eg": 99}, {"true_eg": 22, "pred_eg": 99}, {"true_eg": 22, "pred_eg": 99}, {"true_eg": 3, "pred_eg": 99}, {"true_eg": 3, "pred_eg": 99}, {"true_eg": 5, "pred_eg": 99}, {"true_eg": 5, "pred_eg": 99}, {"true_eg": 22, "pred_eg": 99}, {"true_eg": 22, "pred_eg": 99}, {"true_eg": 5, "pred_eg": 99}, {"true_eg": 5, "pred_eg": 99}, {"true_eg": 5, "pred_eg": 99}, {"true_eg": 5, "pred_eg": 99}, {"true_eg": 10, "pred_eg": 99}, {"true_eg": 4, "pred_eg": 99}, {"true_eg": 4, "pred_eg": 99}, {"true_eg": 6, "pred_eg": 75}, {"true_eg": 6, "pred_eg": 99}, {"true_eg": 99, "pred_eg": 99}, {"true_eg": 99, "pred_eg": 99}, {"true_eg": 16, "pred_eg": 99}, {"true_eg": 16, "pred_eg": 99}, {"true_eg": 29, "pred_eg": 99}, {"true_eg": 29, "pred_eg": 99}, {"true_eg": 6, "pred_eg": 75}, {"true_eg": 17, "pred_eg": 99}, {"true_eg": 17, "pred_eg": 99}, {"true_eg": 21, "pred_eg": 75}, {"true_eg": 21, "pred_eg": 75}, {"true_eg": 5, "pred_eg": 75}, {"true_eg": 75, "pred_eg": 75}, {"true_eg": 6, "pred_eg": 99}, {"true_eg": 5, "pred_eg": 75}, {"true_eg": 77, "pred_eg": 75}, {"true_eg": 77, "pred_eg": 99}, {"true_eg": 99, "pred_eg": 75}, {"true_eg": 99, "pred_eg": 99}, {"true_eg": 76, "pred_eg": 75}, {"true_eg": 5, "pred_eg": 75}, {"true_eg": 4, "pred_eg": 75}, {"true_eg": 99, "pred_eg": 99}, {"true_eg": 4, "pred_eg": 99}, {"true_eg": 4, "pred_eg": 99}, {"true_eg": 17, "pred_eg": 99}, {"true_eg": 17, "pred_eg": 99}, {"true_eg": 95, "pred_eg": 99}, {"true_eg": 95, "pred_eg": 99}, {"true_eg": 73, "pred_eg": 99}, {"true_eg": 68, "pred_eg": 75}, {"true_eg": 72, "pred_eg": 75}, {"true_eg": 12, "pred_eg": 99}, {"true_eg": 39, "pred_eg": 75}, {"true_eg": 76, "pred_eg": 99}, {"true_eg": 76, "pred_eg": 99}, {"true_eg": 4, "pred_eg": 75}, {"true_eg": 29, "pred_eg": 75}, {"true_eg": 72, "pred_eg": 99}, {"true_eg": 72, "pred_eg": 99}, {"true_eg": 29, "pred_eg": 75}, {"true_eg": 29, "pred_eg": 75}, {"true_eg": 99, "pred_eg": 99}, {"true_eg": 99, "pred_eg": 99}, {"true_eg": 75, "pred_eg": 99}, {"true_eg": 75, "pred_eg": 99}, {"true_eg": 77, "pred_eg": 75}, {"true_eg": 18, "pred_eg": 99}, {"true_eg": 18, "pred_eg": 99}, {"true_eg": 99, "pred_eg": 75}, {"true_eg": 99, "pred_eg": 99}, {"true_eg": 93, "pred_eg": 75}, {"true_eg": 4, "pred_eg": 99}, {"true_eg": 4, "pred_eg": 99}, {"true_eg": 99, "pred_eg": 99}, {"true_eg": 99, "pred_eg": 99}, {"true_eg": 6, "pred_eg": 99}, {"true_eg": 6, "pred_eg": 99}, {"true_eg": 10, "pred_eg": 75}, {"true_eg": 6, "pred_eg": 99}, {"true_eg": 6, "pred_eg": 99}, {"true_eg": 93, "pred_eg": 99}, {"true_eg": 93, "pred_eg": 99}, {"true_eg": 77, "pred_eg": 75}, {"true_eg": 77, "pred_eg": 75}, {"true_eg": 77, "pred_eg": 75}, {"true_eg": 77, "pred_eg": 75}, {"true_eg": 77, "pred_eg": 75}, {"true_eg": 77, "pred_eg": 75}, {"true_eg": 99, "pred_eg": 99}, {"true_eg": 99, "pred_eg": 99}, {"true_eg": 99, "pred_eg": 99}, {"true_eg": 99, "pred_eg": 99}, {"true_eg": 6, "pred_eg": 99}, {"true_eg": 6, "pred_eg": 99}, {"true_eg": 6, "pred_eg": 99}, {"true_eg": 6, "pred_eg": 99}, {"true_eg": 72, "pred_eg": 99}, {"true_eg": 72, "pred_eg": 99}, {"true_eg": 72, "pred_eg": 99}, {"true_eg": 72, "pred_eg": 99}, {"true_eg": 45, "pred_eg": 99}, {"true_eg": 45, "pred_eg": 99}, {"true_eg": 45, "pred_eg": 99}, {"true_eg": 45, "pred_eg": 99}, {"true_eg": 10, "pred_eg": 99}, {"true_eg": 10, "pred_eg": 99}, {"true_eg": 10, "pred_eg": 99}, {"true_eg": 17, "pred_eg": 99}, {"true_eg": 17, "pred_eg": 75}, {"true_eg": 17, "pred_eg": 75}, {"true_eg": 73, "pred_eg": 75}, {"true_eg": 73, "pred_eg": 75}, {"true_eg": 73, "pred_eg": 75}, {"true_eg": 5, "pred_eg": 99}, {"true_eg": 5, "pred_eg": 99}, {"true_eg": 5, "pred_eg": 99}, {"true_eg": 73, "pred_eg": 75}, {"true_eg": 73, "pred_eg": 99}, {"true_eg": 73, "pred_eg": 99}, {"true_eg": 5, "pred_eg": 99}, {"true_eg": 5, "pred_eg": 99}, {"true_eg": 5, "pred_eg": 99}, {"true_eg": 17, "pred_eg": 99}, {"true_eg": 17, "pred_eg": 99}, {"true_eg": 17, "pred_eg": 99}, {"true_eg": 99, "pred_eg": 99}, {"true_eg": 99, "pred_eg": 99}, {"true_eg": 99, "pred_eg": 99}, {"true_eg": 6, "pred_eg": 99}, {"true_eg": 6, "pred_eg": 99}, {"true_eg": 3, "pred_eg": 99}, {"true_eg": 3, "pred_eg": 99}, {"true_eg": 17, "pred_eg": 75}, {"true_eg": 17, "pred_eg": 75}, {"true_eg": 6, "pred_eg": 99}, {"true_eg": 6, "pred_eg": 99}, {"true_eg": 75, "pred_eg": 75}, {"true_eg": 75, "pred_eg": 75}, {"true_eg": 4, "pred_eg": 99}, {"true_eg": 4, "pred_eg": 75}, {"true_eg": 71, "pred_eg": 99}, {"true_eg": 71, "pred_eg": 99}, {"true_eg": 99, "pred_eg": 99}, {"true_eg": 99, "pred_eg": 75}, {"true_eg": 12, "pred_eg": 99}, {"true_eg": 17, "pred_eg": 75}, {"true_eg": 4, "pred_eg": 75}, {"true_eg": 4, "pred_eg": 75}, {"true_eg": 17, "pred_eg": 99}, {"true_eg": 17, "pred_eg": 99}, {"true_eg": 24, "pred_eg": 99}, {"true_eg": 24, "pred_eg": 99}, {"true_eg": 14, "pred_eg": 99}, {"true_eg": 14, "pred_eg": 99}, {"true_eg": 52, "pred_eg": 75}, {"true_eg": 52, "pred_eg": 99}, {"true_eg": 17, "pred_eg": 75}, {"true_eg": 17, "pred_eg": 75}, {"true_eg": 75, "pred_eg": 99}, {"true_eg": 75, "pred_eg": 99}, {"true_eg": 30, "pred_eg": 99}, {"true_eg": 30, "pred_eg": 75}, {"true_eg": 6, "pred_eg": 99}, {"true_eg": 99, "pred_eg": 75}, {"true_eg": 6, "pred_eg": 99}, {"true_eg": 6, "pred_eg": 99}, {"true_eg": 75, "pred_eg": 99}, {"true_eg": 75, "pred_eg": 99}, {"true_eg": 4, "pred_eg": 99}, {"true_eg": 4, "pred_eg": 99}, {"true_eg": 4, "pred_eg": 75}, {"true_eg": 4, "pred_eg": 75}, {"true_eg": 4, "pred_eg": 99}, {"true_eg": 4, "pred_eg": 99}, {"true_eg": 4, "pred_eg": 75}, {"true_eg": 4, "pred_eg": 75}, {"true_eg": 40, "pred_eg": 75}, {"true_eg": 40, "pred_eg": 75}, {"true_eg": 5, "pred_eg": 99}, {"true_eg": 5, "pred_eg": 99}, {"true_eg": 14, "pred_eg": 75}, {"true_eg": 14, "pred_eg": 75}, {"true_eg": 4, "pred_eg": 99}, {"true_eg": 4, "pred_eg": 99}, {"true_eg": 77, "pred_eg": 99}, {"true_eg": 77, "pred_eg": 99}, {"true_eg": 53, "pred_eg": 99}, {"true_eg": 53, "pred_eg": 99}, {"true_eg": 94, "pred_eg": 99}, {"true_eg": 94, "pred_eg": 99}, {"true_eg": 82, "pred_eg": 99}, {"true_eg": 82, "pred_eg": 99}, {"true_eg": 5, "pred_eg": 99}, {"true_eg": 5, "pred_eg": 99}, {"true_eg": 75, "pred_eg": 99}, {"true_eg": 75, "pred_eg": 99}, {"true_eg": 5, "pred_eg": 99}, {"true_eg": 5, "pred_eg": 99}, {"true_eg": 99, "pred_eg": 99}, {"true_eg": 99, "pred_eg": 99}, {"true_eg": 97, "pred_eg": 99}, {"true_eg": 97, "pred_eg": 99}, {"true_eg": 6, "pred_eg": 75}, {"true_eg": 6, "pred_eg": 75}, {"true_eg": 2, "pred_eg": 99}, {"true_eg": 2, "pred_eg": 99}, {"true_eg": 6, "pred_eg": 99}, {"true_eg": 6, "pred_eg": 99}, {"true_eg": 4, "pred_eg": 75}, {"true_eg": 4, "pred_eg": 75}, {"true_eg": 4, "pred_eg": 75}, {"true_eg": 4, "pred_eg": 75}, {"true_eg": 11, "pred_eg": 99}, {"true_eg": 11, "pred_eg": 99}, {"true_eg": 4, "pred_eg": 99}, {"true_eg": 4, "pred_eg": 99}, {"true_eg": 3, "pred_eg": 99}, {"true_eg": 3, "pred_eg": 99}, {"true_eg": 86, "pred_eg": 99}, {"true_eg": 86, "pred_eg": 99}, {"true_eg": 22, "pred_eg": 99}, {"true_eg": 22, "pred_eg": 99}, {"true_eg": 17, "pred_eg": 99}, {"true_eg": 17, "pred_eg": 99}, {"true_eg": 6, "pred_eg": 75}, {"true_eg": 6, "pred_eg": 75}, {"true_eg": 73, "pred_eg": 99}, {"true_eg": 73, "pred_eg": 99}, {"true_eg": 3, "pred_eg": 99}, {"true_eg": 3, "pred_eg": 99}, {"true_eg": 17, "pred_eg": 99}, {"true_eg": 17, "pred_eg": 99}, {"true_eg": 99, "pred_eg": 75}, {"true_eg": 99, "pred_eg": 75}, {"true_eg": 99, "pred_eg": 75}, {"true_eg": 99, "pred_eg": 75}, {"true_eg": 6, "pred_eg": 99}, {"true_eg": 6, "pred_eg": 99}, {"true_eg": 75, "pred_eg": 99}, {"true_eg": 75, "pred_eg": 99}, {"true_eg": 80, "pred_eg": 99}, {"true_eg": 80, "pred_eg": 75}, {"true_eg": 35, "pred_eg": 75}, {"true_eg": 35, "pred_eg": 75}, {"true_eg": 4, "pred_eg": 99}, {"true_eg": 4, "pred_eg": 99}, {"true_eg": 2, "pred_eg": 99}, {"true_eg": 2, "pred_eg": 99}, {"true_eg": 2, "pred_eg": 75}, {"true_eg": 29, "pred_eg": 75}, {"true_eg": 22, "pred_eg": 99}, {"true_eg": 22, "pred_eg": 99}, {"true_eg": 4, "pred_eg": 99}, {"true_eg": 4, "pred_eg": 75}, {"true_eg": 6, "pred_eg": 75}, {"true_eg": 6, "pred_eg": 99}, {"true_eg": 6, "pred_eg": 99}, {"true_eg": 6, "pred_eg": 99}, {"true_eg": 76, "pred_eg": 75}, {"true_eg": 76, "pred_eg": 75}, {"true_eg": 17, "pred_eg": 99}, {"true_eg": 17, "pred_eg": 99}, {"true_eg": 46, "pred_eg": 75}, {"true_eg": 46, "pred_eg": 75}, {"true_eg": 6, "pred_eg": 99}, {"true_eg": 6, "pred_eg": 99}, {"true_eg": 17, "pred_eg": 99}, {"true_eg": 17, "pred_eg": 99}, {"true_eg": 75, "pred_eg": 99}, {"true_eg": 75, "pred_eg": 99}, {"true_eg": 68, "pred_eg": 99}, {"true_eg": 68, "pred_eg": 99}, {"true_eg": 17, "pred_eg": 99}, {"true_eg": 17, "pred_eg": 99}, {"true_eg": 12, "pred_eg": 75}, {"true_eg": 12, "pred_eg": 75}, {"true_eg": 22, "pred_eg": 75}, {"true_eg": 22, "pred_eg": 75}, {"true_eg": 12, "pred_eg": 99}, {"true_eg": 12, "pred_eg": 99}, {"true_eg": 72, "pred_eg": 75}, {"true_eg": 72, "pred_eg": 99}, {"true_eg": 6, "pred_eg": 99}, {"true_eg": 6, "pred_eg": 75}, {"true_eg": 12, "pred_eg": 99}, {"true_eg": 12, "pred_eg": 99}, {"true_eg": 5, "pred_eg": 99}, {"true_eg": 5, "pred_eg": 75}, {"true_eg": 2, "pred_eg": 99}, {"true_eg": 2, "pred_eg": 99}, {"true_eg": 99, "pred_eg": 99}, {"true_eg": 99, "pred_eg": 99}, {"true_eg": 4, "pred_eg": 99}, {"true_eg": 4, "pred_eg": 99}, {"true_eg": 17, "pred_eg": 75}, {"true_eg": 17, "pred_eg": 99}, {"true_eg": 4, "pred_eg": 75}, {"true_eg": 4, "pred_eg": 99}, {"true_eg": 99, "pred_eg": 99}, {"true_eg": 99, "pred_eg": 99}, {"true_eg": 4, "pred_eg": 75}, {"true_eg": 4, "pred_eg": 99}, {"true_eg": 5, "pred_eg": 99}, {"true_eg": 5, "pred_eg": 99}, {"true_eg": 76, "pred_eg": 99}, {"true_eg": 76, "pred_eg": 99}, {"true_eg": 73, "pred_eg": 99}, {"true_eg": 73, "pred_eg": 99}, {"true_eg": 17, "pred_eg": 75}, {"true_eg": 17, "pred_eg": 75}, {"true_eg": 2, "pred_eg": 75}, {"true_eg": 2, "pred_eg": 99}, {"true_eg": 99, "pred_eg": 99}, {"true_eg": 4, "pred_eg": 99}, {"true_eg": 68, "pred_eg": 99}, {"true_eg": 68, "pred_eg": 75}, {"true_eg": 18, "pred_eg": 75}, {"true_eg": 18, "pred_eg": 75}]
+{
+  "models": {
+    "xrdbench_transformer_common_grid": {
+      "accuracy_top1_pct": 10.14799154334038,
+      "accuracy_top5_pct": 40.38054968287527,
+      "examples": [
+        {
+          "case_id": "Epidote__R050064-1__4144",
+          "true_eg": 2,
+          "pred_eg": 75,
+          "top5_eg": [
+            75,
+            99,
+            17,
+            6,
+            5
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Epidote__R050131-1__6099",
+          "true_eg": 2,
+          "pred_eg": 75,
+          "top5_eg": [
+            75,
+            99,
+            17,
+            71,
+            5
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Epidote__R050191-1__4502",
+          "true_eg": 2,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            75,
+            17,
+            6,
+            4
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Epidote__R050202-1__6260",
+          "true_eg": 2,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            17,
+            75,
+            6,
+            4
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Epidote__R050303-1__5680",
+          "true_eg": 2,
+          "pred_eg": 75,
+          "top5_eg": [
+            75,
+            17,
+            94,
+            99,
+            71
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Vesuvianite__R050035-1__4061",
+          "true_eg": 62,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            17,
+            4,
+            6,
+            5
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Vesuvianite__R050056-1__4119",
+          "true_eg": 62,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            4,
+            5,
+            6,
+            17
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Vesuvianite__R050489-1__4952",
+          "true_eg": 62,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            4,
+            5,
+            6,
+            17
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Vesuvianite__R060532-1__6127",
+          "true_eg": 62,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            17,
+            6
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "AxiniteFe__R050026-1__4033",
+          "true_eg": 99,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            4,
+            5,
+            6,
+            17
+          ],
+          "correct": true
+        },
+        {
+          "case_id": "AxiniteFe__R050061-1__3023",
+          "true_eg": 99,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            71,
+            4,
+            75
+          ],
+          "correct": true
+        },
+        {
+          "case_id": "AxiniteFe__R060183-1__6691",
+          "true_eg": 99,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            17,
+            75,
+            6,
+            5
+          ],
+          "correct": true
+        },
+        {
+          "case_id": "AxiniteFe__R060194-1__6712",
+          "true_eg": 99,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            4,
+            6,
+            5,
+            17
+          ],
+          "correct": true
+        },
+        {
+          "case_id": "AxiniteFe__R060558-1__7237",
+          "true_eg": 99,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            17,
+            75,
+            6,
+            5
+          ],
+          "correct": true
+        },
+        {
+          "case_id": "BastnasiteCe__R050409-1__5077",
+          "true_eg": 73,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            4,
+            17,
+            6,
+            5
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "BastnasiteCe__R060359-1__5159",
+          "true_eg": 73,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            17,
+            6,
+            4,
+            5
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "BastnasiteCe__R060550-1__3610",
+          "true_eg": 73,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            6,
+            17
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "BastnasiteCe__R060629-1__4745",
+          "true_eg": 73,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            4,
+            17,
+            6,
+            5
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "BastnasiteCe__R060737-1__5406",
+          "true_eg": 73,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            4,
+            5,
+            6,
+            17
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Beryl__R060942-1__7337",
+          "true_eg": 80,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            6,
+            17
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Beryl__R060944-1__7347",
+          "true_eg": 80,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            4,
+            5,
+            6,
+            17
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Beryl__R110113-9__10916",
+          "true_eg": 80,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            71,
+            1,
+            4
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Beryl__R110115-9__10912",
+          "true_eg": 80,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            71,
+            1,
+            4
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Beryl__R110118-9__10918",
+          "true_eg": 80,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            71,
+            1,
+            4
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Chalcocite__R050067-1__6339",
+          "true_eg": 4,
+          "pred_eg": 75,
+          "top5_eg": [
+            75,
+            94,
+            71,
+            17,
+            99
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Natrolite__R040102-1__3489",
+          "true_eg": 38,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            6,
+            17
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Natrolite__R040112-1__3570",
+          "true_eg": 38,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            17,
+            2
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Natrolite__R050589-1__4751",
+          "true_eg": 38,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            4,
+            5,
+            6,
+            17
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Natrolite__R060561-1__4086",
+          "true_eg": 38,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            17,
+            6
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Actinolite__R050336-1__5330",
+          "true_eg": 5,
+          "pred_eg": 75,
+          "top5_eg": [
+            75,
+            71,
+            94,
+            17,
+            5
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Actinolite__R060041-1__6537",
+          "true_eg": 5,
+          "pred_eg": 75,
+          "top5_eg": [
+            75,
+            99,
+            17,
+            5,
+            6
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Actinolite__R060045-1__6549",
+          "true_eg": 5,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            4,
+            5,
+            6,
+            17
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Braunite__R050385-1__5191",
+          "true_eg": 70,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            4,
+            6,
+            17,
+            5
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Braunite__R050388-1__5187",
+          "true_eg": 70,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            17,
+            6
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Braunite__R050390-1__5377",
+          "true_eg": 70,
+          "pred_eg": 75,
+          "top5_eg": [
+            75,
+            94,
+            17,
+            71,
+            99
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Braunite__R090057-1__10147",
+          "true_eg": 70,
+          "pred_eg": 75,
+          "top5_eg": [
+            75,
+            99,
+            17,
+            6,
+            5
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Clinoatacamite__R061066-9__10562",
+          "true_eg": 4,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            71,
+            4,
+            1
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Clinoatacamite__R090062-9__10548",
+          "true_eg": 4,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            71,
+            4,
+            1
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Clinoatacamite__R141083-9__12273",
+          "true_eg": 4,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            71,
+            4,
+            1
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Enargite__R050373-1__6242",
+          "true_eg": 12,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            75,
+            17,
+            6,
+            5
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Enargite__R050435-1__6239",
+          "true_eg": 12,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            4,
+            6,
+            17,
+            5
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Enargite__R050442-1__6374",
+          "true_eg": 12,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            17,
+            6,
+            4,
+            5
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Eosphorite__R050557-1__4786",
+          "true_eg": 30,
+          "pred_eg": 75,
+          "top5_eg": [
+            75,
+            94,
+            17,
+            71,
+            99
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Eosphorite__R050570-1__6223",
+          "true_eg": 30,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            4,
+            17,
+            6,
+            5
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Eosphorite__R061055-1__7090",
+          "true_eg": 30,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            17,
+            4,
+            6,
+            5
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Hedenbergite__R050030-1__4043",
+          "true_eg": 6,
+          "pred_eg": 75,
+          "top5_eg": [
+            75,
+            99,
+            17,
+            94,
+            71
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Hedenbergite__R070136-1__8014",
+          "true_eg": 6,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            4,
+            17,
+            6,
+            5
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Hematite__R040024-1__3048",
+          "true_eg": 76,
+          "pred_eg": 75,
+          "top5_eg": [
+            75,
+            94,
+            71,
+            17,
+            63
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Hematite__R050300-1__5695",
+          "true_eg": 76,
+          "pred_eg": 75,
+          "top5_eg": [
+            75,
+            94,
+            71,
+            17,
+            63
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Hematite__R070240-1__8278",
+          "true_eg": 76,
+          "pred_eg": 75,
+          "top5_eg": [
+            75,
+            94,
+            71,
+            17,
+            63
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Hubnerite__R050069-1__4156",
+          "true_eg": 3,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            4,
+            17,
+            6,
+            5
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Hubnerite__R050139-1__4400",
+          "true_eg": 3,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            17,
+            75,
+            6,
+            5
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Hubnerite__R050556-1__4789",
+          "true_eg": 3,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            17,
+            6,
+            4,
+            5
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Hubnerite__R060900-1__7067",
+          "true_eg": 3,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            17,
+            6
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Muscovite__R040108-1__3553",
+          "true_eg": 6,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            17,
+            6,
+            4,
+            5
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Muscovite__R040124-1__3545",
+          "true_eg": 6,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            17,
+            6,
+            4,
+            5
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Muscovite__R050080-1__3548",
+          "true_eg": 6,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            17,
+            6,
+            4,
+            5
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Muscovite__R060182-1__6688",
+          "true_eg": 6,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            17,
+            6,
+            4,
+            5
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Scottyite__R120077-9__11108",
+          "true_eg": 17,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            71,
+            1,
+            4
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Scottyite__R141116-9__12546",
+          "true_eg": 17,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            71,
+            1,
+            33
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Scottyite__R150111-9__12344",
+          "true_eg": 17,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            71,
+            4,
+            1
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Scottyite__R160006-9__12582",
+          "true_eg": 17,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            71,
+            1,
+            4
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Topaz__R050405-1__6478",
+          "true_eg": 17,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            4,
+            5,
+            6,
+            17
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Topaz__R060024-1__6865",
+          "true_eg": 17,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            4,
+            6,
+            17,
+            5
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Topaz__R060026-1__6753",
+          "true_eg": 17,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            4,
+            5,
+            6,
+            17
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Arsenopyrite__R050071-1__6130",
+          "true_eg": 99,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            4,
+            17,
+            6,
+            5
+          ],
+          "correct": true
+        },
+        {
+          "case_id": "Arsenopyrite__R061082-1__7402",
+          "true_eg": 99,
+          "pred_eg": 75,
+          "top5_eg": [
+            75,
+            94,
+            71,
+            17,
+            63
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Barysilite__R050002-1__3951",
+          "true_eg": 76,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            17,
+            6,
+            4,
+            5
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Barysilite__R070651__8997",
+          "true_eg": 76,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            4,
+            6,
+            17,
+            5
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Barysilite__R100057-9__10333",
+          "true_eg": 76,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            71,
+            1
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Baryte__R050342-1__5318",
+          "true_eg": 17,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            4,
+            5,
+            6,
+            17
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Baryte__R050375-1__5213",
+          "true_eg": 17,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            17,
+            6,
+            75,
+            5
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Brookite__R050591-1__4748",
+          "true_eg": 21,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            17,
+            6
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Brookite__R130225-9__11922",
+          "true_eg": 21,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            71,
+            1,
+            4
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Burbankite__R050646-1__3470",
+          "true_eg": 73,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            17,
+            6,
+            4,
+            5
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Burbankite__R110199-9__10920",
+          "true_eg": 73,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            71,
+            1,
+            33
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Burbankite__R120073-9__11045",
+          "true_eg": 73,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            71,
+            1,
+            33
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Clinohumite__R060559-1__3665",
+          "true_eg": 4,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            4,
+            17,
+            6,
+            5
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Clinohumite__R070561-1__8950",
+          "true_eg": 4,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            4,
+            5,
+            6,
+            17
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "ColumbiteFe__R070161-1__9663",
+          "true_eg": 22,
+          "pred_eg": 75,
+          "top5_eg": [
+            75,
+            71,
+            94,
+            63,
+            5
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Dolomite__R050370-1__5229",
+          "true_eg": 75,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            17,
+            6,
+            4,
+            5
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Epididymite__R060773-9__5773",
+          "true_eg": 17,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            71,
+            1
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Epididymite__R070580-9__9007",
+          "true_eg": 17,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            17,
+            6
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Epididymite__R110029-9__10809",
+          "true_eg": 17,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            71,
+            1
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Fluoruvite__R050172-1__4453",
+          "true_eg": 75,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            17,
+            6,
+            4,
+            5
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Foitite__R050356-1__5283",
+          "true_eg": 75,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            17,
+            2
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Foitite__R050495-1__4937",
+          "true_eg": 75,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            17,
+            4,
+            6,
+            5
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Hydroxylapatite__R050512-1__6965",
+          "true_eg": 77,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            17,
+            4,
+            6,
+            5
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Jamesonite__R050430-1__6912",
+          "true_eg": 4,
+          "pred_eg": 75,
+          "top5_eg": [
+            75,
+            94,
+            71,
+            17,
+            99
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Jamesonite__R050481-1__4968",
+          "true_eg": 4,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            17,
+            75,
+            6,
+            5
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Magnetite__R060191-1__6706",
+          "true_eg": 97,
+          "pred_eg": 75,
+          "top5_eg": [
+            75,
+            94,
+            71,
+            17,
+            63
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Magnetite__R060656-1__5151",
+          "true_eg": 97,
+          "pred_eg": 75,
+          "top5_eg": [
+            75,
+            94,
+            71,
+            17,
+            63
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Magnetite__R080025-1__9448",
+          "true_eg": 97,
+          "pred_eg": 75,
+          "top5_eg": [
+            75,
+            94,
+            71,
+            17,
+            63
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Metazeunerite__R070314-9__12436",
+          "true_eg": 60,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            17,
+            2
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Metazeunerite__R110205-9__10956",
+          "true_eg": 54,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            17,
+            6
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Microcline__R050150-1__4429",
+          "true_eg": 99,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            4,
+            6,
+            17,
+            5
+          ],
+          "correct": true
+        },
+        {
+          "case_id": "Microcline__R050193-1__6090",
+          "true_eg": 99,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            4,
+            5,
+            6,
+            17
+          ],
+          "correct": true
+        },
+        {
+          "case_id": "Orthoclase__R050367-1__9270",
+          "true_eg": 5,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            17,
+            6
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Orthoclase__R150014-9__12322",
+          "true_eg": 5,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            71,
+            1
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Parabutlerite__R060754-1__7803",
+          "true_eg": 17,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            71,
+            17
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Paravauxite__R050314-1__5652",
+          "true_eg": 99,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            4,
+            6,
+            17,
+            5
+          ],
+          "correct": true
+        },
+        {
+          "case_id": "Paravauxite__R050468-1__7511",
+          "true_eg": 99,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            17,
+            6,
+            4,
+            75
+          ],
+          "correct": true
+        },
+        {
+          "case_id": "Paravauxite__R050577-1__4767",
+          "true_eg": 99,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            75,
+            17,
+            5,
+            6
+          ],
+          "correct": true
+        },
+        {
+          "case_id": "Pectolite__R050396-1__5391",
+          "true_eg": 99,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            17,
+            6
+          ],
+          "correct": true
+        },
+        {
+          "case_id": "Pectolite__R060101-1__6603",
+          "true_eg": 99,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            17,
+            2
+          ],
+          "correct": true
+        },
+        {
+          "case_id": "Phosphuranylite__R110155-9__11722",
+          "true_eg": 29,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            17,
+            2
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Phosphuranylite__R130108-9__11762",
+          "true_eg": 29,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            71,
+            1
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Prehnite__R050055-1__4116",
+          "true_eg": 11,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            71,
+            17
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Realgar__R060106-1__6616",
+          "true_eg": 4,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            4,
+            17,
+            6,
+            5
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Realgar__R060107-1__6615",
+          "true_eg": 4,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            75,
+            17,
+            5,
+            6
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Skutterudite__R050593-1__4708",
+          "true_eg": 89,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            4,
+            17,
+            6,
+            5
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Talmessite__R060830-9__12410",
+          "true_eg": 99,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            17,
+            2
+          ],
+          "correct": true
+        },
+        {
+          "case_id": "Talmessite__R080007-9__9277",
+          "true_eg": 99,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            17,
+            1
+          ],
+          "correct": true
+        },
+        {
+          "case_id": "Variscite__R100222-9__11273",
+          "true_eg": 21,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            71,
+            1
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Variscite__R110139-9__11166",
+          "true_eg": 21,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            71,
+            1
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Volborthite__R050249-9__7279",
+          "true_eg": 5,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            71,
+            1
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Volborthite__R070710-9__9492",
+          "true_eg": 5,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            71,
+            4,
+            1
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Whewellite__R050240-1__6037",
+          "true_eg": 4,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            17,
+            2
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Whewellite__R050526-1__5162",
+          "true_eg": 4,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            4,
+            5,
+            6,
+            17
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Whewellite__R070655-9__8989",
+          "true_eg": 4,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            71,
+            4,
+            1
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Zoisite__R050038-1__4072",
+          "true_eg": 17,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            4,
+            5,
+            6,
+            17
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Zoisite__R050041-1__4094",
+          "true_eg": 17,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            6,
+            17
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Zoisite__R060567-1__4081",
+          "true_eg": 17,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            4,
+            5,
+            6,
+            17
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Adamite__R060593-1__5519",
+          "true_eg": 18,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            17,
+            4,
+            6,
+            5
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Allactite__R070175-1__7985",
+          "true_eg": 4,
+          "pred_eg": 75,
+          "top5_eg": [
+            75,
+            94,
+            71,
+            17,
+            63
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Aragonite__R060195-1__6715",
+          "true_eg": 17,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            17,
+            6
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Aragonite__R080142-9__11841",
+          "true_eg": 17,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            71,
+            1,
+            33
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Augite__R061086-1__7242",
+          "true_eg": 6,
+          "pred_eg": 75,
+          "top5_eg": [
+            75,
+            71,
+            94,
+            99,
+            5
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "AxiniteMn__R050299-1__5740",
+          "true_eg": 99,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            75,
+            71,
+            5,
+            94
+          ],
+          "correct": true
+        },
+        {
+          "case_id": "AxiniteMn__R061121-1__7313",
+          "true_eg": 99,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            4,
+            5,
+            2,
+            6
+          ],
+          "correct": true
+        },
+        {
+          "case_id": "Bahianite__R050627-1__7531",
+          "true_eg": 5,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            4,
+            6,
+            5,
+            17
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Bahianite__R060433__5464",
+          "true_eg": 5,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            71,
+            1,
+            4
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Bjarebyite__R130106-9__11808",
+          "true_eg": 2,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            17,
+            6
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Bjarebyite__R130107-9__11810",
+          "true_eg": 2,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            1,
+            71
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Bobjonesite__R060530-9__9578",
+          "true_eg": 4,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            71,
+            4,
+            1
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Bobjonesite__R060577-9__5439",
+          "true_eg": 4,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            71,
+            1
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Bournonite__R050364-1__5263",
+          "true_eg": 12,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            17,
+            6,
+            75,
+            5
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Boussingaultite__R061027-1__7379",
+          "true_eg": 4,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            4,
+            17,
+            6,
+            5
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Brochantite__R060117-1__6631",
+          "true_eg": 4,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            17,
+            6
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Carpathite__R060162-9__9609",
+          "true_eg": 4,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            71,
+            4,
+            1
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Carpathite__R060660-9__7039",
+          "true_eg": 4,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            71,
+            4,
+            1
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Carrollite__R050089-1__4204",
+          "true_eg": 97,
+          "pred_eg": 75,
+          "top5_eg": [
+            75,
+            94,
+            71,
+            17,
+            63
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "ChevkiniteCe__R060282-1__6786",
+          "true_eg": 5,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            4,
+            17,
+            6,
+            5
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "ChevkiniteCe__R060419-1__3784",
+          "true_eg": 5,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            17,
+            4,
+            6,
+            5
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Claringbullite__R090014-9__10593",
+          "true_eg": 73,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            71,
+            4,
+            1
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Claringbullite__R090016-9__10546",
+          "true_eg": 73,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            71,
+            1
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Clinohedrite__R050416-1__5057",
+          "true_eg": 6,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            4,
+            5,
+            6,
+            17
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Correianevesite__R090069-9__12468",
+          "true_eg": 22,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            17,
+            2
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Correianevesite__R130692-9__12050",
+          "true_eg": 22,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            71,
+            1
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Fairfieldite__R050539-1__4817",
+          "true_eg": 99,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            17,
+            4,
+            6,
+            5
+          ],
+          "correct": true
+        },
+        {
+          "case_id": "Famatinite__R110021-9__10630",
+          "true_eg": 63,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            71,
+            1,
+            4
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Famatinite__R110022-9__10628",
+          "true_eg": 63,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            71,
+            1
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Glaucophane__R050333-1__5338",
+          "true_eg": 5,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            17,
+            75,
+            6,
+            5
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Hopeite__R050254-1__6003",
+          "true_eg": 17,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            4,
+            5,
+            6,
+            17
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Hopeite__R130562-9__12092",
+          "true_eg": 17,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            71,
+            1
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Hurlbutite__R070612-9__10091",
+          "true_eg": 4,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            71,
+            4,
+            1
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Hurlbutite__R090048-9__10117",
+          "true_eg": 4,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            17,
+            1
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "IxioliteMn2+__R070289-9__10428",
+          "true_eg": 22,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            71,
+            1,
+            4
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "IxioliteMn2+__R070495-9__10426",
+          "true_eg": 22,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            71,
+            1,
+            4
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "JahnsiteCaMnFe__R060310-9__12038",
+          "true_eg": 3,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            17,
+            1
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "JahnsiteCaMnFe__R070733-9__10550",
+          "true_eg": 3,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            71,
+            4,
+            1
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Kottigite__R110032-9__10701",
+          "true_eg": 5,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            71,
+            1
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Kottigite__R110035-9__10859",
+          "true_eg": 5,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            71,
+            1,
+            4
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Kryzhanovskite__R130691-9__12115",
+          "true_eg": 22,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            71,
+            1
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Kryzhanovskite__R140111-9__12062",
+          "true_eg": 22,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            17,
+            2
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Lamprophyllite__R070200-9__12430",
+          "true_eg": 5,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            71,
+            1
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Lamprophyllite__R130420-9__12076",
+          "true_eg": 5,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            17,
+            1
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "LemmleiniteBa__R070650-9__9465",
+          "true_eg": 5,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            71,
+            1
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "LemmleiniteBa__R110017-9__10813",
+          "true_eg": 5,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            71,
+            1
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Leucophanite__R050004-1__6145",
+          "true_eg": 10,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            17,
+            6
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Leucophoenicite__R060308-9__10360",
+          "true_eg": 4,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            71,
+            4,
+            1
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Leucophoenicite__R150131-9__12356",
+          "true_eg": 4,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            71,
+            4,
+            1
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Manganoneptunite__R060901-1__7003",
+          "true_eg": 6,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            4,
+            5,
+            2,
+            6
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Manganoneptunite__R130094-9__11696",
+          "true_eg": 6,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            17,
+            1
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Metarossite__R060598-1__5372",
+          "true_eg": 99,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            17,
+            6
+          ],
+          "correct": true
+        },
+        {
+          "case_id": "Metarossite__R100065-9__10325",
+          "true_eg": 99,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            71,
+            4,
+            1
+          ],
+          "correct": true
+        },
+        {
+          "case_id": "Mullite__R141101-9__12297",
+          "true_eg": 16,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            71,
+            1,
+            33
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Mullite__R141103-9__12301",
+          "true_eg": 16,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            71,
+            1,
+            4
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Nadorite__R050523-9__5581",
+          "true_eg": 29,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            71,
+            4,
+            1
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Nadorite__R050525-9__5579",
+          "true_eg": 29,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            71,
+            1,
+            4
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Neptunite__R060746-1__5514",
+          "true_eg": 6,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            17,
+            6
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Nuffieldite__R100113-9__10470",
+          "true_eg": 17,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            17,
+            6
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Nuffieldite__R110088-9__10875",
+          "true_eg": 17,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            4,
+            5,
+            6,
+            17
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Olmiite__R050144-1__6093",
+          "true_eg": 21,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            4,
+            17,
+            6,
+            5
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Olmiite__R050177-1__3437",
+          "true_eg": 21,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            17,
+            75,
+            6,
+            5
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Paralaurionite__R050271-1__5899",
+          "true_eg": 5,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            4,
+            6,
+            17,
+            5
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "ParisiteCe__R050308-1__5666",
+          "true_eg": 75,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            4,
+            5,
+            6,
+            17
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "ParisiteCe__R120061-9__11034",
+          "true_eg": 6,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            17,
+            2
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "PumpellyiteMg__R070130-1__7964",
+          "true_eg": 5,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            17,
+            6
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Pyromorphite__R050015-1__3999",
+          "true_eg": 77,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            4,
+            5,
+            6,
+            17
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Pyromorphite__R060285-1__6795",
+          "true_eg": 77,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            17,
+            6
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Pyroxferroite__R140465-9__12360",
+          "true_eg": 99,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            17,
+            6
+          ],
+          "correct": true
+        },
+        {
+          "case_id": "Pyroxferroite__R141080-9__12268",
+          "true_eg": 99,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            17,
+            2
+          ],
+          "correct": true
+        },
+        {
+          "case_id": "Rhodochrosite__R050019-1__4010",
+          "true_eg": 76,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            4,
+            6,
+            17,
+            5
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Roeblingite__R070713-1__9357",
+          "true_eg": 5,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            17,
+            6
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Rosasite__R050294-1__10708",
+          "true_eg": 4,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            4,
+            6,
+            5,
+            17
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Roscherite__R130054-9__12498",
+          "true_eg": 99,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            17,
+            1
+          ],
+          "correct": true
+        },
+        {
+          "case_id": "Roselite__R100191-9__10494",
+          "true_eg": 4,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            17,
+            2
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Roselite__R150066-9__12334",
+          "true_eg": 4,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            4,
+            5,
+            6,
+            17
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Rynersonite__R080063-9__9869",
+          "true_eg": 17,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            71,
+            1,
+            4
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Rynersonite__R080064__9545",
+          "true_eg": 17,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            71,
+            1,
+            4
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Sakhaite__R060637-9__5423",
+          "true_eg": 95,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            71,
+            1,
+            4
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Sakhaite__R060897-9__9407",
+          "true_eg": 95,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            71,
+            1,
+            4
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Schaurteite__R120054-9__11293",
+          "true_eg": 73,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            71,
+            1
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Scheelite__R150130-9__12354",
+          "true_eg": 68,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            71,
+            1,
+            4
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Selenium__R060137-1__6931",
+          "true_eg": 72,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            4,
+            5,
+            6,
+            17
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Seligmannite__R100189-9__10478",
+          "true_eg": 12,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            71,
+            1
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Soddyite__R060407-1__5714",
+          "true_eg": 39,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            17,
+            5,
+            75,
+            4
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Spherocobaltite__R060497-9__12016",
+          "true_eg": 76,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            71,
+            1,
+            4
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Spherocobaltite__R140338-9__12370",
+          "true_eg": 76,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            17,
+            2
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Starkeyite__R060321-1__8664",
+          "true_eg": 4,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            71,
+            75,
+            4
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Stephanite__R050309-1__6853",
+          "true_eg": 29,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            4,
+            5,
+            6,
+            17
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "StillwelliteCe__R060899-1__7055",
+          "true_eg": 72,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            4,
+            5,
+            6,
+            17
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "StillwelliteCe__R060911-9__12416",
+          "true_eg": 72,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            17,
+            6
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Stromeyerite__R060908-1__7283",
+          "true_eg": 29,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            4,
+            17,
+            6,
+            5
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Stromeyerite__R060909-1__7282",
+          "true_eg": 29,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            75,
+            17,
+            5,
+            4
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Tavorite__R070523-9__12448",
+          "true_eg": 99,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            71,
+            1
+          ],
+          "correct": true
+        },
+        {
+          "case_id": "Tavorite__R140258-9__12066",
+          "true_eg": 99,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            17,
+            2
+          ],
+          "correct": true
+        },
+        {
+          "case_id": "Tetradymite__R110138-9__11902",
+          "true_eg": 75,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            71,
+            1
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Tetradymite__R130067-9__11863",
+          "true_eg": 75,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            71,
+            1,
+            4
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Thaumasite__R060296-1__5629",
+          "true_eg": 77,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            4,
+            6,
+            5,
+            17
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Tintinaite__R110046-9__10894",
+          "true_eg": 18,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            17,
+            2
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Tintinaite__R110163-9__10898",
+          "true_eg": 18,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            17,
+            2
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Tinzenite__R050251-1__6736",
+          "true_eg": 99,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            71,
+            4,
+            75
+          ],
+          "correct": true
+        },
+        {
+          "case_id": "Uvarovite__R060477-9__10687",
+          "true_eg": 99,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            71,
+            75,
+            1
+          ],
+          "correct": true
+        },
+        {
+          "case_id": "Uvarovite__R061041-1__7152",
+          "true_eg": 93,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            4,
+            5,
+            6,
+            17
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Veszelyite__R150143-9__12358",
+          "true_eg": 4,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            71,
+            1
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Veszelyite__R150144-9__12574",
+          "true_eg": 4,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            17,
+            2
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Vuonnemite__R070690-9__12454",
+          "true_eg": 99,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            17,
+            6
+          ],
+          "correct": true
+        },
+        {
+          "case_id": "Vuonnemite__R080015-9__12464",
+          "true_eg": 99,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            71,
+            1
+          ],
+          "correct": true
+        },
+        {
+          "case_id": "Wagnerite__R060456-9__9263",
+          "true_eg": 6,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            17,
+            6
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Wagnerite__R070559-9__9778",
+          "true_eg": 6,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            71,
+            1
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Wittichenite__R050327-1__5394",
+          "true_eg": 10,
+          "pred_eg": 75,
+          "top5_eg": [
+            75,
+            94,
+            17,
+            71,
+            99
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Xanthoconite__R070746-9__9155",
+          "true_eg": 6,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            4,
+            5,
+            6,
+            17
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Xanthoconite__R080013-9__9607",
+          "true_eg": 6,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            71,
+            1
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Yttriumaluminumgarnet__R110105-9__11190",
+          "true_eg": 93,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            71,
+            75,
+            1
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Yttriumaluminumgarnet__X090003.9__10005",
+          "true_eg": 93,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            71,
+            75,
+            1
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Zinkenite__R060186-1__5960",
+          "true_eg": 77,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            4,
+            5,
+            6,
+            17
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Vanadinite__R050171-1__4450",
+          "true_eg": 77,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            17,
+            6
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Vanadinite__R050189-1__4494",
+          "true_eg": 77,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            4,
+            17,
+            6,
+            5
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Vanadinite__R050376-1__5209",
+          "true_eg": 77,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            75,
+            5,
+            17,
+            71
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Vanadinite__R050530-1__4834",
+          "true_eg": 77,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            4,
+            6,
+            17,
+            5
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Vanadinite__R050533-1__5365",
+          "true_eg": 77,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            17,
+            6,
+            4,
+            5
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Hemihedrite__R050551-9__5577",
+          "true_eg": 99,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            71,
+            1
+          ],
+          "correct": true
+        },
+        {
+          "case_id": "Hemihedrite__R140133-9__12119",
+          "true_eg": 99,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            17,
+            6
+          ],
+          "correct": true
+        },
+        {
+          "case_id": "Hemihedrite__R140134-9__12166",
+          "true_eg": 99,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            17,
+            2
+          ],
+          "correct": true
+        },
+        {
+          "case_id": "Hemihedrite__R141184-9__12558",
+          "true_eg": 99,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            17,
+            6
+          ],
+          "correct": true
+        },
+        {
+          "case_id": "Montgomeryite__R070631-9__9172",
+          "true_eg": 6,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            71,
+            4,
+            1
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Montgomeryite__R080094-9__12034",
+          "true_eg": 6,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            17,
+            2
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Montgomeryite__R140625-9__12178",
+          "true_eg": 6,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            71,
+            1
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Montgomeryite__R140664-9__12068",
+          "true_eg": 6,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            17,
+            2
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Quartz__R040031-1__9212",
+          "true_eg": 72,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            71,
+            1
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Quartz__R100134-9__10755",
+          "true_eg": 72,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            17,
+            2
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Quartz__R110104-9__10974",
+          "true_eg": 72,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            17,
+            2
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Quartz__R110108-9__10976",
+          "true_eg": 72,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            17,
+            2
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Retgersite__R070665-9__9603",
+          "true_eg": 45,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            71,
+            1,
+            4
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Retgersite__R100086-9__10386",
+          "true_eg": 45,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            71,
+            1
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Retgersite__R130119-9__11881",
+          "true_eg": 45,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            71,
+            1
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Retgersite__R130366-9__11906",
+          "true_eg": 45,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            71,
+            1
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Behoite__R060659-9__5818",
+          "true_eg": 10,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            71,
+            1
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Behoite__R130229-9__12500",
+          "true_eg": 10,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            71,
+            1
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Behoite__R130230-9__12502",
+          "true_eg": 10,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            71,
+            1
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Cerussite__R050174-1__4459",
+          "true_eg": 17,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            17,
+            6
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Cerussite__R050298-1__5744",
+          "true_eg": 17,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            17,
+            2
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Cerussite__R060017-1__6323",
+          "true_eg": 17,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            4,
+            5,
+            6,
+            17
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Covellite__R060129-1__6646",
+          "true_eg": 73,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            4,
+            5,
+            2,
+            6
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Covellite__R060143-1__6661",
+          "true_eg": 73,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            4,
+            6,
+            17,
+            5
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Covellite__R060306-1__3830",
+          "true_eg": 73,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            4,
+            5,
+            2,
+            6
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Magnesiofluorohastingsite__R141082-9__12271",
+          "true_eg": 5,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            4,
+            6,
+            5,
+            17
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Magnesiofluorohastingsite__R141098-9__12291",
+          "true_eg": 5,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            4,
+            6,
+            5,
+            17
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Magnesiofluorohastingsite__R141099-9__12293",
+          "true_eg": 5,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            4,
+            6,
+            5,
+            17
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Moissanite__R061083-9__9401",
+          "true_eg": 73,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            71,
+            1,
+            4
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Moissanite__R110106-9__10958",
+          "true_eg": 73,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            71,
+            1,
+            4
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Moissanite__R150016-9__12324",
+          "true_eg": 73,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            71,
+            1,
+            4
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Ruizite__R060930-9__11952",
+          "true_eg": 5,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            71,
+            1
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Ruizite__R130787-9__12048",
+          "true_eg": 5,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            71,
+            1
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Ruizite__R140132-9__11976",
+          "true_eg": 5,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            17,
+            2
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Sinhalite__R070621-9__9723",
+          "true_eg": 17,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            71,
+            1
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Sinhalite__R100132-9__10751",
+          "true_eg": 17,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            17,
+            1
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Sinhalite__R100163-9__11244",
+          "true_eg": 17,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            17,
+            1
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Stilpnomelane__R060334-9__12398",
+          "true_eg": 99,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            71,
+            4,
+            1
+          ],
+          "correct": true
+        },
+        {
+          "case_id": "Stilpnomelane__R070696-9__12456",
+          "true_eg": 99,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            71,
+            1
+          ],
+          "correct": true
+        },
+        {
+          "case_id": "Stilpnomelane__R110195-9__12458",
+          "true_eg": 99,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            71,
+            1
+          ],
+          "correct": true
+        },
+        {
+          "case_id": "Afwillite__R080022-9__9364",
+          "true_eg": 6,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            71,
+            1,
+            4
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Afwillite__R141097-9__12192",
+          "true_eg": 6,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            71,
+            4,
+            1
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Alacranite__R140323-9__12524",
+          "true_eg": 3,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            17,
+            2
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Alacranite__R150030-9__12326",
+          "true_eg": 3,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            1,
+            71
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Anglesite__R050052-1__4113",
+          "true_eg": 17,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            4,
+            17,
+            6,
+            5
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Anglesite__R050408-1__5081",
+          "true_eg": 17,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            17,
+            6
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Arakiite__R060812-9__9519",
+          "true_eg": 6,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            17,
+            2
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Arakiite__R070172-9__9454",
+          "true_eg": 6,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            17,
+            2
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Argentojarosite__R060097-1__3479",
+          "true_eg": 75,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            4,
+            6,
+            17,
+            5
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Argentojarosite__R060098-1__6600",
+          "true_eg": 75,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            4,
+            17,
+            6,
+            5
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Argentopyrite__R090026-9__10185",
+          "true_eg": 4,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            17,
+            1
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Argentopyrite__R090027-9__10187",
+          "true_eg": 4,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            6,
+            17
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Armangite__R100041-9__10279",
+          "true_eg": 71,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            71,
+            1
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Armangite__R100054-9__10409",
+          "true_eg": 71,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            71,
+            1
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Astrophyllite__R060103-9__5618",
+          "true_eg": 99,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            71,
+            1
+          ],
+          "correct": true
+        },
+        {
+          "case_id": "Astrophyllite__R060202-1__7029",
+          "true_eg": 99,
+          "pred_eg": 75,
+          "top5_eg": [
+            75,
+            94,
+            71,
+            17,
+            63
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Barylite__R060606-9__5435",
+          "true_eg": 12,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            17,
+            6
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Barylite__R060620-9__5431",
+          "true_eg": 17,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            71,
+            1
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Beryllonite__R060299-1__5953",
+          "true_eg": 4,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            4,
+            5,
+            6,
+            17
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Beryllonite__R060552-1__6278",
+          "true_eg": 4,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            4,
+            5,
+            6,
+            17
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Billietite__R070588-9__9394",
+          "true_eg": 17,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            71,
+            1,
+            4
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Billietite__R070624-9__9564",
+          "true_eg": 17,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            71,
+            1,
+            4
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Bismutotantalite__R130254-9__12504",
+          "true_eg": 24,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            71,
+            1,
+            33
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Bismutotantalite__R130778-9__12512",
+          "true_eg": 24,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            71,
+            1,
+            33
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Boracite__R060009-9__5565",
+          "true_eg": 14,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            71,
+            1
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Boracite__R070317-9__11774",
+          "true_eg": 14,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            17,
+            1
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Cassiterite__R050502-1__4923",
+          "true_eg": 52,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            17,
+            6
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Cassiterite__R060563-1__4368",
+          "true_eg": 52,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            71,
+            1
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Celestine__R040007-1__3006",
+          "true_eg": 17,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            4,
+            5,
+            6,
+            17
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Celestine__R050008-1__3973",
+          "true_eg": 17,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            4,
+            5,
+            6,
+            17
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "ChabaziteNa__R061095-9__9477",
+          "true_eg": 75,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            17,
+            6
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "ChabaziteNa__R070440-9__9934",
+          "true_eg": 75,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            71,
+            1
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Childrenite__R060146-9__12392",
+          "true_eg": 30,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            71,
+            1
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Childrenite__R070538-9__9186",
+          "true_eg": 30,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            71,
+            1
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Chloritoid__R050334-9__6458",
+          "true_eg": 6,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            71,
+            1,
+            33
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Chloritoid__R060292-1__5691",
+          "true_eg": 99,
+          "pred_eg": 75,
+          "top5_eg": [
+            75,
+            99,
+            71,
+            17,
+            94
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "ChurchiteY__R050421-9__11464",
+          "true_eg": 6,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            71,
+            1
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "ChurchiteY__R060424-9__5468",
+          "true_eg": 6,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            4,
+            5,
+            6,
+            17
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Coalingite__R110196-9__12484",
+          "true_eg": 75,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            71,
+            1,
+            4
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Coalingite__R110197-9__11466",
+          "true_eg": 75,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            71,
+            1,
+            4
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Cobaltomenite__R070352-9__11724",
+          "true_eg": 4,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            71,
+            1,
+            4
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Cobaltomenite__R110040-9__10930",
+          "true_eg": 4,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            71,
+            1,
+            4
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Colemanite__R050102-1__6105",
+          "true_eg": 4,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            17,
+            2
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Colemanite__R050331-1__5342",
+          "true_eg": 4,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            17,
+            2
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Cuspidine__R130002-9__11450",
+          "true_eg": 4,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            71,
+            1
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Cuspidine__R140776-9__12225",
+          "true_eg": 4,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            71,
+            1
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Datolite__R050033-1__4053",
+          "true_eg": 4,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            17,
+            6
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Datolite__R050136-1__6096",
+          "true_eg": 4,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            4,
+            5,
+            6,
+            17
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Diaboleite__R050270-1__5903",
+          "true_eg": 40,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            4,
+            5,
+            6,
+            17
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Diaboleite__R050372-1__5221",
+          "true_eg": 40,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            4,
+            5,
+            6,
+            17
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Dolerophanite__R060139-9__6454",
+          "true_eg": 5,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            71,
+            1,
+            4
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Dolerophanite__R070652-9__9613",
+          "true_eg": 5,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            71,
+            1,
+            4
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Elpidite__R060064-1__6531",
+          "true_eg": 14,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            4,
+            5,
+            6,
+            17
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Elpidite__R060214-1__3473",
+          "true_eg": 14,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            17,
+            6
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Esperite__R060295-9__10296",
+          "true_eg": 4,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            17,
+            2
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Esperite__R070512-9__10299",
+          "true_eg": 4,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            17,
+            2
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Finnemanite__R140329-9__12056",
+          "true_eg": 77,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            4,
+            5,
+            6,
+            17
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Finnemanite__R140335-9__12052",
+          "true_eg": 77,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            4,
+            5,
+            6,
+            17
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "FluorapophylliteK__R050021-1__4016",
+          "true_eg": 53,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            6,
+            17
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "FluorapophylliteK__R060554-1__4484",
+          "true_eg": 53,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            17,
+            6
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Fluorite__R050045-1__4103",
+          "true_eg": 94,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            71,
+            1
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Fluorite__R060548-1__3619",
+          "true_eg": 94,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            71,
+            1
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Gersdorffite__R070341-9__12438",
+          "true_eg": 82,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            71,
+            1,
+            4
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Gersdorffite__R070343-9__9035",
+          "true_eg": 82,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            71,
+            1,
+            4
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Gerstleyite__R060255-9__9715",
+          "true_eg": 5,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            71,
+            1
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Gerstleyite__R060510-9__12402",
+          "true_eg": 5,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            17,
+            2
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Gillardite__R100074-9__10378",
+          "true_eg": 75,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            71,
+            1,
+            4
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Gillardite__R110068-9__12476",
+          "true_eg": 75,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            71,
+            1,
+            4
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "HeulanditeCa__R050097-1__4220",
+          "true_eg": 5,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            4,
+            17,
+            5,
+            6
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "HeulanditeCa__R060465-1__4814",
+          "true_eg": 5,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            4,
+            17,
+            6,
+            5
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Hiortdahlite__R060092-9__5553",
+          "true_eg": 99,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            71,
+            1
+          ],
+          "correct": true
+        },
+        {
+          "case_id": "Hiortdahlite__R070514-9__9188",
+          "true_eg": 99,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            1,
+            17
+          ],
+          "correct": true
+        },
+        {
+          "case_id": "Jacobsite__R070719-9__9488",
+          "true_eg": 97,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            71,
+            1,
+            4
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Jacobsite__R120170-9__11395",
+          "true_eg": 97,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            71,
+            1,
+            4
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Johannsenite__R140753-9__12532",
+          "true_eg": 6,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            17,
+            1
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Johannsenite__R150013-9__12320",
+          "true_eg": 6,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            17,
+            2
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Jonesite__R070735-9__9154",
+          "true_eg": 2,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            71,
+            4,
+            1
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Jonesite__R080005-9__9328",
+          "true_eg": 2,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            71,
+            4,
+            1
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Katayamalite__R070147-9__11828",
+          "true_eg": 6,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            4,
+            5,
+            6,
+            17
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Katayamalite__R120164-9__11826",
+          "true_eg": 6,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            4,
+            5,
+            6,
+            17
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Kovdorskite__R050505-1__4879",
+          "true_eg": 4,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            17,
+            2
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Kovdorskite__R060579-1__4984",
+          "true_eg": 4,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            17,
+            6
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Krohnkite__R050604-1__4680",
+          "true_eg": 4,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            4,
+            6,
+            17,
+            5
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Krohnkite__R060111-1__6622",
+          "true_eg": 4,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            17,
+            4,
+            6,
+            5
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Krupkaite__R070310-9__9510",
+          "true_eg": 11,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            71,
+            1
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Krupkaite__R100098-9__10392",
+          "true_eg": 11,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            1,
+            17
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Lammerite__R060715-9__5905",
+          "true_eg": 4,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            71,
+            1,
+            4
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Lammerite__R140108-9__12209",
+          "true_eg": 4,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            71,
+            1
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Langite__R070316-9__10512",
+          "true_eg": 3,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            71,
+            4,
+            1
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Langite__R120042-9__11018",
+          "true_eg": 3,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            71,
+            4,
+            1
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Laurite__R060309-9__5935",
+          "true_eg": 86,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            71,
+            1,
+            4
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Laurite__R110120-9__10869",
+          "true_eg": 86,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            71,
+            1,
+            4
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Lavinskyite__R120057-9__12154",
+          "true_eg": 22,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            1,
+            17
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Lavinskyite__R141115-9__12544",
+          "true_eg": 22,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            4,
+            5,
+            6,
+            17
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Liebenbergite__R120062-9__11022",
+          "true_eg": 17,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            71,
+            1
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Liebenbergite__R150037-9__12328",
+          "true_eg": 17,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            71,
+            4,
+            1
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Livingstonite__R050427-1__5037",
+          "true_eg": 6,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            4,
+            5,
+            6,
+            17
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Livingstonite__R050453-1__5002",
+          "true_eg": 6,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            4,
+            5,
+            6,
+            17
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Magnesiotaaffeite2N2S__R090035-9__10055",
+          "true_eg": 73,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            71,
+            1,
+            4
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Magnesiotaaffeite2N2S__X090001.9__11416",
+          "true_eg": 73,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            71,
+            1,
+            4
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Manitobaite__R130259-9__12506",
+          "true_eg": 3,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            17,
+            2
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Manitobaite__R130260-9__12508",
+          "true_eg": 3,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            71,
+            1
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Mascagnite__R141105-9__12542",
+          "true_eg": 17,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            17,
+            2
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Mascagnite__R141117-9__12548",
+          "true_eg": 17,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            17,
+            2
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Melanovanadite__R050555-1__4792",
+          "true_eg": 99,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            4,
+            5,
+            6,
+            17
+          ],
+          "correct": true
+        },
+        {
+          "case_id": "Melanovanadite__R060131-1__6655",
+          "true_eg": 99,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            4,
+            17,
+            6,
+            5
+          ],
+          "correct": true
+        },
+        {
+          "case_id": "Miserite__R060095-1__8864",
+          "true_eg": 99,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            4,
+            5,
+            6,
+            17
+          ],
+          "correct": true
+        },
+        {
+          "case_id": "Miserite__R060393-1__5387",
+          "true_eg": 99,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            4,
+            17,
+            5,
+            6
+          ],
+          "correct": true
+        },
+        {
+          "case_id": "Nifontovite__R060685-1__7407",
+          "true_eg": 6,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            4,
+            5,
+            6,
+            17
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Nifontovite__R080138-9__9852",
+          "true_eg": 6,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            71,
+            1,
+            4
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Nordenskioldine__R061079-9__9970",
+          "true_eg": 75,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            71,
+            1
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Nordenskioldine__R130017-9__11454",
+          "true_eg": 75,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            71,
+            1,
+            4
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "OsumiliteMg__R141100-9__12295",
+          "true_eg": 80,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            71,
+            4,
+            1
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "OsumiliteMg__R141102-9__12299",
+          "true_eg": 80,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            17,
+            2
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Palermoite__R120141-9__11432",
+          "true_eg": 35,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            71,
+            1,
+            4
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Palermoite__R130090-9__11692",
+          "true_eg": 35,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            71,
+            1
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Pararealgar__R140447-9__12526",
+          "true_eg": 4,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            71,
+            1
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Pararealgar__R150123-9__12348",
+          "true_eg": 4,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            71,
+            1
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Penikisite__R060160-9__11743",
+          "true_eg": 2,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            4,
+            5,
+            6,
+            17
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Penikisite__R060270-9__11745",
+          "true_eg": 2,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            4,
+            5,
+            6,
+            17
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "PhillipsiteCa__R050078-1__6117",
+          "true_eg": 2,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            4,
+            5,
+            6,
+            17
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "PhillipsiteCa__R060161-1__4360",
+          "true_eg": 29,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            4,
+            5,
+            6,
+            17
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Phosphoferrite__R090065-9__10189",
+          "true_eg": 22,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            17,
+            2
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Phosphoferrite__R130690-9__12110",
+          "true_eg": 22,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            17,
+            6
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Priceite__R050420-1__5049",
+          "true_eg": 4,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            17,
+            6
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Priceite__R110008-9__10608",
+          "true_eg": 4,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            17,
+            6
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Prosopite__R050668-1__4553",
+          "true_eg": 6,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            4,
+            5,
+            6,
+            17
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Prosopite__R100181-9__10450",
+          "true_eg": 6,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            17,
+            6
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Pseudowollastonite__R070762-9__9156",
+          "true_eg": 6,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            71,
+            1
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Pseudowollastonite__R080145-9__9805",
+          "true_eg": 6,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            17,
+            2
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Pyrargyrite__R050290-1__6288",
+          "true_eg": 76,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            4,
+            17,
+            5,
+            6
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Pyrargyrite__R050318-1__5644",
+          "true_eg": 76,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            4,
+            17,
+            6,
+            5
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Pyrobelonite__R080057-9__9905",
+          "true_eg": 17,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            71,
+            1
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Pyrobelonite__R100056-9__10412",
+          "true_eg": 17,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            71,
+            1
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Renierite__R050428-1__7501",
+          "true_eg": 46,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            17,
+            6
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Renierite__R050433-1__5034",
+          "true_eg": 46,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            4,
+            5,
+            2,
+            6
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Robertsite__R120040-9__11869",
+          "true_eg": 6,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            1,
+            71
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Robertsite__R130045-9__11867",
+          "true_eg": 6,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            71,
+            1
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Sillimanite__R100126-9__10712",
+          "true_eg": 17,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            71,
+            1,
+            4
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Sillimanite__R100127-9__10741",
+          "true_eg": 17,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            71,
+            1,
+            4
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Simonkolleite__R130117-9__11879",
+          "true_eg": 75,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            71,
+            1
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Simonkolleite__R130616-9__11904",
+          "true_eg": 75,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            71,
+            1
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Stolzite__R070552-9__10374",
+          "true_eg": 68,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            71,
+            1,
+            4
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Stolzite__R130615-9__12104",
+          "true_eg": 68,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            71,
+            1,
+            4
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Strontianite__R050476-1__6858",
+          "true_eg": 17,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            4,
+            5,
+            6,
+            17
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Strontianite__R050564-1__4776",
+          "true_eg": 17,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            17,
+            2
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Struvite__R050511-1__4860",
+          "true_eg": 12,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            17,
+            4,
+            5,
+            6
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Struvite__R050540-1__4796",
+          "true_eg": 12,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            4,
+            6,
+            5,
+            17
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "TantaliteMn__R050600-1__4702",
+          "true_eg": 22,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            2,
+            6
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "TantaliteMn__R060415-1__6071",
+          "true_eg": 22,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            75,
+            5,
+            17,
+            71
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Taramellite__R110043-9__10714",
+          "true_eg": 12,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            1,
+            17
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Taramellite__R160011-9__12588",
+          "true_eg": 12,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            17,
+            6
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Tellurium__R060136-1__6934",
+          "true_eg": 72,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            17,
+            6
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Tellurium__R070376-1__8410",
+          "true_eg": 72,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            17,
+            6
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Terlinguaite__R060492-9__6493",
+          "true_eg": 6,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            71,
+            4,
+            1
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Terlinguaite__R140878-9__12250",
+          "true_eg": 6,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            71,
+            1
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Titantaramellite__R060315-9__5484",
+          "true_eg": 12,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            17,
+            6
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Titantaramellite__R080041-9__9787",
+          "true_eg": 12,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            71,
+            4,
+            1
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Tremolite__R050498-1__5232",
+          "true_eg": 5,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            4,
+            5,
+            6,
+            17
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Tremolite__R060311-1__6810",
+          "true_eg": 5,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            4,
+            6,
+            5,
+            17
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Tsumebite__R070446-9__12440",
+          "true_eg": 2,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            71,
+            4,
+            1
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Tsumebite__R080020-9__9597",
+          "true_eg": 2,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            71,
+            1,
+            4
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "TundriteCe__R130563-9__12094",
+          "true_eg": 99,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            71,
+            1
+          ],
+          "correct": true
+        },
+        {
+          "case_id": "TundriteCe__R130564-9__12096",
+          "true_eg": 99,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            71,
+            1
+          ],
+          "correct": true
+        },
+        {
+          "case_id": "Uchucchacuaite__R070760-9__12460",
+          "true_eg": 4,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            17,
+            6
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Uchucchacuaite__R100213-9__11263",
+          "true_eg": 4,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            17,
+            6
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Vigezzite__R060584-9__11283",
+          "true_eg": 17,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            71,
+            4,
+            1
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Vigezzite__R120132-9__11340",
+          "true_eg": 17,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            71,
+            1
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Vladimirite__R080001-9__11704",
+          "true_eg": 4,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            17,
+            6
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Vladimirite__R100075-9__11194",
+          "true_eg": 4,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            17,
+            6
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Walstromite__R070634-9__9372",
+          "true_eg": 99,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            4,
+            5,
+            6,
+            17
+          ],
+          "correct": true
+        },
+        {
+          "case_id": "Walstromite__R150079-9__12338",
+          "true_eg": 99,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            17,
+            2
+          ],
+          "correct": true
+        },
+        {
+          "case_id": "Wendwilsonite__R050398-1__5104",
+          "true_eg": 4,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            4,
+            5,
+            6,
+            17
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Wendwilsonite__R100174-9__10424",
+          "true_eg": 4,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            4,
+            5,
+            6,
+            17
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Wherryite__R110089-9__10904",
+          "true_eg": 5,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            71,
+            1
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Wherryite__R141161-9__12556",
+          "true_eg": 5,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            71,
+            4,
+            1
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Whitlockite__R070675-9__9370",
+          "true_eg": 76,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            71,
+            1,
+            4
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Whitlockite__R080052-9__9630",
+          "true_eg": 76,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            71,
+            1
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Wickenburgite__R060048-9__5561",
+          "true_eg": 73,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            71,
+            1,
+            4
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Wickenburgite__R060087-9__5555",
+          "true_eg": 73,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            71,
+            1,
+            4
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Witherite__R050148-1__4421",
+          "true_eg": 17,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            4,
+            17,
+            6,
+            5
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Witherite__R050267-1__5968",
+          "true_eg": 17,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            4,
+            6,
+            17,
+            5
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Wohlerite__R050275-1__5887",
+          "true_eg": 2,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            4,
+            5,
+            6,
+            17
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Wohlerite__R060086-1__6588",
+          "true_eg": 2,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            4,
+            17,
+            6,
+            5
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Wollastonite__R120016-9__11094",
+          "true_eg": 99,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            71,
+            1
+          ],
+          "correct": true
+        },
+        {
+          "case_id": "Wollastonite__R120122-9__11315",
+          "true_eg": 4,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            71,
+            1
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Wulfenite__R050149-1__4424",
+          "true_eg": 68,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            17,
+            2
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Wulfenite__R050501-1__7476",
+          "true_eg": 68,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            4,
+            17,
+            6
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Zincolibethenite__R060763-9__12406",
+          "true_eg": 18,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            71,
+            4,
+            1
+          ],
+          "correct": false
+        },
+        {
+          "case_id": "Zincolibethenite__R150008-9__12318",
+          "true_eg": 18,
+          "pred_eg": 99,
+          "top5_eg": [
+            99,
+            5,
+            71,
+            4,
+            1
+          ],
+          "correct": false
+        }
+      ]
+    }
+  }
+}

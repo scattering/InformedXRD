@@ -1,0 +1,35 @@
+{
+  "null_definition": "For each benchmark true label, enumerate all 98 incorrect labels uniformly and summarize their positions on the condensed DAG.",
+  "graph_json": "assets/topology/extinction_group_adjacency.json",
+  "failure_json": "case_studies/xrdbench/failure_modes/cnn11_rruff325_failure.json",
+  "source_model_key": "xrdbench_cnn11_common_grid",
+  "conditioning": "model_wrong_cases",
+  "n_source_examples": 325,
+  "n_examples": 298,
+  "num_labels": 99,
+  "n_wrong_label_pairs": 29204,
+  "mean_wrong_distance": 2.907923572113409,
+  "pct_wrong_distance_le2": 31.146418298863168,
+  "distance_counts": {
+    "0": 17,
+    "1": 1867,
+    "2": 7212,
+    "3": 12630,
+    "4": 6692,
+    "5": 742,
+    "6": 44
+  },
+  "directionality_counts": {
+    "descendant_pred_lower_sym": 3147,
+    "ancestor_pred_higher_sym": 7488,
+    "branch_jump": 18552,
+    "same_condensed_node": 17
+  },
+  "directionality_pct": {
+    "descendant_pred_lower_sym": 10.775921106697712,
+    "ancestor_pred_higher_sym": 25.640323243391315,
+    "branch_jump": 63.525544445966304,
+    "same_condensed_node": 0.05821120394466511
+  },
+  "descendant_including_same_condensed_node_pct": 10.834132310642378
+}
