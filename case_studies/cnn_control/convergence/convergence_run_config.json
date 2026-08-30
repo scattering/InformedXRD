@@ -1,0 +1,49 @@
+{
+  "train_h5": "$SCRATCH/ai_diffraction_generated/rruff_conditioned_2346k_v1_trainready.hdf5",
+  "eval_h5_473": "$WORK/rruff-benchmark/RRUFF_option1_473_with_buckets_maxnorm.hdf5",
+  "eval_h5_325": "$WORK/rruff-benchmark/RRUFF_usable_plus_recoverable_325_with_labels_maxnorm.hdf5",
+  "epochs": 46,
+  "batch_size": 128,
+  "num_workers": 2,
+  "prefetch_factor": 4,
+  "learning_rate": 0.001,
+  "weight_decay": 0.0001,
+  "num_classes": 99,
+  "start_col": 1,
+  "end_col": 8501,
+  "res_dims": [
+    32,
+    64,
+    64,
+    64
+  ],
+  "res_kernel": [
+    5,
+    7,
+    17,
+    13
+  ],
+  "res_stride": [
+    4,
+    4,
+    5,
+    3
+  ],
+  "num_blocks": [
+    2,
+    2,
+    2,
+    2
+  ],
+  "first_kernel_size": 13,
+  "first_stride": 1,
+  "first_pool_kernel_size": 7,
+  "first_pool_stride": 7,
+  "lr_factor": 0.3,
+  "lr_patience": 2,
+  "min_lr": 1e-06,
+  "early_stopping_patience": 8,
+  "early_stopping_min_delta": 0.001,
+  "minimum_epochs": 18,
+  "device": "cuda"
+}

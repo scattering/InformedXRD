@@ -1,0 +1,2080 @@
+{
+  "run_group": "$SCRATCH/xrdbench_clean_second_set_20260726/runs/job_867777",
+  "files": [
+    {
+      "path": "PatchTST/evaluation/rruff325/eval.json",
+      "bytes": 70552,
+      "sha256": "519e379e38441448c90b4d95565a8818bfa37db5d054dacd0f40b076e9f3b131"
+    },
+    {
+      "path": "PatchTST/evaluation/rruff325/failure.json",
+      "bytes": 85575,
+      "sha256": "a5b837e504078eb7364a9c5f69185920cd29dfa7aaf45f978ea8f6abae6e3be2"
+    },
+    {
+      "path": "PatchTST/evaluation/rruff325/posterior.npz",
+      "bytes": 140971,
+      "sha256": "27f8f314a76724fb872314d34629297d5d907d9359301df7bf10164f964f187f"
+    },
+    {
+      "path": "PatchTST/evaluation/rruff325/topology.json",
+      "bytes": 793,
+      "sha256": "08cabe728e0c110125ae47ffc7beb49dd43bb2fabbd850b1375cd93be16c3c4d"
+    },
+    {
+      "path": "PatchTST/evaluation/rruff325/topology_bootstrap.json",
+      "bytes": 2105,
+      "sha256": "899bba20506aa64f3c42a4d9497e2de8555a2d878f86844f7bfa226270bbca9b"
+    },
+    {
+      "path": "PatchTST/evaluation/rruff473/eval.json",
+      "bytes": 101693,
+      "sha256": "c4764d8de689a2a2e53c0a327da2fd4151dfd86054de02f2a4ce057488059cca"
+    },
+    {
+      "path": "PatchTST/evaluation/rruff473/failure.json",
+      "bytes": 124390,
+      "sha256": "42a32ab1d0ed285c6b640c84fae3bf6440051747359d82642a14ad090624a24d"
+    },
+    {
+      "path": "PatchTST/evaluation/rruff473/posterior.npz",
+      "bytes": 200519,
+      "sha256": "64e91ef7e465a6e2ee3c349d7dc8e77e85312ce7589ff78bc10f0c101b0eb768"
+    },
+    {
+      "path": "PatchTST/evaluation/rruff473/topology.json",
+      "bytes": 796,
+      "sha256": "1dd33b07f7356cdb8edb30d7f3959ead129d5fc28dd6eaff5fa5a67c6ebba687"
+    },
+    {
+      "path": "PatchTST/evaluation/rruff473/topology_bootstrap.json",
+      "bytes": 2106,
+      "sha256": "76c244eb88e74551493e23356a481626216b0f7db53826c9bdc13782628faa63"
+    },
+    {
+      "path": "PatchTST/repo/.git/HEAD",
+      "bytes": 21,
+      "sha256": "28d25bf82af4c0e2b72f50959b2beb859e3e60b9630a5e8c603dad4ddb2b6e80"
+    },
+    {
+      "path": "PatchTST/repo/.git/config",
+      "bytes": 259,
+      "sha256": "505f816b689eb857c14f7a5f813f4ade3b625609f6fa1756603e27c584b7f2da"
+    },
+    {
+      "path": "PatchTST/repo/.git/description",
+      "bytes": 73,
+      "sha256": "85ab6c163d43a17ea9cf7788308bca1466f1b0a8d1cc92e26e9bf63da4062aee"
+    },
+    {
+      "path": "PatchTST/repo/.git/hooks/applypatch-msg.sample",
+      "bytes": 482,
+      "sha256": "8bf35846bc3d90db12f711dd961292eb1c617b6f62c2c4e702706b71f2a897b2"
+    },
+    {
+      "path": "PatchTST/repo/.git/hooks/commit-msg.sample",
+      "bytes": 900,
+      "sha256": "3aa1d8934de407e8dd617e2b73612d04d225d9adbea20626b10945d8ab4f4f4a"
+    },
+    {
+      "path": "PatchTST/repo/.git/hooks/fsmonitor-watchman.sample",
+      "bytes": 4726,
+      "sha256": "e0549964e93897b519bd8e333c037e51fff0f88ba13e086a331592bf801fa1d0"
+    },
+    {
+      "path": "PatchTST/repo/.git/hooks/post-update.sample",
+      "bytes": 193,
+      "sha256": "d0d00b057e31fbe8207f3a1496797050fcadad75df883842e979a965bd6a298f"
+    },
+    {
+      "path": "PatchTST/repo/.git/hooks/pre-applypatch.sample",
+      "bytes": 428,
+      "sha256": "0e01aa4a2a7387a2d06a058113c18faa58e8191b840b45529db82c8ab39521c2"
+    },
+    {
+      "path": "PatchTST/repo/.git/hooks/pre-commit.sample",
+      "bytes": 1653,
+      "sha256": "4d44c83bc3c0271d2ecd328b1d08d9af89f928511c02dcd4a4e81b761b6df1f6"
+    },
+    {
+      "path": "PatchTST/repo/.git/hooks/pre-merge-commit.sample",
+      "bytes": 420,
+      "sha256": "6e9d4320214965de9ec5bf4a94cde33d9f0c32c8085926277664d0f494fef7cc"
+    },
+    {
+      "path": "PatchTST/repo/.git/hooks/pre-push.sample",
+      "bytes": 1378,
+      "sha256": "329a5f4509a242b8d1916ec617f85a5383190b34ac35d414224091ed9ceb2dd6"
+    },
+    {
+      "path": "PatchTST/repo/.git/hooks/pre-rebase.sample",
+      "bytes": 4902,
+      "sha256": "c1dd258307167752e34fc068c7c00cb2579341fea2b345fde037e718f53158ba"
+    },
+    {
+      "path": "PatchTST/repo/.git/hooks/pre-receive.sample",
+      "bytes": 548,
+      "sha256": "f6db83ee6e0153ace9f9de7a0a15f4902e33ebd3051b5f4d4587c9a5c8a07659"
+    },
+    {
+      "path": "PatchTST/repo/.git/hooks/prepare-commit-msg.sample",
+      "bytes": 1496,
+      "sha256": "cc523274bd28fe45bbc580bbb5a9312fe88b2bb5ae5b845919c20618a34e1b03"
+    },
+    {
+      "path": "PatchTST/repo/.git/hooks/push-to-checkout.sample",
+      "bytes": 2787,
+      "sha256": "e1acad23702af2ad4c58bd616d399ab8f0fe5a470f044f20ac497aded0f45ec5"
+    },
+    {
+      "path": "PatchTST/repo/.git/hooks/sendemail-validate.sample",
+      "bytes": 2312,
+      "sha256": "23a33477f01ffe5246b46a9d1db7c39d73d193ce19ed4116e00cbb031ec5f2eb"
+    },
+    {
+      "path": "PatchTST/repo/.git/hooks/update.sample",
+      "bytes": 3654,
+      "sha256": "1b21448c0c321a3004d8db76adc43d14b8b3c948dadc57795ffe8e5f0726aae1"
+    },
+    {
+      "path": "PatchTST/repo/.git/index",
+      "bytes": 4738,
+      "sha256": "8890c19f2dfbfdd623335394510e32faceb02f05a3aa93bf69207c74825b95a5"
+    },
+    {
+      "path": "PatchTST/repo/.git/info/exclude",
+      "bytes": 240,
+      "sha256": "6671fe83b7a07c8932ee89164d1f2793b2318058eb8b98dc5c06ee0a5a3b0ec1"
+    },
+    {
+      "path": "PatchTST/repo/.git/logs/HEAD",
+      "bytes": 213,
+      "sha256": "ea194b909b6d0d45388eb07f7f1f2e6d63df25b5ff9929d9e580b234e58bfdc2"
+    },
+    {
+      "path": "PatchTST/repo/.git/logs/refs/heads/main",
+      "bytes": 213,
+      "sha256": "ea194b909b6d0d45388eb07f7f1f2e6d63df25b5ff9929d9e580b234e58bfdc2"
+    },
+    {
+      "path": "PatchTST/repo/.git/logs/refs/remotes/origin/HEAD",
+      "bytes": 213,
+      "sha256": "ea194b909b6d0d45388eb07f7f1f2e6d63df25b5ff9929d9e580b234e58bfdc2"
+    },
+    {
+      "path": "PatchTST/repo/.git/objects/pack/pack-c73642b2bbe2f52ffe17cdb068e26c2b37176c92.idx",
+      "bytes": 50604,
+      "sha256": "37eecf010dccdb64579a8cd8c1c0d9136f5705386d12e14dc658c3288221a9ad"
+    },
+    {
+      "path": "PatchTST/repo/.git/objects/pack/pack-c73642b2bbe2f52ffe17cdb068e26c2b37176c92.pack",
+      "bytes": 405986760,
+      "sha256": "659e2353c07d3046e3bcd1c4670ecda5b7acd43022d96bc05a94e1a613bbcc7a"
+    },
+    {
+      "path": "PatchTST/repo/.git/objects/pack/pack-c73642b2bbe2f52ffe17cdb068e26c2b37176c92.rev",
+      "bytes": 7128,
+      "sha256": "5e3e33f7930af32e6d614ac0f1d1becb1a54d9bb278523f16e71e618848b483a"
+    },
+    {
+      "path": "PatchTST/repo/.git/packed-refs",
+      "bytes": 112,
+      "sha256": "6faf6684a4d31147c25f4a97d8998fa369ac14418f3dd6799f190ac727ca22fd"
+    },
+    {
+      "path": "PatchTST/repo/.git/refs/heads/main",
+      "bytes": 41,
+      "sha256": "3f1247137bb82271afdc798a421640d32d093cf32863034b6e6209e8f824ec31"
+    },
+    {
+      "path": "PatchTST/repo/.git/refs/remotes/origin/HEAD",
+      "bytes": 30,
+      "sha256": "2bb6a24aa0fc6c484100f5d51a29bbad841cd2c755f5d93faa204e5dbb4eb2b4"
+    },
+    {
+      "path": "PatchTST/repo/.gitignore",
+      "bytes": 200,
+      "sha256": "7bff81afd2ea455ccdac60e13a3174ef52c12f69cc4ec5cb051438b9c3b6ff3a"
+    },
+    {
+      "path": "PatchTST/repo/CGCNN_atom_emb.json",
+      "bytes": 28675,
+      "sha256": "759b2f6fadee8a62c855d1eff32b6d3cce6981f1be33227b03711b125605b7e5"
+    },
+    {
+      "path": "PatchTST/repo/LICENSE",
+      "bytes": 1056,
+      "sha256": "75486ea0af9309140ca6e2c401d7e67bea8f4892344e5707f6394dc5e83dfc44"
+    },
+    {
+      "path": "PatchTST/repo/README.md",
+      "bytes": 1438,
+      "sha256": "388fb057f5e6e726ae4f93c2a2528b484522650cc21696a963e2abd928857e96"
+    },
+    {
+      "path": "PatchTST/repo/__pycache__/train.cpython-39.pyc",
+      "bytes": 8248,
+      "sha256": "532af394397b569981098b915899cf56ad5d5ca354127b5af387e8e41a78ce55"
+    },
+    {
+      "path": "PatchTST/repo/checkpoints/spg-PatchTST_lr0.00025_bs128_2026-07-26 14:08:41_100/args.json",
+      "bytes": 487,
+      "sha256": "66180cfecf785f3d1060bc9cf258aebee6e16ce7d28ce0fe0a689309c2b7f250"
+    },
+    {
+      "path": "PatchTST/repo/checkpoints/spg-PatchTST_lr0.00025_bs128_2026-07-26 14:08:41_100/checkpoint.pth",
+      "bytes": 21033333,
+      "sha256": "2bb2f4ec2ac2ebcbd4423c7946bd91f701d75f0d146d2b97938d7ea373e6b1d7"
+    },
+    {
+      "path": "PatchTST/repo/dataset/__pycache__/dataset.cpython-39.pyc",
+      "bytes": 3809,
+      "sha256": "1f72cf743a1c88f2ea3af3ec74d0845b7413ed1a41137ad465955f160bdcc48c"
+    },
+    {
+      "path": "PatchTST/repo/dataset/__pycache__/pt_shard_dataset.cpython-39.pyc",
+      "bytes": 1797,
+      "sha256": "2b94716373835db20eb670f20c3eb2e8d5ef72b8512d59d0561e4cc693e572b4"
+    },
+    {
+      "path": "PatchTST/repo/dataset/dataset.py",
+      "bytes": 4781,
+      "sha256": "36a465fb0346f38309c3ff33f3c3a9472ec7e8e71b5fdeb2081b03e0bf81df45"
+    },
+    {
+      "path": "PatchTST/repo/dataset/parse.py",
+      "bytes": 2497,
+      "sha256": "f8b8a5e95fd3724cb600efa2f3c6945c2135eeea848f979377b0826c88547b2c"
+    },
+    {
+      "path": "PatchTST/repo/dataset/pt_shard_dataset.py",
+      "bytes": 1587,
+      "sha256": "20245e366babde17d5684fe66ef454c25bbfd7bc3a5d0e35d5a0159779f710d7"
+    },
+    {
+      "path": "PatchTST/repo/layers/AutoCorrelation.py",
+      "bytes": 7343,
+      "sha256": "a483fe7236b37906200a6aac4da4cdc3969df1e4a195a6c4c58da8bc34db73d5"
+    },
+    {
+      "path": "PatchTST/repo/layers/Autoformer_EncDec.py",
+      "bytes": 6830,
+      "sha256": "fc9efb43be3a762f990084fc08718f5de7b9e99873bba6ea2a94b63c4b75827f"
+    },
+    {
+      "path": "PatchTST/repo/layers/Embed.py",
+      "bytes": 7909,
+      "sha256": "96a92a15847c8c67f43c5f9ecc25bcc713833ff6b6285f0675159069dc5bcbdb"
+    },
+    {
+      "path": "PatchTST/repo/layers/SelfAttention_Family.py",
+      "bytes": 12057,
+      "sha256": "32efaaf9613f24bb1db8928b8fff480bda2b0d5414e9792a96f48fcb24e64e7b"
+    },
+    {
+      "path": "PatchTST/repo/layers/StandardNorm.py",
+      "bytes": 2184,
+      "sha256": "3f690dc5fc0e395d4f1ffe6396717548d18bd04f4518258308bbe5f392703f5f"
+    },
+    {
+      "path": "PatchTST/repo/layers/Transformer_EncDec.py",
+      "bytes": 4928,
+      "sha256": "ee73e1bad5b679d7d921883640b62582d76d7bb8047cf521e847569e54533eda"
+    },
+    {
+      "path": "PatchTST/repo/layers/__pycache__/Embed.cpython-39.pyc",
+      "bytes": 8693,
+      "sha256": "8e1572cd318b6fa369d2b7e88449a156e924ec2c87b647dd9b20ec575ba4c5a8"
+    },
+    {
+      "path": "PatchTST/repo/layers/__pycache__/SelfAttention_Family.cpython-39.pyc",
+      "bytes": 9120,
+      "sha256": "7dc4ed651b8604d6a0de6fbeaa1ba4a3c3c7f8f5bb95ceeb501e8d2f9445c0ef"
+    },
+    {
+      "path": "PatchTST/repo/layers/__pycache__/Transformer_EncDec.cpython-39.pyc",
+      "bytes": 4618,
+      "sha256": "dcd828766711375ed5e0bb1253071669853301c8e353b2324bc5aff9ce82c42d"
+    },
+    {
+      "path": "PatchTST/repo/main.py",
+      "bytes": 3893,
+      "sha256": "a1ccf47fa5cb8bd3c4c4b623afbf815793b0421f2610cd320491f3d2ab33e7d6"
+    },
+    {
+      "path": "PatchTST/repo/model/BiGRU.py",
+      "bytes": 673,
+      "sha256": "4e18ae50df0453a35d4be47b8e758cd41ece28a3b12444db5e9dc76d503df2b1"
+    },
+    {
+      "path": "PatchTST/repo/model/BiLSTM.py",
+      "bytes": 683,
+      "sha256": "e72c5e7b8fca58fb05e83e5b7241d86f04b5c0280cdb2458184294e1b969d673"
+    },
+    {
+      "path": "PatchTST/repo/model/BiRNN.py",
+      "bytes": 673,
+      "sha256": "01cbbc9ff843d7e2699fe2b8d77d6e072ccb88707cad7a52d609ff687dabe182"
+    },
+    {
+      "path": "PatchTST/repo/model/CNN1.py",
+      "bytes": 1833,
+      "sha256": "197737a2fc428f89e3efc8037f64fb851dcae043b694f6fa891b8e6035d7a42c"
+    },
+    {
+      "path": "PatchTST/repo/model/CNN10.py",
+      "bytes": 1224,
+      "sha256": "e557f50bd0076bf145d34109e0526227aa6aaff7e508a9df3f84a9e1be8b8af5"
+    },
+    {
+      "path": "PatchTST/repo/model/CNN11.py",
+      "bytes": 1530,
+      "sha256": "a7251f6111183db66466ebc24542befc1b6da43b14888fc2b24c0da7f5c41079"
+    },
+    {
+      "path": "PatchTST/repo/model/CNN2.py",
+      "bytes": 1417,
+      "sha256": "48b83e1e735c14486ceddf4f939335e5221c8ad1e96129c0a698940c80529147"
+    },
+    {
+      "path": "PatchTST/repo/model/CNN3.py",
+      "bytes": 1410,
+      "sha256": "f655df104ef713e96ad4232eeff058c20cbdb29490ff995e9fc2f973ec4e8108"
+    },
+    {
+      "path": "PatchTST/repo/model/CNN4.py",
+      "bytes": 2280,
+      "sha256": "8f83d96926961c1ff1ef6b16b7471b2fb839262488bb19c9d0f97bef94ccb8d1"
+    },
+    {
+      "path": "PatchTST/repo/model/CNN5.py",
+      "bytes": 1164,
+      "sha256": "9a067794469bca208fe67cf17ce5678f7a3f274d18b77673bc6723777816b37f"
+    },
+    {
+      "path": "PatchTST/repo/model/CNN6.py",
+      "bytes": 1739,
+      "sha256": "c2ec45e977919bf77f48741d0f6256db3cc6125a76518a81d584f977420549ff"
+    },
+    {
+      "path": "PatchTST/repo/model/CNN7.py",
+      "bytes": 2339,
+      "sha256": "e067f3fc797949c3e64123cd15f514595c297a167ff15c5e2a4aa29d2648b431"
+    },
+    {
+      "path": "PatchTST/repo/model/CNN8.py",
+      "bytes": 3197,
+      "sha256": "414cb5fa5ee6fcc7fc2f7f11b0adb0623e6a0ffc091c4097f85db4f617c95dce"
+    },
+    {
+      "path": "PatchTST/repo/model/CNN9.py",
+      "bytes": 1101,
+      "sha256": "106f126545f026459ecc756957ea244b857ab8489ca2d53a20be2c6490d161fd"
+    },
+    {
+      "path": "PatchTST/repo/model/GRU.py",
+      "bytes": 660,
+      "sha256": "03fc3527fafe073546ab1b917b8372e41a4b474aa016581be3547c6dd8d9d63e"
+    },
+    {
+      "path": "PatchTST/repo/model/LSTM.py",
+      "bytes": 657,
+      "sha256": "19c7e6d99155cc92a57875b5da28ccfe1e80c66b0561753671517ce7ddc560aa"
+    },
+    {
+      "path": "PatchTST/repo/model/MLP.py",
+      "bytes": 1116,
+      "sha256": "6313586b6864048a3249b86647bd6685bc0cd1ebad979e994e5599b1600623fb"
+    },
+    {
+      "path": "PatchTST/repo/model/PatchTST.py",
+      "bytes": 3825,
+      "sha256": "7e44297e53c73bdb0bf1ff4a35055f7a1a62bd07561f39ad629dd4b2fbe907d3"
+    },
+    {
+      "path": "PatchTST/repo/model/RNN.py",
+      "bytes": 649,
+      "sha256": "96738ca42e62b8be365997afde2c5ec7a9a0e0dfba1cd7a4db19e304753e9391"
+    },
+    {
+      "path": "PatchTST/repo/model/Transformer.py",
+      "bytes": 1046,
+      "sha256": "e498afea4a636d68756dec0d9e7327c7f11692a41f7b0019364e54bc4668ba4d"
+    },
+    {
+      "path": "PatchTST/repo/model/__pycache__/BiLSTM.cpython-39.pyc",
+      "bytes": 1106,
+      "sha256": "02dc20685572bffc0e8c9437ae8493902ed254ca500d9730d0cc56026d69cd0f"
+    },
+    {
+      "path": "PatchTST/repo/model/__pycache__/CNN10.cpython-39.pyc",
+      "bytes": 1374,
+      "sha256": "735452f077dce8011f798676f6fcdde63dab7ef0fbcabf26fe4eddf91abc86b3"
+    },
+    {
+      "path": "PatchTST/repo/model/__pycache__/PatchTST.cpython-39.pyc",
+      "bytes": 3368,
+      "sha256": "4b5a43a9c1c27c98abe4a15e204556581daa6e0a325bf36c34e5cb026a5d6483"
+    },
+    {
+      "path": "PatchTST/repo/model/iTransformer.py",
+      "bytes": 2655,
+      "sha256": "6f3e93db0ed8f6a04fa38649704af3c7c76bb793d5b1c1f8993bdd5ae0732e89"
+    },
+    {
+      "path": "PatchTST/repo/requirements.txt",
+      "bytes": 1316,
+      "sha256": "3d1517d8afd0c0d8752ba68dc95663520a59308933f484fa0592c4827fd3de75"
+    },
+    {
+      "path": "PatchTST/repo/sh/run.sh",
+      "bytes": 468,
+      "sha256": "7b6ce71d18f26340a26dedfb2c70ab2ff005c730cbba43f470801a840f935175"
+    },
+    {
+      "path": "PatchTST/repo/train.py",
+      "bytes": 11673,
+      "sha256": "be07fe15b721a5d3f240ba6d15e0861a2ede352a44dc99aa1b9cde401e71a822"
+    },
+    {
+      "path": "PatchTST/repo/utils/__pycache__/masking.cpython-39.pyc",
+      "bytes": 1493,
+      "sha256": "9074272969c4c1dab6cff7b1be9a475070af68de578f41d52501624389287830"
+    },
+    {
+      "path": "PatchTST/repo/utils/__pycache__/tools.cpython-39.pyc",
+      "bytes": 4418,
+      "sha256": "eaaff83b46dd1367a52e48c77faa48169038022f6841ddd45bc69ab321ca99ad"
+    },
+    {
+      "path": "PatchTST/repo/utils/masking.py",
+      "bytes": 831,
+      "sha256": "b1cd54c8b85920abaaa133767397090aa89159567aba3fb5523cc4646ffcd285"
+    },
+    {
+      "path": "PatchTST/repo/utils/tools.py",
+      "bytes": 4811,
+      "sha256": "a5914438b3d64e95f1ec47ace73965f25f3d043afaedb945ffde52961568280b"
+    },
+    {
+      "path": "PatchTST/repo/wandb/debug-internal.log",
+      "bytes": 1719,
+      "sha256": "c9455f909dc8592275ab108d4a5e9fe78a471a81541b74e009f3a48cfc277f84"
+    },
+    {
+      "path": "PatchTST/repo/wandb/debug.log",
+      "bytes": 3198,
+      "sha256": "5adc85d6e7b0df8495bcd4039990419b83b5ec33688c3af26c3471767824340c"
+    },
+    {
+      "path": "PatchTST/repo/wandb/offline-run-20260726_140841-hme73cmi/files/requirements.txt",
+      "bytes": 2132,
+      "sha256": "a5a92b181379454d5c60269265eec4446554bd9887e30698ab9aa6d156983ffe"
+    },
+    {
+      "path": "PatchTST/repo/wandb/offline-run-20260726_140841-hme73cmi/logs/debug-core.log",
+      "bytes": 6891,
+      "sha256": "20a91aae6180c8a1b5e4c9d775a84364a2b81c910a7b67c48ec50b4c3cde5a8a"
+    },
+    {
+      "path": "PatchTST/repo/wandb/offline-run-20260726_140841-hme73cmi/logs/debug-internal.log",
+      "bytes": 1719,
+      "sha256": "c9455f909dc8592275ab108d4a5e9fe78a471a81541b74e009f3a48cfc277f84"
+    },
+    {
+      "path": "PatchTST/repo/wandb/offline-run-20260726_140841-hme73cmi/logs/debug.log",
+      "bytes": 3198,
+      "sha256": "5adc85d6e7b0df8495bcd4039990419b83b5ec33688c3af26c3471767824340c"
+    },
+    {
+      "path": "PatchTST/repo/wandb/offline-run-20260726_140841-hme73cmi/run-hme73cmi.wandb",
+      "bytes": 684307,
+      "sha256": "a6e23f5061ac9e9fc3ad76f4567d7ace0e56e772130cb162bd3b052937b4fda0"
+    },
+    {
+      "path": "PatchTST/run.err",
+      "bytes": 320446,
+      "sha256": "8a5be81ca405493f8a014960e7d47a22b5d1a9b037fcef2b6f74e70ee571268f"
+    },
+    {
+      "path": "PatchTST/run.log",
+      "bytes": 11687,
+      "sha256": "5813919d4287f061969844b42c85268f2e8a985d496c70bab7a2aed101862018"
+    },
+    {
+      "path": "PatchTST/selected_checkpoint.txt",
+      "bytes": 176,
+      "sha256": "3a9be12816931ecf99a1699b1842e40767e00ec9ca7b88fe5b62833b1340120f"
+    },
+    {
+      "path": "bilstm/evaluation/rruff325/eval.json",
+      "bytes": 70831,
+      "sha256": "bc43c8c83d43f69209efc93311417854f6824cec27a76d66415fb57e14e7e2ab"
+    },
+    {
+      "path": "bilstm/evaluation/rruff325/failure.json",
+      "bytes": 85857,
+      "sha256": "d5ee2ba78510f675ffddfdfbdb4a1999f0c0e978d083d003edfeed8612f0d9a4"
+    },
+    {
+      "path": "bilstm/evaluation/rruff325/posterior.npz",
+      "bytes": 140008,
+      "sha256": "4e34a409b185fd3361fcfc6f57ba651693cbe0e5636093be0659282f67b7dab8"
+    },
+    {
+      "path": "bilstm/evaluation/rruff325/topology.json",
+      "bytes": 790,
+      "sha256": "880b63b83b2a026e02b20078d0c0ec1c94b960089bc8418a1ea0c30da5a53baa"
+    },
+    {
+      "path": "bilstm/evaluation/rruff325/topology_bootstrap.json",
+      "bytes": 2083,
+      "sha256": "43c9d392737304b7eb0e5f0ecb2ecd8381afb76960d01a8159e8cc4bcadd4af7"
+    },
+    {
+      "path": "bilstm/evaluation/rruff473/eval.json",
+      "bytes": 102033,
+      "sha256": "06af7f9adb94f1ac5cd0f44e4aa4c9931b169527c9761082f62230459a349c87"
+    },
+    {
+      "path": "bilstm/evaluation/rruff473/failure.json",
+      "bytes": 124732,
+      "sha256": "fa6dac66e50f49d169c193ef631b6a567f435621952b27b1aaf5622123375467"
+    },
+    {
+      "path": "bilstm/evaluation/rruff473/posterior.npz",
+      "bytes": 199208,
+      "sha256": "1d7c39abfef3941241cf789a5572ad81a9c24d6473df81b91451f218f0063852"
+    },
+    {
+      "path": "bilstm/evaluation/rruff473/topology.json",
+      "bytes": 792,
+      "sha256": "a8412cdcc5ccfcf09e3e9943e9025906c5c926a1e355c489b2344ff5e4022c16"
+    },
+    {
+      "path": "bilstm/evaluation/rruff473/topology_bootstrap.json",
+      "bytes": 2098,
+      "sha256": "2854c2c945a752db2d550b94bbb50b40034c5285e06ce3c2accede96b4aaf61a"
+    },
+    {
+      "path": "bilstm/repo/.git/HEAD",
+      "bytes": 21,
+      "sha256": "28d25bf82af4c0e2b72f50959b2beb859e3e60b9630a5e8c603dad4ddb2b6e80"
+    },
+    {
+      "path": "bilstm/repo/.git/config",
+      "bytes": 259,
+      "sha256": "505f816b689eb857c14f7a5f813f4ade3b625609f6fa1756603e27c584b7f2da"
+    },
+    {
+      "path": "bilstm/repo/.git/description",
+      "bytes": 73,
+      "sha256": "85ab6c163d43a17ea9cf7788308bca1466f1b0a8d1cc92e26e9bf63da4062aee"
+    },
+    {
+      "path": "bilstm/repo/.git/hooks/applypatch-msg.sample",
+      "bytes": 482,
+      "sha256": "8bf35846bc3d90db12f711dd961292eb1c617b6f62c2c4e702706b71f2a897b2"
+    },
+    {
+      "path": "bilstm/repo/.git/hooks/commit-msg.sample",
+      "bytes": 900,
+      "sha256": "3aa1d8934de407e8dd617e2b73612d04d225d9adbea20626b10945d8ab4f4f4a"
+    },
+    {
+      "path": "bilstm/repo/.git/hooks/fsmonitor-watchman.sample",
+      "bytes": 4726,
+      "sha256": "e0549964e93897b519bd8e333c037e51fff0f88ba13e086a331592bf801fa1d0"
+    },
+    {
+      "path": "bilstm/repo/.git/hooks/post-update.sample",
+      "bytes": 193,
+      "sha256": "d0d00b057e31fbe8207f3a1496797050fcadad75df883842e979a965bd6a298f"
+    },
+    {
+      "path": "bilstm/repo/.git/hooks/pre-applypatch.sample",
+      "bytes": 428,
+      "sha256": "0e01aa4a2a7387a2d06a058113c18faa58e8191b840b45529db82c8ab39521c2"
+    },
+    {
+      "path": "bilstm/repo/.git/hooks/pre-commit.sample",
+      "bytes": 1653,
+      "sha256": "4d44c83bc3c0271d2ecd328b1d08d9af89f928511c02dcd4a4e81b761b6df1f6"
+    },
+    {
+      "path": "bilstm/repo/.git/hooks/pre-merge-commit.sample",
+      "bytes": 420,
+      "sha256": "6e9d4320214965de9ec5bf4a94cde33d9f0c32c8085926277664d0f494fef7cc"
+    },
+    {
+      "path": "bilstm/repo/.git/hooks/pre-push.sample",
+      "bytes": 1378,
+      "sha256": "329a5f4509a242b8d1916ec617f85a5383190b34ac35d414224091ed9ceb2dd6"
+    },
+    {
+      "path": "bilstm/repo/.git/hooks/pre-rebase.sample",
+      "bytes": 4902,
+      "sha256": "c1dd258307167752e34fc068c7c00cb2579341fea2b345fde037e718f53158ba"
+    },
+    {
+      "path": "bilstm/repo/.git/hooks/pre-receive.sample",
+      "bytes": 548,
+      "sha256": "f6db83ee6e0153ace9f9de7a0a15f4902e33ebd3051b5f4d4587c9a5c8a07659"
+    },
+    {
+      "path": "bilstm/repo/.git/hooks/prepare-commit-msg.sample",
+      "bytes": 1496,
+      "sha256": "cc523274bd28fe45bbc580bbb5a9312fe88b2bb5ae5b845919c20618a34e1b03"
+    },
+    {
+      "path": "bilstm/repo/.git/hooks/push-to-checkout.sample",
+      "bytes": 2787,
+      "sha256": "e1acad23702af2ad4c58bd616d399ab8f0fe5a470f044f20ac497aded0f45ec5"
+    },
+    {
+      "path": "bilstm/repo/.git/hooks/sendemail-validate.sample",
+      "bytes": 2312,
+      "sha256": "23a33477f01ffe5246b46a9d1db7c39d73d193ce19ed4116e00cbb031ec5f2eb"
+    },
+    {
+      "path": "bilstm/repo/.git/hooks/update.sample",
+      "bytes": 3654,
+      "sha256": "1b21448c0c321a3004d8db76adc43d14b8b3c948dadc57795ffe8e5f0726aae1"
+    },
+    {
+      "path": "bilstm/repo/.git/index",
+      "bytes": 4738,
+      "sha256": "8890c19f2dfbfdd623335394510e32faceb02f05a3aa93bf69207c74825b95a5"
+    },
+    {
+      "path": "bilstm/repo/.git/info/exclude",
+      "bytes": 240,
+      "sha256": "6671fe83b7a07c8932ee89164d1f2793b2318058eb8b98dc5c06ee0a5a3b0ec1"
+    },
+    {
+      "path": "bilstm/repo/.git/logs/HEAD",
+      "bytes": 213,
+      "sha256": "ea194b909b6d0d45388eb07f7f1f2e6d63df25b5ff9929d9e580b234e58bfdc2"
+    },
+    {
+      "path": "bilstm/repo/.git/logs/refs/heads/main",
+      "bytes": 213,
+      "sha256": "ea194b909b6d0d45388eb07f7f1f2e6d63df25b5ff9929d9e580b234e58bfdc2"
+    },
+    {
+      "path": "bilstm/repo/.git/logs/refs/remotes/origin/HEAD",
+      "bytes": 213,
+      "sha256": "ea194b909b6d0d45388eb07f7f1f2e6d63df25b5ff9929d9e580b234e58bfdc2"
+    },
+    {
+      "path": "bilstm/repo/.git/objects/pack/pack-c73642b2bbe2f52ffe17cdb068e26c2b37176c92.idx",
+      "bytes": 50604,
+      "sha256": "37eecf010dccdb64579a8cd8c1c0d9136f5705386d12e14dc658c3288221a9ad"
+    },
+    {
+      "path": "bilstm/repo/.git/objects/pack/pack-c73642b2bbe2f52ffe17cdb068e26c2b37176c92.pack",
+      "bytes": 405986760,
+      "sha256": "659e2353c07d3046e3bcd1c4670ecda5b7acd43022d96bc05a94e1a613bbcc7a"
+    },
+    {
+      "path": "bilstm/repo/.git/objects/pack/pack-c73642b2bbe2f52ffe17cdb068e26c2b37176c92.rev",
+      "bytes": 7128,
+      "sha256": "5e3e33f7930af32e6d614ac0f1d1becb1a54d9bb278523f16e71e618848b483a"
+    },
+    {
+      "path": "bilstm/repo/.git/packed-refs",
+      "bytes": 112,
+      "sha256": "6faf6684a4d31147c25f4a97d8998fa369ac14418f3dd6799f190ac727ca22fd"
+    },
+    {
+      "path": "bilstm/repo/.git/refs/heads/main",
+      "bytes": 41,
+      "sha256": "3f1247137bb82271afdc798a421640d32d093cf32863034b6e6209e8f824ec31"
+    },
+    {
+      "path": "bilstm/repo/.git/refs/remotes/origin/HEAD",
+      "bytes": 30,
+      "sha256": "2bb6a24aa0fc6c484100f5d51a29bbad841cd2c755f5d93faa204e5dbb4eb2b4"
+    },
+    {
+      "path": "bilstm/repo/.gitignore",
+      "bytes": 200,
+      "sha256": "7bff81afd2ea455ccdac60e13a3174ef52c12f69cc4ec5cb051438b9c3b6ff3a"
+    },
+    {
+      "path": "bilstm/repo/CGCNN_atom_emb.json",
+      "bytes": 28675,
+      "sha256": "759b2f6fadee8a62c855d1eff32b6d3cce6981f1be33227b03711b125605b7e5"
+    },
+    {
+      "path": "bilstm/repo/LICENSE",
+      "bytes": 1056,
+      "sha256": "75486ea0af9309140ca6e2c401d7e67bea8f4892344e5707f6394dc5e83dfc44"
+    },
+    {
+      "path": "bilstm/repo/README.md",
+      "bytes": 1438,
+      "sha256": "388fb057f5e6e726ae4f93c2a2528b484522650cc21696a963e2abd928857e96"
+    },
+    {
+      "path": "bilstm/repo/__pycache__/train.cpython-39.pyc",
+      "bytes": 8248,
+      "sha256": "532af394397b569981098b915899cf56ad5d5ca354127b5af387e8e41a78ce55"
+    },
+    {
+      "path": "bilstm/repo/checkpoints/spg-bilstm_lr0.00025_bs128_2026-07-26 14:08:41_100/args.json",
+      "bytes": 485,
+      "sha256": "99a7ce11cff7b2951dbc3c6827907bbfff0f5aec2aa85653bbb935d410a742e4"
+    },
+    {
+      "path": "bilstm/repo/checkpoints/spg-bilstm_lr0.00025_bs128_2026-07-26 14:08:41_100/checkpoint.pth",
+      "bytes": 1455420,
+      "sha256": "06d2fcbda6e9b0a92fd99da46123b77aae6ecf6f43283ef7ca43ebc8212112a1"
+    },
+    {
+      "path": "bilstm/repo/dataset/__pycache__/dataset.cpython-39.pyc",
+      "bytes": 3809,
+      "sha256": "1f72cf743a1c88f2ea3af3ec74d0845b7413ed1a41137ad465955f160bdcc48c"
+    },
+    {
+      "path": "bilstm/repo/dataset/__pycache__/pt_shard_dataset.cpython-39.pyc",
+      "bytes": 1797,
+      "sha256": "2b94716373835db20eb670f20c3eb2e8d5ef72b8512d59d0561e4cc693e572b4"
+    },
+    {
+      "path": "bilstm/repo/dataset/dataset.py",
+      "bytes": 4781,
+      "sha256": "36a465fb0346f38309c3ff33f3c3a9472ec7e8e71b5fdeb2081b03e0bf81df45"
+    },
+    {
+      "path": "bilstm/repo/dataset/parse.py",
+      "bytes": 2497,
+      "sha256": "f8b8a5e95fd3724cb600efa2f3c6945c2135eeea848f979377b0826c88547b2c"
+    },
+    {
+      "path": "bilstm/repo/dataset/pt_shard_dataset.py",
+      "bytes": 1587,
+      "sha256": "20245e366babde17d5684fe66ef454c25bbfd7bc3a5d0e35d5a0159779f710d7"
+    },
+    {
+      "path": "bilstm/repo/layers/AutoCorrelation.py",
+      "bytes": 7343,
+      "sha256": "a483fe7236b37906200a6aac4da4cdc3969df1e4a195a6c4c58da8bc34db73d5"
+    },
+    {
+      "path": "bilstm/repo/layers/Autoformer_EncDec.py",
+      "bytes": 6830,
+      "sha256": "fc9efb43be3a762f990084fc08718f5de7b9e99873bba6ea2a94b63c4b75827f"
+    },
+    {
+      "path": "bilstm/repo/layers/Embed.py",
+      "bytes": 7909,
+      "sha256": "96a92a15847c8c67f43c5f9ecc25bcc713833ff6b6285f0675159069dc5bcbdb"
+    },
+    {
+      "path": "bilstm/repo/layers/SelfAttention_Family.py",
+      "bytes": 12057,
+      "sha256": "32efaaf9613f24bb1db8928b8fff480bda2b0d5414e9792a96f48fcb24e64e7b"
+    },
+    {
+      "path": "bilstm/repo/layers/StandardNorm.py",
+      "bytes": 2184,
+      "sha256": "3f690dc5fc0e395d4f1ffe6396717548d18bd04f4518258308bbe5f392703f5f"
+    },
+    {
+      "path": "bilstm/repo/layers/Transformer_EncDec.py",
+      "bytes": 4928,
+      "sha256": "ee73e1bad5b679d7d921883640b62582d76d7bb8047cf521e847569e54533eda"
+    },
+    {
+      "path": "bilstm/repo/layers/__pycache__/Embed.cpython-39.pyc",
+      "bytes": 8693,
+      "sha256": "8e1572cd318b6fa369d2b7e88449a156e924ec2c87b647dd9b20ec575ba4c5a8"
+    },
+    {
+      "path": "bilstm/repo/layers/__pycache__/SelfAttention_Family.cpython-39.pyc",
+      "bytes": 9120,
+      "sha256": "7dc4ed651b8604d6a0de6fbeaa1ba4a3c3c7f8f5bb95ceeb501e8d2f9445c0ef"
+    },
+    {
+      "path": "bilstm/repo/layers/__pycache__/Transformer_EncDec.cpython-39.pyc",
+      "bytes": 4618,
+      "sha256": "dcd828766711375ed5e0bb1253071669853301c8e353b2324bc5aff9ce82c42d"
+    },
+    {
+      "path": "bilstm/repo/main.py",
+      "bytes": 3893,
+      "sha256": "a1ccf47fa5cb8bd3c4c4b623afbf815793b0421f2610cd320491f3d2ab33e7d6"
+    },
+    {
+      "path": "bilstm/repo/model/BiGRU.py",
+      "bytes": 673,
+      "sha256": "4e18ae50df0453a35d4be47b8e758cd41ece28a3b12444db5e9dc76d503df2b1"
+    },
+    {
+      "path": "bilstm/repo/model/BiLSTM.py",
+      "bytes": 683,
+      "sha256": "e72c5e7b8fca58fb05e83e5b7241d86f04b5c0280cdb2458184294e1b969d673"
+    },
+    {
+      "path": "bilstm/repo/model/BiRNN.py",
+      "bytes": 673,
+      "sha256": "01cbbc9ff843d7e2699fe2b8d77d6e072ccb88707cad7a52d609ff687dabe182"
+    },
+    {
+      "path": "bilstm/repo/model/CNN1.py",
+      "bytes": 1833,
+      "sha256": "197737a2fc428f89e3efc8037f64fb851dcae043b694f6fa891b8e6035d7a42c"
+    },
+    {
+      "path": "bilstm/repo/model/CNN10.py",
+      "bytes": 1224,
+      "sha256": "e557f50bd0076bf145d34109e0526227aa6aaff7e508a9df3f84a9e1be8b8af5"
+    },
+    {
+      "path": "bilstm/repo/model/CNN11.py",
+      "bytes": 1530,
+      "sha256": "a7251f6111183db66466ebc24542befc1b6da43b14888fc2b24c0da7f5c41079"
+    },
+    {
+      "path": "bilstm/repo/model/CNN2.py",
+      "bytes": 1417,
+      "sha256": "48b83e1e735c14486ceddf4f939335e5221c8ad1e96129c0a698940c80529147"
+    },
+    {
+      "path": "bilstm/repo/model/CNN3.py",
+      "bytes": 1410,
+      "sha256": "f655df104ef713e96ad4232eeff058c20cbdb29490ff995e9fc2f973ec4e8108"
+    },
+    {
+      "path": "bilstm/repo/model/CNN4.py",
+      "bytes": 2280,
+      "sha256": "8f83d96926961c1ff1ef6b16b7471b2fb839262488bb19c9d0f97bef94ccb8d1"
+    },
+    {
+      "path": "bilstm/repo/model/CNN5.py",
+      "bytes": 1164,
+      "sha256": "9a067794469bca208fe67cf17ce5678f7a3f274d18b77673bc6723777816b37f"
+    },
+    {
+      "path": "bilstm/repo/model/CNN6.py",
+      "bytes": 1739,
+      "sha256": "c2ec45e977919bf77f48741d0f6256db3cc6125a76518a81d584f977420549ff"
+    },
+    {
+      "path": "bilstm/repo/model/CNN7.py",
+      "bytes": 2339,
+      "sha256": "e067f3fc797949c3e64123cd15f514595c297a167ff15c5e2a4aa29d2648b431"
+    },
+    {
+      "path": "bilstm/repo/model/CNN8.py",
+      "bytes": 3197,
+      "sha256": "414cb5fa5ee6fcc7fc2f7f11b0adb0623e6a0ffc091c4097f85db4f617c95dce"
+    },
+    {
+      "path": "bilstm/repo/model/CNN9.py",
+      "bytes": 1101,
+      "sha256": "106f126545f026459ecc756957ea244b857ab8489ca2d53a20be2c6490d161fd"
+    },
+    {
+      "path": "bilstm/repo/model/GRU.py",
+      "bytes": 660,
+      "sha256": "03fc3527fafe073546ab1b917b8372e41a4b474aa016581be3547c6dd8d9d63e"
+    },
+    {
+      "path": "bilstm/repo/model/LSTM.py",
+      "bytes": 657,
+      "sha256": "19c7e6d99155cc92a57875b5da28ccfe1e80c66b0561753671517ce7ddc560aa"
+    },
+    {
+      "path": "bilstm/repo/model/MLP.py",
+      "bytes": 1116,
+      "sha256": "6313586b6864048a3249b86647bd6685bc0cd1ebad979e994e5599b1600623fb"
+    },
+    {
+      "path": "bilstm/repo/model/PatchTST.py",
+      "bytes": 3825,
+      "sha256": "7e44297e53c73bdb0bf1ff4a35055f7a1a62bd07561f39ad629dd4b2fbe907d3"
+    },
+    {
+      "path": "bilstm/repo/model/RNN.py",
+      "bytes": 649,
+      "sha256": "96738ca42e62b8be365997afde2c5ec7a9a0e0dfba1cd7a4db19e304753e9391"
+    },
+    {
+      "path": "bilstm/repo/model/Transformer.py",
+      "bytes": 1046,
+      "sha256": "e498afea4a636d68756dec0d9e7327c7f11692a41f7b0019364e54bc4668ba4d"
+    },
+    {
+      "path": "bilstm/repo/model/__pycache__/BiLSTM.cpython-39.pyc",
+      "bytes": 1106,
+      "sha256": "02dc20685572bffc0e8c9437ae8493902ed254ca500d9730d0cc56026d69cd0f"
+    },
+    {
+      "path": "bilstm/repo/model/__pycache__/CNN10.cpython-39.pyc",
+      "bytes": 1374,
+      "sha256": "735452f077dce8011f798676f6fcdde63dab7ef0fbcabf26fe4eddf91abc86b3"
+    },
+    {
+      "path": "bilstm/repo/model/__pycache__/PatchTST.cpython-39.pyc",
+      "bytes": 3368,
+      "sha256": "4b5a43a9c1c27c98abe4a15e204556581daa6e0a325bf36c34e5cb026a5d6483"
+    },
+    {
+      "path": "bilstm/repo/model/iTransformer.py",
+      "bytes": 2655,
+      "sha256": "6f3e93db0ed8f6a04fa38649704af3c7c76bb793d5b1c1f8993bdd5ae0732e89"
+    },
+    {
+      "path": "bilstm/repo/requirements.txt",
+      "bytes": 1316,
+      "sha256": "3d1517d8afd0c0d8752ba68dc95663520a59308933f484fa0592c4827fd3de75"
+    },
+    {
+      "path": "bilstm/repo/sh/run.sh",
+      "bytes": 468,
+      "sha256": "7b6ce71d18f26340a26dedfb2c70ab2ff005c730cbba43f470801a840f935175"
+    },
+    {
+      "path": "bilstm/repo/train.py",
+      "bytes": 11673,
+      "sha256": "be07fe15b721a5d3f240ba6d15e0861a2ede352a44dc99aa1b9cde401e71a822"
+    },
+    {
+      "path": "bilstm/repo/utils/__pycache__/masking.cpython-39.pyc",
+      "bytes": 1493,
+      "sha256": "9074272969c4c1dab6cff7b1be9a475070af68de578f41d52501624389287830"
+    },
+    {
+      "path": "bilstm/repo/utils/__pycache__/tools.cpython-39.pyc",
+      "bytes": 4418,
+      "sha256": "eaaff83b46dd1367a52e48c77faa48169038022f6841ddd45bc69ab321ca99ad"
+    },
+    {
+      "path": "bilstm/repo/utils/masking.py",
+      "bytes": 831,
+      "sha256": "b1cd54c8b85920abaaa133767397090aa89159567aba3fb5523cc4646ffcd285"
+    },
+    {
+      "path": "bilstm/repo/utils/tools.py",
+      "bytes": 4811,
+      "sha256": "a5914438b3d64e95f1ec47ace73965f25f3d043afaedb945ffde52961568280b"
+    },
+    {
+      "path": "bilstm/repo/wandb/debug-internal.log",
+      "bytes": 1718,
+      "sha256": "d02afe41d4e35ee36d1359f09c10337c0a12a799832ad5f8a6b2a38ee69da7d8"
+    },
+    {
+      "path": "bilstm/repo/wandb/debug.log",
+      "bytes": 3192,
+      "sha256": "27f5b3398486edb231173c431cceb155c0856f892bd0577d3fe5d96438769700"
+    },
+    {
+      "path": "bilstm/repo/wandb/offline-run-20260726_140841-txf8wjev/files/requirements.txt",
+      "bytes": 2132,
+      "sha256": "a5a92b181379454d5c60269265eec4446554bd9887e30698ab9aa6d156983ffe"
+    },
+    {
+      "path": "bilstm/repo/wandb/offline-run-20260726_140841-txf8wjev/logs/debug-core.log",
+      "bytes": 6891,
+      "sha256": "20a91aae6180c8a1b5e4c9d775a84364a2b81c910a7b67c48ec50b4c3cde5a8a"
+    },
+    {
+      "path": "bilstm/repo/wandb/offline-run-20260726_140841-txf8wjev/logs/debug-internal.log",
+      "bytes": 1718,
+      "sha256": "d02afe41d4e35ee36d1359f09c10337c0a12a799832ad5f8a6b2a38ee69da7d8"
+    },
+    {
+      "path": "bilstm/repo/wandb/offline-run-20260726_140841-txf8wjev/logs/debug.log",
+      "bytes": 3192,
+      "sha256": "27f5b3398486edb231173c431cceb155c0856f892bd0577d3fe5d96438769700"
+    },
+    {
+      "path": "bilstm/repo/wandb/offline-run-20260726_140841-txf8wjev/run-txf8wjev.wandb",
+      "bytes": 3819127,
+      "sha256": "f7b1d9cd32727b912cbba36f13deab9428d1bf50046b6d09f1dfa47a2137bd42"
+    },
+    {
+      "path": "bilstm/run.err",
+      "bytes": 1809560,
+      "sha256": "f9b039d0a60d8a04ec41843af518c28a55d01d72ef9014eac8b7176fe68bf7df"
+    },
+    {
+      "path": "bilstm/run.log",
+      "bytes": 11601,
+      "sha256": "9a67b79a26ce1515b981125dfd6b8366aa2c103917ab965ec00b067599e4d306"
+    },
+    {
+      "path": "bilstm/selected_checkpoint.txt",
+      "bytes": 172,
+      "sha256": "e46f537395552c0ef6e49dc2351bcf9ccccce361c9c13f3433853f1e19b0c3b9"
+    },
+    {
+      "path": "cnn10/evaluation/rruff325/eval.json",
+      "bytes": 70535,
+      "sha256": "f83fe085ab087c0c57e7b2e67ab653734d955ca84ed2756b27283d42c213216c"
+    },
+    {
+      "path": "cnn10/evaluation/rruff325/failure.json",
+      "bytes": 85560,
+      "sha256": "86d0b0a39f8e7f3801135d1784d27173856bea0a27099f426b7b52ee2275cc7c"
+    },
+    {
+      "path": "cnn10/evaluation/rruff325/posterior.npz",
+      "bytes": 143224,
+      "sha256": "4385dab36a93f632923ee4c49eb75192bad5886dd00738154aab8d4c039c2683"
+    },
+    {
+      "path": "cnn10/evaluation/rruff325/topology.json",
+      "bytes": 789,
+      "sha256": "1cd2a169d47824c201db709bc847f2f19276fca9302280d1b95ed1227fc08abb"
+    },
+    {
+      "path": "cnn10/evaluation/rruff325/topology_bootstrap.json",
+      "bytes": 2098,
+      "sha256": "72ac2006fd94257ff78daf9da9a9aecd50e7ddad47b7275a1e6e0706e8109666"
+    },
+    {
+      "path": "cnn10/evaluation/rruff473/eval.json",
+      "bytes": 101648,
+      "sha256": "eae3e6d5b6cb18058a223576865a41625ed2fda106c2fc9d0908f051d8bbe5b2"
+    },
+    {
+      "path": "cnn10/evaluation/rruff473/failure.json",
+      "bytes": 124348,
+      "sha256": "a90d9c1fbe10f80bfaedfab53b9ebeb8db799de4ccc191803e56ccdfa3600702"
+    },
+    {
+      "path": "cnn10/evaluation/rruff473/posterior.npz",
+      "bytes": 203973,
+      "sha256": "8ae2c9ab2821f1a52fc423ab3fd5fb25057e4538d2e7c1d6256c499cb6c21789"
+    },
+    {
+      "path": "cnn10/evaluation/rruff473/topology.json",
+      "bytes": 790,
+      "sha256": "5e24d99e3b30e6209cd2d10ac6aa8cdd463b987649dec76762592901833a793c"
+    },
+    {
+      "path": "cnn10/evaluation/rruff473/topology_bootstrap.json",
+      "bytes": 2099,
+      "sha256": "55acaa34e035dda9fe51869099876df6b0cda697b3cd58d603eb89c9d6fcac22"
+    },
+    {
+      "path": "cnn10/repo/.git/HEAD",
+      "bytes": 21,
+      "sha256": "28d25bf82af4c0e2b72f50959b2beb859e3e60b9630a5e8c603dad4ddb2b6e80"
+    },
+    {
+      "path": "cnn10/repo/.git/config",
+      "bytes": 259,
+      "sha256": "505f816b689eb857c14f7a5f813f4ade3b625609f6fa1756603e27c584b7f2da"
+    },
+    {
+      "path": "cnn10/repo/.git/description",
+      "bytes": 73,
+      "sha256": "85ab6c163d43a17ea9cf7788308bca1466f1b0a8d1cc92e26e9bf63da4062aee"
+    },
+    {
+      "path": "cnn10/repo/.git/hooks/applypatch-msg.sample",
+      "bytes": 482,
+      "sha256": "8bf35846bc3d90db12f711dd961292eb1c617b6f62c2c4e702706b71f2a897b2"
+    },
+    {
+      "path": "cnn10/repo/.git/hooks/commit-msg.sample",
+      "bytes": 900,
+      "sha256": "3aa1d8934de407e8dd617e2b73612d04d225d9adbea20626b10945d8ab4f4f4a"
+    },
+    {
+      "path": "cnn10/repo/.git/hooks/fsmonitor-watchman.sample",
+      "bytes": 4726,
+      "sha256": "e0549964e93897b519bd8e333c037e51fff0f88ba13e086a331592bf801fa1d0"
+    },
+    {
+      "path": "cnn10/repo/.git/hooks/post-update.sample",
+      "bytes": 193,
+      "sha256": "d0d00b057e31fbe8207f3a1496797050fcadad75df883842e979a965bd6a298f"
+    },
+    {
+      "path": "cnn10/repo/.git/hooks/pre-applypatch.sample",
+      "bytes": 428,
+      "sha256": "0e01aa4a2a7387a2d06a058113c18faa58e8191b840b45529db82c8ab39521c2"
+    },
+    {
+      "path": "cnn10/repo/.git/hooks/pre-commit.sample",
+      "bytes": 1653,
+      "sha256": "4d44c83bc3c0271d2ecd328b1d08d9af89f928511c02dcd4a4e81b761b6df1f6"
+    },
+    {
+      "path": "cnn10/repo/.git/hooks/pre-merge-commit.sample",
+      "bytes": 420,
+      "sha256": "6e9d4320214965de9ec5bf4a94cde33d9f0c32c8085926277664d0f494fef7cc"
+    },
+    {
+      "path": "cnn10/repo/.git/hooks/pre-push.sample",
+      "bytes": 1378,
+      "sha256": "329a5f4509a242b8d1916ec617f85a5383190b34ac35d414224091ed9ceb2dd6"
+    },
+    {
+      "path": "cnn10/repo/.git/hooks/pre-rebase.sample",
+      "bytes": 4902,
+      "sha256": "c1dd258307167752e34fc068c7c00cb2579341fea2b345fde037e718f53158ba"
+    },
+    {
+      "path": "cnn10/repo/.git/hooks/pre-receive.sample",
+      "bytes": 548,
+      "sha256": "f6db83ee6e0153ace9f9de7a0a15f4902e33ebd3051b5f4d4587c9a5c8a07659"
+    },
+    {
+      "path": "cnn10/repo/.git/hooks/prepare-commit-msg.sample",
+      "bytes": 1496,
+      "sha256": "cc523274bd28fe45bbc580bbb5a9312fe88b2bb5ae5b845919c20618a34e1b03"
+    },
+    {
+      "path": "cnn10/repo/.git/hooks/push-to-checkout.sample",
+      "bytes": 2787,
+      "sha256": "e1acad23702af2ad4c58bd616d399ab8f0fe5a470f044f20ac497aded0f45ec5"
+    },
+    {
+      "path": "cnn10/repo/.git/hooks/sendemail-validate.sample",
+      "bytes": 2312,
+      "sha256": "23a33477f01ffe5246b46a9d1db7c39d73d193ce19ed4116e00cbb031ec5f2eb"
+    },
+    {
+      "path": "cnn10/repo/.git/hooks/update.sample",
+      "bytes": 3654,
+      "sha256": "1b21448c0c321a3004d8db76adc43d14b8b3c948dadc57795ffe8e5f0726aae1"
+    },
+    {
+      "path": "cnn10/repo/.git/index",
+      "bytes": 4738,
+      "sha256": "8890c19f2dfbfdd623335394510e32faceb02f05a3aa93bf69207c74825b95a5"
+    },
+    {
+      "path": "cnn10/repo/.git/info/exclude",
+      "bytes": 240,
+      "sha256": "6671fe83b7a07c8932ee89164d1f2793b2318058eb8b98dc5c06ee0a5a3b0ec1"
+    },
+    {
+      "path": "cnn10/repo/.git/logs/HEAD",
+      "bytes": 213,
+      "sha256": "ea194b909b6d0d45388eb07f7f1f2e6d63df25b5ff9929d9e580b234e58bfdc2"
+    },
+    {
+      "path": "cnn10/repo/.git/logs/refs/heads/main",
+      "bytes": 213,
+      "sha256": "ea194b909b6d0d45388eb07f7f1f2e6d63df25b5ff9929d9e580b234e58bfdc2"
+    },
+    {
+      "path": "cnn10/repo/.git/logs/refs/remotes/origin/HEAD",
+      "bytes": 213,
+      "sha256": "ea194b909b6d0d45388eb07f7f1f2e6d63df25b5ff9929d9e580b234e58bfdc2"
+    },
+    {
+      "path": "cnn10/repo/.git/objects/pack/pack-c73642b2bbe2f52ffe17cdb068e26c2b37176c92.idx",
+      "bytes": 50604,
+      "sha256": "37eecf010dccdb64579a8cd8c1c0d9136f5705386d12e14dc658c3288221a9ad"
+    },
+    {
+      "path": "cnn10/repo/.git/objects/pack/pack-c73642b2bbe2f52ffe17cdb068e26c2b37176c92.pack",
+      "bytes": 405986760,
+      "sha256": "659e2353c07d3046e3bcd1c4670ecda5b7acd43022d96bc05a94e1a613bbcc7a"
+    },
+    {
+      "path": "cnn10/repo/.git/objects/pack/pack-c73642b2bbe2f52ffe17cdb068e26c2b37176c92.rev",
+      "bytes": 7128,
+      "sha256": "5e3e33f7930af32e6d614ac0f1d1becb1a54d9bb278523f16e71e618848b483a"
+    },
+    {
+      "path": "cnn10/repo/.git/packed-refs",
+      "bytes": 112,
+      "sha256": "6faf6684a4d31147c25f4a97d8998fa369ac14418f3dd6799f190ac727ca22fd"
+    },
+    {
+      "path": "cnn10/repo/.git/refs/heads/main",
+      "bytes": 41,
+      "sha256": "3f1247137bb82271afdc798a421640d32d093cf32863034b6e6209e8f824ec31"
+    },
+    {
+      "path": "cnn10/repo/.git/refs/remotes/origin/HEAD",
+      "bytes": 30,
+      "sha256": "2bb6a24aa0fc6c484100f5d51a29bbad841cd2c755f5d93faa204e5dbb4eb2b4"
+    },
+    {
+      "path": "cnn10/repo/.gitignore",
+      "bytes": 200,
+      "sha256": "7bff81afd2ea455ccdac60e13a3174ef52c12f69cc4ec5cb051438b9c3b6ff3a"
+    },
+    {
+      "path": "cnn10/repo/CGCNN_atom_emb.json",
+      "bytes": 28675,
+      "sha256": "759b2f6fadee8a62c855d1eff32b6d3cce6981f1be33227b03711b125605b7e5"
+    },
+    {
+      "path": "cnn10/repo/LICENSE",
+      "bytes": 1056,
+      "sha256": "75486ea0af9309140ca6e2c401d7e67bea8f4892344e5707f6394dc5e83dfc44"
+    },
+    {
+      "path": "cnn10/repo/README.md",
+      "bytes": 1438,
+      "sha256": "388fb057f5e6e726ae4f93c2a2528b484522650cc21696a963e2abd928857e96"
+    },
+    {
+      "path": "cnn10/repo/__pycache__/train.cpython-39.pyc",
+      "bytes": 8248,
+      "sha256": "532af394397b569981098b915899cf56ad5d5ca354127b5af387e8e41a78ce55"
+    },
+    {
+      "path": "cnn10/repo/checkpoints/spg-cnn10_lr0.00025_bs128_2026-07-26 14:08:41_100/args.json",
+      "bytes": 484,
+      "sha256": "bac62b638963986f5c116742d2cf494584b56afd079aaea9d5e9b34a8d01b239"
+    },
+    {
+      "path": "cnn10/repo/checkpoints/spg-cnn10_lr0.00025_bs128_2026-07-26 14:08:41_100/checkpoint.pth",
+      "bytes": 41877109,
+      "sha256": "ebe7eb192d02e803316380c1248763b015eebf02e5f8643c64005e54a7ea23bf"
+    },
+    {
+      "path": "cnn10/repo/dataset/__pycache__/dataset.cpython-39.pyc",
+      "bytes": 3809,
+      "sha256": "1f72cf743a1c88f2ea3af3ec74d0845b7413ed1a41137ad465955f160bdcc48c"
+    },
+    {
+      "path": "cnn10/repo/dataset/__pycache__/pt_shard_dataset.cpython-39.pyc",
+      "bytes": 1797,
+      "sha256": "2b94716373835db20eb670f20c3eb2e8d5ef72b8512d59d0561e4cc693e572b4"
+    },
+    {
+      "path": "cnn10/repo/dataset/dataset.py",
+      "bytes": 4781,
+      "sha256": "36a465fb0346f38309c3ff33f3c3a9472ec7e8e71b5fdeb2081b03e0bf81df45"
+    },
+    {
+      "path": "cnn10/repo/dataset/parse.py",
+      "bytes": 2497,
+      "sha256": "f8b8a5e95fd3724cb600efa2f3c6945c2135eeea848f979377b0826c88547b2c"
+    },
+    {
+      "path": "cnn10/repo/dataset/pt_shard_dataset.py",
+      "bytes": 1587,
+      "sha256": "20245e366babde17d5684fe66ef454c25bbfd7bc3a5d0e35d5a0159779f710d7"
+    },
+    {
+      "path": "cnn10/repo/layers/AutoCorrelation.py",
+      "bytes": 7343,
+      "sha256": "a483fe7236b37906200a6aac4da4cdc3969df1e4a195a6c4c58da8bc34db73d5"
+    },
+    {
+      "path": "cnn10/repo/layers/Autoformer_EncDec.py",
+      "bytes": 6830,
+      "sha256": "fc9efb43be3a762f990084fc08718f5de7b9e99873bba6ea2a94b63c4b75827f"
+    },
+    {
+      "path": "cnn10/repo/layers/Embed.py",
+      "bytes": 7909,
+      "sha256": "96a92a15847c8c67f43c5f9ecc25bcc713833ff6b6285f0675159069dc5bcbdb"
+    },
+    {
+      "path": "cnn10/repo/layers/SelfAttention_Family.py",
+      "bytes": 12057,
+      "sha256": "32efaaf9613f24bb1db8928b8fff480bda2b0d5414e9792a96f48fcb24e64e7b"
+    },
+    {
+      "path": "cnn10/repo/layers/StandardNorm.py",
+      "bytes": 2184,
+      "sha256": "3f690dc5fc0e395d4f1ffe6396717548d18bd04f4518258308bbe5f392703f5f"
+    },
+    {
+      "path": "cnn10/repo/layers/Transformer_EncDec.py",
+      "bytes": 4928,
+      "sha256": "ee73e1bad5b679d7d921883640b62582d76d7bb8047cf521e847569e54533eda"
+    },
+    {
+      "path": "cnn10/repo/layers/__pycache__/Embed.cpython-39.pyc",
+      "bytes": 8693,
+      "sha256": "8e1572cd318b6fa369d2b7e88449a156e924ec2c87b647dd9b20ec575ba4c5a8"
+    },
+    {
+      "path": "cnn10/repo/layers/__pycache__/SelfAttention_Family.cpython-39.pyc",
+      "bytes": 9120,
+      "sha256": "7dc4ed651b8604d6a0de6fbeaa1ba4a3c3c7f8f5bb95ceeb501e8d2f9445c0ef"
+    },
+    {
+      "path": "cnn10/repo/layers/__pycache__/Transformer_EncDec.cpython-39.pyc",
+      "bytes": 4618,
+      "sha256": "dcd828766711375ed5e0bb1253071669853301c8e353b2324bc5aff9ce82c42d"
+    },
+    {
+      "path": "cnn10/repo/main.py",
+      "bytes": 3893,
+      "sha256": "a1ccf47fa5cb8bd3c4c4b623afbf815793b0421f2610cd320491f3d2ab33e7d6"
+    },
+    {
+      "path": "cnn10/repo/model/BiGRU.py",
+      "bytes": 673,
+      "sha256": "4e18ae50df0453a35d4be47b8e758cd41ece28a3b12444db5e9dc76d503df2b1"
+    },
+    {
+      "path": "cnn10/repo/model/BiLSTM.py",
+      "bytes": 683,
+      "sha256": "e72c5e7b8fca58fb05e83e5b7241d86f04b5c0280cdb2458184294e1b969d673"
+    },
+    {
+      "path": "cnn10/repo/model/BiRNN.py",
+      "bytes": 673,
+      "sha256": "01cbbc9ff843d7e2699fe2b8d77d6e072ccb88707cad7a52d609ff687dabe182"
+    },
+    {
+      "path": "cnn10/repo/model/CNN1.py",
+      "bytes": 1833,
+      "sha256": "197737a2fc428f89e3efc8037f64fb851dcae043b694f6fa891b8e6035d7a42c"
+    },
+    {
+      "path": "cnn10/repo/model/CNN10.py",
+      "bytes": 1224,
+      "sha256": "e557f50bd0076bf145d34109e0526227aa6aaff7e508a9df3f84a9e1be8b8af5"
+    },
+    {
+      "path": "cnn10/repo/model/CNN11.py",
+      "bytes": 1530,
+      "sha256": "a7251f6111183db66466ebc24542befc1b6da43b14888fc2b24c0da7f5c41079"
+    },
+    {
+      "path": "cnn10/repo/model/CNN2.py",
+      "bytes": 1417,
+      "sha256": "48b83e1e735c14486ceddf4f939335e5221c8ad1e96129c0a698940c80529147"
+    },
+    {
+      "path": "cnn10/repo/model/CNN3.py",
+      "bytes": 1410,
+      "sha256": "f655df104ef713e96ad4232eeff058c20cbdb29490ff995e9fc2f973ec4e8108"
+    },
+    {
+      "path": "cnn10/repo/model/CNN4.py",
+      "bytes": 2280,
+      "sha256": "8f83d96926961c1ff1ef6b16b7471b2fb839262488bb19c9d0f97bef94ccb8d1"
+    },
+    {
+      "path": "cnn10/repo/model/CNN5.py",
+      "bytes": 1164,
+      "sha256": "9a067794469bca208fe67cf17ce5678f7a3f274d18b77673bc6723777816b37f"
+    },
+    {
+      "path": "cnn10/repo/model/CNN6.py",
+      "bytes": 1739,
+      "sha256": "c2ec45e977919bf77f48741d0f6256db3cc6125a76518a81d584f977420549ff"
+    },
+    {
+      "path": "cnn10/repo/model/CNN7.py",
+      "bytes": 2339,
+      "sha256": "e067f3fc797949c3e64123cd15f514595c297a167ff15c5e2a4aa29d2648b431"
+    },
+    {
+      "path": "cnn10/repo/model/CNN8.py",
+      "bytes": 3197,
+      "sha256": "414cb5fa5ee6fcc7fc2f7f11b0adb0623e6a0ffc091c4097f85db4f617c95dce"
+    },
+    {
+      "path": "cnn10/repo/model/CNN9.py",
+      "bytes": 1101,
+      "sha256": "106f126545f026459ecc756957ea244b857ab8489ca2d53a20be2c6490d161fd"
+    },
+    {
+      "path": "cnn10/repo/model/GRU.py",
+      "bytes": 660,
+      "sha256": "03fc3527fafe073546ab1b917b8372e41a4b474aa016581be3547c6dd8d9d63e"
+    },
+    {
+      "path": "cnn10/repo/model/LSTM.py",
+      "bytes": 657,
+      "sha256": "19c7e6d99155cc92a57875b5da28ccfe1e80c66b0561753671517ce7ddc560aa"
+    },
+    {
+      "path": "cnn10/repo/model/MLP.py",
+      "bytes": 1116,
+      "sha256": "6313586b6864048a3249b86647bd6685bc0cd1ebad979e994e5599b1600623fb"
+    },
+    {
+      "path": "cnn10/repo/model/PatchTST.py",
+      "bytes": 3825,
+      "sha256": "7e44297e53c73bdb0bf1ff4a35055f7a1a62bd07561f39ad629dd4b2fbe907d3"
+    },
+    {
+      "path": "cnn10/repo/model/RNN.py",
+      "bytes": 649,
+      "sha256": "96738ca42e62b8be365997afde2c5ec7a9a0e0dfba1cd7a4db19e304753e9391"
+    },
+    {
+      "path": "cnn10/repo/model/Transformer.py",
+      "bytes": 1046,
+      "sha256": "e498afea4a636d68756dec0d9e7327c7f11692a41f7b0019364e54bc4668ba4d"
+    },
+    {
+      "path": "cnn10/repo/model/__pycache__/BiLSTM.cpython-39.pyc",
+      "bytes": 1106,
+      "sha256": "02dc20685572bffc0e8c9437ae8493902ed254ca500d9730d0cc56026d69cd0f"
+    },
+    {
+      "path": "cnn10/repo/model/__pycache__/CNN10.cpython-39.pyc",
+      "bytes": 1374,
+      "sha256": "735452f077dce8011f798676f6fcdde63dab7ef0fbcabf26fe4eddf91abc86b3"
+    },
+    {
+      "path": "cnn10/repo/model/__pycache__/PatchTST.cpython-39.pyc",
+      "bytes": 3368,
+      "sha256": "4b5a43a9c1c27c98abe4a15e204556581daa6e0a325bf36c34e5cb026a5d6483"
+    },
+    {
+      "path": "cnn10/repo/model/iTransformer.py",
+      "bytes": 2655,
+      "sha256": "6f3e93db0ed8f6a04fa38649704af3c7c76bb793d5b1c1f8993bdd5ae0732e89"
+    },
+    {
+      "path": "cnn10/repo/requirements.txt",
+      "bytes": 1316,
+      "sha256": "3d1517d8afd0c0d8752ba68dc95663520a59308933f484fa0592c4827fd3de75"
+    },
+    {
+      "path": "cnn10/repo/sh/run.sh",
+      "bytes": 468,
+      "sha256": "7b6ce71d18f26340a26dedfb2c70ab2ff005c730cbba43f470801a840f935175"
+    },
+    {
+      "path": "cnn10/repo/train.py",
+      "bytes": 11673,
+      "sha256": "be07fe15b721a5d3f240ba6d15e0861a2ede352a44dc99aa1b9cde401e71a822"
+    },
+    {
+      "path": "cnn10/repo/utils/__pycache__/masking.cpython-39.pyc",
+      "bytes": 1493,
+      "sha256": "9074272969c4c1dab6cff7b1be9a475070af68de578f41d52501624389287830"
+    },
+    {
+      "path": "cnn10/repo/utils/__pycache__/tools.cpython-39.pyc",
+      "bytes": 4418,
+      "sha256": "eaaff83b46dd1367a52e48c77faa48169038022f6841ddd45bc69ab321ca99ad"
+    },
+    {
+      "path": "cnn10/repo/utils/masking.py",
+      "bytes": 831,
+      "sha256": "b1cd54c8b85920abaaa133767397090aa89159567aba3fb5523cc4646ffcd285"
+    },
+    {
+      "path": "cnn10/repo/utils/tools.py",
+      "bytes": 4811,
+      "sha256": "a5914438b3d64e95f1ec47ace73965f25f3d043afaedb945ffde52961568280b"
+    },
+    {
+      "path": "cnn10/repo/wandb/debug-internal.log",
+      "bytes": 1720,
+      "sha256": "cb8f4b374fda2404b268b3f363e996d1418ef0822c7b5ac73922df785af075bf"
+    },
+    {
+      "path": "cnn10/repo/wandb/debug.log",
+      "bytes": 3189,
+      "sha256": "4fec1258429a182f69b90d50382555bdb974ab43e2323084a11ed3041eb85cd1"
+    },
+    {
+      "path": "cnn10/repo/wandb/offline-run-20260726_140841-0qxo4bbc/files/requirements.txt",
+      "bytes": 2132,
+      "sha256": "a5a92b181379454d5c60269265eec4446554bd9887e30698ab9aa6d156983ffe"
+    },
+    {
+      "path": "cnn10/repo/wandb/offline-run-20260726_140841-0qxo4bbc/logs/debug-core.log",
+      "bytes": 6891,
+      "sha256": "20a91aae6180c8a1b5e4c9d775a84364a2b81c910a7b67c48ec50b4c3cde5a8a"
+    },
+    {
+      "path": "cnn10/repo/wandb/offline-run-20260726_140841-0qxo4bbc/logs/debug-internal.log",
+      "bytes": 1720,
+      "sha256": "cb8f4b374fda2404b268b3f363e996d1418ef0822c7b5ac73922df785af075bf"
+    },
+    {
+      "path": "cnn10/repo/wandb/offline-run-20260726_140841-0qxo4bbc/logs/debug.log",
+      "bytes": 3189,
+      "sha256": "4fec1258429a182f69b90d50382555bdb974ab43e2323084a11ed3041eb85cd1"
+    },
+    {
+      "path": "cnn10/repo/wandb/offline-run-20260726_140841-0qxo4bbc/run-0qxo4bbc.wandb",
+      "bytes": 343169,
+      "sha256": "d94e77092b983805d2e5246ae156fa9814d2482fd17b89ec1e50c26f9703ad75"
+    },
+    {
+      "path": "cnn10/run.err",
+      "bytes": 155397,
+      "sha256": "a12fe8557cf2d366790d18cad2b2f7d35d132358212fbba8fee539e81ed40bd2"
+    },
+    {
+      "path": "cnn10/run.log",
+      "bytes": 11664,
+      "sha256": "66f818f11949edfa8de3ec396a42d3fd54d7e7b90a806056c7847c01256baa70"
+    },
+    {
+      "path": "cnn10/selected_checkpoint.txt",
+      "bytes": 170,
+      "sha256": "36388764eef24b8360b64a0c9b593038d7a573c2f8b700c56b82208cf2a36512"
+    },
+    {
+      "path": "original_models_common_grid/bigru/rruff325/eval.json",
+      "bytes": 70716,
+      "sha256": "0b0e1bef323f951ac04a7293ffba27efe2bc90c89b57e05bcd311c0026fe6fc1"
+    },
+    {
+      "path": "original_models_common_grid/bigru/rruff325/failure.json",
+      "bytes": 85795,
+      "sha256": "3503f21e1ff59d5ab374b00dcff4f6907d518e3fff1fe9446fb78c5a11a69a2c"
+    },
+    {
+      "path": "original_models_common_grid/bigru/rruff325/posterior.npz",
+      "bytes": 140667,
+      "sha256": "39c0c006c8c298ddab0dcb9dcee22ac957ef7b2024e1c1731579ce6f616a07fb"
+    },
+    {
+      "path": "original_models_common_grid/bigru/rruff325/topology.json",
+      "bytes": 806,
+      "sha256": "d2416ea6b84037a94ec644e0ee0b3f621786550a7fbf0a72878eb6916ffd45aa"
+    },
+    {
+      "path": "original_models_common_grid/bigru/rruff325/topology_bootstrap.json",
+      "bytes": 2110,
+      "sha256": "53d2f05d238ced3c8429be7bdbf5857fcd7f16f0961dbff77200d9a8c5bfe7b9"
+    },
+    {
+      "path": "original_models_common_grid/bigru/rruff473/eval.json",
+      "bytes": 101883,
+      "sha256": "fdfea8fc7d01bf2f86b2f75f4a790a6b844f2d831d40b47049c9e388e408da13"
+    },
+    {
+      "path": "original_models_common_grid/bigru/rruff473/failure.json",
+      "bytes": 124636,
+      "sha256": "8c2aa9b4b2980fff3ad1136689b38bea621c284ab4973f91d916e76b918696d6"
+    },
+    {
+      "path": "original_models_common_grid/bigru/rruff473/posterior.npz",
+      "bytes": 200009,
+      "sha256": "6850e028af36b1198b1cc5cefdc9ebf313d334ce734d8af63518ff0807ee2ac3"
+    },
+    {
+      "path": "original_models_common_grid/bigru/rruff473/topology.json",
+      "bytes": 809,
+      "sha256": "4cc02b65326d13af00789146e8f0d31f9f063afca84034a6f0b7b7a4c511738b"
+    },
+    {
+      "path": "original_models_common_grid/bigru/rruff473/topology_bootstrap.json",
+      "bytes": 2120,
+      "sha256": "3fe86736e18742d71ef40e4dd58fba8cc8ec36dfceeae4ddbcc383c30778298f"
+    },
+    {
+      "path": "original_models_common_grid/cnn11/rruff325/eval.json",
+      "bytes": 70361,
+      "sha256": "07de78974af0a46e5d24da8ae5345b65d4ebab980556a5c9b73fc6818ba260e1"
+    },
+    {
+      "path": "original_models_common_grid/cnn11/rruff325/failure.json",
+      "bytes": 85440,
+      "sha256": "ae9a059d3555a8269ac8d60f140f3ea6f08fe0360703222b41d5bbf358f7b43f"
+    },
+    {
+      "path": "original_models_common_grid/cnn11/rruff325/posterior.npz",
+      "bytes": 142877,
+      "sha256": "21c88107fd312a3a311b640052ffc4fc8ffb6ee8c9032cc2bf727f445a3126ae"
+    },
+    {
+      "path": "original_models_common_grid/cnn11/rruff325/topology.json",
+      "bytes": 806,
+      "sha256": "657a23e9e127efdfe7c938a153fef44f6bfeb97616166e2e299459b4863d062c"
+    },
+    {
+      "path": "original_models_common_grid/cnn11/rruff325/topology_bootstrap.json",
+      "bytes": 2112,
+      "sha256": "2265c20914225134fb5a852734afb8f65a282c476a1a23306b28b1e144dfe3a7"
+    },
+    {
+      "path": "original_models_common_grid/cnn11/rruff473/eval.json",
+      "bytes": 101477,
+      "sha256": "2660abf066c8a781b08853f513c584bdd32508f4a2dea5472fcdd3916f4e948b"
+    },
+    {
+      "path": "original_models_common_grid/cnn11/rruff473/failure.json",
+      "bytes": 124231,
+      "sha256": "6466a2d7ee39d238854d19e6afc91262a6bcc0229bc5364403767dacb302534a"
+    },
+    {
+      "path": "original_models_common_grid/cnn11/rruff473/posterior.npz",
+      "bytes": 203048,
+      "sha256": "476e7d36ef00c2ad9f918d503cb864136eb173c3846e8c2fa97556d152d12b09"
+    },
+    {
+      "path": "original_models_common_grid/cnn11/rruff473/topology.json",
+      "bytes": 807,
+      "sha256": "594aa974a90468e700de4b4e4e9f305e7444bb70748acca1b236cc5ffecbc2ce"
+    },
+    {
+      "path": "original_models_common_grid/cnn11/rruff473/topology_bootstrap.json",
+      "bytes": 2106,
+      "sha256": "873d933a52623f951b7b202d36470305925de49b347837a0b565a331174fc002"
+    },
+    {
+      "path": "original_models_common_grid/repo/.git/HEAD",
+      "bytes": 21,
+      "sha256": "28d25bf82af4c0e2b72f50959b2beb859e3e60b9630a5e8c603dad4ddb2b6e80"
+    },
+    {
+      "path": "original_models_common_grid/repo/.git/config",
+      "bytes": 259,
+      "sha256": "505f816b689eb857c14f7a5f813f4ade3b625609f6fa1756603e27c584b7f2da"
+    },
+    {
+      "path": "original_models_common_grid/repo/.git/description",
+      "bytes": 73,
+      "sha256": "85ab6c163d43a17ea9cf7788308bca1466f1b0a8d1cc92e26e9bf63da4062aee"
+    },
+    {
+      "path": "original_models_common_grid/repo/.git/hooks/applypatch-msg.sample",
+      "bytes": 482,
+      "sha256": "8bf35846bc3d90db12f711dd961292eb1c617b6f62c2c4e702706b71f2a897b2"
+    },
+    {
+      "path": "original_models_common_grid/repo/.git/hooks/commit-msg.sample",
+      "bytes": 900,
+      "sha256": "3aa1d8934de407e8dd617e2b73612d04d225d9adbea20626b10945d8ab4f4f4a"
+    },
+    {
+      "path": "original_models_common_grid/repo/.git/hooks/fsmonitor-watchman.sample",
+      "bytes": 4726,
+      "sha256": "e0549964e93897b519bd8e333c037e51fff0f88ba13e086a331592bf801fa1d0"
+    },
+    {
+      "path": "original_models_common_grid/repo/.git/hooks/post-update.sample",
+      "bytes": 193,
+      "sha256": "d0d00b057e31fbe8207f3a1496797050fcadad75df883842e979a965bd6a298f"
+    },
+    {
+      "path": "original_models_common_grid/repo/.git/hooks/pre-applypatch.sample",
+      "bytes": 428,
+      "sha256": "0e01aa4a2a7387a2d06a058113c18faa58e8191b840b45529db82c8ab39521c2"
+    },
+    {
+      "path": "original_models_common_grid/repo/.git/hooks/pre-commit.sample",
+      "bytes": 1653,
+      "sha256": "4d44c83bc3c0271d2ecd328b1d08d9af89f928511c02dcd4a4e81b761b6df1f6"
+    },
+    {
+      "path": "original_models_common_grid/repo/.git/hooks/pre-merge-commit.sample",
+      "bytes": 420,
+      "sha256": "6e9d4320214965de9ec5bf4a94cde33d9f0c32c8085926277664d0f494fef7cc"
+    },
+    {
+      "path": "original_models_common_grid/repo/.git/hooks/pre-push.sample",
+      "bytes": 1378,
+      "sha256": "329a5f4509a242b8d1916ec617f85a5383190b34ac35d414224091ed9ceb2dd6"
+    },
+    {
+      "path": "original_models_common_grid/repo/.git/hooks/pre-rebase.sample",
+      "bytes": 4902,
+      "sha256": "c1dd258307167752e34fc068c7c00cb2579341fea2b345fde037e718f53158ba"
+    },
+    {
+      "path": "original_models_common_grid/repo/.git/hooks/pre-receive.sample",
+      "bytes": 548,
+      "sha256": "f6db83ee6e0153ace9f9de7a0a15f4902e33ebd3051b5f4d4587c9a5c8a07659"
+    },
+    {
+      "path": "original_models_common_grid/repo/.git/hooks/prepare-commit-msg.sample",
+      "bytes": 1496,
+      "sha256": "cc523274bd28fe45bbc580bbb5a9312fe88b2bb5ae5b845919c20618a34e1b03"
+    },
+    {
+      "path": "original_models_common_grid/repo/.git/hooks/push-to-checkout.sample",
+      "bytes": 2787,
+      "sha256": "e1acad23702af2ad4c58bd616d399ab8f0fe5a470f044f20ac497aded0f45ec5"
+    },
+    {
+      "path": "original_models_common_grid/repo/.git/hooks/sendemail-validate.sample",
+      "bytes": 2312,
+      "sha256": "23a33477f01ffe5246b46a9d1db7c39d73d193ce19ed4116e00cbb031ec5f2eb"
+    },
+    {
+      "path": "original_models_common_grid/repo/.git/hooks/update.sample",
+      "bytes": 3654,
+      "sha256": "1b21448c0c321a3004d8db76adc43d14b8b3c948dadc57795ffe8e5f0726aae1"
+    },
+    {
+      "path": "original_models_common_grid/repo/.git/index",
+      "bytes": 4738,
+      "sha256": "8890c19f2dfbfdd623335394510e32faceb02f05a3aa93bf69207c74825b95a5"
+    },
+    {
+      "path": "original_models_common_grid/repo/.git/info/exclude",
+      "bytes": 240,
+      "sha256": "6671fe83b7a07c8932ee89164d1f2793b2318058eb8b98dc5c06ee0a5a3b0ec1"
+    },
+    {
+      "path": "original_models_common_grid/repo/.git/logs/HEAD",
+      "bytes": 213,
+      "sha256": "ea194b909b6d0d45388eb07f7f1f2e6d63df25b5ff9929d9e580b234e58bfdc2"
+    },
+    {
+      "path": "original_models_common_grid/repo/.git/logs/refs/heads/main",
+      "bytes": 213,
+      "sha256": "ea194b909b6d0d45388eb07f7f1f2e6d63df25b5ff9929d9e580b234e58bfdc2"
+    },
+    {
+      "path": "original_models_common_grid/repo/.git/logs/refs/remotes/origin/HEAD",
+      "bytes": 213,
+      "sha256": "ea194b909b6d0d45388eb07f7f1f2e6d63df25b5ff9929d9e580b234e58bfdc2"
+    },
+    {
+      "path": "original_models_common_grid/repo/.git/objects/pack/pack-c73642b2bbe2f52ffe17cdb068e26c2b37176c92.idx",
+      "bytes": 50604,
+      "sha256": "37eecf010dccdb64579a8cd8c1c0d9136f5705386d12e14dc658c3288221a9ad"
+    },
+    {
+      "path": "original_models_common_grid/repo/.git/objects/pack/pack-c73642b2bbe2f52ffe17cdb068e26c2b37176c92.pack",
+      "bytes": 405986760,
+      "sha256": "659e2353c07d3046e3bcd1c4670ecda5b7acd43022d96bc05a94e1a613bbcc7a"
+    },
+    {
+      "path": "original_models_common_grid/repo/.git/objects/pack/pack-c73642b2bbe2f52ffe17cdb068e26c2b37176c92.rev",
+      "bytes": 7128,
+      "sha256": "5e3e33f7930af32e6d614ac0f1d1becb1a54d9bb278523f16e71e618848b483a"
+    },
+    {
+      "path": "original_models_common_grid/repo/.git/packed-refs",
+      "bytes": 112,
+      "sha256": "6faf6684a4d31147c25f4a97d8998fa369ac14418f3dd6799f190ac727ca22fd"
+    },
+    {
+      "path": "original_models_common_grid/repo/.git/refs/heads/main",
+      "bytes": 41,
+      "sha256": "3f1247137bb82271afdc798a421640d32d093cf32863034b6e6209e8f824ec31"
+    },
+    {
+      "path": "original_models_common_grid/repo/.git/refs/remotes/origin/HEAD",
+      "bytes": 30,
+      "sha256": "2bb6a24aa0fc6c484100f5d51a29bbad841cd2c755f5d93faa204e5dbb4eb2b4"
+    },
+    {
+      "path": "original_models_common_grid/repo/.gitignore",
+      "bytes": 200,
+      "sha256": "7bff81afd2ea455ccdac60e13a3174ef52c12f69cc4ec5cb051438b9c3b6ff3a"
+    },
+    {
+      "path": "original_models_common_grid/repo/CGCNN_atom_emb.json",
+      "bytes": 28675,
+      "sha256": "759b2f6fadee8a62c855d1eff32b6d3cce6981f1be33227b03711b125605b7e5"
+    },
+    {
+      "path": "original_models_common_grid/repo/LICENSE",
+      "bytes": 1056,
+      "sha256": "75486ea0af9309140ca6e2c401d7e67bea8f4892344e5707f6394dc5e83dfc44"
+    },
+    {
+      "path": "original_models_common_grid/repo/README.md",
+      "bytes": 1438,
+      "sha256": "388fb057f5e6e726ae4f93c2a2528b484522650cc21696a963e2abd928857e96"
+    },
+    {
+      "path": "original_models_common_grid/repo/__pycache__/train.cpython-39.pyc",
+      "bytes": 8248,
+      "sha256": "532af394397b569981098b915899cf56ad5d5ca354127b5af387e8e41a78ce55"
+    },
+    {
+      "path": "original_models_common_grid/repo/dataset/__pycache__/dataset.cpython-39.pyc",
+      "bytes": 3809,
+      "sha256": "1f72cf743a1c88f2ea3af3ec74d0845b7413ed1a41137ad465955f160bdcc48c"
+    },
+    {
+      "path": "original_models_common_grid/repo/dataset/__pycache__/pt_shard_dataset.cpython-39.pyc",
+      "bytes": 1797,
+      "sha256": "2b94716373835db20eb670f20c3eb2e8d5ef72b8512d59d0561e4cc693e572b4"
+    },
+    {
+      "path": "original_models_common_grid/repo/dataset/dataset.py",
+      "bytes": 4781,
+      "sha256": "36a465fb0346f38309c3ff33f3c3a9472ec7e8e71b5fdeb2081b03e0bf81df45"
+    },
+    {
+      "path": "original_models_common_grid/repo/dataset/parse.py",
+      "bytes": 2497,
+      "sha256": "f8b8a5e95fd3724cb600efa2f3c6945c2135eeea848f979377b0826c88547b2c"
+    },
+    {
+      "path": "original_models_common_grid/repo/dataset/pt_shard_dataset.py",
+      "bytes": 1587,
+      "sha256": "20245e366babde17d5684fe66ef454c25bbfd7bc3a5d0e35d5a0159779f710d7"
+    },
+    {
+      "path": "original_models_common_grid/repo/layers/AutoCorrelation.py",
+      "bytes": 7343,
+      "sha256": "a483fe7236b37906200a6aac4da4cdc3969df1e4a195a6c4c58da8bc34db73d5"
+    },
+    {
+      "path": "original_models_common_grid/repo/layers/Autoformer_EncDec.py",
+      "bytes": 6830,
+      "sha256": "fc9efb43be3a762f990084fc08718f5de7b9e99873bba6ea2a94b63c4b75827f"
+    },
+    {
+      "path": "original_models_common_grid/repo/layers/Embed.py",
+      "bytes": 7909,
+      "sha256": "96a92a15847c8c67f43c5f9ecc25bcc713833ff6b6285f0675159069dc5bcbdb"
+    },
+    {
+      "path": "original_models_common_grid/repo/layers/SelfAttention_Family.py",
+      "bytes": 12057,
+      "sha256": "32efaaf9613f24bb1db8928b8fff480bda2b0d5414e9792a96f48fcb24e64e7b"
+    },
+    {
+      "path": "original_models_common_grid/repo/layers/StandardNorm.py",
+      "bytes": 2184,
+      "sha256": "3f690dc5fc0e395d4f1ffe6396717548d18bd04f4518258308bbe5f392703f5f"
+    },
+    {
+      "path": "original_models_common_grid/repo/layers/Transformer_EncDec.py",
+      "bytes": 4928,
+      "sha256": "ee73e1bad5b679d7d921883640b62582d76d7bb8047cf521e847569e54533eda"
+    },
+    {
+      "path": "original_models_common_grid/repo/layers/__pycache__/Embed.cpython-39.pyc",
+      "bytes": 8693,
+      "sha256": "8e1572cd318b6fa369d2b7e88449a156e924ec2c87b647dd9b20ec575ba4c5a8"
+    },
+    {
+      "path": "original_models_common_grid/repo/layers/__pycache__/SelfAttention_Family.cpython-39.pyc",
+      "bytes": 9120,
+      "sha256": "7dc4ed651b8604d6a0de6fbeaa1ba4a3c3c7f8f5bb95ceeb501e8d2f9445c0ef"
+    },
+    {
+      "path": "original_models_common_grid/repo/layers/__pycache__/Transformer_EncDec.cpython-39.pyc",
+      "bytes": 4618,
+      "sha256": "dcd828766711375ed5e0bb1253071669853301c8e353b2324bc5aff9ce82c42d"
+    },
+    {
+      "path": "original_models_common_grid/repo/main.py",
+      "bytes": 3893,
+      "sha256": "a1ccf47fa5cb8bd3c4c4b623afbf815793b0421f2610cd320491f3d2ab33e7d6"
+    },
+    {
+      "path": "original_models_common_grid/repo/model/BiGRU.py",
+      "bytes": 673,
+      "sha256": "4e18ae50df0453a35d4be47b8e758cd41ece28a3b12444db5e9dc76d503df2b1"
+    },
+    {
+      "path": "original_models_common_grid/repo/model/BiLSTM.py",
+      "bytes": 683,
+      "sha256": "e72c5e7b8fca58fb05e83e5b7241d86f04b5c0280cdb2458184294e1b969d673"
+    },
+    {
+      "path": "original_models_common_grid/repo/model/BiRNN.py",
+      "bytes": 673,
+      "sha256": "01cbbc9ff843d7e2699fe2b8d77d6e072ccb88707cad7a52d609ff687dabe182"
+    },
+    {
+      "path": "original_models_common_grid/repo/model/CNN1.py",
+      "bytes": 1833,
+      "sha256": "197737a2fc428f89e3efc8037f64fb851dcae043b694f6fa891b8e6035d7a42c"
+    },
+    {
+      "path": "original_models_common_grid/repo/model/CNN10.py",
+      "bytes": 1224,
+      "sha256": "e557f50bd0076bf145d34109e0526227aa6aaff7e508a9df3f84a9e1be8b8af5"
+    },
+    {
+      "path": "original_models_common_grid/repo/model/CNN11.py",
+      "bytes": 1530,
+      "sha256": "a7251f6111183db66466ebc24542befc1b6da43b14888fc2b24c0da7f5c41079"
+    },
+    {
+      "path": "original_models_common_grid/repo/model/CNN2.py",
+      "bytes": 1417,
+      "sha256": "48b83e1e735c14486ceddf4f939335e5221c8ad1e96129c0a698940c80529147"
+    },
+    {
+      "path": "original_models_common_grid/repo/model/CNN3.py",
+      "bytes": 1410,
+      "sha256": "f655df104ef713e96ad4232eeff058c20cbdb29490ff995e9fc2f973ec4e8108"
+    },
+    {
+      "path": "original_models_common_grid/repo/model/CNN4.py",
+      "bytes": 2280,
+      "sha256": "8f83d96926961c1ff1ef6b16b7471b2fb839262488bb19c9d0f97bef94ccb8d1"
+    },
+    {
+      "path": "original_models_common_grid/repo/model/CNN5.py",
+      "bytes": 1164,
+      "sha256": "9a067794469bca208fe67cf17ce5678f7a3f274d18b77673bc6723777816b37f"
+    },
+    {
+      "path": "original_models_common_grid/repo/model/CNN6.py",
+      "bytes": 1739,
+      "sha256": "c2ec45e977919bf77f48741d0f6256db3cc6125a76518a81d584f977420549ff"
+    },
+    {
+      "path": "original_models_common_grid/repo/model/CNN7.py",
+      "bytes": 2339,
+      "sha256": "e067f3fc797949c3e64123cd15f514595c297a167ff15c5e2a4aa29d2648b431"
+    },
+    {
+      "path": "original_models_common_grid/repo/model/CNN8.py",
+      "bytes": 3197,
+      "sha256": "414cb5fa5ee6fcc7fc2f7f11b0adb0623e6a0ffc091c4097f85db4f617c95dce"
+    },
+    {
+      "path": "original_models_common_grid/repo/model/CNN9.py",
+      "bytes": 1101,
+      "sha256": "106f126545f026459ecc756957ea244b857ab8489ca2d53a20be2c6490d161fd"
+    },
+    {
+      "path": "original_models_common_grid/repo/model/GRU.py",
+      "bytes": 660,
+      "sha256": "03fc3527fafe073546ab1b917b8372e41a4b474aa016581be3547c6dd8d9d63e"
+    },
+    {
+      "path": "original_models_common_grid/repo/model/LSTM.py",
+      "bytes": 657,
+      "sha256": "19c7e6d99155cc92a57875b5da28ccfe1e80c66b0561753671517ce7ddc560aa"
+    },
+    {
+      "path": "original_models_common_grid/repo/model/MLP.py",
+      "bytes": 1116,
+      "sha256": "6313586b6864048a3249b86647bd6685bc0cd1ebad979e994e5599b1600623fb"
+    },
+    {
+      "path": "original_models_common_grid/repo/model/PatchTST.py",
+      "bytes": 3825,
+      "sha256": "7e44297e53c73bdb0bf1ff4a35055f7a1a62bd07561f39ad629dd4b2fbe907d3"
+    },
+    {
+      "path": "original_models_common_grid/repo/model/RNN.py",
+      "bytes": 649,
+      "sha256": "96738ca42e62b8be365997afde2c5ec7a9a0e0dfba1cd7a4db19e304753e9391"
+    },
+    {
+      "path": "original_models_common_grid/repo/model/Transformer.py",
+      "bytes": 1046,
+      "sha256": "e498afea4a636d68756dec0d9e7327c7f11692a41f7b0019364e54bc4668ba4d"
+    },
+    {
+      "path": "original_models_common_grid/repo/model/__pycache__/BiGRU.cpython-39.pyc",
+      "bytes": 1145,
+      "sha256": "e6f268edc8048e09fa8fc416521c12c198d6389e395014dfedf6aa9d3b8b97c3"
+    },
+    {
+      "path": "original_models_common_grid/repo/model/__pycache__/BiLSTM.cpython-39.pyc",
+      "bytes": 1106,
+      "sha256": "02dc20685572bffc0e8c9437ae8493902ed254ca500d9730d0cc56026d69cd0f"
+    },
+    {
+      "path": "original_models_common_grid/repo/model/__pycache__/CNN10.cpython-39.pyc",
+      "bytes": 1374,
+      "sha256": "735452f077dce8011f798676f6fcdde63dab7ef0fbcabf26fe4eddf91abc86b3"
+    },
+    {
+      "path": "original_models_common_grid/repo/model/__pycache__/CNN11.cpython-39.pyc",
+      "bytes": 2169,
+      "sha256": "9d0ee0bde32a5e0c4fb437a6c1ba1f845bbdf2e396cd7eb66c38eb45370dd1a6"
+    },
+    {
+      "path": "original_models_common_grid/repo/model/__pycache__/PatchTST.cpython-39.pyc",
+      "bytes": 3368,
+      "sha256": "4b5a43a9c1c27c98abe4a15e204556581daa6e0a325bf36c34e5cb026a5d6483"
+    },
+    {
+      "path": "original_models_common_grid/repo/model/__pycache__/Transformer.cpython-39.pyc",
+      "bytes": 1315,
+      "sha256": "ed36fc88a3c89ee70995a3d6ed1046466dd5fce88e5f237ad7544579f64c07d3"
+    },
+    {
+      "path": "original_models_common_grid/repo/model/iTransformer.py",
+      "bytes": 2655,
+      "sha256": "6f3e93db0ed8f6a04fa38649704af3c7c76bb793d5b1c1f8993bdd5ae0732e89"
+    },
+    {
+      "path": "original_models_common_grid/repo/requirements.txt",
+      "bytes": 1316,
+      "sha256": "3d1517d8afd0c0d8752ba68dc95663520a59308933f484fa0592c4827fd3de75"
+    },
+    {
+      "path": "original_models_common_grid/repo/sh/run.sh",
+      "bytes": 468,
+      "sha256": "7b6ce71d18f26340a26dedfb2c70ab2ff005c730cbba43f470801a840f935175"
+    },
+    {
+      "path": "original_models_common_grid/repo/train.py",
+      "bytes": 11673,
+      "sha256": "be07fe15b721a5d3f240ba6d15e0861a2ede352a44dc99aa1b9cde401e71a822"
+    },
+    {
+      "path": "original_models_common_grid/repo/utils/__pycache__/masking.cpython-39.pyc",
+      "bytes": 1493,
+      "sha256": "9074272969c4c1dab6cff7b1be9a475070af68de578f41d52501624389287830"
+    },
+    {
+      "path": "original_models_common_grid/repo/utils/__pycache__/tools.cpython-39.pyc",
+      "bytes": 4418,
+      "sha256": "eaaff83b46dd1367a52e48c77faa48169038022f6841ddd45bc69ab321ca99ad"
+    },
+    {
+      "path": "original_models_common_grid/repo/utils/masking.py",
+      "bytes": 831,
+      "sha256": "b1cd54c8b85920abaaa133767397090aa89159567aba3fb5523cc4646ffcd285"
+    },
+    {
+      "path": "original_models_common_grid/repo/utils/tools.py",
+      "bytes": 4811,
+      "sha256": "a5914438b3d64e95f1ec47ace73965f25f3d043afaedb945ffde52961568280b"
+    },
+    {
+      "path": "original_models_common_grid/transformer/rruff325/eval.json",
+      "bytes": 70517,
+      "sha256": "1ddd6bc79eb47fe37abe930ba5f4093a037f81985a63fe3abeee48b1d8a7c2ce"
+    },
+    {
+      "path": "original_models_common_grid/transformer/rruff325/failure.json",
+      "bytes": 85595,
+      "sha256": "a9402e69e29ef266a01911675b063b871d17e17a3b3e1d246c845225dc910a9f"
+    },
+    {
+      "path": "original_models_common_grid/transformer/rruff325/posterior.npz",
+      "bytes": 126810,
+      "sha256": "143ff67152d95c7f7b5ccac220ed2d6038e1245c942ca948cae97a78e852d341"
+    },
+    {
+      "path": "original_models_common_grid/transformer/rruff325/topology.json",
+      "bytes": 815,
+      "sha256": "5838a7615e7d92a1312258951bda67c440fcbc223239e692fc9d72b16360a9cb"
+    },
+    {
+      "path": "original_models_common_grid/transformer/rruff325/topology_bootstrap.json",
+      "bytes": 2105,
+      "sha256": "da98303d7df92dacbed4d190ba249cdf053b2e90232ae182c93c31f7a04aaa30"
+    },
+    {
+      "path": "original_models_common_grid/transformer/rruff473/eval.json",
+      "bytes": 101670,
+      "sha256": "a907cde099c313f5c11c687d45281a4630feba083b45c29a04e76db5b883fa25"
+    },
+    {
+      "path": "original_models_common_grid/transformer/rruff473/failure.json",
+      "bytes": 124422,
+      "sha256": "fb88cea9dcdd689e1fe43117f9d792bd0052b83b4c9916a70d8f92653fc3347b"
+    },
+    {
+      "path": "original_models_common_grid/transformer/rruff473/posterior.npz",
+      "bytes": 184666,
+      "sha256": "ec5cb2b8b2de81aa266593809890f65d9324c5a52aebef16f7ff14702404795e"
+    },
+    {
+      "path": "original_models_common_grid/transformer/rruff473/topology.json",
+      "bytes": 816,
+      "sha256": "712af3e1d1c5a52753643b5a2711fcca5286b342482676a20a4d3063cf4e5440"
+    },
+    {
+      "path": "original_models_common_grid/transformer/rruff473/topology_bootstrap.json",
+      "bytes": 2127,
+      "sha256": "e0d2a13ffe5374277585f2907cb5189cef7ddeda7c6f2af823e223afdbb41ce1"
+    }
+  ]
+}
