@@ -1,0 +1,2589 @@
+{
+  "checkpoint": "$SCRATCH/xrdbench_clean_second_set_20260726/runs/job_867777/bilstm/repo/checkpoints/spg-bilstm_lr0.00025_bs128_2026-07-26 14:08:41_100/checkpoint.pth",
+  "checkpoint_sha256": "06d2fcbda6e9b0a92fd99da46123b77aae6ecf6f43283ef7ca43ebc8212112a1",
+  "eval_npz": "$SCRATCH/xrdbench_opxrd_community_20260727/input/opxrd_cukalpha_10_80_maxnorm.npz",
+  "eval_npz_sha256": "5f7ad1e40f9357b752150e48cd09e880ded09cd7dbf44573a90fb138f30c81ee",
+  "mapping_csv": "$SCRATCH/xrdbench_opxrd_community_20260727/tools/canonical_extinction_to_space_group.csv",
+  "mapping_csv_sha256": "d2cfc302c26d811fd39a1747ced43be104d5bf25d1a385c0ce2293cbc86c1cdd",
+  "n": 98,
+  "label_conventions": {
+    "model_output": "230 SG logits; column 0 is SG 1 and column 229 is SG 230",
+    "aggregation": "softmax SG probabilities summed into canonical EG indices",
+    "stored_sg_labels": "crystallographic SG numbers 1..230",
+    "stored_eg_labels": "crystallographic EG numbers 1..99",
+    "posterior_column_base": 0,
+    "examples_eg_label_base": 1
+  },
+  "preprocessing": {
+    "source_points": 7001,
+    "source_grid_min": 10.0,
+    "source_grid_max": 80.0,
+    "target_points": 3501,
+    "target_grid_min": 10.0,
+    "target_grid_max": 80.0,
+    "target_grid_step": 0.02,
+    "grid_selection": {
+      "method": "exact stored-grid crop and integer decimation; no interpolation",
+      "source_grid_step_min": 0.0099945068359375,
+      "source_grid_step_max": 0.01000213623046875,
+      "source_start_index": 0,
+      "source_end_index": 7000,
+      "source_index_stride": 2,
+      "max_target_coordinate_mismatch_degrees": 3.662109378410605e-06
+    },
+    "intensity_normalization": "each exactly decimated 3501-point pattern independently max-normalized to the SimXRD training maximum",
+    "input_target_max": 100.0,
+    "selected_row_max_before_normalization_min": 0.9612982273101807,
+    "selected_row_max_before_normalization_max": 1.0,
+    "converted_row_max_min": 100.0,
+    "converted_row_max_max": 100.0
+  },
+  "top1_sg": 0.02040816326530612,
+  "top3_sg": 0.12244897959183673,
+  "top5_sg": 0.1836734693877551,
+  "top1_eg": 0.05102040816326531,
+  "top3_eg": 0.15306122448979592,
+  "top5_eg": 0.22448979591836735,
+  "metrics_by_stratum": {
+    "all": {
+      "n": 98,
+      "unique_sg": 28,
+      "unique_eg": 23,
+      "top1_sg": 0.02040816326530612,
+      "top3_sg": 0.12244897959183673,
+      "top5_sg": 0.1836734693877551,
+      "top1_eg": 0.05102040816326531,
+      "top3_eg": 0.15306122448979592,
+      "top5_eg": 0.22448979591836735
+    },
+    "wavelength_explicit_kalpha1_kalpha2": {
+      "n": 65,
+      "unique_sg": 17,
+      "unique_eg": 15,
+      "top1_sg": 0.015384615384615385,
+      "top3_sg": 0.07692307692307693,
+      "top5_sg": 0.1076923076923077,
+      "top1_eg": 0.015384615384615385,
+      "top3_eg": 0.09230769230769231,
+      "top5_eg": 0.13846153846153847
+    },
+    "wavelength_weighted_average": {
+      "n": 33,
+      "unique_sg": 14,
+      "unique_eg": 13,
+      "top1_sg": 0.030303030303030304,
+      "top3_sg": 0.21212121212121213,
+      "top5_sg": 0.3333333333333333,
+      "top1_eg": 0.12121212121212122,
+      "top3_eg": 0.2727272727272727,
+      "top5_eg": 0.3939393939393939
+    },
+    "community_in_basin": {
+      "n": 67,
+      "unique_sg": 17,
+      "unique_eg": 15,
+      "top1_sg": 0.0,
+      "top3_sg": 0.08955223880597014,
+      "top5_sg": 0.13432835820895522,
+      "top1_eg": 0.04477611940298507,
+      "top3_eg": 0.1044776119402985,
+      "top5_eg": 0.16417910447761194
+    },
+    "community_frontier_like": {
+      "n": 28,
+      "unique_sg": 17,
+      "unique_eg": 16,
+      "top1_sg": 0.07142857142857142,
+      "top3_sg": 0.17857142857142858,
+      "top5_sg": 0.25,
+      "top1_eg": 0.07142857142857142,
+      "top3_eg": 0.21428571428571427,
+      "top5_eg": 0.32142857142857145
+    },
+    "community_unassigned": {
+      "n": 3,
+      "unique_sg": 2,
+      "unique_eg": 2,
+      "top1_sg": 0.0,
+      "top3_sg": 0.3333333333333333,
+      "top5_sg": 0.6666666666666666,
+      "top1_eg": 0.0,
+      "top3_eg": 0.6666666666666666,
+      "top5_eg": 0.6666666666666666
+    },
+    "source_cnrs": {
+      "n": 95,
+      "unique_sg": 28,
+      "unique_eg": 23,
+      "top1_sg": 0.021052631578947368,
+      "top3_sg": 0.12631578947368421,
+      "top5_sg": 0.17894736842105263,
+      "top1_eg": 0.05263157894736842,
+      "top3_eg": 0.15789473684210525,
+      "top5_eg": 0.22105263157894736
+    },
+    "source_hkust": {
+      "n": 3,
+      "unique_sg": 3,
+      "unique_eg": 3,
+      "top1_sg": 0.0,
+      "top3_sg": 0.0,
+      "top5_sg": 0.3333333333333333,
+      "top1_eg": 0.0,
+      "top3_eg": 0.0,
+      "top5_eg": 0.3333333333333333
+    }
+  },
+  "examples": [
+    {
+      "case_id": "CNRS/pattern_1004.json",
+      "true_sg": 88,
+      "pred_sg": 129,
+      "top5_sg": [
+        129,
+        194,
+        12,
+        187,
+        65
+      ],
+      "true_eg": 68,
+      "pred_eg": 54,
+      "top5_eg": [
+        54,
+        73,
+        5,
+        71,
+        94
+      ],
+      "correct": false,
+      "wavelength_mode": "kalpha1_kalpha2_pair",
+      "community": 4559,
+      "community_status": "in_basin"
+    },
+    {
+      "case_id": "CNRS/pattern_101.json",
+      "true_sg": 88,
+      "pred_sg": 194,
+      "top5_sg": [
+        194,
+        129,
+        12,
+        187,
+        65
+      ],
+      "true_eg": 68,
+      "pred_eg": 73,
+      "top5_eg": [
+        73,
+        5,
+        71,
+        54,
+        26
+      ],
+      "correct": false,
+      "wavelength_mode": "kalpha1_kalpha2_pair",
+      "community": 4559,
+      "community_status": "in_basin"
+    },
+    {
+      "case_id": "CNRS/pattern_1013.json",
+      "true_sg": 26,
+      "pred_sg": 1,
+      "top5_sg": [
+        1,
+        2,
+        9,
+        14,
+        8
+      ],
+      "true_eg": 11,
+      "pred_eg": 99,
+      "top5_eg": [
+        99,
+        6,
+        5,
+        4,
+        2
+      ],
+      "correct": false,
+      "wavelength_mode": "weighted_average",
+      "community": 1060,
+      "community_status": "in_basin"
+    },
+    {
+      "case_id": "CNRS/pattern_1014.json",
+      "true_sg": 88,
+      "pred_sg": 129,
+      "top5_sg": [
+        129,
+        12,
+        194,
+        187,
+        123
+      ],
+      "true_eg": 68,
+      "pred_eg": 5,
+      "top5_eg": [
+        5,
+        54,
+        71,
+        73,
+        40
+      ],
+      "correct": false,
+      "wavelength_mode": "kalpha1_kalpha2_pair",
+      "community": 4559,
+      "community_status": "in_basin"
+    },
+    {
+      "case_id": "CNRS/pattern_1044.json",
+      "true_sg": 14,
+      "pred_sg": 1,
+      "top5_sg": [
+        1,
+        71,
+        8,
+        6,
+        123
+      ],
+      "true_eg": 4,
+      "pred_eg": 99,
+      "top5_eg": [
+        99,
+        5,
+        33,
+        1,
+        40
+      ],
+      "correct": false,
+      "wavelength_mode": "weighted_average",
+      "community": 542,
+      "community_status": "in_basin"
+    },
+    {
+      "case_id": "CNRS/pattern_1050.json",
+      "true_sg": 26,
+      "pred_sg": 194,
+      "top5_sg": [
+        194,
+        129,
+        12,
+        187,
+        65
+      ],
+      "true_eg": 11,
+      "pred_eg": 73,
+      "top5_eg": [
+        73,
+        54,
+        5,
+        71,
+        26
+      ],
+      "correct": false,
+      "wavelength_mode": "weighted_average",
+      "community": 3513,
+      "community_status": "frontier_like"
+    },
+    {
+      "case_id": "CNRS/pattern_124.json",
+      "true_sg": 129,
+      "pred_sg": 1,
+      "top5_sg": [
+        1,
+        2,
+        9,
+        14,
+        4
+      ],
+      "true_eg": 54,
+      "pred_eg": 99,
+      "top5_eg": [
+        99,
+        6,
+        4,
+        5,
+        2
+      ],
+      "correct": false,
+      "wavelength_mode": "kalpha1_kalpha2_pair",
+      "community": 1990,
+      "community_status": "in_basin"
+    },
+    {
+      "case_id": "CNRS/pattern_130.json",
+      "true_sg": 129,
+      "pred_sg": 1,
+      "top5_sg": [
+        1,
+        2,
+        9,
+        14,
+        4
+      ],
+      "true_eg": 54,
+      "pred_eg": 99,
+      "top5_eg": [
+        99,
+        6,
+        4,
+        5,
+        2
+      ],
+      "correct": false,
+      "wavelength_mode": "kalpha1_kalpha2_pair",
+      "community": 1990,
+      "community_status": "in_basin"
+    },
+    {
+      "case_id": "CNRS/pattern_131.json",
+      "true_sg": 63,
+      "pred_sg": 1,
+      "top5_sg": [
+        1,
+        2,
+        9,
+        8,
+        4
+      ],
+      "true_eg": 29,
+      "pred_eg": 99,
+      "top5_eg": [
+        99,
+        5,
+        6,
+        2,
+        4
+      ],
+      "correct": false,
+      "wavelength_mode": "weighted_average",
+      "community": 514,
+      "community_status": "frontier_like"
+    },
+    {
+      "case_id": "CNRS/pattern_135.json",
+      "true_sg": 62,
+      "pred_sg": 2,
+      "top5_sg": [
+        2,
+        1,
+        14,
+        9,
+        19
+      ],
+      "true_eg": 17,
+      "pred_eg": 99,
+      "top5_eg": [
+        99,
+        4,
+        6,
+        5,
+        2
+      ],
+      "correct": false,
+      "wavelength_mode": "weighted_average",
+      "community": 1560,
+      "community_status": "in_basin"
+    },
+    {
+      "case_id": "CNRS/pattern_146.json",
+      "true_sg": 129,
+      "pred_sg": 1,
+      "top5_sg": [
+        1,
+        2,
+        9,
+        14,
+        4
+      ],
+      "true_eg": 54,
+      "pred_eg": 99,
+      "top5_eg": [
+        99,
+        6,
+        5,
+        4,
+        2
+      ],
+      "correct": false,
+      "wavelength_mode": "kalpha1_kalpha2_pair",
+      "community": 1990,
+      "community_status": "in_basin"
+    },
+    {
+      "case_id": "CNRS/pattern_150.json",
+      "true_sg": 164,
+      "pred_sg": 1,
+      "top5_sg": [
+        1,
+        2,
+        9,
+        8,
+        4
+      ],
+      "true_eg": 71,
+      "pred_eg": 99,
+      "top5_eg": [
+        99,
+        6,
+        5,
+        2,
+        3
+      ],
+      "correct": false,
+      "wavelength_mode": "kalpha1_kalpha2_pair",
+      "community": 6378,
+      "community_status": "frontier_like"
+    },
+    {
+      "case_id": "CNRS/pattern_156.json",
+      "true_sg": 129,
+      "pred_sg": 1,
+      "top5_sg": [
+        1,
+        2,
+        9,
+        14,
+        19
+      ],
+      "true_eg": 54,
+      "pred_eg": 99,
+      "top5_eg": [
+        99,
+        6,
+        4,
+        5,
+        10
+      ],
+      "correct": false,
+      "wavelength_mode": "kalpha1_kalpha2_pair",
+      "community": 1713,
+      "community_status": "frontier_like"
+    },
+    {
+      "case_id": "CNRS/pattern_168.json",
+      "true_sg": 129,
+      "pred_sg": 1,
+      "top5_sg": [
+        1,
+        2,
+        9,
+        14,
+        4
+      ],
+      "true_eg": 54,
+      "pred_eg": 99,
+      "top5_eg": [
+        99,
+        6,
+        5,
+        4,
+        2
+      ],
+      "correct": false,
+      "wavelength_mode": "kalpha1_kalpha2_pair",
+      "community": 1990,
+      "community_status": "in_basin"
+    },
+    {
+      "case_id": "CNRS/pattern_187.json",
+      "true_sg": 129,
+      "pred_sg": 1,
+      "top5_sg": [
+        1,
+        2,
+        9,
+        4,
+        14
+      ],
+      "true_eg": 54,
+      "pred_eg": 99,
+      "top5_eg": [
+        99,
+        6,
+        5,
+        2,
+        4
+      ],
+      "correct": false,
+      "wavelength_mode": "kalpha1_kalpha2_pair",
+      "community": 1990,
+      "community_status": "in_basin"
+    },
+    {
+      "case_id": "CNRS/pattern_194.json",
+      "true_sg": 158,
+      "pred_sg": 1,
+      "top5_sg": [
+        1,
+        2,
+        4,
+        14,
+        7
+      ],
+      "true_eg": 74,
+      "pred_eg": 99,
+      "top5_eg": [
+        99,
+        2,
+        4,
+        5,
+        3
+      ],
+      "correct": false,
+      "wavelength_mode": "kalpha1_kalpha2_pair",
+      "community": 5497,
+      "community_status": "frontier_like"
+    },
+    {
+      "case_id": "CNRS/pattern_196.json",
+      "true_sg": 129,
+      "pred_sg": 1,
+      "top5_sg": [
+        1,
+        2,
+        9,
+        14,
+        4
+      ],
+      "true_eg": 54,
+      "pred_eg": 99,
+      "top5_eg": [
+        99,
+        6,
+        4,
+        5,
+        2
+      ],
+      "correct": false,
+      "wavelength_mode": "kalpha1_kalpha2_pair",
+      "community": 1990,
+      "community_status": "in_basin"
+    },
+    {
+      "case_id": "CNRS/pattern_202.json",
+      "true_sg": 129,
+      "pred_sg": 1,
+      "top5_sg": [
+        1,
+        2,
+        9,
+        14,
+        4
+      ],
+      "true_eg": 54,
+      "pred_eg": 99,
+      "top5_eg": [
+        99,
+        6,
+        5,
+        4,
+        2
+      ],
+      "correct": false,
+      "wavelength_mode": "kalpha1_kalpha2_pair",
+      "community": 1990,
+      "community_status": "in_basin"
+    },
+    {
+      "case_id": "CNRS/pattern_205.json",
+      "true_sg": 11,
+      "pred_sg": 1,
+      "top5_sg": [
+        1,
+        2,
+        14,
+        9,
+        19
+      ],
+      "true_eg": 2,
+      "pred_eg": 99,
+      "top5_eg": [
+        99,
+        6,
+        4,
+        5,
+        10
+      ],
+      "correct": false,
+      "wavelength_mode": "kalpha1_kalpha2_pair",
+      "community": 4767,
+      "community_status": "in_basin"
+    },
+    {
+      "case_id": "CNRS/pattern_208.json",
+      "true_sg": 14,
+      "pred_sg": 1,
+      "top5_sg": [
+        1,
+        2,
+        14,
+        4,
+        8
+      ],
+      "true_eg": 4,
+      "pred_eg": 99,
+      "top5_eg": [
+        99,
+        5,
+        4,
+        2,
+        6
+      ],
+      "correct": false,
+      "wavelength_mode": "weighted_average",
+      "community": 542,
+      "community_status": "in_basin"
+    },
+    {
+      "case_id": "CNRS/pattern_209.json",
+      "true_sg": 11,
+      "pred_sg": 1,
+      "top5_sg": [
+        1,
+        2,
+        14,
+        9,
+        19
+      ],
+      "true_eg": 2,
+      "pred_eg": 99,
+      "top5_eg": [
+        99,
+        6,
+        4,
+        5,
+        10
+      ],
+      "correct": false,
+      "wavelength_mode": "kalpha1_kalpha2_pair",
+      "community": 4767,
+      "community_status": "in_basin"
+    },
+    {
+      "case_id": "CNRS/pattern_215.json",
+      "true_sg": 216,
+      "pred_sg": 63,
+      "top5_sg": [
+        63,
+        194,
+        160,
+        74,
+        38
+      ],
+      "true_eg": 94,
+      "pred_eg": 29,
+      "top5_eg": [
+        29,
+        75,
+        73,
+        26,
+        71
+      ],
+      "correct": false,
+      "wavelength_mode": "kalpha1_kalpha2_pair",
+      "community": 227,
+      "community_status": "frontier_like"
+    },
+    {
+      "case_id": "CNRS/pattern_223.json",
+      "true_sg": 63,
+      "pred_sg": 2,
+      "top5_sg": [
+        2,
+        1,
+        14,
+        4,
+        9
+      ],
+      "true_eg": 29,
+      "pred_eg": 99,
+      "top5_eg": [
+        99,
+        4,
+        2,
+        5,
+        6
+      ],
+      "correct": false,
+      "wavelength_mode": "weighted_average",
+      "community": 5233,
+      "community_status": "frontier_like"
+    },
+    {
+      "case_id": "CNRS/pattern_227.json",
+      "true_sg": 60,
+      "pred_sg": 1,
+      "top5_sg": [
+        1,
+        6,
+        8,
+        71,
+        2
+      ],
+      "true_eg": 22,
+      "pred_eg": 99,
+      "top5_eg": [
+        99,
+        5,
+        1,
+        33,
+        2
+      ],
+      "correct": false,
+      "wavelength_mode": "weighted_average",
+      "community": 1060,
+      "community_status": "in_basin"
+    },
+    {
+      "case_id": "CNRS/pattern_241.json",
+      "true_sg": 14,
+      "pred_sg": 164,
+      "top5_sg": [
+        164,
+        194,
+        156,
+        47,
+        139
+      ],
+      "true_eg": 4,
+      "pred_eg": 71,
+      "top5_eg": [
+        71,
+        73,
+        7,
+        63,
+        5
+      ],
+      "correct": false,
+      "wavelength_mode": "weighted_average",
+      "community": 542,
+      "community_status": "in_basin"
+    },
+    {
+      "case_id": "CNRS/pattern_245.json",
+      "true_sg": 188,
+      "pred_sg": 62,
+      "top5_sg": [
+        62,
+        12,
+        14,
+        11,
+        8
+      ],
+      "true_eg": 74,
+      "pred_eg": 17,
+      "top5_eg": [
+        17,
+        5,
+        4,
+        2,
+        99
+      ],
+      "correct": false,
+      "wavelength_mode": "kalpha1_kalpha2_pair",
+      "community": 3922,
+      "community_status": "frontier_like"
+    },
+    {
+      "case_id": "CNRS/pattern_255.json",
+      "true_sg": 14,
+      "pred_sg": 1,
+      "top5_sg": [
+        1,
+        71,
+        12,
+        8,
+        6
+      ],
+      "true_eg": 4,
+      "pred_eg": 5,
+      "top5_eg": [
+        5,
+        99,
+        33,
+        1,
+        40
+      ],
+      "correct": false,
+      "wavelength_mode": "kalpha1_kalpha2_pair",
+      "community": 4436,
+      "community_status": "frontier_like"
+    },
+    {
+      "case_id": "CNRS/pattern_266.json",
+      "true_sg": 14,
+      "pred_sg": 14,
+      "top5_sg": [
+        14,
+        62,
+        15,
+        12,
+        2
+      ],
+      "true_eg": 4,
+      "pred_eg": 17,
+      "top5_eg": [
+        17,
+        4,
+        5,
+        6,
+        99
+      ],
+      "correct": false,
+      "wavelength_mode": "kalpha1_kalpha2_pair",
+      "community": 1582,
+      "community_status": "frontier_like"
+    },
+    {
+      "case_id": "CNRS/pattern_273.json",
+      "true_sg": 14,
+      "pred_sg": 2,
+      "top5_sg": [
+        2,
+        1,
+        9,
+        14,
+        19
+      ],
+      "true_eg": 4,
+      "pred_eg": 99,
+      "top5_eg": [
+        99,
+        6,
+        4,
+        10,
+        5
+      ],
+      "correct": false,
+      "wavelength_mode": "kalpha1_kalpha2_pair",
+      "community": 471,
+      "community_status": "frontier_like"
+    },
+    {
+      "case_id": "CNRS/pattern_311.json",
+      "true_sg": 2,
+      "pred_sg": 14,
+      "top5_sg": [
+        14,
+        1,
+        62,
+        2,
+        6
+      ],
+      "true_eg": 99,
+      "pred_eg": 99,
+      "top5_eg": [
+        99,
+        4,
+        2,
+        17,
+        1
+      ],
+      "correct": true,
+      "wavelength_mode": "weighted_average",
+      "community": 4413,
+      "community_status": "in_basin"
+    },
+    {
+      "case_id": "CNRS/pattern_331.json",
+      "true_sg": 2,
+      "pred_sg": 1,
+      "top5_sg": [
+        1,
+        2,
+        9,
+        7,
+        4
+      ],
+      "true_eg": 99,
+      "pred_eg": 99,
+      "top5_eg": [
+        99,
+        6,
+        5,
+        3,
+        2
+      ],
+      "correct": true,
+      "wavelength_mode": "weighted_average",
+      "community": 3828,
+      "community_status": "frontier_like"
+    },
+    {
+      "case_id": "CNRS/pattern_341.json",
+      "true_sg": 63,
+      "pred_sg": 1,
+      "top5_sg": [
+        1,
+        2,
+        14,
+        4,
+        9
+      ],
+      "true_eg": 29,
+      "pred_eg": 99,
+      "top5_eg": [
+        99,
+        5,
+        4,
+        2,
+        6
+      ],
+      "correct": false,
+      "wavelength_mode": "weighted_average",
+      "community": 6517,
+      "community_status": "frontier_like"
+    },
+    {
+      "case_id": "CNRS/pattern_347.json",
+      "true_sg": 129,
+      "pred_sg": 1,
+      "top5_sg": [
+        1,
+        2,
+        9,
+        14,
+        4
+      ],
+      "true_eg": 54,
+      "pred_eg": 99,
+      "top5_eg": [
+        99,
+        6,
+        5,
+        4,
+        2
+      ],
+      "correct": false,
+      "wavelength_mode": "kalpha1_kalpha2_pair",
+      "community": 1990,
+      "community_status": "in_basin"
+    },
+    {
+      "case_id": "CNRS/pattern_352.json",
+      "true_sg": 227,
+      "pred_sg": 216,
+      "top5_sg": [
+        216,
+        225,
+        160,
+        166,
+        229
+      ],
+      "true_eg": 97,
+      "pred_eg": 94,
+      "top5_eg": [
+        94,
+        75,
+        89,
+        73,
+        71
+      ],
+      "correct": false,
+      "wavelength_mode": "kalpha1_kalpha2_pair",
+      "community": 2276,
+      "community_status": "frontier_like"
+    },
+    {
+      "case_id": "CNRS/pattern_359.json",
+      "true_sg": 11,
+      "pred_sg": 1,
+      "top5_sg": [
+        1,
+        2,
+        14,
+        9,
+        19
+      ],
+      "true_eg": 2,
+      "pred_eg": 99,
+      "top5_eg": [
+        99,
+        6,
+        4,
+        5,
+        10
+      ],
+      "correct": false,
+      "wavelength_mode": "kalpha1_kalpha2_pair",
+      "community": 4767,
+      "community_status": "in_basin"
+    },
+    {
+      "case_id": "CNRS/pattern_365.json",
+      "true_sg": 12,
+      "pred_sg": 129,
+      "top5_sg": [
+        129,
+        12,
+        194,
+        123,
+        187
+      ],
+      "true_eg": 5,
+      "pred_eg": 5,
+      "top5_eg": [
+        5,
+        54,
+        71,
+        73,
+        40
+      ],
+      "correct": true,
+      "wavelength_mode": "kalpha1_kalpha2_pair",
+      "community": 1692,
+      "community_status": "in_basin"
+    },
+    {
+      "case_id": "CNRS/pattern_367.json",
+      "true_sg": 176,
+      "pred_sg": 1,
+      "top5_sg": [
+        1,
+        2,
+        9,
+        8,
+        4
+      ],
+      "true_eg": 77,
+      "pred_eg": 99,
+      "top5_eg": [
+        99,
+        6,
+        5,
+        2,
+        3
+      ],
+      "correct": false,
+      "wavelength_mode": "weighted_average",
+      "community": 4381,
+      "community_status": "in_basin"
+    },
+    {
+      "case_id": "CNRS/pattern_382.json",
+      "true_sg": 58,
+      "pred_sg": 62,
+      "top5_sg": [
+        62,
+        12,
+        14,
+        15,
+        38
+      ],
+      "true_eg": 18,
+      "pred_eg": 17,
+      "top5_eg": [
+        17,
+        5,
+        6,
+        4,
+        26
+      ],
+      "correct": false,
+      "wavelength_mode": "kalpha1_kalpha2_pair",
+      "community": 205,
+      "community_status": "in_basin"
+    },
+    {
+      "case_id": "CNRS/pattern_384.json",
+      "true_sg": 129,
+      "pred_sg": 1,
+      "top5_sg": [
+        1,
+        2,
+        9,
+        14,
+        4
+      ],
+      "true_eg": 54,
+      "pred_eg": 99,
+      "top5_eg": [
+        99,
+        6,
+        5,
+        4,
+        2
+      ],
+      "correct": false,
+      "wavelength_mode": "kalpha1_kalpha2_pair",
+      "community": 1990,
+      "community_status": "in_basin"
+    },
+    {
+      "case_id": "CNRS/pattern_388.json",
+      "true_sg": 14,
+      "pred_sg": 1,
+      "top5_sg": [
+        1,
+        2,
+        9,
+        8,
+        14
+      ],
+      "true_eg": 4,
+      "pred_eg": 99,
+      "top5_eg": [
+        99,
+        6,
+        5,
+        4,
+        2
+      ],
+      "correct": false,
+      "wavelength_mode": "weighted_average",
+      "community": 6305,
+      "community_status": "frontier_like"
+    },
+    {
+      "case_id": "CNRS/pattern_396.json",
+      "true_sg": 11,
+      "pred_sg": 1,
+      "top5_sg": [
+        1,
+        2,
+        9,
+        14,
+        8
+      ],
+      "true_eg": 2,
+      "pred_eg": 99,
+      "top5_eg": [
+        99,
+        6,
+        4,
+        5,
+        10
+      ],
+      "correct": false,
+      "wavelength_mode": "kalpha1_kalpha2_pair",
+      "community": 4767,
+      "community_status": "in_basin"
+    },
+    {
+      "case_id": "CNRS/pattern_399.json",
+      "true_sg": 129,
+      "pred_sg": 1,
+      "top5_sg": [
+        1,
+        2,
+        9,
+        14,
+        4
+      ],
+      "true_eg": 54,
+      "pred_eg": 99,
+      "top5_eg": [
+        99,
+        6,
+        5,
+        4,
+        2
+      ],
+      "correct": false,
+      "wavelength_mode": "kalpha1_kalpha2_pair",
+      "community": 1990,
+      "community_status": "in_basin"
+    },
+    {
+      "case_id": "CNRS/pattern_411.json",
+      "true_sg": 14,
+      "pred_sg": 1,
+      "top5_sg": [
+        1,
+        2,
+        9,
+        14,
+        4
+      ],
+      "true_eg": 4,
+      "pred_eg": 99,
+      "top5_eg": [
+        99,
+        6,
+        4,
+        5,
+        2
+      ],
+      "correct": false,
+      "wavelength_mode": "weighted_average",
+      "community": null,
+      "community_status": "unassigned"
+    },
+    {
+      "case_id": "CNRS/pattern_430.json",
+      "true_sg": 4,
+      "pred_sg": 1,
+      "top5_sg": [
+        1,
+        2,
+        4,
+        7,
+        8
+      ],
+      "true_eg": 2,
+      "pred_eg": 99,
+      "top5_eg": [
+        99,
+        5,
+        2,
+        3,
+        6
+      ],
+      "correct": false,
+      "wavelength_mode": "weighted_average",
+      "community": 1060,
+      "community_status": "in_basin"
+    },
+    {
+      "case_id": "CNRS/pattern_437.json",
+      "true_sg": 88,
+      "pred_sg": 216,
+      "top5_sg": [
+        216,
+        225,
+        160,
+        194,
+        164
+      ],
+      "true_eg": 68,
+      "pred_eg": 94,
+      "top5_eg": [
+        94,
+        75,
+        73,
+        71,
+        54
+      ],
+      "correct": false,
+      "wavelength_mode": "kalpha1_kalpha2_pair",
+      "community": 4559,
+      "community_status": "in_basin"
+    },
+    {
+      "case_id": "CNRS/pattern_44.json",
+      "true_sg": 14,
+      "pred_sg": 2,
+      "top5_sg": [
+        2,
+        14,
+        1,
+        4,
+        62
+      ],
+      "true_eg": 4,
+      "pred_eg": 99,
+      "top5_eg": [
+        99,
+        4,
+        2,
+        5,
+        17
+      ],
+      "correct": false,
+      "wavelength_mode": "kalpha1_kalpha2_pair",
+      "community": 6218,
+      "community_status": "frontier_like"
+    },
+    {
+      "case_id": "CNRS/pattern_443.json",
+      "true_sg": 87,
+      "pred_sg": 62,
+      "top5_sg": [
+        62,
+        12,
+        55,
+        14,
+        11
+      ],
+      "true_eg": 63,
+      "pred_eg": 17,
+      "top5_eg": [
+        17,
+        5,
+        16,
+        4,
+        2
+      ],
+      "correct": false,
+      "wavelength_mode": "kalpha1_kalpha2_pair",
+      "community": 5645,
+      "community_status": "frontier_like"
+    },
+    {
+      "case_id": "CNRS/pattern_464.json",
+      "true_sg": 2,
+      "pred_sg": 1,
+      "top5_sg": [
+        1,
+        9,
+        2,
+        14,
+        15
+      ],
+      "true_eg": 99,
+      "pred_eg": 99,
+      "top5_eg": [
+        99,
+        6,
+        5,
+        4,
+        17
+      ],
+      "correct": true,
+      "wavelength_mode": "weighted_average",
+      "community": 2078,
+      "community_status": "in_basin"
+    },
+    {
+      "case_id": "CNRS/pattern_47.json",
+      "true_sg": 61,
+      "pred_sg": 194,
+      "top5_sg": [
+        194,
+        12,
+        65,
+        8,
+        129
+      ],
+      "true_eg": 21,
+      "pred_eg": 5,
+      "top5_eg": [
+        5,
+        71,
+        73,
+        26,
+        54
+      ],
+      "correct": false,
+      "wavelength_mode": "kalpha1_kalpha2_pair",
+      "community": 2006,
+      "community_status": "frontier_like"
+    },
+    {
+      "case_id": "CNRS/pattern_482.json",
+      "true_sg": 14,
+      "pred_sg": 1,
+      "top5_sg": [
+        1,
+        2,
+        9,
+        4,
+        8
+      ],
+      "true_eg": 4,
+      "pred_eg": 99,
+      "top5_eg": [
+        99,
+        6,
+        5,
+        2,
+        4
+      ],
+      "correct": false,
+      "wavelength_mode": "kalpha1_kalpha2_pair",
+      "community": 1060,
+      "community_status": "in_basin"
+    },
+    {
+      "case_id": "CNRS/pattern_504.json",
+      "true_sg": 11,
+      "pred_sg": 1,
+      "top5_sg": [
+        1,
+        2,
+        14,
+        9,
+        19
+      ],
+      "true_eg": 2,
+      "pred_eg": 99,
+      "top5_eg": [
+        99,
+        6,
+        4,
+        5,
+        10
+      ],
+      "correct": false,
+      "wavelength_mode": "kalpha1_kalpha2_pair",
+      "community": 4767,
+      "community_status": "in_basin"
+    },
+    {
+      "case_id": "CNRS/pattern_506.json",
+      "true_sg": 167,
+      "pred_sg": 12,
+      "top5_sg": [
+        12,
+        123,
+        16,
+        62,
+        71
+      ],
+      "true_eg": 76,
+      "pred_eg": 5,
+      "top5_eg": [
+        5,
+        40,
+        7,
+        33,
+        29
+      ],
+      "correct": false,
+      "wavelength_mode": "kalpha1_kalpha2_pair",
+      "community": 2948,
+      "community_status": "in_basin"
+    },
+    {
+      "case_id": "CNRS/pattern_522.json",
+      "true_sg": 129,
+      "pred_sg": 1,
+      "top5_sg": [
+        1,
+        2,
+        9,
+        14,
+        4
+      ],
+      "true_eg": 54,
+      "pred_eg": 99,
+      "top5_eg": [
+        99,
+        6,
+        4,
+        5,
+        2
+      ],
+      "correct": false,
+      "wavelength_mode": "kalpha1_kalpha2_pair",
+      "community": 1990,
+      "community_status": "in_basin"
+    },
+    {
+      "case_id": "CNRS/pattern_533.json",
+      "true_sg": 129,
+      "pred_sg": 15,
+      "top5_sg": [
+        15,
+        14,
+        62,
+        33,
+        9
+      ],
+      "true_eg": 54,
+      "pred_eg": 6,
+      "top5_eg": [
+        6,
+        17,
+        4,
+        5,
+        10
+      ],
+      "correct": false,
+      "wavelength_mode": "weighted_average",
+      "community": 2605,
+      "community_status": "frontier_like"
+    },
+    {
+      "case_id": "CNRS/pattern_551.json",
+      "true_sg": 14,
+      "pred_sg": 2,
+      "top5_sg": [
+        2,
+        14,
+        1,
+        4,
+        62
+      ],
+      "true_eg": 4,
+      "pred_eg": 99,
+      "top5_eg": [
+        99,
+        4,
+        2,
+        5,
+        17
+      ],
+      "correct": false,
+      "wavelength_mode": "kalpha1_kalpha2_pair",
+      "community": 2453,
+      "community_status": "in_basin"
+    },
+    {
+      "case_id": "CNRS/pattern_552.json",
+      "true_sg": 14,
+      "pred_sg": 14,
+      "top5_sg": [
+        14,
+        62,
+        2,
+        12,
+        15
+      ],
+      "true_eg": 4,
+      "pred_eg": 4,
+      "top5_eg": [
+        4,
+        17,
+        99,
+        5,
+        2
+      ],
+      "correct": true,
+      "wavelength_mode": "weighted_average",
+      "community": 728,
+      "community_status": "frontier_like"
+    },
+    {
+      "case_id": "CNRS/pattern_564.json",
+      "true_sg": 129,
+      "pred_sg": 1,
+      "top5_sg": [
+        1,
+        2,
+        9,
+        14,
+        4
+      ],
+      "true_eg": 54,
+      "pred_eg": 99,
+      "top5_eg": [
+        99,
+        6,
+        5,
+        4,
+        2
+      ],
+      "correct": false,
+      "wavelength_mode": "kalpha1_kalpha2_pair",
+      "community": 1990,
+      "community_status": "in_basin"
+    },
+    {
+      "case_id": "CNRS/pattern_574.json",
+      "true_sg": 11,
+      "pred_sg": 1,
+      "top5_sg": [
+        1,
+        2,
+        14,
+        9,
+        19
+      ],
+      "true_eg": 2,
+      "pred_eg": 99,
+      "top5_eg": [
+        99,
+        6,
+        4,
+        5,
+        10
+      ],
+      "correct": false,
+      "wavelength_mode": "kalpha1_kalpha2_pair",
+      "community": 4767,
+      "community_status": "in_basin"
+    },
+    {
+      "case_id": "CNRS/pattern_581.json",
+      "true_sg": 26,
+      "pred_sg": 1,
+      "top5_sg": [
+        1,
+        2,
+        9,
+        8,
+        14
+      ],
+      "true_eg": 11,
+      "pred_eg": 99,
+      "top5_eg": [
+        99,
+        6,
+        5,
+        4,
+        2
+      ],
+      "correct": false,
+      "wavelength_mode": "weighted_average",
+      "community": 1060,
+      "community_status": "in_basin"
+    },
+    {
+      "case_id": "CNRS/pattern_599.json",
+      "true_sg": 14,
+      "pred_sg": 1,
+      "top5_sg": [
+        1,
+        2,
+        9,
+        14,
+        8
+      ],
+      "true_eg": 4,
+      "pred_eg": 99,
+      "top5_eg": [
+        99,
+        5,
+        6,
+        4,
+        2
+      ],
+      "correct": false,
+      "wavelength_mode": "weighted_average",
+      "community": 542,
+      "community_status": "in_basin"
+    },
+    {
+      "case_id": "CNRS/pattern_60.json",
+      "true_sg": 14,
+      "pred_sg": 1,
+      "top5_sg": [
+        1,
+        12,
+        8,
+        62,
+        6
+      ],
+      "true_eg": 4,
+      "pred_eg": 5,
+      "top5_eg": [
+        5,
+        99,
+        17,
+        1,
+        2
+      ],
+      "correct": false,
+      "wavelength_mode": "weighted_average",
+      "community": 542,
+      "community_status": "in_basin"
+    },
+    {
+      "case_id": "CNRS/pattern_601.json",
+      "true_sg": 129,
+      "pred_sg": 1,
+      "top5_sg": [
+        1,
+        2,
+        9,
+        14,
+        4
+      ],
+      "true_eg": 54,
+      "pred_eg": 99,
+      "top5_eg": [
+        99,
+        6,
+        5,
+        4,
+        2
+      ],
+      "correct": false,
+      "wavelength_mode": "kalpha1_kalpha2_pair",
+      "community": 1990,
+      "community_status": "in_basin"
+    },
+    {
+      "case_id": "CNRS/pattern_611.json",
+      "true_sg": 129,
+      "pred_sg": 1,
+      "top5_sg": [
+        1,
+        2,
+        9,
+        14,
+        4
+      ],
+      "true_eg": 54,
+      "pred_eg": 99,
+      "top5_eg": [
+        99,
+        6,
+        5,
+        4,
+        2
+      ],
+      "correct": false,
+      "wavelength_mode": "kalpha1_kalpha2_pair",
+      "community": 1990,
+      "community_status": "in_basin"
+    },
+    {
+      "case_id": "CNRS/pattern_619.json",
+      "true_sg": 11,
+      "pred_sg": 1,
+      "top5_sg": [
+        1,
+        2,
+        14,
+        9,
+        19
+      ],
+      "true_eg": 2,
+      "pred_eg": 99,
+      "top5_eg": [
+        99,
+        6,
+        4,
+        5,
+        10
+      ],
+      "correct": false,
+      "wavelength_mode": "kalpha1_kalpha2_pair",
+      "community": 4767,
+      "community_status": "in_basin"
+    },
+    {
+      "case_id": "CNRS/pattern_632.json",
+      "true_sg": 176,
+      "pred_sg": 1,
+      "top5_sg": [
+        1,
+        2,
+        14,
+        4,
+        8
+      ],
+      "true_eg": 77,
+      "pred_eg": 99,
+      "top5_eg": [
+        99,
+        5,
+        2,
+        4,
+        1
+      ],
+      "correct": false,
+      "wavelength_mode": "weighted_average",
+      "community": 6122,
+      "community_status": "frontier_like"
+    },
+    {
+      "case_id": "CNRS/pattern_634.json",
+      "true_sg": 52,
+      "pred_sg": 1,
+      "top5_sg": [
+        1,
+        2,
+        9,
+        8,
+        14
+      ],
+      "true_eg": 24,
+      "pred_eg": 99,
+      "top5_eg": [
+        99,
+        5,
+        6,
+        4,
+        2
+      ],
+      "correct": false,
+      "wavelength_mode": "weighted_average",
+      "community": 6250,
+      "community_status": "frontier_like"
+    },
+    {
+      "case_id": "CNRS/pattern_654.json",
+      "true_sg": 129,
+      "pred_sg": 1,
+      "top5_sg": [
+        1,
+        2,
+        9,
+        14,
+        4
+      ],
+      "true_eg": 54,
+      "pred_eg": 99,
+      "top5_eg": [
+        99,
+        6,
+        5,
+        2,
+        4
+      ],
+      "correct": false,
+      "wavelength_mode": "kalpha1_kalpha2_pair",
+      "community": 1990,
+      "community_status": "in_basin"
+    },
+    {
+      "case_id": "CNRS/pattern_660.json",
+      "true_sg": 60,
+      "pred_sg": 216,
+      "top5_sg": [
+        216,
+        225,
+        194,
+        164,
+        160
+      ],
+      "true_eg": 22,
+      "pred_eg": 94,
+      "top5_eg": [
+        94,
+        73,
+        71,
+        75,
+        63
+      ],
+      "correct": false,
+      "wavelength_mode": "weighted_average",
+      "community": 2445,
+      "community_status": "in_basin"
+    },
+    {
+      "case_id": "CNRS/pattern_663.json",
+      "true_sg": 14,
+      "pred_sg": 1,
+      "top5_sg": [
+        1,
+        2,
+        14,
+        4,
+        8
+      ],
+      "true_eg": 4,
+      "pred_eg": 99,
+      "top5_eg": [
+        99,
+        4,
+        5,
+        2,
+        6
+      ],
+      "correct": false,
+      "wavelength_mode": "weighted_average",
+      "community": null,
+      "community_status": "unassigned"
+    },
+    {
+      "case_id": "CNRS/pattern_67.json",
+      "true_sg": 12,
+      "pred_sg": 38,
+      "top5_sg": [
+        38,
+        63,
+        74,
+        122,
+        194
+      ],
+      "true_eg": 5,
+      "pred_eg": 26,
+      "top5_eg": [
+        26,
+        29,
+        75,
+        34,
+        73
+      ],
+      "correct": false,
+      "wavelength_mode": "kalpha1_kalpha2_pair",
+      "community": 3831,
+      "community_status": "frontier_like"
+    },
+    {
+      "case_id": "CNRS/pattern_687.json",
+      "true_sg": 129,
+      "pred_sg": 1,
+      "top5_sg": [
+        1,
+        2,
+        9,
+        14,
+        4
+      ],
+      "true_eg": 54,
+      "pred_eg": 99,
+      "top5_eg": [
+        99,
+        6,
+        5,
+        4,
+        2
+      ],
+      "correct": false,
+      "wavelength_mode": "kalpha1_kalpha2_pair",
+      "community": 1990,
+      "community_status": "in_basin"
+    },
+    {
+      "case_id": "CNRS/pattern_698.json",
+      "true_sg": 11,
+      "pred_sg": 1,
+      "top5_sg": [
+        1,
+        2,
+        14,
+        9,
+        19
+      ],
+      "true_eg": 2,
+      "pred_eg": 99,
+      "top5_eg": [
+        99,
+        6,
+        4,
+        5,
+        10
+      ],
+      "correct": false,
+      "wavelength_mode": "kalpha1_kalpha2_pair",
+      "community": 4767,
+      "community_status": "in_basin"
+    },
+    {
+      "case_id": "CNRS/pattern_732.json",
+      "true_sg": 88,
+      "pred_sg": 216,
+      "top5_sg": [
+        216,
+        225,
+        160,
+        166,
+        194
+      ],
+      "true_eg": 68,
+      "pred_eg": 94,
+      "top5_eg": [
+        94,
+        75,
+        71,
+        73,
+        69
+      ],
+      "correct": false,
+      "wavelength_mode": "kalpha1_kalpha2_pair",
+      "community": 4559,
+      "community_status": "in_basin"
+    },
+    {
+      "case_id": "CNRS/pattern_775.json",
+      "true_sg": 11,
+      "pred_sg": 1,
+      "top5_sg": [
+        1,
+        2,
+        14,
+        9,
+        19
+      ],
+      "true_eg": 2,
+      "pred_eg": 99,
+      "top5_eg": [
+        99,
+        6,
+        4,
+        5,
+        10
+      ],
+      "correct": false,
+      "wavelength_mode": "kalpha1_kalpha2_pair",
+      "community": 4767,
+      "community_status": "in_basin"
+    },
+    {
+      "case_id": "CNRS/pattern_784.json",
+      "true_sg": 74,
+      "pred_sg": 14,
+      "top5_sg": [
+        14,
+        2,
+        62,
+        15,
+        19
+      ],
+      "true_eg": 34,
+      "pred_eg": 4,
+      "top5_eg": [
+        4,
+        99,
+        17,
+        6,
+        2
+      ],
+      "correct": false,
+      "wavelength_mode": "weighted_average",
+      "community": 521,
+      "community_status": "frontier_like"
+    },
+    {
+      "case_id": "CNRS/pattern_787.json",
+      "true_sg": 11,
+      "pred_sg": 1,
+      "top5_sg": [
+        1,
+        2,
+        14,
+        9,
+        8
+      ],
+      "true_eg": 2,
+      "pred_eg": 99,
+      "top5_eg": [
+        99,
+        6,
+        4,
+        5,
+        2
+      ],
+      "correct": false,
+      "wavelength_mode": "kalpha1_kalpha2_pair",
+      "community": 4767,
+      "community_status": "in_basin"
+    },
+    {
+      "case_id": "CNRS/pattern_819.json",
+      "true_sg": 88,
+      "pred_sg": 216,
+      "top5_sg": [
+        216,
+        225,
+        160,
+        194,
+        164
+      ],
+      "true_eg": 68,
+      "pred_eg": 94,
+      "top5_eg": [
+        94,
+        75,
+        73,
+        71,
+        34
+      ],
+      "correct": false,
+      "wavelength_mode": "kalpha1_kalpha2_pair",
+      "community": 4559,
+      "community_status": "in_basin"
+    },
+    {
+      "case_id": "CNRS/pattern_825.json",
+      "true_sg": 14,
+      "pred_sg": 1,
+      "top5_sg": [
+        1,
+        2,
+        9,
+        8,
+        4
+      ],
+      "true_eg": 4,
+      "pred_eg": 99,
+      "top5_eg": [
+        99,
+        6,
+        5,
+        2,
+        4
+      ],
+      "correct": false,
+      "wavelength_mode": "weighted_average",
+      "community": 6707,
+      "community_status": "in_basin"
+    },
+    {
+      "case_id": "CNRS/pattern_826.json",
+      "true_sg": 163,
+      "pred_sg": 1,
+      "top5_sg": [
+        1,
+        2,
+        4,
+        14,
+        7
+      ],
+      "true_eg": 73,
+      "pred_eg": 99,
+      "top5_eg": [
+        99,
+        2,
+        4,
+        5,
+        3
+      ],
+      "correct": false,
+      "wavelength_mode": "weighted_average",
+      "community": 4418,
+      "community_status": "in_basin"
+    },
+    {
+      "case_id": "CNRS/pattern_835.json",
+      "true_sg": 88,
+      "pred_sg": 216,
+      "top5_sg": [
+        216,
+        225,
+        160,
+        166,
+        194
+      ],
+      "true_eg": 68,
+      "pred_eg": 94,
+      "top5_eg": [
+        94,
+        75,
+        71,
+        73,
+        69
+      ],
+      "correct": false,
+      "wavelength_mode": "kalpha1_kalpha2_pair",
+      "community": 4559,
+      "community_status": "in_basin"
+    },
+    {
+      "case_id": "CNRS/pattern_845.json",
+      "true_sg": 63,
+      "pred_sg": 1,
+      "top5_sg": [
+        1,
+        2,
+        14,
+        9,
+        8
+      ],
+      "true_eg": 29,
+      "pred_eg": 99,
+      "top5_eg": [
+        99,
+        4,
+        6,
+        5,
+        17
+      ],
+      "correct": false,
+      "wavelength_mode": "weighted_average",
+      "community": 1060,
+      "community_status": "in_basin"
+    },
+    {
+      "case_id": "CNRS/pattern_868.json",
+      "true_sg": 63,
+      "pred_sg": 1,
+      "top5_sg": [
+        1,
+        6,
+        2,
+        8,
+        14
+      ],
+      "true_eg": 29,
+      "pred_eg": 99,
+      "top5_eg": [
+        99,
+        5,
+        1,
+        2,
+        4
+      ],
+      "correct": false,
+      "wavelength_mode": "weighted_average",
+      "community": 1060,
+      "community_status": "in_basin"
+    },
+    {
+      "case_id": "CNRS/pattern_886.json",
+      "true_sg": 129,
+      "pred_sg": 1,
+      "top5_sg": [
+        1,
+        2,
+        9,
+        14,
+        4
+      ],
+      "true_eg": 54,
+      "pred_eg": 99,
+      "top5_eg": [
+        99,
+        6,
+        5,
+        4,
+        2
+      ],
+      "correct": false,
+      "wavelength_mode": "kalpha1_kalpha2_pair",
+      "community": 1990,
+      "community_status": "in_basin"
+    },
+    {
+      "case_id": "CNRS/pattern_90.json",
+      "true_sg": 88,
+      "pred_sg": 129,
+      "top5_sg": [
+        129,
+        12,
+        194,
+        123,
+        187
+      ],
+      "true_eg": 68,
+      "pred_eg": 5,
+      "top5_eg": [
+        5,
+        54,
+        71,
+        73,
+        40
+      ],
+      "correct": false,
+      "wavelength_mode": "kalpha1_kalpha2_pair",
+      "community": 4559,
+      "community_status": "in_basin"
+    },
+    {
+      "case_id": "CNRS/pattern_901.json",
+      "true_sg": 11,
+      "pred_sg": 1,
+      "top5_sg": [
+        1,
+        2,
+        14,
+        9,
+        19
+      ],
+      "true_eg": 2,
+      "pred_eg": 99,
+      "top5_eg": [
+        99,
+        6,
+        4,
+        5,
+        10
+      ],
+      "correct": false,
+      "wavelength_mode": "kalpha1_kalpha2_pair",
+      "community": 4767,
+      "community_status": "in_basin"
+    },
+    {
+      "case_id": "CNRS/pattern_907.json",
+      "true_sg": 9,
+      "pred_sg": 1,
+      "top5_sg": [
+        1,
+        2,
+        9,
+        8,
+        4
+      ],
+      "true_eg": 6,
+      "pred_eg": 99,
+      "top5_eg": [
+        99,
+        6,
+        5,
+        2,
+        3
+      ],
+      "correct": false,
+      "wavelength_mode": "weighted_average",
+      "community": 542,
+      "community_status": "in_basin"
+    },
+    {
+      "case_id": "CNRS/pattern_919.json",
+      "true_sg": 216,
+      "pred_sg": 63,
+      "top5_sg": [
+        63,
+        194,
+        62,
+        146,
+        12
+      ],
+      "true_eg": 94,
+      "pred_eg": 29,
+      "top5_eg": [
+        29,
+        75,
+        73,
+        17,
+        5
+      ],
+      "correct": false,
+      "wavelength_mode": "kalpha1_kalpha2_pair",
+      "community": 227,
+      "community_status": "frontier_like"
+    },
+    {
+      "case_id": "CNRS/pattern_943.json",
+      "true_sg": 161,
+      "pred_sg": 2,
+      "top5_sg": [
+        2,
+        1,
+        14,
+        4,
+        19
+      ],
+      "true_eg": 76,
+      "pred_eg": 99,
+      "top5_eg": [
+        99,
+        4,
+        2,
+        6,
+        5
+      ],
+      "correct": false,
+      "wavelength_mode": "kalpha1_kalpha2_pair",
+      "community": 542,
+      "community_status": "in_basin"
+    },
+    {
+      "case_id": "CNRS/pattern_950.json",
+      "true_sg": 62,
+      "pred_sg": 12,
+      "top5_sg": [
+        12,
+        123,
+        129,
+        8,
+        71
+      ],
+      "true_eg": 17,
+      "pred_eg": 5,
+      "top5_eg": [
+        5,
+        40,
+        54,
+        71,
+        33
+      ],
+      "correct": false,
+      "wavelength_mode": "kalpha1_kalpha2_pair",
+      "community": 1097,
+      "community_status": "in_basin"
+    },
+    {
+      "case_id": "CNRS/pattern_977.json",
+      "true_sg": 15,
+      "pred_sg": 1,
+      "top5_sg": [
+        1,
+        2,
+        14,
+        8,
+        4
+      ],
+      "true_eg": 6,
+      "pred_eg": 99,
+      "top5_eg": [
+        99,
+        5,
+        4,
+        6,
+        2
+      ],
+      "correct": false,
+      "wavelength_mode": "weighted_average",
+      "community": 925,
+      "community_status": "frontier_like"
+    },
+    {
+      "case_id": "CNRS/pattern_979.json",
+      "true_sg": 1,
+      "pred_sg": 123,
+      "top5_sg": [
+        123,
+        47,
+        12,
+        194,
+        71
+      ],
+      "true_eg": 99,
+      "pred_eg": 40,
+      "top5_eg": [
+        40,
+        5,
+        71,
+        7,
+        73
+      ],
+      "correct": false,
+      "wavelength_mode": "kalpha1_kalpha2_pair",
+      "community": null,
+      "community_status": "unassigned"
+    },
+    {
+      "case_id": "CNRS/pattern_98.json",
+      "true_sg": 129,
+      "pred_sg": 1,
+      "top5_sg": [
+        1,
+        2,
+        9,
+        14,
+        4
+      ],
+      "true_eg": 54,
+      "pred_eg": 99,
+      "top5_eg": [
+        99,
+        6,
+        4,
+        5,
+        2
+      ],
+      "correct": false,
+      "wavelength_mode": "kalpha1_kalpha2_pair",
+      "community": 1990,
+      "community_status": "in_basin"
+    },
+    {
+      "case_id": "CNRS/pattern_982.json",
+      "true_sg": 129,
+      "pred_sg": 1,
+      "top5_sg": [
+        1,
+        2,
+        9,
+        14,
+        4
+      ],
+      "true_eg": 54,
+      "pred_eg": 99,
+      "top5_eg": [
+        99,
+        6,
+        4,
+        5,
+        2
+      ],
+      "correct": false,
+      "wavelength_mode": "kalpha1_kalpha2_pair",
+      "community": 1990,
+      "community_status": "in_basin"
+    },
+    {
+      "case_id": "CNRS/pattern_988.json",
+      "true_sg": 129,
+      "pred_sg": 1,
+      "top5_sg": [
+        1,
+        2,
+        9,
+        14,
+        4
+      ],
+      "true_eg": 54,
+      "pred_eg": 99,
+      "top5_eg": [
+        99,
+        6,
+        5,
+        4,
+        2
+      ],
+      "correct": false,
+      "wavelength_mode": "kalpha1_kalpha2_pair",
+      "community": 1990,
+      "community_status": "in_basin"
+    },
+    {
+      "case_id": "CNRS/pattern_998.json",
+      "true_sg": 14,
+      "pred_sg": 2,
+      "top5_sg": [
+        2,
+        14,
+        1,
+        15,
+        9
+      ],
+      "true_eg": 4,
+      "pred_eg": 99,
+      "top5_eg": [
+        99,
+        6,
+        4,
+        5,
+        17
+      ],
+      "correct": false,
+      "wavelength_mode": "kalpha1_kalpha2_pair",
+      "community": 1880,
+      "community_status": "frontier_like"
+    },
+    {
+      "case_id": "HKUST/HKUST-A/pattern_18.json",
+      "true_sg": 14,
+      "pred_sg": 15,
+      "top5_sg": [
+        15,
+        62,
+        12,
+        38,
+        14
+      ],
+      "true_eg": 4,
+      "pred_eg": 6,
+      "top5_eg": [
+        6,
+        17,
+        5,
+        26,
+        29
+      ],
+      "correct": false,
+      "wavelength_mode": "kalpha1_kalpha2_pair",
+      "community": 5099,
+      "community_status": "in_basin"
+    },
+    {
+      "case_id": "HKUST/HKUST-A/pattern_3.json",
+      "true_sg": 164,
+      "pred_sg": 129,
+      "top5_sg": [
+        129,
+        194,
+        12,
+        187,
+        127
+      ],
+      "true_eg": 71,
+      "pred_eg": 54,
+      "top5_eg": [
+        54,
+        73,
+        5,
+        71,
+        26
+      ],
+      "correct": false,
+      "wavelength_mode": "kalpha1_kalpha2_pair",
+      "community": 2407,
+      "community_status": "frontier_like"
+    },
+    {
+      "case_id": "HKUST/HKUST-A/pattern_8.json",
+      "true_sg": 62,
+      "pred_sg": 71,
+      "top5_sg": [
+        71,
+        12,
+        123,
+        8,
+        1
+      ],
+      "true_eg": 17,
+      "pred_eg": 5,
+      "top5_eg": [
+        5,
+        33,
+        40,
+        99,
+        7
+      ],
+      "correct": false,
+      "wavelength_mode": "kalpha1_kalpha2_pair",
+      "community": 3565,
+      "community_status": "in_basin"
+    }
+  ]
+}

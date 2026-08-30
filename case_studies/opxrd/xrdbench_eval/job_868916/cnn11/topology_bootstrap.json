@@ -1,0 +1,66 @@
+{
+  "graph_json": "$SCRATCH/xrdbench_opxrd_community_20260727/tools/extinction_group_adjacency.json",
+  "failure_json": "$SCRATCH/xrdbench_opxrd_community_20260727/runs/job_868916/cnn11/failure.json",
+  "bootstrap_rounds": 2000,
+  "models": {
+    "xrdbench_cnn11_opxrd10_80": {
+      "point_estimate": {
+        "top1_pct": 6.122448979591836,
+        "correct": 6,
+        "wrong_n": 92,
+        "distance_buckets": {
+          "1": 17,
+          "2": 12,
+          "3": 23,
+          "4plus": 40,
+          "inf": 0
+        },
+        "pct_wrong_le2": 31.52173913043478,
+        "mean_wrong_dist": 3.1739130434782608,
+        "directionality": {
+          "descendant_pred_lower_sym": 62,
+          "ancestor_pred_higher_sym": 15,
+          "branch_jump": 15,
+          "correct": 6
+        },
+        "directionality_fraction": {
+          "descendant_pred_lower_sym": 67.3913043478261,
+          "ancestor_pred_higher_sym": 16.304347826086957,
+          "branch_jump": 16.304347826086957
+        }
+      },
+      "bootstrap": {
+        "top1_pct": {
+          "mean": 6.18826530612245,
+          "ci95_low": 2.0408163265306123,
+          "ci95_high": 11.224489795918368
+        },
+        "pct_wrong_le2": {
+          "mean": 31.761664781075982,
+          "ci95_low": 22.340425531914892,
+          "ci95_high": 41.30434782608695
+        },
+        "mean_wrong_dist": {
+          "mean": 3.1668613371223255,
+          "ci95_low": 2.8705626598465472,
+          "ci95_high": 3.4516129032258065
+        },
+        "descendant_pct_of_wrong": {
+          "mean": 67.38532386044457,
+          "ci95_low": 57.608695652173914,
+          "ci95_high": 76.92307692307692
+        },
+        "ancestor_pct_of_wrong": {
+          "mean": 16.371249230321588,
+          "ci95_low": 9.08835546475996,
+          "ci95_high": 24.444444444444443
+        },
+        "branch_jump_pct_of_wrong": {
+          "mean": 16.243426909233843,
+          "ci95_low": 8.7888198757764,
+          "ci95_high": 24.46808510638298
+        }
+      }
+    }
+  }
+}

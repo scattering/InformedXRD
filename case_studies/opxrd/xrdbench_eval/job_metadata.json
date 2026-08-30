@@ -1,0 +1,13 @@
+{
+  "job_id": 868916,
+  "job_name": "xrdbench-opxrd",
+  "partition": "gh",
+  "account": "<ALLOCATION>",
+  "state": "COMPLETED",
+  "elapsed": "00:00:38",
+  "start": "2026-07-27T00:23:03",
+  "end": "2026-07-27T00:23:41",
+  "node": "c608-132",
+  "remote_root": "$SCRATCH/xrdbench_opxrd_community_20260727",
+  "remote_result": "$SCRATCH/xrdbench_opxrd_community_20260727/runs/job_868916"
+}

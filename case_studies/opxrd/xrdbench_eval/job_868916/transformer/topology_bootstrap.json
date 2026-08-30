@@ -1,0 +1,66 @@
+{
+  "graph_json": "$SCRATCH/xrdbench_opxrd_community_20260727/tools/extinction_group_adjacency.json",
+  "failure_json": "$SCRATCH/xrdbench_opxrd_community_20260727/runs/job_868916/transformer/failure.json",
+  "bootstrap_rounds": 2000,
+  "models": {
+    "xrdbench_transformer_opxrd10_80": {
+      "point_estimate": {
+        "top1_pct": 4.081632653061225,
+        "correct": 4,
+        "wrong_n": 94,
+        "distance_buckets": {
+          "1": 0,
+          "2": 16,
+          "3": 28,
+          "4plus": 50,
+          "inf": 0
+        },
+        "pct_wrong_le2": 17.02127659574468,
+        "mean_wrong_dist": 3.74468085106383,
+        "directionality": {
+          "descendant_pred_lower_sym": 91,
+          "ancestor_pred_higher_sym": 0,
+          "branch_jump": 3,
+          "correct": 4
+        },
+        "directionality_fraction": {
+          "descendant_pred_lower_sym": 96.80851063829788,
+          "ancestor_pred_higher_sym": 0.0,
+          "branch_jump": 3.1914893617021276
+        }
+      },
+      "bootstrap": {
+        "top1_pct": {
+          "mean": 4.114285714285715,
+          "ci95_low": 1.0204081632653061,
+          "ci95_high": 8.16326530612245
+        },
+        "pct_wrong_le2": {
+          "mean": 17.020155278851153,
+          "ci95_low": 9.574468085106384,
+          "ci95_high": 25.0
+        },
+        "mean_wrong_dist": {
+          "mean": 3.7415630673421867,
+          "ci95_low": 3.5157894736842104,
+          "ci95_high": 3.978494623655914
+        },
+        "descendant_pct_of_wrong": {
+          "mean": 96.75527570574012,
+          "ci95_low": 92.55319148936171,
+          "ci95_high": 100.0
+        },
+        "ancestor_pct_of_wrong": {
+          "mean": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "branch_jump_pct_of_wrong": {
+          "mean": 3.244724294259887,
+          "ci95_low": 0.0,
+          "ci95_high": 7.446808510638298
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,1 @@
+$SCRATCH/xrdbench_clean_second_set_20260726/runs/job_867777/bilstm/repo/checkpoints/spg-bilstm_lr0.00025_bs128_2026-07-26 14:08:41_100/checkpoint.pth

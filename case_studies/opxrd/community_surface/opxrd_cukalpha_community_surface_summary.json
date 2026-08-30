@@ -1,0 +1,366 @@
+{
+  "scope": "Single-phase opXRD records with symmetry derivable from the stored atomic structure and RRUFF-compatible Cu Kalpha radiation",
+  "archive": "<DATA_ROOT>/AI and Diffraction/OpXRD/opxrd.zip",
+  "archive_size_bytes": 1400997733,
+  "archive_sha256": "38b62bcddf976debb3e41d2597d3f14ac6c1f1c8a33565a84a98ef38ba3b6044",
+  "sg_eg_table": "Code/Post_Processing/FINAL_SPG_ExtG_CrysS_Table.csv",
+  "sg_eg_table_sha256": "26b4040c11acc8a193a4760bf02304d0850b12913981960a8dccd2100c23c3e4",
+  "software_versions": {
+    "numpy": "2.4.3",
+    "pymatgen": "2026.3.23",
+    "scikit-learn": "1.8.0",
+    "matminer": "0.10.1"
+  },
+  "wavelength_rule": {
+    "accepted": [
+      "explicit Cu Kalpha1/Kalpha2 pair in either order",
+      "2:1 weighted-average Cu Kalpha wavelength"
+    ],
+    "excluded": [
+      "monochromated Cu Kalpha1-only",
+      "monochromated Cu Kalpha2-only",
+      "other wavelengths"
+    ],
+    "kalpha1_angstrom": 1.540562,
+    "kalpha2_angstrom": 1.54439,
+    "weighted_average_angstrom": 1.541838,
+    "absolute_tolerance_angstrom": 0.0005
+  },
+  "symmetry_parameters": {
+    "symprec": 0.01,
+    "angle_tolerance": 5.0
+  },
+  "candidate_audit": {
+    "counts": {
+      "archive_records": 92552,
+      "single_phase": 1069,
+      "single_phase_symmetry_derivable": 908,
+      "wavelength_rejected": 679,
+      "wavelength_accepted": 229,
+      "wavelength_kalpha1_kalpha2_pair": 127,
+      "pattern_axis_valid": 227,
+      "structure_or_symmetry_failure": 161,
+      "wavelength_weighted_average": 102,
+      "pattern_axis_failure": 2,
+      "not_single_phase": 91483
+    },
+    "failure_types": {
+      "structure_or_symmetry: ValueError: basis is absent or empty": 161,
+      "pattern_axis: ValueError: two-theta values are not strictly increasing": 2
+    },
+    "duplicates": {
+      "exact_raw_pattern_groups": 2,
+      "redundant_records_removed": 2,
+      "label_conflict_groups_excluded": 0,
+      "records_in_label_conflict_groups": 0,
+      "selected_unique_patterns": 225
+    }
+  },
+  "community_projection": {
+    "reference": {
+      "icsd_features": "$HOME/crystal-communities/notes/features.npy",
+      "icsd_features_sha256": "79e9d628cac349c6adb6a2c6d9b5dcba58ee349a79e8f2c7603bf85beaf0063a",
+      "community_assignments": "$HOME/crystal-communities/notes/icsd_community_assignments/community_assignments_labels3.csv",
+      "community_assignments_sha256": "86945d1e218ca42abe2e9ab600f4267349e9089879ce87d7483e1d7dd362d522",
+      "community_thresholds": "$HOME/crystal-communities/notes/per_community_thresholds_fullmap_p95.json",
+      "community_thresholds_sha256": "7911ad17005c0a25ec5dd41c2b23ff2d1fd07a80c7338fbf79007ec9f165280d",
+      "crystal_community_scripts": "$HOME/crystal-communities/scripts",
+      "wl_iters": 3,
+      "oxidation_state_handling": "strip opXRD oxidation decorations before applying the production neutral-element chemistry featurizer",
+      "pca_components": 32,
+      "threshold_mode": "per_community_p95"
+    },
+    "records_requested": 227,
+    "records_featurized": 210,
+    "records_failed": 17,
+    "max_sites": 256,
+    "failure_examples": [
+      {
+        "record": "CNRS/pattern_1.json",
+        "error": "ValueError: structure has 736 sites, limit is 256"
+      },
+      {
+        "record": "CNRS/pattern_1016.json",
+        "error": "ValueError: structure has 728 sites, limit is 256"
+      },
+      {
+        "record": "CNRS/pattern_211.json",
+        "error": "ValueError: structure has 396 sites, limit is 256"
+      },
+      {
+        "record": "CNRS/pattern_404.json",
+        "error": "ValueError: structure has 312 sites, limit is 256"
+      },
+      {
+        "record": "CNRS/pattern_411.json",
+        "error": "ValueError: structure has 328 sites, limit is 256"
+      },
+      {
+        "record": "CNRS/pattern_531.json",
+        "error": "ValueError: structure has 444 sites, limit is 256"
+      },
+      {
+        "record": "CNRS/pattern_636.json",
+        "error": "ValueError: structure has 488 sites, limit is 256"
+      },
+      {
+        "record": "CNRS/pattern_663.json",
+        "error": "ValueError: structure has 368 sites, limit is 256"
+      },
+      {
+        "record": "CNRS/pattern_665.json",
+        "error": "ValueError: structure has 1016 sites, limit is 256"
+      },
+      {
+        "record": "CNRS/pattern_667.json",
+        "error": "ValueError: structure has 444 sites, limit is 256"
+      },
+      {
+        "record": "CNRS/pattern_712.json",
+        "error": "ValueError: structure has 728 sites, limit is 256"
+      },
+      {
+        "record": "CNRS/pattern_746.json",
+        "error": "ValueError: structure has 308 sites, limit is 256"
+      },
+      {
+        "record": "CNRS/pattern_767.json",
+        "error": "ValueError: structure has 264 sites, limit is 256"
+      },
+      {
+        "record": "CNRS/pattern_843.json",
+        "error": "ValueError: structure has 728 sites, limit is 256"
+      },
+      {
+        "record": "CNRS/pattern_916.json",
+        "error": "ValueError: structure has 280 sites, limit is 256"
+      },
+      {
+        "record": "CNRS/pattern_979.json",
+        "error": "ValueError: structure has 592 sites, limit is 256"
+      },
+      {
+        "record": "HKUST/HKUST-A/pattern_1.json",
+        "error": "ValueError: structure has 356 sites, limit is 256"
+      }
+    ],
+    "assigned_communities": 111,
+    "outlier_like_records": 100,
+    "in_basin_records": 110,
+    "top_assigned_communities": [
+      {
+        "community": 2755,
+        "count": 21
+      },
+      {
+        "community": 1990,
+        "count": 20
+      },
+      {
+        "community": 542,
+        "count": 13
+      },
+      {
+        "community": 1060,
+        "count": 11
+      },
+      {
+        "community": 4767,
+        "count": 11
+      },
+      {
+        "community": 3828,
+        "count": 9
+      },
+      {
+        "community": 4559,
+        "count": 8
+      },
+      {
+        "community": 2453,
+        "count": 4
+      },
+      {
+        "community": 227,
+        "count": 3
+      },
+      {
+        "community": 2445,
+        "count": 3
+      },
+      {
+        "community": 3709,
+        "count": 2
+      },
+      {
+        "community": 2078,
+        "count": 2
+      },
+      {
+        "community": 1560,
+        "count": 2
+      },
+      {
+        "community": 165,
+        "count": 2
+      },
+      {
+        "community": 2006,
+        "count": 2
+      },
+      {
+        "community": 2948,
+        "count": 2
+      },
+      {
+        "community": 1117,
+        "count": 1
+      },
+      {
+        "community": 4457,
+        "count": 1
+      },
+      {
+        "community": 4944,
+        "count": 1
+      },
+      {
+        "community": 3513,
+        "count": 1
+      }
+    ]
+  },
+  "candidate_csv": "docs/review_notes/opxrd_metadata_2026-04-02/opxrd_cukalpha_community_surface_2026-07-27/opxrd_cukalpha_candidates.csv",
+  "views": [
+    {
+      "window": [
+        5.0,
+        90.0
+      ],
+      "grid_step": 0.01,
+      "grid_points": 8501,
+      "max_native_step": 0.05,
+      "endpoint_native_bin_tolerance": 0.0,
+      "records": 13,
+      "strictly_covering_records": 13,
+      "records_using_endpoint_edge_fill": 0,
+      "unique_space_groups": 8,
+      "unique_extinction_groups": 7,
+      "assigned_communities": 9,
+      "in_basin_records": 8,
+      "outlier_like_records": 4,
+      "records_without_community_assignment": 1,
+      "wavelength_modes": {
+        "weighted_average": 4,
+        "kalpha1_kalpha2_pair": 9
+      },
+      "npz": "docs/review_notes/opxrd_metadata_2026-04-02/opxrd_cukalpha_community_surface_2026-07-27/opxrd_cukalpha_5_90_maxnorm.npz",
+      "manifest": "docs/review_notes/opxrd_metadata_2026-04-02/opxrd_cukalpha_community_surface_2026-07-27/opxrd_cukalpha_5_90_manifest.csv"
+    },
+    {
+      "window": [
+        5.0,
+        80.0
+      ],
+      "grid_step": 0.01,
+      "grid_points": 7501,
+      "max_native_step": 0.05,
+      "endpoint_native_bin_tolerance": 0.0,
+      "records": 39,
+      "strictly_covering_records": 39,
+      "records_using_endpoint_edge_fill": 0,
+      "unique_space_groups": 12,
+      "unique_extinction_groups": 11,
+      "assigned_communities": 13,
+      "in_basin_records": 30,
+      "outlier_like_records": 7,
+      "records_without_community_assignment": 2,
+      "wavelength_modes": {
+        "weighted_average": 9,
+        "kalpha1_kalpha2_pair": 30
+      },
+      "npz": "docs/review_notes/opxrd_metadata_2026-04-02/opxrd_cukalpha_community_surface_2026-07-27/opxrd_cukalpha_5_80_maxnorm.npz",
+      "manifest": "docs/review_notes/opxrd_metadata_2026-04-02/opxrd_cukalpha_community_surface_2026-07-27/opxrd_cukalpha_5_80_manifest.csv"
+    },
+    {
+      "window": [
+        10.0,
+        90.0
+      ],
+      "grid_step": 0.01,
+      "grid_points": 8001,
+      "max_native_step": 0.05,
+      "endpoint_native_bin_tolerance": 0.0,
+      "records": 50,
+      "strictly_covering_records": 50,
+      "records_using_endpoint_edge_fill": 0,
+      "unique_space_groups": 23,
+      "unique_extinction_groups": 20,
+      "assigned_communities": 35,
+      "in_basin_records": 29,
+      "outlier_like_records": 20,
+      "records_without_community_assignment": 1,
+      "wavelength_modes": {
+        "kalpha1_kalpha2_pair": 30,
+        "weighted_average": 20
+      },
+      "npz": "docs/review_notes/opxrd_metadata_2026-04-02/opxrd_cukalpha_community_surface_2026-07-27/opxrd_cukalpha_10_90_maxnorm.npz",
+      "manifest": "docs/review_notes/opxrd_metadata_2026-04-02/opxrd_cukalpha_community_surface_2026-07-27/opxrd_cukalpha_10_90_manifest.csv"
+    },
+    {
+      "window": [
+        10.0,
+        80.0
+      ],
+      "grid_step": 0.01,
+      "grid_points": 7001,
+      "max_native_step": 0.05,
+      "endpoint_native_bin_tolerance": 0.0,
+      "records": 98,
+      "strictly_covering_records": 98,
+      "records_using_endpoint_edge_fill": 0,
+      "unique_space_groups": 28,
+      "unique_extinction_groups": 23,
+      "assigned_communities": 46,
+      "in_basin_records": 67,
+      "outlier_like_records": 28,
+      "records_without_community_assignment": 3,
+      "wavelength_modes": {
+        "kalpha1_kalpha2_pair": 65,
+        "weighted_average": 33
+      },
+      "npz": "docs/review_notes/opxrd_metadata_2026-04-02/opxrd_cukalpha_community_surface_2026-07-27/opxrd_cukalpha_10_80_maxnorm.npz",
+      "manifest": "docs/review_notes/opxrd_metadata_2026-04-02/opxrd_cukalpha_community_surface_2026-07-27/opxrd_cukalpha_10_80_manifest.csv"
+    },
+    {
+      "window": [
+        15.0,
+        80.0
+      ],
+      "grid_step": 0.01,
+      "grid_points": 6501,
+      "max_native_step": 0.05,
+      "endpoint_native_bin_tolerance": 0.0,
+      "records": 139,
+      "strictly_covering_records": 139,
+      "records_using_endpoint_edge_fill": 0,
+      "unique_space_groups": 35,
+      "unique_extinction_groups": 28,
+      "assigned_communities": 65,
+      "in_basin_records": 75,
+      "outlier_like_records": 61,
+      "records_without_community_assignment": 3,
+      "wavelength_modes": {
+        "kalpha1_kalpha2_pair": 96,
+        "weighted_average": 43
+      },
+      "npz": "docs/review_notes/opxrd_metadata_2026-04-02/opxrd_cukalpha_community_surface_2026-07-27/opxrd_cukalpha_15_80_maxnorm.npz",
+      "manifest": "docs/review_notes/opxrd_metadata_2026-04-02/opxrd_cukalpha_community_surface_2026-07-27/opxrd_cukalpha_15_80_manifest.csv"
+    }
+  ],
+  "synthetic_data_implication": {
+    "new_wavelength_simulation_required": false,
+    "reason": "Accepted records use the same explicit Cu Kalpha1/Kalpha2 or 2:1 weighted-average convention as RRUFF.",
+    "range_adaptation": "A narrower opXRD view requires cropping the existing 5-90 degree synthetic patterns to the same window and retraining the compared models; it does not require resimulating the diffraction patterns."
+  }
+}

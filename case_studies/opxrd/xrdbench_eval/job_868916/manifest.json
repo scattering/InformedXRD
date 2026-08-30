@@ -1,0 +1,230 @@
+{
+  "run_group": "$SCRATCH/xrdbench_opxrd_community_20260727/runs/job_868916",
+  "files": [
+    {
+      "path": "PatchTST/checkpoint_path.txt",
+      "bytes": 176,
+      "sha256": "3a9be12816931ecf99a1699b1842e40767e00ec9ca7b88fe5b62833b1340120f"
+    },
+    {
+      "path": "PatchTST/eval.json",
+      "bytes": 48220,
+      "sha256": "e87f2806fac629e81462e3f90dc187c09a82578d4a408b2290bc3958f6e35599"
+    },
+    {
+      "path": "PatchTST/failure.json",
+      "bytes": 25260,
+      "sha256": "8090fbbbeaf5aa703bf17985bfda7534f6bee9f2a56388c83bb39833a66c772f"
+    },
+    {
+      "path": "PatchTST/posterior.npz",
+      "bytes": 135748,
+      "sha256": "db730aa817e10f24a8a50ad181f66ead797b350868632d7b056b34f0031545bf"
+    },
+    {
+      "path": "PatchTST/topology.json",
+      "bytes": 766,
+      "sha256": "5827da187c3e27f1f23271a659a559ab47da68fbfc974302192e4a0f5eaef233"
+    },
+    {
+      "path": "PatchTST/topology_bootstrap.json",
+      "bytes": 2077,
+      "sha256": "3418470838aa2d3fe1b4878c68b8a9daf6af3214c858271964367709505a4527"
+    },
+    {
+      "path": "PatchTST/topology_error_conditioned_null.json",
+      "bytes": 1250,
+      "sha256": "f17e6f037fc8077c7cc758c132bc36887b8822d78934c4eb874a1c702c8b6208"
+    },
+    {
+      "path": "bigru/checkpoint_path.txt",
+      "bytes": 117,
+      "sha256": "4845a023814ae7ca2e095505b85bef4a05cd34619e0d8ea3e56a6119ee8d5c3b"
+    },
+    {
+      "path": "bigru/eval.json",
+      "bytes": 48077,
+      "sha256": "07dea4452c09d3169b5867be0f5f093448f055fe5ee85ceeaf758a71a7be5c51"
+    },
+    {
+      "path": "bigru/failure.json",
+      "bytes": 25263,
+      "sha256": "c93d2be7055750405948ed92916eb95fd56cfb5ffe0367e0517fd27b6aa65b60"
+    },
+    {
+      "path": "bigru/posterior.npz",
+      "bytes": 135655,
+      "sha256": "f0bde3c39df2d3f23df264b08fadf2bba7887dbc00f6bcb6f8a36b7f728d288c"
+    },
+    {
+      "path": "bigru/topology.json",
+      "bytes": 756,
+      "sha256": "d8e768354c76a6a856df62944676b3ee6c3b8d2c1efa0f52736bf8906d005523"
+    },
+    {
+      "path": "bigru/topology_bootstrap.json",
+      "bytes": 2046,
+      "sha256": "c55a103da1d1328c162cf4e0d1dc15a08451af35d7279595806e1797f6b262ca"
+    },
+    {
+      "path": "bigru/topology_error_conditioned_null.json",
+      "bytes": 1244,
+      "sha256": "fdf1ff633c9392b5398b18b5a6f0cccb704dbf600ba471a3a9d85035a1317369"
+    },
+    {
+      "path": "bilstm/checkpoint_path.txt",
+      "bytes": 172,
+      "sha256": "e46f537395552c0ef6e49dc2351bcf9ccccce361c9c13f3433853f1e19b0c3b9"
+    },
+    {
+      "path": "bilstm/eval.json",
+      "bytes": 48140,
+      "sha256": "b36ee7fc2815c81eb96ae3db031e327edadd6a87be0a6358ee05e1d9b1eebffa"
+    },
+    {
+      "path": "bilstm/failure.json",
+      "bytes": 25247,
+      "sha256": "cc7870d09c755084d692261168346493a262995e05acc7fd351bbba330494777"
+    },
+    {
+      "path": "bilstm/posterior.npz",
+      "bytes": 135987,
+      "sha256": "708a80927486b55d0a160aae15e201fe1aa668f639a8f261a3b0c4d6032e8387"
+    },
+    {
+      "path": "bilstm/topology.json",
+      "bytes": 761,
+      "sha256": "33404e13f77d2f7dc28a725b7d9ce82357e3e5db4664c8293c3d13182f70ac5d"
+    },
+    {
+      "path": "bilstm/topology_bootstrap.json",
+      "bytes": 2074,
+      "sha256": "bf47bd696d3f2fef711c28fc2025d6f51930905040f2678f505993828a4f0565"
+    },
+    {
+      "path": "bilstm/topology_error_conditioned_null.json",
+      "bytes": 1260,
+      "sha256": "b0bfe9ed48ec71e3f3d1ed2fc403435e634a852a13353c23bf1031c73cf5b6b9"
+    },
+    {
+      "path": "cnn10/checkpoint_path.txt",
+      "bytes": 170,
+      "sha256": "36388764eef24b8360b64a0c9b593038d7a573c2f8b700c56b82208cf2a36512"
+    },
+    {
+      "path": "cnn10/eval.json",
+      "bytes": 48103,
+      "sha256": "6d707679322c50e8604f5fc441fa47fc2b28b5c79e5db5469b2ed4632a80a74e"
+    },
+    {
+      "path": "cnn10/failure.json",
+      "bytes": 25226,
+      "sha256": "d1164d6cb7d49907f94b24e95c45b654c439376d4527ae024df2c4b21c3e86b3"
+    },
+    {
+      "path": "cnn10/posterior.npz",
+      "bytes": 138080,
+      "sha256": "15d65edebc2ed3fa9ff018c8bf1c03f3b1f259ad23ee342e133b357f95f5ba23"
+    },
+    {
+      "path": "cnn10/topology.json",
+      "bytes": 759,
+      "sha256": "80f9c0068a707a8debf1b7af2a95c6e3fb12cd5f74e48fbc36077534201e839d"
+    },
+    {
+      "path": "cnn10/topology_bootstrap.json",
+      "bytes": 2039,
+      "sha256": "2d661b28ea11853343c80eed52803b7b72a5a09239e0ec55e6136368456a83cb"
+    },
+    {
+      "path": "cnn10/topology_error_conditioned_null.json",
+      "bytes": 1254,
+      "sha256": "b5ce157a0e1b1a1d623aa3bd17bf80f2ca97e6e60f7ae7519d5186765c7a15b2"
+    },
+    {
+      "path": "cnn11/checkpoint_path.txt",
+      "bytes": 117,
+      "sha256": "5003ad4fb2e9501c7832ab0652442ccbf45961ae1691642300701f6903887354"
+    },
+    {
+      "path": "cnn11/eval.json",
+      "bytes": 48107,
+      "sha256": "55d8444afc24f3e5c400360eb3298d0706f81829ca07242556e516fdeda9c842"
+    },
+    {
+      "path": "cnn11/failure.json",
+      "bytes": 25225,
+      "sha256": "4638d334b760cacc86e8f58f198c79a7a51c4d710f7bf031c2560004f5af725d"
+    },
+    {
+      "path": "cnn11/posterior.npz",
+      "bytes": 136822,
+      "sha256": "97ca165e70c529a7b66dacd7f0d9877bb234d5a847040d3018cba833aa3c8bc3"
+    },
+    {
+      "path": "cnn11/topology.json",
+      "bytes": 759,
+      "sha256": "f2fcb2a72705754eaf0bab997c7ef93f3fca465be1a7ae033f534285f277ec14"
+    },
+    {
+      "path": "cnn11/topology_bootstrap.json",
+      "bytes": 2068,
+      "sha256": "6b6f6f7c6a38dcb39dddafdfbebe39efc129689b80bf58941e9c9ce63da93333"
+    },
+    {
+      "path": "cnn11/topology_error_conditioned_null.json",
+      "bytes": 1254,
+      "sha256": "69783331b835038f13dbd68c779fbb01e0ae9ba9cae46a72fa0e1d4879c4a677"
+    },
+    {
+      "path": "opxrd10_80_uniform_wrong_null.json",
+      "bytes": 1259,
+      "sha256": "36d839e564a3501d5b887561b249d0df3634ab59e7074220b5b79b6f2618a283"
+    },
+    {
+      "path": "provenance.json",
+      "bytes": 1331,
+      "sha256": "d7c39fc00ea3e04822ac445286c40cfced6469a2ff65bcdfb87b0fb022cdf55e"
+    },
+    {
+      "path": "summary.json",
+      "bytes": 3428,
+      "sha256": "1c3b7fb92e4612964fba718504496b0b5d618bdbb3f12910a14f85a57e886773"
+    },
+    {
+      "path": "transformer/checkpoint_path.txt",
+      "bytes": 123,
+      "sha256": "879d5efd63e6e29834506b178fd8af862465545374f7bee41a83bf1a7f5cd515"
+    },
+    {
+      "path": "transformer/eval.json",
+      "bytes": 48032,
+      "sha256": "21135dce828120ff2a2f5761238d7df76df4c78789f6f8ee00ef3f13d69b782e"
+    },
+    {
+      "path": "transformer/failure.json",
+      "bytes": 25270,
+      "sha256": "c2138f3d2f98665e6c0c8df9a28ce360f79d9881f6d9303449ef19c4d16b5899"
+    },
+    {
+      "path": "transformer/posterior.npz",
+      "bytes": 132687,
+      "sha256": "0bb51803cb0a02772395cf76a0ac53bf415ad20d7f26237d590635a0172fb5d2"
+    },
+    {
+      "path": "transformer/topology.json",
+      "bytes": 727,
+      "sha256": "4ac292d6b80c1f9408c566e7b5c1242362a8609394d9c41445a28057c7e03a5c"
+    },
+    {
+      "path": "transformer/topology_bootstrap.json",
+      "bytes": 1976,
+      "sha256": "94b867a7ad12fbeb831097c61232a9eb3eee433c028bed3de4e4819ea0381877"
+    },
+    {
+      "path": "transformer/topology_error_conditioned_null.json",
+      "bytes": 1256,
+      "sha256": "c161db3c8db0cc4f82fb491e748ef6c3cd2a31235425f5ff0b901ed514fb1234"
+    }
+  ]
+}

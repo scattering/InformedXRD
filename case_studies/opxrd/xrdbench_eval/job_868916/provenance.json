@@ -1,0 +1,34 @@
+{
+  "training_contract": {
+    "source": "SimXRD public train_1 split",
+    "target": "230 space groups",
+    "two_theta_min": 10.0,
+    "two_theta_max": 80.0,
+    "two_theta_step": 0.02,
+    "sequence_length": 3501,
+    "nominal_intensity_max": 100.0,
+    "wavelength_angstrom": 1.54184
+  },
+  "files": {
+    "$SCRATCH/xrdbench_opxrd_community_20260727/input/opxrd_cukalpha_10_80_maxnorm.npz": {
+      "bytes": 2010595,
+      "sha256": "5f7ad1e40f9357b752150e48cd09e880ded09cd7dbf44573a90fb138f30c81ee"
+    },
+    "$SCRATCH/xrdbench_opxrd_community_20260727/tools/canonical_extinction_to_space_group.csv": {
+      "bytes": 3904,
+      "sha256": "d2cfc302c26d811fd39a1747ced43be104d5bf25d1a385c0ce2293cbc86c1cdd"
+    },
+    "$SCRATCH/simxrd_train1_pt_shards/manifest.json": {
+      "bytes": 7440,
+      "sha256": "ee489b29834165a1ef7167993907550862a383a6b2f381be2af30c2c3b03e0f4"
+    },
+    "$SCRATCH/simxrd_val_pt_shards/manifest.json": {
+      "bytes": 1648,
+      "sha256": "6aebbef293a5743041217edfa31955abeae5623172367e51eb4832b205acb2a0"
+    },
+    "$SCRATCH/simxrd_test_pt_shards/manifest.json": {
+      "bytes": 3072,
+      "sha256": "efc28bb0ec864d88e1f55dc45c928e53766832dbcb0befe08324ce0116292e24"
+    }
+  }
+}

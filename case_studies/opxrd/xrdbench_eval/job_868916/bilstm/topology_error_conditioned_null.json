@@ -1,0 +1,35 @@
+{
+  "null_definition": "For each benchmark true label, enumerate all 98 incorrect labels uniformly and summarize their positions on the condensed DAG.",
+  "graph_json": "$SCRATCH/xrdbench_opxrd_community_20260727/tools/extinction_group_adjacency.json",
+  "failure_json": "$SCRATCH/xrdbench_opxrd_community_20260727/runs/job_868916/bilstm/failure.json",
+  "source_model_key": "xrdbench_bilstm_opxrd10_80",
+  "conditioning": "model_wrong_cases",
+  "n_source_examples": 98,
+  "n_examples": 93,
+  "num_labels": 99,
+  "n_wrong_label_pairs": 9114,
+  "mean_wrong_distance": 2.8359666447224052,
+  "pct_wrong_distance_le2": 33.43208251042353,
+  "distance_counts": {
+    "0": 3,
+    "1": 624,
+    "2": 2420,
+    "3": 4041,
+    "4": 1876,
+    "5": 144,
+    "6": 6
+  },
+  "directionality_counts": {
+    "descendant_pred_lower_sym": 1009,
+    "ancestor_pred_higher_sym": 2729,
+    "branch_jump": 5373,
+    "same_condensed_node": 3
+  },
+  "directionality_pct": {
+    "descendant_pred_lower_sym": 11.070879964889182,
+    "ancestor_pred_higher_sym": 29.942944919903447,
+    "branch_jump": 58.95325872284398,
+    "same_condensed_node": 0.032916392363396975
+  },
+  "descendant_including_same_condensed_node_pct": 11.103796357252579
+}

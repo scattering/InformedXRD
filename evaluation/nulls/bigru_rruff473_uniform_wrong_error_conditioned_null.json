@@ -1,0 +1,35 @@
+{
+  "null_definition": "For each benchmark true label, enumerate all 98 incorrect labels uniformly and summarize their positions on the condensed DAG.",
+  "graph_json": "$SCRATCH/ai-diffraction/artifacts/topology_graphs/extinction_group_adjacency.json",
+  "failure_json": "$SCRATCH/xrdbench_clean_second_set_20260726/runs/job_867777/original_models_common_grid/bigru/rruff473/failure.json",
+  "source_model_key": "xrdbench_bigru_common_grid",
+  "conditioning": "model_wrong_cases",
+  "n_source_examples": 473,
+  "n_examples": 423,
+  "num_labels": 99,
+  "n_wrong_label_pairs": 41454,
+  "mean_wrong_distance": 2.901312297968833,
+  "pct_wrong_distance_le2": 31.748444058474455,
+  "distance_counts": {
+    "0": 21,
+    "1": 2734,
+    "2": 10406,
+    "3": 17815,
+    "4": 9210,
+    "5": 1168,
+    "6": 100
+  },
+  "directionality_counts": {
+    "descendant_pred_lower_sym": 3956,
+    "ancestor_pred_higher_sym": 12303,
+    "branch_jump": 25174,
+    "same_condensed_node": 21
+  },
+  "directionality_pct": {
+    "descendant_pred_lower_sym": 9.543108023351184,
+    "ancestor_pred_higher_sym": 29.67867998263135,
+    "branch_jump": 60.727553432720605,
+    "same_condensed_node": 0.05065856129685917
+  },
+  "descendant_including_same_condensed_node_pct": 9.593766584648044
+}

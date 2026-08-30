@@ -1,0 +1,91 @@
+{
+  "zip_path": "<DATA_ROOT>/AI and Diffraction/OpXRD/opxrd.zip",
+  "total_patterns": 92552,
+  "patterns_with_phases": 2179,
+  "patterns_with_lattice": 1377,
+  "patterns_with_spacegroup": 611,
+  "patterns_with_both_pattern_level": 91,
+  "phase_entries_with_both": 0,
+  "wavelengths": {
+    "cu_kalpha1_like": 13178,
+    "cu_kalpha2_like": 12992,
+    "both_cu_kalpha1_kalpha2": 12991,
+    "only_cu_kalpha1_like": 187,
+    "tertiary_wavelength_used": 0,
+    "common_primary_secondary_combinations": [
+      {
+        "primary_wavelength": "1.23984",
+        "secondary_wavelength": null,
+        "count": 68322
+      },
+      {
+        "primary_wavelength": "1.5406",
+        "secondary_wavelength": "1.54439",
+        "count": 9838
+      },
+      {
+        "primary_wavelength": "1.2083899974822998",
+        "secondary_wavelength": "1.2079299688339233",
+        "count": 9568
+      },
+      {
+        "primary_wavelength": "1.54439",
+        "secondary_wavelength": "1.54056",
+        "count": 3040
+      },
+      {
+        "primary_wavelength": null,
+        "secondary_wavelength": null,
+        "count": 830
+      },
+      {
+        "primary_wavelength": "1.54056",
+        "secondary_wavelength": null,
+        "count": 84
+      },
+      {
+        "primary_wavelength": "1.5418",
+        "secondary_wavelength": null,
+        "count": 78
+      },
+      {
+        "primary_wavelength": "0.7093",
+        "secondary_wavelength": "0.71359",
+        "count": 71
+      },
+      {
+        "primary_wavelength": "1.5406",
+        "secondary_wavelength": null,
+        "count": 60
+      },
+      {
+        "primary_wavelength": "1.5405",
+        "secondary_wavelength": "1.5443",
+        "count": 44
+      }
+    ]
+  },
+  "sources": {
+    "total_patterns": {
+      "CNRS / PSL University": 1052,
+      "Empa": 770,
+      "HKUST": 520,
+      "IKFT": 64,
+      "INT": 19796,
+      "LBNL": 70012,
+      "University of Southern California": 338
+    },
+    "patterns_with_lattice": {
+      "CNRS / PSL University": 1052,
+      "HKUST": 21,
+      "University of Southern California": 304
+    },
+    "patterns_with_spacegroup": {
+      "Empa": 486,
+      "University of Southern California": 125
+    },
+    "patterns_with_both_pattern_level": {
+      "University of Southern California": 91
+    }
+  }
+}

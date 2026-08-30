@@ -1,0 +1,4448 @@
+{
+  "scope": "opXRD records with exactly one declared phase and a structure from which pymatgen computes a space group",
+  "parameters": {
+    "symprec": 0.01,
+    "angle_tolerance": 5.0,
+    "structure_matcher": {
+      "ltol": 0.05,
+      "stol": 0.3,
+      "angle_tol": 3.0,
+      "primitive_cell": true,
+      "scale": false,
+      "comparator": "ElementComparator"
+    }
+  },
+  "records": 908,
+  "failures_among_single_phase_records": {
+    "ValueError: basis is absent or is not a nonempty list": 161
+  },
+  "sources": {
+    "CNRS": 891,
+    "HKUST": 17
+  },
+  "institutions": {
+    "CNRS /PSL University": 891,
+    "Multiple Key Laboratory of Materials Informatics, Hongkong University of Science and Technology (Guangzhou)": 17
+  },
+  "space_groups": {
+    "n": 908,
+    "observed_classes": 94,
+    "universe_classes": 230,
+    "coverage_fraction": 0.40869565217391307,
+    "entropy_bits": 5.282362154692933,
+    "effective_classes": 38.91790526148307,
+    "normalized_entropy_over_universe": 0.6732991974232491,
+    "herfindahl_index": 0.04906217857905257,
+    "top1_share": 0.16079295154185022,
+    "top5_share": 0.3766519823788546,
+    "top10_share": 0.5451541850220264,
+    "counts": [
+      {
+        "class": 14,
+        "count": 146,
+        "fraction": 0.16079295154185022
+      },
+      {
+        "class": 2,
+        "count": 69,
+        "fraction": 0.07599118942731277
+      },
+      {
+        "class": 15,
+        "count": 49,
+        "fraction": 0.053964757709251104
+      },
+      {
+        "class": 62,
+        "count": 41,
+        "fraction": 0.04515418502202643
+      },
+      {
+        "class": 74,
+        "count": 37,
+        "fraction": 0.040748898678414094
+      },
+      {
+        "class": 19,
+        "count": 35,
+        "fraction": 0.03854625550660793
+      },
+      {
+        "class": 129,
+        "count": 33,
+        "fraction": 0.03634361233480176
+      },
+      {
+        "class": 60,
+        "count": 30,
+        "fraction": 0.03303964757709251
+      },
+      {
+        "class": 148,
+        "count": 29,
+        "fraction": 0.031938325991189426
+      },
+      {
+        "class": 225,
+        "count": 26,
+        "fraction": 0.028634361233480177
+      },
+      {
+        "class": 139,
+        "count": 20,
+        "fraction": 0.022026431718061675
+      },
+      {
+        "class": 227,
+        "count": 19,
+        "fraction": 0.02092511013215859
+      },
+      {
+        "class": 4,
+        "count": 18,
+        "fraction": 0.019823788546255508
+      },
+      {
+        "class": 221,
+        "count": 18,
+        "fraction": 0.019823788546255508
+      },
+      {
+        "class": 11,
+        "count": 17,
+        "fraction": 0.018722466960352423
+      },
+      {
+        "class": 166,
+        "count": 17,
+        "fraction": 0.018722466960352423
+      },
+      {
+        "class": 125,
+        "count": 16,
+        "fraction": 0.01762114537444934
+      },
+      {
+        "class": 61,
+        "count": 14,
+        "fraction": 0.015418502202643172
+      },
+      {
+        "class": 88,
+        "count": 14,
+        "fraction": 0.015418502202643172
+      },
+      {
+        "class": 12,
+        "count": 13,
+        "fraction": 0.014317180616740088
+      },
+      {
+        "class": 33,
+        "count": 13,
+        "fraction": 0.014317180616740088
+      },
+      {
+        "class": 63,
+        "count": 13,
+        "fraction": 0.014317180616740088
+      },
+      {
+        "class": 36,
+        "count": 8,
+        "fraction": 0.00881057268722467
+      },
+      {
+        "class": 72,
+        "count": 8,
+        "fraction": 0.00881057268722467
+      },
+      {
+        "class": 140,
+        "count": 8,
+        "fraction": 0.00881057268722467
+      },
+      {
+        "class": 176,
+        "count": 8,
+        "fraction": 0.00881057268722467
+      },
+      {
+        "class": 193,
+        "count": 8,
+        "fraction": 0.00881057268722467
+      },
+      {
+        "class": 13,
+        "count": 7,
+        "fraction": 0.007709251101321586
+      },
+      {
+        "class": 141,
+        "count": 7,
+        "fraction": 0.007709251101321586
+      },
+      {
+        "class": 191,
+        "count": 7,
+        "fraction": 0.007709251101321586
+      },
+      {
+        "class": 26,
+        "count": 6,
+        "fraction": 0.006607929515418502
+      },
+      {
+        "class": 121,
+        "count": 6,
+        "fraction": 0.006607929515418502
+      },
+      {
+        "class": 164,
+        "count": 6,
+        "fraction": 0.006607929515418502
+      },
+      {
+        "class": 167,
+        "count": 6,
+        "fraction": 0.006607929515418502
+      },
+      {
+        "class": 194,
+        "count": 6,
+        "fraction": 0.006607929515418502
+      },
+      {
+        "class": 5,
+        "count": 5,
+        "fraction": 0.005506607929515419
+      },
+      {
+        "class": 29,
+        "count": 5,
+        "fraction": 0.005506607929515419
+      },
+      {
+        "class": 163,
+        "count": 5,
+        "fraction": 0.005506607929515419
+      },
+      {
+        "class": 203,
+        "count": 5,
+        "fraction": 0.005506607929515419
+      },
+      {
+        "class": 205,
+        "count": 5,
+        "fraction": 0.005506607929515419
+      },
+      {
+        "class": 216,
+        "count": 5,
+        "fraction": 0.005506607929515419
+      },
+      {
+        "class": 45,
+        "count": 4,
+        "fraction": 0.004405286343612335
+      },
+      {
+        "class": 58,
+        "count": 4,
+        "fraction": 0.004405286343612335
+      },
+      {
+        "class": 59,
+        "count": 4,
+        "fraction": 0.004405286343612335
+      },
+      {
+        "class": 87,
+        "count": 4,
+        "fraction": 0.004405286343612335
+      },
+      {
+        "class": 92,
+        "count": 4,
+        "fraction": 0.004405286343612335
+      },
+      {
+        "class": 123,
+        "count": 4,
+        "fraction": 0.004405286343612335
+      },
+      {
+        "class": 198,
+        "count": 4,
+        "fraction": 0.004405286343612335
+      },
+      {
+        "class": 217,
+        "count": 4,
+        "fraction": 0.004405286343612335
+      },
+      {
+        "class": 9,
+        "count": 3,
+        "fraction": 0.003303964757709251
+      },
+      {
+        "class": 71,
+        "count": 3,
+        "fraction": 0.003303964757709251
+      },
+      {
+        "class": 161,
+        "count": 3,
+        "fraction": 0.003303964757709251
+      },
+      {
+        "class": 199,
+        "count": 3,
+        "fraction": 0.003303964757709251
+      },
+      {
+        "class": 229,
+        "count": 3,
+        "fraction": 0.003303964757709251
+      },
+      {
+        "class": 1,
+        "count": 2,
+        "fraction": 0.0022026431718061676
+      },
+      {
+        "class": 3,
+        "count": 2,
+        "fraction": 0.0022026431718061676
+      },
+      {
+        "class": 7,
+        "count": 2,
+        "fraction": 0.0022026431718061676
+      },
+      {
+        "class": 32,
+        "count": 2,
+        "fraction": 0.0022026431718061676
+      },
+      {
+        "class": 65,
+        "count": 2,
+        "fraction": 0.0022026431718061676
+      },
+      {
+        "class": 70,
+        "count": 2,
+        "fraction": 0.0022026431718061676
+      },
+      {
+        "class": 127,
+        "count": 2,
+        "fraction": 0.0022026431718061676
+      },
+      {
+        "class": 162,
+        "count": 2,
+        "fraction": 0.0022026431718061676
+      },
+      {
+        "class": 186,
+        "count": 2,
+        "fraction": 0.0022026431718061676
+      },
+      {
+        "class": 189,
+        "count": 2,
+        "fraction": 0.0022026431718061676
+      },
+      {
+        "class": 201,
+        "count": 2,
+        "fraction": 0.0022026431718061676
+      },
+      {
+        "class": 224,
+        "count": 2,
+        "fraction": 0.0022026431718061676
+      },
+      {
+        "class": 230,
+        "count": 2,
+        "fraction": 0.0022026431718061676
+      },
+      {
+        "class": 18,
+        "count": 1,
+        "fraction": 0.0011013215859030838
+      },
+      {
+        "class": 31,
+        "count": 1,
+        "fraction": 0.0011013215859030838
+      },
+      {
+        "class": 43,
+        "count": 1,
+        "fraction": 0.0011013215859030838
+      },
+      {
+        "class": 46,
+        "count": 1,
+        "fraction": 0.0011013215859030838
+      },
+      {
+        "class": 47,
+        "count": 1,
+        "fraction": 0.0011013215859030838
+      },
+      {
+        "class": 51,
+        "count": 1,
+        "fraction": 0.0011013215859030838
+      },
+      {
+        "class": 52,
+        "count": 1,
+        "fraction": 0.0011013215859030838
+      },
+      {
+        "class": 53,
+        "count": 1,
+        "fraction": 0.0011013215859030838
+      },
+      {
+        "class": 57,
+        "count": 1,
+        "fraction": 0.0011013215859030838
+      },
+      {
+        "class": 64,
+        "count": 1,
+        "fraction": 0.0011013215859030838
+      },
+      {
+        "class": 67,
+        "count": 1,
+        "fraction": 0.0011013215859030838
+      },
+      {
+        "class": 69,
+        "count": 1,
+        "fraction": 0.0011013215859030838
+      },
+      {
+        "class": 85,
+        "count": 1,
+        "fraction": 0.0011013215859030838
+      },
+      {
+        "class": 101,
+        "count": 1,
+        "fraction": 0.0011013215859030838
+      },
+      {
+        "class": 136,
+        "count": 1,
+        "fraction": 0.0011013215859030838
+      },
+      {
+        "class": 137,
+        "count": 1,
+        "fraction": 0.0011013215859030838
+      },
+      {
+        "class": 142,
+        "count": 1,
+        "fraction": 0.0011013215859030838
+      },
+      {
+        "class": 145,
+        "count": 1,
+        "fraction": 0.0011013215859030838
+      },
+      {
+        "class": 146,
+        "count": 1,
+        "fraction": 0.0011013215859030838
+      },
+      {
+        "class": 158,
+        "count": 1,
+        "fraction": 0.0011013215859030838
+      },
+      {
+        "class": 175,
+        "count": 1,
+        "fraction": 0.0011013215859030838
+      },
+      {
+        "class": 182,
+        "count": 1,
+        "fraction": 0.0011013215859030838
+      },
+      {
+        "class": 188,
+        "count": 1,
+        "fraction": 0.0011013215859030838
+      },
+      {
+        "class": 200,
+        "count": 1,
+        "fraction": 0.0011013215859030838
+      },
+      {
+        "class": 206,
+        "count": 1,
+        "fraction": 0.0011013215859030838
+      },
+      {
+        "class": 209,
+        "count": 1,
+        "fraction": 0.0011013215859030838
+      },
+      {
+        "class": 223,
+        "count": 1,
+        "fraction": 0.0011013215859030838
+      }
+    ]
+  },
+  "extinction_groups": {
+    "n": 908,
+    "observed_classes": 60,
+    "universe_classes": 99,
+    "coverage_fraction": 0.6060606060606061,
+    "entropy_bits": 4.819822200096722,
+    "effective_classes": 28.243014955233562,
+    "normalized_entropy_over_universe": 0.7270422269180689,
+    "herfindahl_index": 0.05563129499893265,
+    "top1_share": 0.16079295154185022,
+    "top5_share": 0.40748898678414097,
+    "top10_share": 0.5991189427312775,
+    "counts": [
+      {
+        "class": 4,
+        "count": 146,
+        "fraction": 0.16079295154185022
+      },
+      {
+        "class": 99,
+        "count": 71,
+        "fraction": 0.07819383259911894
+      },
+      {
+        "class": 17,
+        "count": 54,
+        "fraction": 0.05947136563876652
+      },
+      {
+        "class": 6,
+        "count": 52,
+        "fraction": 0.05726872246696035
+      },
+      {
+        "class": 75,
+        "count": 47,
+        "fraction": 0.051762114537444934
+      },
+      {
+        "class": 34,
+        "count": 38,
+        "fraction": 0.04185022026431718
+      },
+      {
+        "class": 2,
+        "count": 35,
+        "fraction": 0.03854625550660793
+      },
+      {
+        "class": 10,
+        "count": 35,
+        "fraction": 0.03854625550660793
+      },
+      {
+        "class": 54,
+        "count": 34,
+        "fraction": 0.037444933920704845
+      },
+      {
+        "class": 94,
+        "count": 32,
+        "fraction": 0.03524229074889868
+      },
+      {
+        "class": 22,
+        "count": 30,
+        "fraction": 0.03303964757709251
+      },
+      {
+        "class": 63,
+        "count": 30,
+        "fraction": 0.03303964757709251
+      },
+      {
+        "class": 97,
+        "count": 24,
+        "fraction": 0.02643171806167401
+      },
+      {
+        "class": 29,
+        "count": 21,
+        "fraction": 0.023127753303964757
+      },
+      {
+        "class": 81,
+        "count": 19,
+        "fraction": 0.02092511013215859
+      },
+      {
+        "class": 5,
+        "count": 18,
+        "fraction": 0.019823788546255508
+      },
+      {
+        "class": 71,
+        "count": 18,
+        "fraction": 0.019823788546255508
+      },
+      {
+        "class": 57,
+        "count": 16,
+        "fraction": 0.01762114537444934
+      },
+      {
+        "class": 21,
+        "count": 14,
+        "fraction": 0.015418502202643172
+      },
+      {
+        "class": 68,
+        "count": 14,
+        "fraction": 0.015418502202643172
+      },
+      {
+        "class": 73,
+        "count": 13,
+        "fraction": 0.014317180616740088
+      },
+      {
+        "class": 35,
+        "count": 12,
+        "fraction": 0.013215859030837005
+      },
+      {
+        "class": 74,
+        "count": 10,
+        "fraction": 0.011013215859030838
+      },
+      {
+        "class": 89,
+        "count": 10,
+        "fraction": 0.011013215859030838
+      },
+      {
+        "class": 3,
+        "count": 9,
+        "fraction": 0.009911894273127754
+      },
+      {
+        "class": 76,
+        "count": 9,
+        "fraction": 0.009911894273127754
+      },
+      {
+        "class": 77,
+        "count": 9,
+        "fraction": 0.009911894273127754
+      },
+      {
+        "class": 66,
+        "count": 8,
+        "fraction": 0.00881057268722467
+      },
+      {
+        "class": 11,
+        "count": 7,
+        "fraction": 0.007709251101321586
+      },
+      {
+        "class": 69,
+        "count": 7,
+        "fraction": 0.007709251101321586
+      },
+      {
+        "class": 14,
+        "count": 6,
+        "fraction": 0.006607929515418502
+      },
+      {
+        "class": 12,
+        "count": 5,
+        "fraction": 0.005506607929515419
+      },
+      {
+        "class": 86,
+        "count": 5,
+        "fraction": 0.005506607929515419
+      },
+      {
+        "class": 18,
+        "count": 4,
+        "fraction": 0.004405286343612335
+      },
+      {
+        "class": 40,
+        "count": 4,
+        "fraction": 0.004405286343612335
+      },
+      {
+        "class": 45,
+        "count": 4,
+        "fraction": 0.004405286343612335
+      },
+      {
+        "class": 82,
+        "count": 4,
+        "fraction": 0.004405286343612335
+      },
+      {
+        "class": 87,
+        "count": 4,
+        "fraction": 0.004405286343612335
+      },
+      {
+        "class": 33,
+        "count": 3,
+        "fraction": 0.003303964757709251
+      },
+      {
+        "class": 1,
+        "count": 2,
+        "fraction": 0.0022026431718061676
+      },
+      {
+        "class": 16,
+        "count": 2,
+        "fraction": 0.0022026431718061676
+      },
+      {
+        "class": 26,
+        "count": 2,
+        "fraction": 0.0022026431718061676
+      },
+      {
+        "class": 39,
+        "count": 2,
+        "fraction": 0.0022026431718061676
+      },
+      {
+        "class": 48,
+        "count": 2,
+        "fraction": 0.0022026431718061676
+      },
+      {
+        "class": 93,
+        "count": 2,
+        "fraction": 0.0022026431718061676
+      },
+      {
+        "class": 7,
+        "count": 1,
+        "fraction": 0.0011013215859030838
+      },
+      {
+        "class": 9,
+        "count": 1,
+        "fraction": 0.0011013215859030838
+      },
+      {
+        "class": 15,
+        "count": 1,
+        "fraction": 0.0011013215859030838
+      },
+      {
+        "class": 24,
+        "count": 1,
+        "fraction": 0.0011013215859030838
+      },
+      {
+        "class": 28,
+        "count": 1,
+        "fraction": 0.0011013215859030838
+      },
+      {
+        "class": 30,
+        "count": 1,
+        "fraction": 0.0011013215859030838
+      },
+      {
+        "class": 37,
+        "count": 1,
+        "fraction": 0.0011013215859030838
+      },
+      {
+        "class": 38,
+        "count": 1,
+        "fraction": 0.0011013215859030838
+      },
+      {
+        "class": 50,
+        "count": 1,
+        "fraction": 0.0011013215859030838
+      },
+      {
+        "class": 52,
+        "count": 1,
+        "fraction": 0.0011013215859030838
+      },
+      {
+        "class": 56,
+        "count": 1,
+        "fraction": 0.0011013215859030838
+      },
+      {
+        "class": 70,
+        "count": 1,
+        "fraction": 0.0011013215859030838
+      },
+      {
+        "class": 72,
+        "count": 1,
+        "fraction": 0.0011013215859030838
+      },
+      {
+        "class": 85,
+        "count": 1,
+        "fraction": 0.0011013215859030838
+      },
+      {
+        "class": 92,
+        "count": 1,
+        "fraction": 0.0011013215859030838
+      }
+    ]
+  },
+  "crystal_systems": [
+    {
+      "crystal_system": "monoclinic",
+      "count": 262,
+      "fraction": 0.28854625550660795
+    },
+    {
+      "crystal_system": "orthorhombic",
+      "count": 243,
+      "fraction": 0.26762114537444937
+    },
+    {
+      "crystal_system": "tetragonal",
+      "count": 123,
+      "fraction": 0.1354625550660793
+    },
+    {
+      "crystal_system": "cubic",
+      "count": 102,
+      "fraction": 0.11233480176211454
+    },
+    {
+      "crystal_system": "triclinic",
+      "count": 71,
+      "fraction": 0.07819383259911894
+    },
+    {
+      "crystal_system": "trigonal",
+      "count": 71,
+      "fraction": 0.07819383259911894
+    },
+    {
+      "crystal_system": "hexagonal",
+      "count": 36,
+      "fraction": 0.039647577092511016
+    }
+  ],
+  "chemistry": {
+    "unique_reduced_formulas": 616,
+    "repeated_formula_groups": 94,
+    "records_in_repeated_formula_groups": 386,
+    "top_formulas": [
+      {
+        "formula": "As2O3",
+        "count": 25
+      },
+      {
+        "formula": "AlC8O4F",
+        "count": 24
+      },
+      {
+        "formula": "Sc2(WO4)3",
+        "count": 21
+      },
+      {
+        "formula": "C9NCl",
+        "count": 20
+      },
+      {
+        "formula": "AlC8O5",
+        "count": 15
+      },
+      {
+        "formula": "SnSe",
+        "count": 13
+      },
+      {
+        "formula": "H8C2NCl",
+        "count": 11
+      },
+      {
+        "formula": "EuZrO2",
+        "count": 11
+      },
+      {
+        "formula": "H4C5",
+        "count": 10
+      },
+      {
+        "formula": "C6S4N2OF",
+        "count": 7
+      },
+      {
+        "formula": "Zn(CN)4",
+        "count": 6
+      },
+      {
+        "formula": "H6C9O2",
+        "count": 6
+      },
+      {
+        "formula": "HC6S4N2O",
+        "count": 6
+      },
+      {
+        "formula": "La2Y2Si2O7",
+        "count": 6
+      },
+      {
+        "formula": "AlSiPO4",
+        "count": 6
+      },
+      {
+        "formula": "H2CO",
+        "count": 6
+      },
+      {
+        "formula": "SrZrTiNbO3",
+        "count": 6
+      },
+      {
+        "formula": "KBa(FeAs)2",
+        "count": 5
+      },
+      {
+        "formula": "NaTiNbO3",
+        "count": 5
+      },
+      {
+        "formula": "Na2TiS2",
+        "count": 4
+      },
+      {
+        "formula": "H5C12S4N2O",
+        "count": 4
+      },
+      {
+        "formula": "SrAl2(SiO2)2",
+        "count": 4
+      },
+      {
+        "formula": "LiTiS2",
+        "count": 4
+      },
+      {
+        "formula": "Sr11(MoO9)4",
+        "count": 4
+      },
+      {
+        "formula": "H23C19NO5",
+        "count": 4
+      }
+    ]
+  },
+  "duplicates": {
+    "identical_raw_pattern": {
+      "duplicate_groups": 13,
+      "records_in_duplicate_groups": 27,
+      "redundant_records": 14,
+      "effective_unique_records": 894,
+      "largest_group_size": 3,
+      "groups_with_sg_label_conflicts": 6,
+      "records_in_sg_label_conflicts": 13,
+      "groups_with_eg_label_conflicts": 6,
+      "records_in_eg_label_conflicts": 13,
+      "largest_groups": [
+        {
+          "size": 3,
+          "records": [
+            "CNRS/pattern_556.json",
+            "CNRS/pattern_676.json",
+            "CNRS/pattern_740.json"
+          ],
+          "formulas": [
+            "EuZrO2"
+          ],
+          "sg_numbers": [
+            14,
+            139
+          ],
+          "eg_numbers": [
+            4,
+            63
+          ]
+        },
+        {
+          "size": 2,
+          "records": [
+            "CNRS/pattern_160.json",
+            "CNRS/pattern_300.json"
+          ],
+          "formulas": [
+            "CaH32C26N4(ClO3)2"
+          ],
+          "sg_numbers": [
+            14
+          ],
+          "eg_numbers": [
+            4
+          ]
+        },
+        {
+          "size": 2,
+          "records": [
+            "CNRS/pattern_191.json",
+            "CNRS/pattern_669.json"
+          ],
+          "formulas": [
+            "BaGe5"
+          ],
+          "sg_numbers": [
+            74
+          ],
+          "eg_numbers": [
+            34
+          ]
+        },
+        {
+          "size": 2,
+          "records": [
+            "CNRS/pattern_206.json",
+            "CNRS/pattern_517.json"
+          ],
+          "formulas": [
+            "EuZrO2"
+          ],
+          "sg_numbers": [
+            14,
+            139
+          ],
+          "eg_numbers": [
+            4,
+            63
+          ]
+        },
+        {
+          "size": 2,
+          "records": [
+            "CNRS/pattern_237.json",
+            "CNRS/pattern_520.json"
+          ],
+          "formulas": [
+            "SrPrO3"
+          ],
+          "sg_numbers": [
+            62
+          ],
+          "eg_numbers": [
+            17
+          ]
+        },
+        {
+          "size": 2,
+          "records": [
+            "CNRS/pattern_324.json",
+            "CNRS/pattern_675.json"
+          ],
+          "formulas": [
+            "MnReGe4"
+          ],
+          "sg_numbers": [
+            141
+          ],
+          "eg_numbers": [
+            69
+          ]
+        },
+        {
+          "size": 2,
+          "records": [
+            "CNRS/pattern_349.json",
+            "CNRS/pattern_683.json"
+          ],
+          "formulas": [
+            "EuZrO2"
+          ],
+          "sg_numbers": [
+            14,
+            139
+          ],
+          "eg_numbers": [
+            4,
+            63
+          ]
+        },
+        {
+          "size": 2,
+          "records": [
+            "CNRS/pattern_401.json",
+            "CNRS/pattern_866.json"
+          ],
+          "formulas": [
+            "EuZrO2"
+          ],
+          "sg_numbers": [
+            14,
+            139
+          ],
+          "eg_numbers": [
+            4,
+            63
+          ]
+        },
+        {
+          "size": 2,
+          "records": [
+            "CNRS/pattern_45.json",
+            "CNRS/pattern_50.json"
+          ],
+          "formulas": [
+            "RbGaH2"
+          ],
+          "sg_numbers": [
+            62
+          ],
+          "eg_numbers": [
+            17
+          ]
+        },
+        {
+          "size": 2,
+          "records": [
+            "CNRS/pattern_47.json",
+            "CNRS/pattern_872.json"
+          ],
+          "formulas": [
+            "ZnH4CSN"
+          ],
+          "sg_numbers": [
+            61
+          ],
+          "eg_numbers": [
+            21
+          ]
+        },
+        {
+          "size": 2,
+          "records": [
+            "CNRS/pattern_48.json",
+            "CNRS/pattern_593.json"
+          ],
+          "formulas": [
+            "Zn(CN)4"
+          ],
+          "sg_numbers": [
+            224,
+            227
+          ],
+          "eg_numbers": [
+            87,
+            97
+          ]
+        },
+        {
+          "size": 2,
+          "records": [
+            "CNRS/pattern_743.json",
+            "CNRS/pattern_134.json"
+          ],
+          "formulas": [
+            "H25C23NO6"
+          ],
+          "sg_numbers": [
+            4
+          ],
+          "eg_numbers": [
+            2
+          ]
+        },
+        {
+          "size": 2,
+          "records": [
+            "CNRS/pattern_879.json",
+            "CNRS/pattern_971.json"
+          ],
+          "formulas": [
+            "EuZrO2"
+          ],
+          "sg_numbers": [
+            14,
+            139
+          ],
+          "eg_numbers": [
+            4,
+            63
+          ]
+        }
+      ]
+    },
+    "identical_normalized_pattern": {
+      "duplicate_groups": 13,
+      "records_in_duplicate_groups": 27,
+      "redundant_records": 14,
+      "effective_unique_records": 894,
+      "largest_group_size": 3,
+      "groups_with_sg_label_conflicts": 6,
+      "records_in_sg_label_conflicts": 13,
+      "groups_with_eg_label_conflicts": 6,
+      "records_in_eg_label_conflicts": 13,
+      "largest_groups": [
+        {
+          "size": 3,
+          "records": [
+            "CNRS/pattern_556.json",
+            "CNRS/pattern_676.json",
+            "CNRS/pattern_740.json"
+          ],
+          "formulas": [
+            "EuZrO2"
+          ],
+          "sg_numbers": [
+            14,
+            139
+          ],
+          "eg_numbers": [
+            4,
+            63
+          ]
+        },
+        {
+          "size": 2,
+          "records": [
+            "CNRS/pattern_160.json",
+            "CNRS/pattern_300.json"
+          ],
+          "formulas": [
+            "CaH32C26N4(ClO3)2"
+          ],
+          "sg_numbers": [
+            14
+          ],
+          "eg_numbers": [
+            4
+          ]
+        },
+        {
+          "size": 2,
+          "records": [
+            "CNRS/pattern_191.json",
+            "CNRS/pattern_669.json"
+          ],
+          "formulas": [
+            "BaGe5"
+          ],
+          "sg_numbers": [
+            74
+          ],
+          "eg_numbers": [
+            34
+          ]
+        },
+        {
+          "size": 2,
+          "records": [
+            "CNRS/pattern_206.json",
+            "CNRS/pattern_517.json"
+          ],
+          "formulas": [
+            "EuZrO2"
+          ],
+          "sg_numbers": [
+            14,
+            139
+          ],
+          "eg_numbers": [
+            4,
+            63
+          ]
+        },
+        {
+          "size": 2,
+          "records": [
+            "CNRS/pattern_237.json",
+            "CNRS/pattern_520.json"
+          ],
+          "formulas": [
+            "SrPrO3"
+          ],
+          "sg_numbers": [
+            62
+          ],
+          "eg_numbers": [
+            17
+          ]
+        },
+        {
+          "size": 2,
+          "records": [
+            "CNRS/pattern_324.json",
+            "CNRS/pattern_675.json"
+          ],
+          "formulas": [
+            "MnReGe4"
+          ],
+          "sg_numbers": [
+            141
+          ],
+          "eg_numbers": [
+            69
+          ]
+        },
+        {
+          "size": 2,
+          "records": [
+            "CNRS/pattern_349.json",
+            "CNRS/pattern_683.json"
+          ],
+          "formulas": [
+            "EuZrO2"
+          ],
+          "sg_numbers": [
+            14,
+            139
+          ],
+          "eg_numbers": [
+            4,
+            63
+          ]
+        },
+        {
+          "size": 2,
+          "records": [
+            "CNRS/pattern_401.json",
+            "CNRS/pattern_866.json"
+          ],
+          "formulas": [
+            "EuZrO2"
+          ],
+          "sg_numbers": [
+            14,
+            139
+          ],
+          "eg_numbers": [
+            4,
+            63
+          ]
+        },
+        {
+          "size": 2,
+          "records": [
+            "CNRS/pattern_45.json",
+            "CNRS/pattern_50.json"
+          ],
+          "formulas": [
+            "RbGaH2"
+          ],
+          "sg_numbers": [
+            62
+          ],
+          "eg_numbers": [
+            17
+          ]
+        },
+        {
+          "size": 2,
+          "records": [
+            "CNRS/pattern_47.json",
+            "CNRS/pattern_872.json"
+          ],
+          "formulas": [
+            "ZnH4CSN"
+          ],
+          "sg_numbers": [
+            61
+          ],
+          "eg_numbers": [
+            21
+          ]
+        },
+        {
+          "size": 2,
+          "records": [
+            "CNRS/pattern_48.json",
+            "CNRS/pattern_593.json"
+          ],
+          "formulas": [
+            "Zn(CN)4"
+          ],
+          "sg_numbers": [
+            224,
+            227
+          ],
+          "eg_numbers": [
+            87,
+            97
+          ]
+        },
+        {
+          "size": 2,
+          "records": [
+            "CNRS/pattern_743.json",
+            "CNRS/pattern_134.json"
+          ],
+          "formulas": [
+            "H25C23NO6"
+          ],
+          "sg_numbers": [
+            4
+          ],
+          "eg_numbers": [
+            2
+          ]
+        },
+        {
+          "size": 2,
+          "records": [
+            "CNRS/pattern_879.json",
+            "CNRS/pattern_971.json"
+          ],
+          "formulas": [
+            "EuZrO2"
+          ],
+          "sg_numbers": [
+            14,
+            139
+          ],
+          "eg_numbers": [
+            4,
+            63
+          ]
+        }
+      ]
+    },
+    "identical_structure_payload": {
+      "duplicate_groups": 5,
+      "records_in_duplicate_groups": 10,
+      "redundant_records": 5,
+      "effective_unique_records": 903,
+      "largest_group_size": 2,
+      "groups_with_sg_label_conflicts": 0,
+      "records_in_sg_label_conflicts": 0,
+      "groups_with_eg_label_conflicts": 0,
+      "records_in_eg_label_conflicts": 0,
+      "largest_groups": [
+        {
+          "size": 2,
+          "records": [
+            "CNRS/pattern_191.json",
+            "CNRS/pattern_669.json"
+          ],
+          "formulas": [
+            "BaGe5"
+          ],
+          "sg_numbers": [
+            74
+          ],
+          "eg_numbers": [
+            34
+          ]
+        },
+        {
+          "size": 2,
+          "records": [
+            "CNRS/pattern_237.json",
+            "CNRS/pattern_520.json"
+          ],
+          "formulas": [
+            "SrPrO3"
+          ],
+          "sg_numbers": [
+            62
+          ],
+          "eg_numbers": [
+            17
+          ]
+        },
+        {
+          "size": 2,
+          "records": [
+            "CNRS/pattern_45.json",
+            "CNRS/pattern_50.json"
+          ],
+          "formulas": [
+            "RbGaH2"
+          ],
+          "sg_numbers": [
+            62
+          ],
+          "eg_numbers": [
+            17
+          ]
+        },
+        {
+          "size": 2,
+          "records": [
+            "CNRS/pattern_47.json",
+            "CNRS/pattern_872.json"
+          ],
+          "formulas": [
+            "ZnH4CSN"
+          ],
+          "sg_numbers": [
+            61
+          ],
+          "eg_numbers": [
+            21
+          ]
+        },
+        {
+          "size": 2,
+          "records": [
+            "CNRS/pattern_743.json",
+            "CNRS/pattern_134.json"
+          ],
+          "formulas": [
+            "H25C23NO6"
+          ],
+          "sg_numbers": [
+            4
+          ],
+          "eg_numbers": [
+            2
+          ]
+        }
+      ]
+    },
+    "structure_matcher": {
+      "duplicate_groups": 75,
+      "records_in_duplicate_groups": 314,
+      "redundant_records": 239,
+      "effective_unique_records": 669,
+      "largest_group_size": 25,
+      "groups_with_sg_label_conflicts": 5,
+      "records_in_sg_label_conflicts": 38,
+      "groups_with_eg_label_conflicts": 5,
+      "records_in_eg_label_conflicts": 38,
+      "largest_groups": [
+        {
+          "size": 25,
+          "records": [
+            "CNRS/pattern_65.json",
+            "CNRS/pattern_113.json",
+            "CNRS/pattern_197.json",
+            "CNRS/pattern_265.json",
+            "CNRS/pattern_267.json",
+            "CNRS/pattern_282.json",
+            "CNRS/pattern_291.json",
+            "CNRS/pattern_403.json",
+            "CNRS/pattern_422.json",
+            "CNRS/pattern_453.json",
+            "CNRS/pattern_461.json",
+            "CNRS/pattern_695.json",
+            "CNRS/pattern_696.json",
+            "CNRS/pattern_718.json",
+            "CNRS/pattern_735.json",
+            "CNRS/pattern_741.json",
+            "CNRS/pattern_853.json",
+            "CNRS/pattern_936.json",
+            "CNRS/pattern_945.json",
+            "CNRS/pattern_946.json",
+            "CNRS/pattern_965.json",
+            "CNRS/pattern_299.json",
+            "CNRS/pattern_434.json",
+            "CNRS/pattern_555.json",
+            "CNRS/pattern_842.json"
+          ],
+          "formulas": [
+            "As2O3"
+          ],
+          "sg_numbers": [
+            14
+          ],
+          "eg_numbers": [
+            4
+          ]
+        },
+        {
+          "size": 24,
+          "records": [
+            "CNRS/pattern_80.json",
+            "CNRS/pattern_103.json",
+            "CNRS/pattern_340.json",
+            "CNRS/pattern_353.json",
+            "CNRS/pattern_369.json",
+            "CNRS/pattern_370.json",
+            "CNRS/pattern_389.json",
+            "CNRS/pattern_418.json",
+            "CNRS/pattern_572.json",
+            "CNRS/pattern_578.json",
+            "CNRS/pattern_613.json",
+            "CNRS/pattern_640.json",
+            "CNRS/pattern_689.json",
+            "CNRS/pattern_705.json",
+            "CNRS/pattern_773.json",
+            "CNRS/pattern_793.json",
+            "CNRS/pattern_856.json",
+            "CNRS/pattern_871.json",
+            "CNRS/pattern_894.json",
+            "CNRS/pattern_932.json",
+            "CNRS/pattern_957.json",
+            "CNRS/pattern_997.json",
+            "CNRS/pattern_999.json",
+            "CNRS/pattern_1039.json"
+          ],
+          "formulas": [
+            "AlC8O4F"
+          ],
+          "sg_numbers": [
+            15,
+            74
+          ],
+          "eg_numbers": [
+            6,
+            34
+          ]
+        },
+        {
+          "size": 21,
+          "records": [
+            "CNRS/pattern_30.json",
+            "CNRS/pattern_51.json",
+            "CNRS/pattern_52.json",
+            "CNRS/pattern_184.json",
+            "CNRS/pattern_214.json",
+            "CNRS/pattern_271.json",
+            "CNRS/pattern_301.json",
+            "CNRS/pattern_400.json",
+            "CNRS/pattern_407.json",
+            "CNRS/pattern_489.json",
+            "CNRS/pattern_518.json",
+            "CNRS/pattern_528.json",
+            "CNRS/pattern_641.json",
+            "CNRS/pattern_671.json",
+            "CNRS/pattern_679.json",
+            "CNRS/pattern_707.json",
+            "CNRS/pattern_708.json",
+            "CNRS/pattern_791.json",
+            "CNRS/pattern_809.json",
+            "CNRS/pattern_814.json",
+            "CNRS/pattern_1011.json"
+          ],
+          "formulas": [
+            "Sc2(WO4)3"
+          ],
+          "sg_numbers": [
+            60
+          ],
+          "eg_numbers": [
+            22
+          ]
+        },
+        {
+          "size": 20,
+          "records": [
+            "CNRS/pattern_98.json",
+            "CNRS/pattern_124.json",
+            "CNRS/pattern_130.json",
+            "CNRS/pattern_146.json",
+            "CNRS/pattern_168.json",
+            "CNRS/pattern_187.json",
+            "CNRS/pattern_196.json",
+            "CNRS/pattern_202.json",
+            "CNRS/pattern_347.json",
+            "CNRS/pattern_384.json",
+            "CNRS/pattern_399.json",
+            "CNRS/pattern_522.json",
+            "CNRS/pattern_564.json",
+            "CNRS/pattern_601.json",
+            "CNRS/pattern_611.json",
+            "CNRS/pattern_654.json",
+            "CNRS/pattern_886.json",
+            "CNRS/pattern_982.json",
+            "CNRS/pattern_988.json",
+            "CNRS/pattern_687.json"
+          ],
+          "formulas": [
+            "C9NCl"
+          ],
+          "sg_numbers": [
+            129
+          ],
+          "eg_numbers": [
+            54
+          ]
+        },
+        {
+          "size": 15,
+          "records": [
+            "CNRS/pattern_9.json",
+            "CNRS/pattern_64.json",
+            "CNRS/pattern_117.json",
+            "CNRS/pattern_161.json",
+            "CNRS/pattern_186.json",
+            "CNRS/pattern_441.json",
+            "CNRS/pattern_502.json",
+            "CNRS/pattern_512.json",
+            "CNRS/pattern_536.json",
+            "CNRS/pattern_686.json",
+            "CNRS/pattern_721.json",
+            "CNRS/pattern_769.json",
+            "CNRS/pattern_796.json",
+            "CNRS/pattern_823.json",
+            "CNRS/pattern_911.json"
+          ],
+          "formulas": [
+            "AlC8O5"
+          ],
+          "sg_numbers": [
+            74
+          ],
+          "eg_numbers": [
+            34
+          ]
+        },
+        {
+          "size": 12,
+          "records": [
+            "CNRS/pattern_3.json",
+            "CNRS/pattern_36.json",
+            "CNRS/pattern_86.json",
+            "CNRS/pattern_92.json",
+            "CNRS/pattern_138.json",
+            "CNRS/pattern_139.json",
+            "CNRS/pattern_183.json",
+            "CNRS/pattern_200.json",
+            "CNRS/pattern_380.json",
+            "CNRS/pattern_657.json",
+            "CNRS/pattern_848.json",
+            "CNRS/pattern_884.json"
+          ],
+          "formulas": [
+            "SnSe"
+          ],
+          "sg_numbers": [
+            62
+          ],
+          "eg_numbers": [
+            17
+          ]
+        },
+        {
+          "size": 11,
+          "records": [
+            "CNRS/pattern_205.json",
+            "CNRS/pattern_209.json",
+            "CNRS/pattern_359.json",
+            "CNRS/pattern_396.json",
+            "CNRS/pattern_504.json",
+            "CNRS/pattern_574.json",
+            "CNRS/pattern_619.json",
+            "CNRS/pattern_698.json",
+            "CNRS/pattern_775.json",
+            "CNRS/pattern_787.json",
+            "CNRS/pattern_901.json"
+          ],
+          "formulas": [
+            "H8C2NCl"
+          ],
+          "sg_numbers": [
+            11
+          ],
+          "eg_numbers": [
+            2
+          ]
+        },
+        {
+          "size": 10,
+          "records": [
+            "CNRS/pattern_16.json",
+            "CNRS/pattern_82.json",
+            "CNRS/pattern_91.json",
+            "CNRS/pattern_96.json",
+            "CNRS/pattern_511.json",
+            "CNRS/pattern_647.json",
+            "CNRS/pattern_726.json",
+            "CNRS/pattern_808.json",
+            "CNRS/pattern_1021.json",
+            "CNRS/pattern_1046.json"
+          ],
+          "formulas": [
+            "H4C5"
+          ],
+          "sg_numbers": [
+            14
+          ],
+          "eg_numbers": [
+            4
+          ]
+        },
+        {
+          "size": 7,
+          "records": [
+            "CNRS/pattern_213.json",
+            "CNRS/pattern_594.json",
+            "CNRS/pattern_623.json",
+            "CNRS/pattern_875.json",
+            "CNRS/pattern_891.json",
+            "CNRS/pattern_978.json",
+            "CNRS/pattern_1010.json"
+          ],
+          "formulas": [
+            "C6S4N2OF"
+          ],
+          "sg_numbers": [
+            36
+          ],
+          "eg_numbers": [
+            29
+          ]
+        },
+        {
+          "size": 6,
+          "records": [
+            "CNRS/pattern_401.json",
+            "CNRS/pattern_517.json",
+            "CNRS/pattern_676.json",
+            "CNRS/pattern_683.json",
+            "CNRS/pattern_740.json",
+            "CNRS/pattern_971.json"
+          ],
+          "formulas": [
+            "EuZrO2"
+          ],
+          "sg_numbers": [
+            139
+          ],
+          "eg_numbers": [
+            63
+          ]
+        },
+        {
+          "size": 5,
+          "records": [
+            "CNRS/pattern_105.json",
+            "CNRS/pattern_315.json",
+            "CNRS/pattern_834.json",
+            "CNRS/pattern_860.json",
+            "CNRS/pattern_910.json"
+          ],
+          "formulas": [
+            "KBa(FeAs)2"
+          ],
+          "sg_numbers": [
+            139
+          ],
+          "eg_numbers": [
+            63
+          ]
+        },
+        {
+          "size": 5,
+          "records": [
+            "CNRS/pattern_206.json",
+            "CNRS/pattern_349.json",
+            "CNRS/pattern_556.json",
+            "CNRS/pattern_866.json",
+            "CNRS/pattern_879.json"
+          ],
+          "formulas": [
+            "EuZrO2"
+          ],
+          "sg_numbers": [
+            14
+          ],
+          "eg_numbers": [
+            4
+          ]
+        },
+        {
+          "size": 5,
+          "records": [
+            "CNRS/pattern_360.json",
+            "CNRS/pattern_377.json",
+            "CNRS/pattern_477.json",
+            "CNRS/pattern_751.json",
+            "CNRS/pattern_821.json"
+          ],
+          "formulas": [
+            "SrZrTiNbO3"
+          ],
+          "sg_numbers": [
+            140,
+            221
+          ],
+          "eg_numbers": [
+            66,
+            81
+          ]
+        },
+        {
+          "size": 4,
+          "records": [
+            "CNRS/pattern_107.json",
+            "CNRS/pattern_440.json",
+            "CNRS/pattern_723.json",
+            "CNRS/pattern_952.json"
+          ],
+          "formulas": [
+            "Na2TiS2"
+          ],
+          "sg_numbers": [
+            166
+          ],
+          "eg_numbers": [
+            75
+          ]
+        },
+        {
+          "size": 4,
+          "records": [
+            "CNRS/pattern_109.json",
+            "CNRS/pattern_782.json",
+            "CNRS/pattern_836.json",
+            "CNRS/pattern_852.json"
+          ],
+          "formulas": [
+            "La2Y2Si2O7"
+          ],
+          "sg_numbers": [
+            14
+          ],
+          "eg_numbers": [
+            4
+          ]
+        },
+        {
+          "size": 4,
+          "records": [
+            "CNRS/pattern_257.json",
+            "CNRS/pattern_459.json",
+            "CNRS/pattern_629.json",
+            "CNRS/pattern_725.json"
+          ],
+          "formulas": [
+            "SrAl2(SiO2)2"
+          ],
+          "sg_numbers": [
+            193
+          ],
+          "eg_numbers": [
+            74
+          ]
+        },
+        {
+          "size": 4,
+          "records": [
+            "CNRS/pattern_323.json",
+            "CNRS/pattern_368.json",
+            "CNRS/pattern_802.json",
+            "CNRS/pattern_941.json"
+          ],
+          "formulas": [
+            "LiTiS2"
+          ],
+          "sg_numbers": [
+            166
+          ],
+          "eg_numbers": [
+            75
+          ]
+        },
+        {
+          "size": 4,
+          "records": [
+            "CNRS/pattern_348.json",
+            "CNRS/pattern_445.json",
+            "CNRS/pattern_460.json",
+            "CNRS/pattern_637.json"
+          ],
+          "formulas": [
+            "Sr11(MoO9)4"
+          ],
+          "sg_numbers": [
+            2
+          ],
+          "eg_numbers": [
+            99
+          ]
+        },
+        {
+          "size": 4,
+          "records": [
+            "CNRS/pattern_405.json",
+            "CNRS/pattern_467.json",
+            "CNRS/pattern_1002.json",
+            "CNRS/pattern_1050.json"
+          ],
+          "formulas": [
+            "NaTiNbO3"
+          ],
+          "sg_numbers": [
+            26,
+            63
+          ],
+          "eg_numbers": [
+            11,
+            29
+          ]
+        },
+        {
+          "size": 3,
+          "records": [
+            "CNRS/pattern_106.json",
+            "CNRS/pattern_626.json",
+            "CNRS/pattern_986.json"
+          ],
+          "formulas": [
+            "HC6S4N2O"
+          ],
+          "sg_numbers": [
+            33
+          ],
+          "eg_numbers": [
+            17
+          ]
+        }
+      ],
+      "candidate_pair_comparisons": 1596,
+      "matching_pairs_before_transitive_closure": 1248
+    }
+  },
+  "deduplicated_distributions": {
+    "unique_raw_patterns_excluding_label_conflicts": {
+      "space_groups": {
+        "n": 888,
+        "observed_classes": 94,
+        "universe_classes": 230,
+        "coverage_fraction": 0.40869565217391307,
+        "entropy_bits": 5.291435351509385,
+        "effective_classes": 39.16343359561245,
+        "normalized_entropy_over_universe": 0.674455683093046,
+        "herfindahl_index": 0.04842088710331953,
+        "top1_share": 0.15765765765765766,
+        "top5_share": 0.375,
+        "top10_share": 0.5472972972972973,
+        "counts": [
+          {
+            "class": 14,
+            "count": 140,
+            "fraction": 0.15765765765765766
+          },
+          {
+            "class": 2,
+            "count": 69,
+            "fraction": 0.0777027027027027
+          },
+          {
+            "class": 15,
+            "count": 49,
+            "fraction": 0.05518018018018018
+          },
+          {
+            "class": 62,
+            "count": 39,
+            "fraction": 0.04391891891891892
+          },
+          {
+            "class": 74,
+            "count": 36,
+            "fraction": 0.04054054054054054
+          },
+          {
+            "class": 19,
+            "count": 35,
+            "fraction": 0.039414414414414414
+          },
+          {
+            "class": 129,
+            "count": 33,
+            "fraction": 0.037162162162162164
+          },
+          {
+            "class": 60,
+            "count": 30,
+            "fraction": 0.033783783783783786
+          },
+          {
+            "class": 148,
+            "count": 29,
+            "fraction": 0.03265765765765766
+          },
+          {
+            "class": 225,
+            "count": 26,
+            "fraction": 0.02927927927927928
+          },
+          {
+            "class": 221,
+            "count": 18,
+            "fraction": 0.02027027027027027
+          },
+          {
+            "class": 227,
+            "count": 18,
+            "fraction": 0.02027027027027027
+          },
+          {
+            "class": 4,
+            "count": 17,
+            "fraction": 0.019144144144144143
+          },
+          {
+            "class": 11,
+            "count": 17,
+            "fraction": 0.019144144144144143
+          },
+          {
+            "class": 166,
+            "count": 17,
+            "fraction": 0.019144144144144143
+          },
+          {
+            "class": 125,
+            "count": 16,
+            "fraction": 0.018018018018018018
+          },
+          {
+            "class": 88,
+            "count": 14,
+            "fraction": 0.015765765765765764
+          },
+          {
+            "class": 139,
+            "count": 14,
+            "fraction": 0.015765765765765764
+          },
+          {
+            "class": 12,
+            "count": 13,
+            "fraction": 0.01463963963963964
+          },
+          {
+            "class": 33,
+            "count": 13,
+            "fraction": 0.01463963963963964
+          },
+          {
+            "class": 61,
+            "count": 13,
+            "fraction": 0.01463963963963964
+          },
+          {
+            "class": 63,
+            "count": 13,
+            "fraction": 0.01463963963963964
+          },
+          {
+            "class": 36,
+            "count": 8,
+            "fraction": 0.009009009009009009
+          },
+          {
+            "class": 72,
+            "count": 8,
+            "fraction": 0.009009009009009009
+          },
+          {
+            "class": 140,
+            "count": 8,
+            "fraction": 0.009009009009009009
+          },
+          {
+            "class": 176,
+            "count": 8,
+            "fraction": 0.009009009009009009
+          },
+          {
+            "class": 193,
+            "count": 8,
+            "fraction": 0.009009009009009009
+          },
+          {
+            "class": 13,
+            "count": 7,
+            "fraction": 0.007882882882882882
+          },
+          {
+            "class": 191,
+            "count": 7,
+            "fraction": 0.007882882882882882
+          },
+          {
+            "class": 26,
+            "count": 6,
+            "fraction": 0.006756756756756757
+          },
+          {
+            "class": 121,
+            "count": 6,
+            "fraction": 0.006756756756756757
+          },
+          {
+            "class": 141,
+            "count": 6,
+            "fraction": 0.006756756756756757
+          },
+          {
+            "class": 164,
+            "count": 6,
+            "fraction": 0.006756756756756757
+          },
+          {
+            "class": 167,
+            "count": 6,
+            "fraction": 0.006756756756756757
+          },
+          {
+            "class": 194,
+            "count": 6,
+            "fraction": 0.006756756756756757
+          },
+          {
+            "class": 5,
+            "count": 5,
+            "fraction": 0.00563063063063063
+          },
+          {
+            "class": 29,
+            "count": 5,
+            "fraction": 0.00563063063063063
+          },
+          {
+            "class": 163,
+            "count": 5,
+            "fraction": 0.00563063063063063
+          },
+          {
+            "class": 203,
+            "count": 5,
+            "fraction": 0.00563063063063063
+          },
+          {
+            "class": 205,
+            "count": 5,
+            "fraction": 0.00563063063063063
+          },
+          {
+            "class": 216,
+            "count": 5,
+            "fraction": 0.00563063063063063
+          },
+          {
+            "class": 45,
+            "count": 4,
+            "fraction": 0.0045045045045045045
+          },
+          {
+            "class": 58,
+            "count": 4,
+            "fraction": 0.0045045045045045045
+          },
+          {
+            "class": 59,
+            "count": 4,
+            "fraction": 0.0045045045045045045
+          },
+          {
+            "class": 87,
+            "count": 4,
+            "fraction": 0.0045045045045045045
+          },
+          {
+            "class": 92,
+            "count": 4,
+            "fraction": 0.0045045045045045045
+          },
+          {
+            "class": 123,
+            "count": 4,
+            "fraction": 0.0045045045045045045
+          },
+          {
+            "class": 198,
+            "count": 4,
+            "fraction": 0.0045045045045045045
+          },
+          {
+            "class": 217,
+            "count": 4,
+            "fraction": 0.0045045045045045045
+          },
+          {
+            "class": 9,
+            "count": 3,
+            "fraction": 0.0033783783783783786
+          },
+          {
+            "class": 71,
+            "count": 3,
+            "fraction": 0.0033783783783783786
+          },
+          {
+            "class": 161,
+            "count": 3,
+            "fraction": 0.0033783783783783786
+          },
+          {
+            "class": 199,
+            "count": 3,
+            "fraction": 0.0033783783783783786
+          },
+          {
+            "class": 229,
+            "count": 3,
+            "fraction": 0.0033783783783783786
+          },
+          {
+            "class": 1,
+            "count": 2,
+            "fraction": 0.0022522522522522522
+          },
+          {
+            "class": 3,
+            "count": 2,
+            "fraction": 0.0022522522522522522
+          },
+          {
+            "class": 7,
+            "count": 2,
+            "fraction": 0.0022522522522522522
+          },
+          {
+            "class": 32,
+            "count": 2,
+            "fraction": 0.0022522522522522522
+          },
+          {
+            "class": 65,
+            "count": 2,
+            "fraction": 0.0022522522522522522
+          },
+          {
+            "class": 70,
+            "count": 2,
+            "fraction": 0.0022522522522522522
+          },
+          {
+            "class": 127,
+            "count": 2,
+            "fraction": 0.0022522522522522522
+          },
+          {
+            "class": 162,
+            "count": 2,
+            "fraction": 0.0022522522522522522
+          },
+          {
+            "class": 186,
+            "count": 2,
+            "fraction": 0.0022522522522522522
+          },
+          {
+            "class": 189,
+            "count": 2,
+            "fraction": 0.0022522522522522522
+          },
+          {
+            "class": 201,
+            "count": 2,
+            "fraction": 0.0022522522522522522
+          },
+          {
+            "class": 230,
+            "count": 2,
+            "fraction": 0.0022522522522522522
+          },
+          {
+            "class": 18,
+            "count": 1,
+            "fraction": 0.0011261261261261261
+          },
+          {
+            "class": 31,
+            "count": 1,
+            "fraction": 0.0011261261261261261
+          },
+          {
+            "class": 43,
+            "count": 1,
+            "fraction": 0.0011261261261261261
+          },
+          {
+            "class": 46,
+            "count": 1,
+            "fraction": 0.0011261261261261261
+          },
+          {
+            "class": 47,
+            "count": 1,
+            "fraction": 0.0011261261261261261
+          },
+          {
+            "class": 51,
+            "count": 1,
+            "fraction": 0.0011261261261261261
+          },
+          {
+            "class": 52,
+            "count": 1,
+            "fraction": 0.0011261261261261261
+          },
+          {
+            "class": 53,
+            "count": 1,
+            "fraction": 0.0011261261261261261
+          },
+          {
+            "class": 57,
+            "count": 1,
+            "fraction": 0.0011261261261261261
+          },
+          {
+            "class": 64,
+            "count": 1,
+            "fraction": 0.0011261261261261261
+          },
+          {
+            "class": 67,
+            "count": 1,
+            "fraction": 0.0011261261261261261
+          },
+          {
+            "class": 69,
+            "count": 1,
+            "fraction": 0.0011261261261261261
+          },
+          {
+            "class": 85,
+            "count": 1,
+            "fraction": 0.0011261261261261261
+          },
+          {
+            "class": 101,
+            "count": 1,
+            "fraction": 0.0011261261261261261
+          },
+          {
+            "class": 136,
+            "count": 1,
+            "fraction": 0.0011261261261261261
+          },
+          {
+            "class": 137,
+            "count": 1,
+            "fraction": 0.0011261261261261261
+          },
+          {
+            "class": 142,
+            "count": 1,
+            "fraction": 0.0011261261261261261
+          },
+          {
+            "class": 145,
+            "count": 1,
+            "fraction": 0.0011261261261261261
+          },
+          {
+            "class": 146,
+            "count": 1,
+            "fraction": 0.0011261261261261261
+          },
+          {
+            "class": 158,
+            "count": 1,
+            "fraction": 0.0011261261261261261
+          },
+          {
+            "class": 175,
+            "count": 1,
+            "fraction": 0.0011261261261261261
+          },
+          {
+            "class": 182,
+            "count": 1,
+            "fraction": 0.0011261261261261261
+          },
+          {
+            "class": 188,
+            "count": 1,
+            "fraction": 0.0011261261261261261
+          },
+          {
+            "class": 200,
+            "count": 1,
+            "fraction": 0.0011261261261261261
+          },
+          {
+            "class": 206,
+            "count": 1,
+            "fraction": 0.0011261261261261261
+          },
+          {
+            "class": 209,
+            "count": 1,
+            "fraction": 0.0011261261261261261
+          },
+          {
+            "class": 223,
+            "count": 1,
+            "fraction": 0.0011261261261261261
+          },
+          {
+            "class": 224,
+            "count": 1,
+            "fraction": 0.0011261261261261261
+          }
+        ],
+        "excluded_conflicting_groups": 6,
+        "excluded_records_in_conflicting_groups": 13
+      },
+      "extinction_groups": {
+        "n": 888,
+        "observed_classes": 60,
+        "universe_classes": 99,
+        "coverage_fraction": 0.6060606060606061,
+        "entropy_bits": 4.826870665447318,
+        "effective_classes": 28.381337324080633,
+        "normalized_entropy_over_universe": 0.7281054470394978,
+        "herfindahl_index": 0.05500771041311581,
+        "top1_share": 0.15765765765765766,
+        "top5_share": 0.40765765765765766,
+        "top10_share": 0.6013513513513513,
+        "counts": [
+          {
+            "class": 4,
+            "count": 140,
+            "fraction": 0.15765765765765766
+          },
+          {
+            "class": 99,
+            "count": 71,
+            "fraction": 0.07995495495495496
+          },
+          {
+            "class": 6,
+            "count": 52,
+            "fraction": 0.05855855855855856
+          },
+          {
+            "class": 17,
+            "count": 52,
+            "fraction": 0.05855855855855856
+          },
+          {
+            "class": 75,
+            "count": 47,
+            "fraction": 0.05292792792792793
+          },
+          {
+            "class": 34,
+            "count": 37,
+            "fraction": 0.041666666666666664
+          },
+          {
+            "class": 10,
+            "count": 35,
+            "fraction": 0.039414414414414414
+          },
+          {
+            "class": 2,
+            "count": 34,
+            "fraction": 0.038288288288288286
+          },
+          {
+            "class": 54,
+            "count": 34,
+            "fraction": 0.038288288288288286
+          },
+          {
+            "class": 94,
+            "count": 32,
+            "fraction": 0.036036036036036036
+          },
+          {
+            "class": 22,
+            "count": 30,
+            "fraction": 0.033783783783783786
+          },
+          {
+            "class": 63,
+            "count": 24,
+            "fraction": 0.02702702702702703
+          },
+          {
+            "class": 97,
+            "count": 23,
+            "fraction": 0.0259009009009009
+          },
+          {
+            "class": 29,
+            "count": 21,
+            "fraction": 0.02364864864864865
+          },
+          {
+            "class": 81,
+            "count": 19,
+            "fraction": 0.021396396396396396
+          },
+          {
+            "class": 5,
+            "count": 18,
+            "fraction": 0.02027027027027027
+          },
+          {
+            "class": 71,
+            "count": 18,
+            "fraction": 0.02027027027027027
+          },
+          {
+            "class": 57,
+            "count": 16,
+            "fraction": 0.018018018018018018
+          },
+          {
+            "class": 68,
+            "count": 14,
+            "fraction": 0.015765765765765764
+          },
+          {
+            "class": 21,
+            "count": 13,
+            "fraction": 0.01463963963963964
+          },
+          {
+            "class": 73,
+            "count": 13,
+            "fraction": 0.01463963963963964
+          },
+          {
+            "class": 35,
+            "count": 12,
+            "fraction": 0.013513513513513514
+          },
+          {
+            "class": 74,
+            "count": 10,
+            "fraction": 0.01126126126126126
+          },
+          {
+            "class": 89,
+            "count": 10,
+            "fraction": 0.01126126126126126
+          },
+          {
+            "class": 3,
+            "count": 9,
+            "fraction": 0.010135135135135136
+          },
+          {
+            "class": 76,
+            "count": 9,
+            "fraction": 0.010135135135135136
+          },
+          {
+            "class": 77,
+            "count": 9,
+            "fraction": 0.010135135135135136
+          },
+          {
+            "class": 66,
+            "count": 8,
+            "fraction": 0.009009009009009009
+          },
+          {
+            "class": 11,
+            "count": 7,
+            "fraction": 0.007882882882882882
+          },
+          {
+            "class": 14,
+            "count": 6,
+            "fraction": 0.006756756756756757
+          },
+          {
+            "class": 69,
+            "count": 6,
+            "fraction": 0.006756756756756757
+          },
+          {
+            "class": 12,
+            "count": 5,
+            "fraction": 0.00563063063063063
+          },
+          {
+            "class": 86,
+            "count": 5,
+            "fraction": 0.00563063063063063
+          },
+          {
+            "class": 18,
+            "count": 4,
+            "fraction": 0.0045045045045045045
+          },
+          {
+            "class": 40,
+            "count": 4,
+            "fraction": 0.0045045045045045045
+          },
+          {
+            "class": 45,
+            "count": 4,
+            "fraction": 0.0045045045045045045
+          },
+          {
+            "class": 82,
+            "count": 4,
+            "fraction": 0.0045045045045045045
+          },
+          {
+            "class": 33,
+            "count": 3,
+            "fraction": 0.0033783783783783786
+          },
+          {
+            "class": 87,
+            "count": 3,
+            "fraction": 0.0033783783783783786
+          },
+          {
+            "class": 1,
+            "count": 2,
+            "fraction": 0.0022522522522522522
+          },
+          {
+            "class": 16,
+            "count": 2,
+            "fraction": 0.0022522522522522522
+          },
+          {
+            "class": 26,
+            "count": 2,
+            "fraction": 0.0022522522522522522
+          },
+          {
+            "class": 39,
+            "count": 2,
+            "fraction": 0.0022522522522522522
+          },
+          {
+            "class": 48,
+            "count": 2,
+            "fraction": 0.0022522522522522522
+          },
+          {
+            "class": 93,
+            "count": 2,
+            "fraction": 0.0022522522522522522
+          },
+          {
+            "class": 7,
+            "count": 1,
+            "fraction": 0.0011261261261261261
+          },
+          {
+            "class": 9,
+            "count": 1,
+            "fraction": 0.0011261261261261261
+          },
+          {
+            "class": 15,
+            "count": 1,
+            "fraction": 0.0011261261261261261
+          },
+          {
+            "class": 24,
+            "count": 1,
+            "fraction": 0.0011261261261261261
+          },
+          {
+            "class": 28,
+            "count": 1,
+            "fraction": 0.0011261261261261261
+          },
+          {
+            "class": 30,
+            "count": 1,
+            "fraction": 0.0011261261261261261
+          },
+          {
+            "class": 37,
+            "count": 1,
+            "fraction": 0.0011261261261261261
+          },
+          {
+            "class": 38,
+            "count": 1,
+            "fraction": 0.0011261261261261261
+          },
+          {
+            "class": 50,
+            "count": 1,
+            "fraction": 0.0011261261261261261
+          },
+          {
+            "class": 52,
+            "count": 1,
+            "fraction": 0.0011261261261261261
+          },
+          {
+            "class": 56,
+            "count": 1,
+            "fraction": 0.0011261261261261261
+          },
+          {
+            "class": 70,
+            "count": 1,
+            "fraction": 0.0011261261261261261
+          },
+          {
+            "class": 72,
+            "count": 1,
+            "fraction": 0.0011261261261261261
+          },
+          {
+            "class": 85,
+            "count": 1,
+            "fraction": 0.0011261261261261261
+          },
+          {
+            "class": 92,
+            "count": 1,
+            "fraction": 0.0011261261261261261
+          }
+        ],
+        "excluded_conflicting_groups": 6,
+        "excluded_records_in_conflicting_groups": 13
+      }
+    },
+    "unique_exact_structure_payloads": {
+      "space_groups": {
+        "n": 903,
+        "observed_classes": 94,
+        "universe_classes": 230,
+        "coverage_fraction": 0.40869565217391307,
+        "entropy_bits": 5.283487232219253,
+        "effective_classes": 38.94826700584198,
+        "normalized_entropy_over_universe": 0.6734426017891987,
+        "herfindahl_index": 0.04924522540222148,
+        "top1_share": 0.16168327796234774,
+        "top5_share": 0.3754152823920266,
+        "top10_share": 0.5448504983388704,
+        "counts": [
+          {
+            "class": 14,
+            "count": 146,
+            "fraction": 0.16168327796234774
+          },
+          {
+            "class": 2,
+            "count": 69,
+            "fraction": 0.07641196013289037
+          },
+          {
+            "class": 15,
+            "count": 49,
+            "fraction": 0.05426356589147287
+          },
+          {
+            "class": 62,
+            "count": 39,
+            "fraction": 0.04318936877076412
+          },
+          {
+            "class": 74,
+            "count": 36,
+            "fraction": 0.03986710963455149
+          },
+          {
+            "class": 19,
+            "count": 35,
+            "fraction": 0.03875968992248062
+          },
+          {
+            "class": 129,
+            "count": 33,
+            "fraction": 0.036544850498338874
+          },
+          {
+            "class": 60,
+            "count": 30,
+            "fraction": 0.03322259136212625
+          },
+          {
+            "class": 148,
+            "count": 29,
+            "fraction": 0.03211517165005537
+          },
+          {
+            "class": 225,
+            "count": 26,
+            "fraction": 0.028792912513842746
+          },
+          {
+            "class": 139,
+            "count": 20,
+            "fraction": 0.0221483942414175
+          },
+          {
+            "class": 227,
+            "count": 19,
+            "fraction": 0.021040974529346623
+          },
+          {
+            "class": 221,
+            "count": 18,
+            "fraction": 0.019933554817275746
+          },
+          {
+            "class": 4,
+            "count": 17,
+            "fraction": 0.018826135105204873
+          },
+          {
+            "class": 11,
+            "count": 17,
+            "fraction": 0.018826135105204873
+          },
+          {
+            "class": 166,
+            "count": 17,
+            "fraction": 0.018826135105204873
+          },
+          {
+            "class": 125,
+            "count": 16,
+            "fraction": 0.017718715393133997
+          },
+          {
+            "class": 88,
+            "count": 14,
+            "fraction": 0.015503875968992248
+          },
+          {
+            "class": 12,
+            "count": 13,
+            "fraction": 0.014396456256921373
+          },
+          {
+            "class": 33,
+            "count": 13,
+            "fraction": 0.014396456256921373
+          },
+          {
+            "class": 61,
+            "count": 13,
+            "fraction": 0.014396456256921373
+          },
+          {
+            "class": 63,
+            "count": 13,
+            "fraction": 0.014396456256921373
+          },
+          {
+            "class": 36,
+            "count": 8,
+            "fraction": 0.008859357696566999
+          },
+          {
+            "class": 72,
+            "count": 8,
+            "fraction": 0.008859357696566999
+          },
+          {
+            "class": 140,
+            "count": 8,
+            "fraction": 0.008859357696566999
+          },
+          {
+            "class": 176,
+            "count": 8,
+            "fraction": 0.008859357696566999
+          },
+          {
+            "class": 193,
+            "count": 8,
+            "fraction": 0.008859357696566999
+          },
+          {
+            "class": 13,
+            "count": 7,
+            "fraction": 0.007751937984496124
+          },
+          {
+            "class": 141,
+            "count": 7,
+            "fraction": 0.007751937984496124
+          },
+          {
+            "class": 191,
+            "count": 7,
+            "fraction": 0.007751937984496124
+          },
+          {
+            "class": 26,
+            "count": 6,
+            "fraction": 0.006644518272425249
+          },
+          {
+            "class": 121,
+            "count": 6,
+            "fraction": 0.006644518272425249
+          },
+          {
+            "class": 164,
+            "count": 6,
+            "fraction": 0.006644518272425249
+          },
+          {
+            "class": 167,
+            "count": 6,
+            "fraction": 0.006644518272425249
+          },
+          {
+            "class": 194,
+            "count": 6,
+            "fraction": 0.006644518272425249
+          },
+          {
+            "class": 5,
+            "count": 5,
+            "fraction": 0.005537098560354375
+          },
+          {
+            "class": 29,
+            "count": 5,
+            "fraction": 0.005537098560354375
+          },
+          {
+            "class": 163,
+            "count": 5,
+            "fraction": 0.005537098560354375
+          },
+          {
+            "class": 203,
+            "count": 5,
+            "fraction": 0.005537098560354375
+          },
+          {
+            "class": 205,
+            "count": 5,
+            "fraction": 0.005537098560354375
+          },
+          {
+            "class": 216,
+            "count": 5,
+            "fraction": 0.005537098560354375
+          },
+          {
+            "class": 45,
+            "count": 4,
+            "fraction": 0.004429678848283499
+          },
+          {
+            "class": 58,
+            "count": 4,
+            "fraction": 0.004429678848283499
+          },
+          {
+            "class": 59,
+            "count": 4,
+            "fraction": 0.004429678848283499
+          },
+          {
+            "class": 87,
+            "count": 4,
+            "fraction": 0.004429678848283499
+          },
+          {
+            "class": 92,
+            "count": 4,
+            "fraction": 0.004429678848283499
+          },
+          {
+            "class": 123,
+            "count": 4,
+            "fraction": 0.004429678848283499
+          },
+          {
+            "class": 198,
+            "count": 4,
+            "fraction": 0.004429678848283499
+          },
+          {
+            "class": 217,
+            "count": 4,
+            "fraction": 0.004429678848283499
+          },
+          {
+            "class": 9,
+            "count": 3,
+            "fraction": 0.0033222591362126247
+          },
+          {
+            "class": 71,
+            "count": 3,
+            "fraction": 0.0033222591362126247
+          },
+          {
+            "class": 161,
+            "count": 3,
+            "fraction": 0.0033222591362126247
+          },
+          {
+            "class": 199,
+            "count": 3,
+            "fraction": 0.0033222591362126247
+          },
+          {
+            "class": 229,
+            "count": 3,
+            "fraction": 0.0033222591362126247
+          },
+          {
+            "class": 1,
+            "count": 2,
+            "fraction": 0.0022148394241417496
+          },
+          {
+            "class": 3,
+            "count": 2,
+            "fraction": 0.0022148394241417496
+          },
+          {
+            "class": 7,
+            "count": 2,
+            "fraction": 0.0022148394241417496
+          },
+          {
+            "class": 32,
+            "count": 2,
+            "fraction": 0.0022148394241417496
+          },
+          {
+            "class": 65,
+            "count": 2,
+            "fraction": 0.0022148394241417496
+          },
+          {
+            "class": 70,
+            "count": 2,
+            "fraction": 0.0022148394241417496
+          },
+          {
+            "class": 127,
+            "count": 2,
+            "fraction": 0.0022148394241417496
+          },
+          {
+            "class": 162,
+            "count": 2,
+            "fraction": 0.0022148394241417496
+          },
+          {
+            "class": 186,
+            "count": 2,
+            "fraction": 0.0022148394241417496
+          },
+          {
+            "class": 189,
+            "count": 2,
+            "fraction": 0.0022148394241417496
+          },
+          {
+            "class": 201,
+            "count": 2,
+            "fraction": 0.0022148394241417496
+          },
+          {
+            "class": 224,
+            "count": 2,
+            "fraction": 0.0022148394241417496
+          },
+          {
+            "class": 230,
+            "count": 2,
+            "fraction": 0.0022148394241417496
+          },
+          {
+            "class": 18,
+            "count": 1,
+            "fraction": 0.0011074197120708748
+          },
+          {
+            "class": 31,
+            "count": 1,
+            "fraction": 0.0011074197120708748
+          },
+          {
+            "class": 43,
+            "count": 1,
+            "fraction": 0.0011074197120708748
+          },
+          {
+            "class": 46,
+            "count": 1,
+            "fraction": 0.0011074197120708748
+          },
+          {
+            "class": 47,
+            "count": 1,
+            "fraction": 0.0011074197120708748
+          },
+          {
+            "class": 51,
+            "count": 1,
+            "fraction": 0.0011074197120708748
+          },
+          {
+            "class": 52,
+            "count": 1,
+            "fraction": 0.0011074197120708748
+          },
+          {
+            "class": 53,
+            "count": 1,
+            "fraction": 0.0011074197120708748
+          },
+          {
+            "class": 57,
+            "count": 1,
+            "fraction": 0.0011074197120708748
+          },
+          {
+            "class": 64,
+            "count": 1,
+            "fraction": 0.0011074197120708748
+          },
+          {
+            "class": 67,
+            "count": 1,
+            "fraction": 0.0011074197120708748
+          },
+          {
+            "class": 69,
+            "count": 1,
+            "fraction": 0.0011074197120708748
+          },
+          {
+            "class": 85,
+            "count": 1,
+            "fraction": 0.0011074197120708748
+          },
+          {
+            "class": 101,
+            "count": 1,
+            "fraction": 0.0011074197120708748
+          },
+          {
+            "class": 136,
+            "count": 1,
+            "fraction": 0.0011074197120708748
+          },
+          {
+            "class": 137,
+            "count": 1,
+            "fraction": 0.0011074197120708748
+          },
+          {
+            "class": 142,
+            "count": 1,
+            "fraction": 0.0011074197120708748
+          },
+          {
+            "class": 145,
+            "count": 1,
+            "fraction": 0.0011074197120708748
+          },
+          {
+            "class": 146,
+            "count": 1,
+            "fraction": 0.0011074197120708748
+          },
+          {
+            "class": 158,
+            "count": 1,
+            "fraction": 0.0011074197120708748
+          },
+          {
+            "class": 175,
+            "count": 1,
+            "fraction": 0.0011074197120708748
+          },
+          {
+            "class": 182,
+            "count": 1,
+            "fraction": 0.0011074197120708748
+          },
+          {
+            "class": 188,
+            "count": 1,
+            "fraction": 0.0011074197120708748
+          },
+          {
+            "class": 200,
+            "count": 1,
+            "fraction": 0.0011074197120708748
+          },
+          {
+            "class": 206,
+            "count": 1,
+            "fraction": 0.0011074197120708748
+          },
+          {
+            "class": 209,
+            "count": 1,
+            "fraction": 0.0011074197120708748
+          },
+          {
+            "class": 223,
+            "count": 1,
+            "fraction": 0.0011074197120708748
+          }
+        ],
+        "excluded_conflicting_groups": 0,
+        "excluded_records_in_conflicting_groups": 0
+      },
+      "extinction_groups": {
+        "n": 903,
+        "observed_classes": 60,
+        "universe_classes": 99,
+        "coverage_fraction": 0.6060606060606061,
+        "entropy_bits": 4.820413277754702,
+        "effective_classes": 28.254588596847167,
+        "normalized_entropy_over_universe": 0.727131387554893,
+        "herfindahl_index": 0.05577936961696525,
+        "top1_share": 0.16168327796234774,
+        "top5_share": 0.40753045404208194,
+        "top10_share": 0.5980066445182725,
+        "counts": [
+          {
+            "class": 4,
+            "count": 146,
+            "fraction": 0.16168327796234774
+          },
+          {
+            "class": 99,
+            "count": 71,
+            "fraction": 0.07862679955703211
+          },
+          {
+            "class": 6,
+            "count": 52,
+            "fraction": 0.05758582502768549
+          },
+          {
+            "class": 17,
+            "count": 52,
+            "fraction": 0.05758582502768549
+          },
+          {
+            "class": 75,
+            "count": 47,
+            "fraction": 0.05204872646733112
+          },
+          {
+            "class": 34,
+            "count": 37,
+            "fraction": 0.04097452934662237
+          },
+          {
+            "class": 10,
+            "count": 35,
+            "fraction": 0.03875968992248062
+          },
+          {
+            "class": 2,
+            "count": 34,
+            "fraction": 0.03765227021040975
+          },
+          {
+            "class": 54,
+            "count": 34,
+            "fraction": 0.03765227021040975
+          },
+          {
+            "class": 94,
+            "count": 32,
+            "fraction": 0.035437430786267994
+          },
+          {
+            "class": 22,
+            "count": 30,
+            "fraction": 0.03322259136212625
+          },
+          {
+            "class": 63,
+            "count": 30,
+            "fraction": 0.03322259136212625
+          },
+          {
+            "class": 97,
+            "count": 24,
+            "fraction": 0.026578073089700997
+          },
+          {
+            "class": 29,
+            "count": 21,
+            "fraction": 0.023255813953488372
+          },
+          {
+            "class": 81,
+            "count": 19,
+            "fraction": 0.021040974529346623
+          },
+          {
+            "class": 5,
+            "count": 18,
+            "fraction": 0.019933554817275746
+          },
+          {
+            "class": 71,
+            "count": 18,
+            "fraction": 0.019933554817275746
+          },
+          {
+            "class": 57,
+            "count": 16,
+            "fraction": 0.017718715393133997
+          },
+          {
+            "class": 68,
+            "count": 14,
+            "fraction": 0.015503875968992248
+          },
+          {
+            "class": 21,
+            "count": 13,
+            "fraction": 0.014396456256921373
+          },
+          {
+            "class": 73,
+            "count": 13,
+            "fraction": 0.014396456256921373
+          },
+          {
+            "class": 35,
+            "count": 12,
+            "fraction": 0.013289036544850499
+          },
+          {
+            "class": 74,
+            "count": 10,
+            "fraction": 0.01107419712070875
+          },
+          {
+            "class": 89,
+            "count": 10,
+            "fraction": 0.01107419712070875
+          },
+          {
+            "class": 3,
+            "count": 9,
+            "fraction": 0.009966777408637873
+          },
+          {
+            "class": 76,
+            "count": 9,
+            "fraction": 0.009966777408637873
+          },
+          {
+            "class": 77,
+            "count": 9,
+            "fraction": 0.009966777408637873
+          },
+          {
+            "class": 66,
+            "count": 8,
+            "fraction": 0.008859357696566999
+          },
+          {
+            "class": 11,
+            "count": 7,
+            "fraction": 0.007751937984496124
+          },
+          {
+            "class": 69,
+            "count": 7,
+            "fraction": 0.007751937984496124
+          },
+          {
+            "class": 14,
+            "count": 6,
+            "fraction": 0.006644518272425249
+          },
+          {
+            "class": 12,
+            "count": 5,
+            "fraction": 0.005537098560354375
+          },
+          {
+            "class": 86,
+            "count": 5,
+            "fraction": 0.005537098560354375
+          },
+          {
+            "class": 18,
+            "count": 4,
+            "fraction": 0.004429678848283499
+          },
+          {
+            "class": 40,
+            "count": 4,
+            "fraction": 0.004429678848283499
+          },
+          {
+            "class": 45,
+            "count": 4,
+            "fraction": 0.004429678848283499
+          },
+          {
+            "class": 82,
+            "count": 4,
+            "fraction": 0.004429678848283499
+          },
+          {
+            "class": 87,
+            "count": 4,
+            "fraction": 0.004429678848283499
+          },
+          {
+            "class": 33,
+            "count": 3,
+            "fraction": 0.0033222591362126247
+          },
+          {
+            "class": 1,
+            "count": 2,
+            "fraction": 0.0022148394241417496
+          },
+          {
+            "class": 16,
+            "count": 2,
+            "fraction": 0.0022148394241417496
+          },
+          {
+            "class": 26,
+            "count": 2,
+            "fraction": 0.0022148394241417496
+          },
+          {
+            "class": 39,
+            "count": 2,
+            "fraction": 0.0022148394241417496
+          },
+          {
+            "class": 48,
+            "count": 2,
+            "fraction": 0.0022148394241417496
+          },
+          {
+            "class": 93,
+            "count": 2,
+            "fraction": 0.0022148394241417496
+          },
+          {
+            "class": 7,
+            "count": 1,
+            "fraction": 0.0011074197120708748
+          },
+          {
+            "class": 9,
+            "count": 1,
+            "fraction": 0.0011074197120708748
+          },
+          {
+            "class": 15,
+            "count": 1,
+            "fraction": 0.0011074197120708748
+          },
+          {
+            "class": 24,
+            "count": 1,
+            "fraction": 0.0011074197120708748
+          },
+          {
+            "class": 28,
+            "count": 1,
+            "fraction": 0.0011074197120708748
+          },
+          {
+            "class": 30,
+            "count": 1,
+            "fraction": 0.0011074197120708748
+          },
+          {
+            "class": 37,
+            "count": 1,
+            "fraction": 0.0011074197120708748
+          },
+          {
+            "class": 38,
+            "count": 1,
+            "fraction": 0.0011074197120708748
+          },
+          {
+            "class": 50,
+            "count": 1,
+            "fraction": 0.0011074197120708748
+          },
+          {
+            "class": 52,
+            "count": 1,
+            "fraction": 0.0011074197120708748
+          },
+          {
+            "class": 56,
+            "count": 1,
+            "fraction": 0.0011074197120708748
+          },
+          {
+            "class": 70,
+            "count": 1,
+            "fraction": 0.0011074197120708748
+          },
+          {
+            "class": 72,
+            "count": 1,
+            "fraction": 0.0011074197120708748
+          },
+          {
+            "class": 85,
+            "count": 1,
+            "fraction": 0.0011074197120708748
+          },
+          {
+            "class": 92,
+            "count": 1,
+            "fraction": 0.0011074197120708748
+          }
+        ],
+        "excluded_conflicting_groups": 0,
+        "excluded_records_in_conflicting_groups": 0
+      }
+    },
+    "unique_structure_matcher_groups": {
+      "space_groups": {
+        "n": 664,
+        "observed_classes": 94,
+        "universe_classes": 230,
+        "coverage_fraction": 0.40869565217391307,
+        "entropy_bits": 5.35336216641507,
+        "effective_classes": 40.88110157841801,
+        "normalized_entropy_over_universe": 0.6823489841492664,
+        "herfindahl_index": 0.04896846421831907,
+        "top1_share": 0.1536144578313253,
+        "top5_share": 0.39457831325301207,
+        "top10_share": 0.536144578313253,
+        "counts": [
+          {
+            "class": 14,
+            "count": 102,
+            "fraction": 0.1536144578313253
+          },
+          {
+            "class": 2,
+            "count": 66,
+            "fraction": 0.09939759036144578
+          },
+          {
+            "class": 15,
+            "count": 38,
+            "fraction": 0.0572289156626506
+          },
+          {
+            "class": 19,
+            "count": 31,
+            "fraction": 0.046686746987951805
+          },
+          {
+            "class": 148,
+            "count": 25,
+            "fraction": 0.03765060240963856
+          },
+          {
+            "class": 62,
+            "count": 23,
+            "fraction": 0.03463855421686747
+          },
+          {
+            "class": 225,
+            "count": 23,
+            "fraction": 0.03463855421686747
+          },
+          {
+            "class": 4,
+            "count": 17,
+            "fraction": 0.025602409638554216
+          },
+          {
+            "class": 125,
+            "count": 16,
+            "fraction": 0.024096385542168676
+          },
+          {
+            "class": 227,
+            "count": 15,
+            "fraction": 0.022590361445783132
+          },
+          {
+            "class": 12,
+            "count": 13,
+            "fraction": 0.01957831325301205
+          },
+          {
+            "class": 221,
+            "count": 13,
+            "fraction": 0.01957831325301205
+          },
+          {
+            "class": 61,
+            "count": 12,
+            "fraction": 0.018072289156626505
+          },
+          {
+            "class": 166,
+            "count": 11,
+            "fraction": 0.016566265060240965
+          },
+          {
+            "class": 33,
+            "count": 10,
+            "fraction": 0.015060240963855422
+          },
+          {
+            "class": 63,
+            "count": 10,
+            "fraction": 0.015060240963855422
+          },
+          {
+            "class": 88,
+            "count": 10,
+            "fraction": 0.015060240963855422
+          },
+          {
+            "class": 139,
+            "count": 10,
+            "fraction": 0.015060240963855422
+          },
+          {
+            "class": 60,
+            "count": 9,
+            "fraction": 0.01355421686746988
+          },
+          {
+            "class": 72,
+            "count": 8,
+            "fraction": 0.012048192771084338
+          },
+          {
+            "class": 129,
+            "count": 8,
+            "fraction": 0.012048192771084338
+          },
+          {
+            "class": 176,
+            "count": 8,
+            "fraction": 0.012048192771084338
+          },
+          {
+            "class": 11,
+            "count": 7,
+            "fraction": 0.010542168674698794
+          },
+          {
+            "class": 13,
+            "count": 7,
+            "fraction": 0.010542168674698794
+          },
+          {
+            "class": 74,
+            "count": 6,
+            "fraction": 0.009036144578313253
+          },
+          {
+            "class": 141,
+            "count": 6,
+            "fraction": 0.009036144578313253
+          },
+          {
+            "class": 164,
+            "count": 6,
+            "fraction": 0.009036144578313253
+          },
+          {
+            "class": 167,
+            "count": 6,
+            "fraction": 0.009036144578313253
+          },
+          {
+            "class": 5,
+            "count": 5,
+            "fraction": 0.007530120481927711
+          },
+          {
+            "class": 29,
+            "count": 5,
+            "fraction": 0.007530120481927711
+          },
+          {
+            "class": 163,
+            "count": 5,
+            "fraction": 0.007530120481927711
+          },
+          {
+            "class": 193,
+            "count": 5,
+            "fraction": 0.007530120481927711
+          },
+          {
+            "class": 194,
+            "count": 5,
+            "fraction": 0.007530120481927711
+          },
+          {
+            "class": 203,
+            "count": 5,
+            "fraction": 0.007530120481927711
+          },
+          {
+            "class": 216,
+            "count": 5,
+            "fraction": 0.007530120481927711
+          },
+          {
+            "class": 26,
+            "count": 4,
+            "fraction": 0.006024096385542169
+          },
+          {
+            "class": 92,
+            "count": 4,
+            "fraction": 0.006024096385542169
+          },
+          {
+            "class": 121,
+            "count": 4,
+            "fraction": 0.006024096385542169
+          },
+          {
+            "class": 140,
+            "count": 4,
+            "fraction": 0.006024096385542169
+          },
+          {
+            "class": 198,
+            "count": 4,
+            "fraction": 0.006024096385542169
+          },
+          {
+            "class": 205,
+            "count": 4,
+            "fraction": 0.006024096385542169
+          },
+          {
+            "class": 9,
+            "count": 3,
+            "fraction": 0.004518072289156626
+          },
+          {
+            "class": 45,
+            "count": 3,
+            "fraction": 0.004518072289156626
+          },
+          {
+            "class": 58,
+            "count": 3,
+            "fraction": 0.004518072289156626
+          },
+          {
+            "class": 71,
+            "count": 3,
+            "fraction": 0.004518072289156626
+          },
+          {
+            "class": 87,
+            "count": 3,
+            "fraction": 0.004518072289156626
+          },
+          {
+            "class": 123,
+            "count": 3,
+            "fraction": 0.004518072289156626
+          },
+          {
+            "class": 161,
+            "count": 3,
+            "fraction": 0.004518072289156626
+          },
+          {
+            "class": 191,
+            "count": 3,
+            "fraction": 0.004518072289156626
+          },
+          {
+            "class": 199,
+            "count": 3,
+            "fraction": 0.004518072289156626
+          },
+          {
+            "class": 217,
+            "count": 3,
+            "fraction": 0.004518072289156626
+          },
+          {
+            "class": 229,
+            "count": 3,
+            "fraction": 0.004518072289156626
+          },
+          {
+            "class": 1,
+            "count": 2,
+            "fraction": 0.0030120481927710845
+          },
+          {
+            "class": 3,
+            "count": 2,
+            "fraction": 0.0030120481927710845
+          },
+          {
+            "class": 7,
+            "count": 2,
+            "fraction": 0.0030120481927710845
+          },
+          {
+            "class": 32,
+            "count": 2,
+            "fraction": 0.0030120481927710845
+          },
+          {
+            "class": 36,
+            "count": 2,
+            "fraction": 0.0030120481927710845
+          },
+          {
+            "class": 59,
+            "count": 2,
+            "fraction": 0.0030120481927710845
+          },
+          {
+            "class": 65,
+            "count": 2,
+            "fraction": 0.0030120481927710845
+          },
+          {
+            "class": 70,
+            "count": 2,
+            "fraction": 0.0030120481927710845
+          },
+          {
+            "class": 127,
+            "count": 2,
+            "fraction": 0.0030120481927710845
+          },
+          {
+            "class": 162,
+            "count": 2,
+            "fraction": 0.0030120481927710845
+          },
+          {
+            "class": 186,
+            "count": 2,
+            "fraction": 0.0030120481927710845
+          },
+          {
+            "class": 189,
+            "count": 2,
+            "fraction": 0.0030120481927710845
+          },
+          {
+            "class": 201,
+            "count": 2,
+            "fraction": 0.0030120481927710845
+          },
+          {
+            "class": 230,
+            "count": 2,
+            "fraction": 0.0030120481927710845
+          },
+          {
+            "class": 18,
+            "count": 1,
+            "fraction": 0.0015060240963855422
+          },
+          {
+            "class": 31,
+            "count": 1,
+            "fraction": 0.0015060240963855422
+          },
+          {
+            "class": 43,
+            "count": 1,
+            "fraction": 0.0015060240963855422
+          },
+          {
+            "class": 46,
+            "count": 1,
+            "fraction": 0.0015060240963855422
+          },
+          {
+            "class": 47,
+            "count": 1,
+            "fraction": 0.0015060240963855422
+          },
+          {
+            "class": 51,
+            "count": 1,
+            "fraction": 0.0015060240963855422
+          },
+          {
+            "class": 52,
+            "count": 1,
+            "fraction": 0.0015060240963855422
+          },
+          {
+            "class": 53,
+            "count": 1,
+            "fraction": 0.0015060240963855422
+          },
+          {
+            "class": 57,
+            "count": 1,
+            "fraction": 0.0015060240963855422
+          },
+          {
+            "class": 64,
+            "count": 1,
+            "fraction": 0.0015060240963855422
+          },
+          {
+            "class": 67,
+            "count": 1,
+            "fraction": 0.0015060240963855422
+          },
+          {
+            "class": 69,
+            "count": 1,
+            "fraction": 0.0015060240963855422
+          },
+          {
+            "class": 85,
+            "count": 1,
+            "fraction": 0.0015060240963855422
+          },
+          {
+            "class": 101,
+            "count": 1,
+            "fraction": 0.0015060240963855422
+          },
+          {
+            "class": 136,
+            "count": 1,
+            "fraction": 0.0015060240963855422
+          },
+          {
+            "class": 137,
+            "count": 1,
+            "fraction": 0.0015060240963855422
+          },
+          {
+            "class": 142,
+            "count": 1,
+            "fraction": 0.0015060240963855422
+          },
+          {
+            "class": 145,
+            "count": 1,
+            "fraction": 0.0015060240963855422
+          },
+          {
+            "class": 146,
+            "count": 1,
+            "fraction": 0.0015060240963855422
+          },
+          {
+            "class": 158,
+            "count": 1,
+            "fraction": 0.0015060240963855422
+          },
+          {
+            "class": 175,
+            "count": 1,
+            "fraction": 0.0015060240963855422
+          },
+          {
+            "class": 182,
+            "count": 1,
+            "fraction": 0.0015060240963855422
+          },
+          {
+            "class": 188,
+            "count": 1,
+            "fraction": 0.0015060240963855422
+          },
+          {
+            "class": 200,
+            "count": 1,
+            "fraction": 0.0015060240963855422
+          },
+          {
+            "class": 206,
+            "count": 1,
+            "fraction": 0.0015060240963855422
+          },
+          {
+            "class": 209,
+            "count": 1,
+            "fraction": 0.0015060240963855422
+          },
+          {
+            "class": 223,
+            "count": 1,
+            "fraction": 0.0015060240963855422
+          },
+          {
+            "class": 224,
+            "count": 1,
+            "fraction": 0.0015060240963855422
+          }
+        ],
+        "excluded_conflicting_groups": 5,
+        "excluded_records_in_conflicting_groups": 38
+      },
+      "extinction_groups": {
+        "n": 664,
+        "observed_classes": 60,
+        "universe_classes": 99,
+        "coverage_fraction": 0.6060606060606061,
+        "entropy_bits": 4.855891616522256,
+        "effective_classes": 28.958031238107424,
+        "normalized_entropy_over_universe": 0.7324830892057129,
+        "herfindahl_index": 0.055995064595732336,
+        "top1_share": 0.1536144578313253,
+        "top5_share": 0.42319277108433734,
+        "top10_share": 0.6069277108433735,
+        "counts": [
+          {
+            "class": 4,
+            "count": 102,
+            "fraction": 0.1536144578313253
+          },
+          {
+            "class": 99,
+            "count": 68,
+            "fraction": 0.10240963855421686
+          },
+          {
+            "class": 6,
+            "count": 41,
+            "fraction": 0.061746987951807226
+          },
+          {
+            "class": 75,
+            "count": 37,
+            "fraction": 0.05572289156626506
+          },
+          {
+            "class": 17,
+            "count": 33,
+            "fraction": 0.04969879518072289
+          },
+          {
+            "class": 10,
+            "count": 31,
+            "fraction": 0.046686746987951805
+          },
+          {
+            "class": 94,
+            "count": 29,
+            "fraction": 0.043674698795180725
+          },
+          {
+            "class": 2,
+            "count": 24,
+            "fraction": 0.03614457831325301
+          },
+          {
+            "class": 97,
+            "count": 20,
+            "fraction": 0.030120481927710843
+          },
+          {
+            "class": 5,
+            "count": 18,
+            "fraction": 0.02710843373493976
+          },
+          {
+            "class": 63,
+            "count": 17,
+            "fraction": 0.025602409638554216
+          },
+          {
+            "class": 57,
+            "count": 16,
+            "fraction": 0.024096385542168676
+          },
+          {
+            "class": 71,
+            "count": 14,
+            "fraction": 0.02108433734939759
+          },
+          {
+            "class": 81,
+            "count": 14,
+            "fraction": 0.02108433734939759
+          },
+          {
+            "class": 21,
+            "count": 12,
+            "fraction": 0.018072289156626505
+          },
+          {
+            "class": 29,
+            "count": 12,
+            "fraction": 0.018072289156626505
+          },
+          {
+            "class": 73,
+            "count": 12,
+            "fraction": 0.018072289156626505
+          },
+          {
+            "class": 35,
+            "count": 11,
+            "fraction": 0.016566265060240965
+          },
+          {
+            "class": 68,
+            "count": 10,
+            "fraction": 0.015060240963855422
+          },
+          {
+            "class": 3,
+            "count": 9,
+            "fraction": 0.01355421686746988
+          },
+          {
+            "class": 22,
+            "count": 9,
+            "fraction": 0.01355421686746988
+          },
+          {
+            "class": 54,
+            "count": 9,
+            "fraction": 0.01355421686746988
+          },
+          {
+            "class": 76,
+            "count": 9,
+            "fraction": 0.01355421686746988
+          },
+          {
+            "class": 77,
+            "count": 9,
+            "fraction": 0.01355421686746988
+          },
+          {
+            "class": 89,
+            "count": 9,
+            "fraction": 0.01355421686746988
+          },
+          {
+            "class": 34,
+            "count": 7,
+            "fraction": 0.010542168674698794
+          },
+          {
+            "class": 74,
+            "count": 7,
+            "fraction": 0.010542168674698794
+          },
+          {
+            "class": 14,
+            "count": 6,
+            "fraction": 0.009036144578313253
+          },
+          {
+            "class": 69,
+            "count": 6,
+            "fraction": 0.009036144578313253
+          },
+          {
+            "class": 11,
+            "count": 5,
+            "fraction": 0.007530120481927711
+          },
+          {
+            "class": 45,
+            "count": 4,
+            "fraction": 0.006024096385542169
+          },
+          {
+            "class": 66,
+            "count": 4,
+            "fraction": 0.006024096385542169
+          },
+          {
+            "class": 82,
+            "count": 4,
+            "fraction": 0.006024096385542169
+          },
+          {
+            "class": 86,
+            "count": 4,
+            "fraction": 0.006024096385542169
+          },
+          {
+            "class": 12,
+            "count": 3,
+            "fraction": 0.004518072289156626
+          },
+          {
+            "class": 18,
+            "count": 3,
+            "fraction": 0.004518072289156626
+          },
+          {
+            "class": 33,
+            "count": 3,
+            "fraction": 0.004518072289156626
+          },
+          {
+            "class": 40,
+            "count": 3,
+            "fraction": 0.004518072289156626
+          },
+          {
+            "class": 87,
+            "count": 3,
+            "fraction": 0.004518072289156626
+          },
+          {
+            "class": 1,
+            "count": 2,
+            "fraction": 0.0030120481927710845
+          },
+          {
+            "class": 16,
+            "count": 2,
+            "fraction": 0.0030120481927710845
+          },
+          {
+            "class": 26,
+            "count": 2,
+            "fraction": 0.0030120481927710845
+          },
+          {
+            "class": 39,
+            "count": 2,
+            "fraction": 0.0030120481927710845
+          },
+          {
+            "class": 48,
+            "count": 2,
+            "fraction": 0.0030120481927710845
+          },
+          {
+            "class": 93,
+            "count": 2,
+            "fraction": 0.0030120481927710845
+          },
+          {
+            "class": 7,
+            "count": 1,
+            "fraction": 0.0015060240963855422
+          },
+          {
+            "class": 9,
+            "count": 1,
+            "fraction": 0.0015060240963855422
+          },
+          {
+            "class": 15,
+            "count": 1,
+            "fraction": 0.0015060240963855422
+          },
+          {
+            "class": 24,
+            "count": 1,
+            "fraction": 0.0015060240963855422
+          },
+          {
+            "class": 28,
+            "count": 1,
+            "fraction": 0.0015060240963855422
+          },
+          {
+            "class": 30,
+            "count": 1,
+            "fraction": 0.0015060240963855422
+          },
+          {
+            "class": 37,
+            "count": 1,
+            "fraction": 0.0015060240963855422
+          },
+          {
+            "class": 38,
+            "count": 1,
+            "fraction": 0.0015060240963855422
+          },
+          {
+            "class": 50,
+            "count": 1,
+            "fraction": 0.0015060240963855422
+          },
+          {
+            "class": 52,
+            "count": 1,
+            "fraction": 0.0015060240963855422
+          },
+          {
+            "class": 56,
+            "count": 1,
+            "fraction": 0.0015060240963855422
+          },
+          {
+            "class": 70,
+            "count": 1,
+            "fraction": 0.0015060240963855422
+          },
+          {
+            "class": 72,
+            "count": 1,
+            "fraction": 0.0015060240963855422
+          },
+          {
+            "class": 85,
+            "count": 1,
+            "fraction": 0.0015060240963855422
+          },
+          {
+            "class": 92,
+            "count": 1,
+            "fraction": 0.0015060240963855422
+          }
+        ],
+        "excluded_conflicting_groups": 5,
+        "excluded_records_in_conflicting_groups": 38
+      }
+    }
+  }
+}

@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="620" viewBox="0 0 1180 620">
+<text x="320.0" y="34.0" font-size="18" text-anchor="middle" font-weight="bold" font-family="Arial, sans-serif">A. Error distance</text>
+<text x="860.0" y="34.0" font-size="18" text-anchor="middle" font-weight="bold" font-family="Arial, sans-serif">B. Error direction</text>
+<line x1="85" y1="485.0" x2="555" y2="485.0" stroke="#dddddd" stroke-width="1" />
+<text x="73.0" y="489.0" font-size="12" text-anchor="end" font-weight="normal" font-family="Arial, sans-serif">0%</text>
+<line x1="85" y1="402.0" x2="555" y2="402.0" stroke="#dddddd" stroke-width="1" />
+<text x="73.0" y="406.0" font-size="12" text-anchor="end" font-weight="normal" font-family="Arial, sans-serif">20%</text>
+<line x1="85" y1="319.0" x2="555" y2="319.0" stroke="#dddddd" stroke-width="1" />
+<text x="73.0" y="323.0" font-size="12" text-anchor="end" font-weight="normal" font-family="Arial, sans-serif">40%</text>
+<line x1="85" y1="236.0" x2="555" y2="236.0" stroke="#dddddd" stroke-width="1" />
+<text x="73.0" y="240.0" font-size="12" text-anchor="end" font-weight="normal" font-family="Arial, sans-serif">60%</text>
+<line x1="85" y1="153.0" x2="555" y2="153.0" stroke="#dddddd" stroke-width="1" />
+<text x="73.0" y="157.0" font-size="12" text-anchor="end" font-weight="normal" font-family="Arial, sans-serif">80%</text>
+<line x1="85" y1="70.0" x2="555" y2="70.0" stroke="#dddddd" stroke-width="1" />
+<text x="73.0" y="74.0" font-size="12" text-anchor="end" font-weight="normal" font-family="Arial, sans-serif">100%</text>
+<rect x="85.0" y="450.7" width="101.0" height="34.3" fill="#4C78A8" />
+<rect x="85.0" y="348.0" width="101.0" height="102.8" fill="#72B7B2" />
+<rect x="85.0" y="185.9" width="101.0" height="162.0" fill="#F2CF5B" />
+<rect x="85.0" y="70.0" width="101.0" height="115.9" fill="#E45756" />
+<rect x="85.0" y="70.0" width="101.0" height="0.0" fill="#B279A2" />
+<text x="135.5" y="507.0" font-size="13" text-anchor="middle" font-weight="normal" font-family="Arial, sans-serif">uniform split</text>
+<text x="135.5" y="525.0" font-size="11" text-anchor="middle" font-weight="normal" font-family="Arial, sans-serif">3.1% top-1</text>
+<rect x="208.0" y="470.2" width="101.0" height="14.8" fill="#4C78A8" />
+<rect x="208.0" y="411.1" width="101.0" height="59.1" fill="#72B7B2" />
+<rect x="208.0" y="294.3" width="101.0" height="116.8" fill="#F2CF5B" />
+<rect x="208.0" y="70.0" width="101.0" height="224.3" fill="#E45756" />
+<rect x="208.0" y="70.0" width="101.0" height="0.0" fill="#B279A2" />
+<text x="258.5" y="507.0" font-size="13" text-anchor="middle" font-weight="normal" font-family="Arial, sans-serif">old aux</text>
+<text x="258.5" y="525.0" font-size="11" text-anchor="middle" font-weight="normal" font-family="Arial, sans-serif">4.9% top-1</text>
+<rect x="331.0" y="463.9" width="101.0" height="21.1" fill="#4C78A8" />
+<rect x="331.0" y="417.8" width="101.0" height="46.1" fill="#72B7B2" />
+<rect x="331.0" y="288.7" width="101.0" height="129.1" fill="#F2CF5B" />
+<rect x="331.0" y="70.0" width="101.0" height="218.7" fill="#E45756" />
+<rect x="331.0" y="70.0" width="101.0" height="0.0" fill="#B279A2" />
+<text x="381.5" y="507.0" font-size="13" text-anchor="middle" font-weight="normal" font-family="Arial, sans-serif">350k aux</text>
+<text x="381.5" y="525.0" font-size="11" text-anchor="middle" font-weight="normal" font-family="Arial, sans-serif">3.1% top-1</text>
+<rect x="454.0" y="404.5" width="101.0" height="80.5" fill="#4C78A8" />
+<rect x="454.0" y="325.5" width="101.0" height="79.0" fill="#72B7B2" />
+<rect x="454.0" y="170.2" width="101.0" height="155.3" fill="#F2CF5B" />
+<rect x="454.0" y="70.0" width="101.0" height="100.2" fill="#E45756" />
+<rect x="454.0" y="70.0" width="101.0" height="0.0" fill="#B279A2" />
+<text x="504.5" y="507.0" font-size="13" text-anchor="middle" font-weight="normal" font-family="Arial, sans-serif">calib. aux</text>
+<text x="504.5" y="525.0" font-size="11" text-anchor="middle" font-weight="normal" font-family="Arial, sans-serif">9.5% top-1</text>
+<text x="615.0" y="115.4" font-size="13" text-anchor="end" font-weight="normal" font-family="Arial, sans-serif">uniform split</text>
+<rect x="625.0" y="70.0" width="80.6" height="82.8" fill="#4C78A8" />
+<rect x="705.6" y="70.0" width="164.1" height="82.8" fill="#E45756" />
+<rect x="869.7" y="70.0" width="225.3" height="82.8" fill="#9D755D" />
+<text x="1103.0" y="115.4" font-size="11" text-anchor="start" font-weight="normal" font-family="Arial, sans-serif">3.1%</text>
+<text x="615.0" y="226.1" font-size="13" text-anchor="end" font-weight="normal" font-family="Arial, sans-serif">old aux</text>
+<rect x="625.0" y="180.8" width="97.3" height="82.8" fill="#4C78A8" />
+<rect x="722.3" y="180.8" width="240.3" height="82.8" fill="#E45756" />
+<rect x="962.7" y="180.8" width="132.3" height="82.8" fill="#9D755D" />
+<text x="1103.0" y="226.1" font-size="11" text-anchor="start" font-weight="normal" font-family="Arial, sans-serif">4.9%</text>
+<text x="615.0" y="336.9" font-size="13" text-anchor="end" font-weight="normal" font-family="Arial, sans-serif">350k aux</text>
+<rect x="625.0" y="291.5" width="168.6" height="82.8" fill="#4C78A8" />
+<rect x="793.6" y="291.5" width="204.4" height="82.8" fill="#E45756" />
+<rect x="998.0" y="291.5" width="97.0" height="82.8" fill="#9D755D" />
+<text x="1103.0" y="336.9" font-size="11" text-anchor="start" font-weight="normal" font-family="Arial, sans-serif">3.1%</text>
+<text x="615.0" y="447.6" font-size="13" text-anchor="end" font-weight="normal" font-family="Arial, sans-serif">calib. aux</text>
+<rect x="625.0" y="402.2" width="305.3" height="82.8" fill="#4C78A8" />
+<rect x="930.3" y="402.2" width="43.2" height="82.8" fill="#E45756" />
+<rect x="973.5" y="402.2" width="121.5" height="82.8" fill="#9D755D" />
+<text x="1103.0" y="447.6" font-size="11" text-anchor="start" font-weight="normal" font-family="Arial, sans-serif">9.5%</text>
+<rect x="85.0" y="566.0" width="18.0" height="18.0" fill="#4C78A8" />
+<text x="111.0" y="580.0" font-size="12" text-anchor="start" font-weight="normal" font-family="Arial, sans-serif">1 hop</text>
+<rect x="185.0" y="566.0" width="18.0" height="18.0" fill="#72B7B2" />
+<text x="211.0" y="580.0" font-size="12" text-anchor="start" font-weight="normal" font-family="Arial, sans-serif">2 hops</text>
+<rect x="285.0" y="566.0" width="18.0" height="18.0" fill="#F2CF5B" />
+<text x="311.0" y="580.0" font-size="12" text-anchor="start" font-weight="normal" font-family="Arial, sans-serif">3 hops</text>
+<rect x="385.0" y="566.0" width="18.0" height="18.0" fill="#E45756" />
+<text x="411.0" y="580.0" font-size="12" text-anchor="start" font-weight="normal" font-family="Arial, sans-serif">4+</text>
+<rect x="485.0" y="566.0" width="18.0" height="18.0" fill="#B279A2" />
+<text x="511.0" y="580.0" font-size="12" text-anchor="start" font-weight="normal" font-family="Arial, sans-serif">disc.</text>
+<rect x="625.0" y="566.0" width="18.0" height="18.0" fill="#4C78A8" />
+<text x="651.0" y="580.0" font-size="12" text-anchor="start" font-weight="normal" font-family="Arial, sans-serif">descendant</text>
+<rect x="775.0" y="566.0" width="18.0" height="18.0" fill="#E45756" />
+<text x="801.0" y="580.0" font-size="12" text-anchor="start" font-weight="normal" font-family="Arial, sans-serif">ancestor</text>
+<rect x="925.0" y="566.0" width="18.0" height="18.0" fill="#9D755D" />
+<text x="951.0" y="580.0" font-size="12" text-anchor="start" font-weight="normal" font-family="Arial, sans-serif">branch jump</text>
+</svg>

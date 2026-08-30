@@ -1,0 +1,1 @@
+$SCRATCH/XRDBench/checkpoints/spg-bigru_lr0.00025_bs128_2026-05-31 16:55:44_100/checkpoint.pth

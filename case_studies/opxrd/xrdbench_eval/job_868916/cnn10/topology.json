@@ -1,0 +1,26 @@
+{
+  "graph_json": "$SCRATCH/xrdbench_opxrd_community_20260727/tools/extinction_group_adjacency.json",
+  "failure_json": "$SCRATCH/xrdbench_opxrd_community_20260727/runs/job_868916/cnn10/failure.json",
+  "models": {
+    "xrdbench_cnn10_opxrd10_80": {
+      "top1_pct": 5.1020408163265305,
+      "correct": 5,
+      "wrong_n": 93,
+      "distance_buckets": {
+        "1": 8,
+        "2": 19,
+        "3": 29,
+        "4plus": 37,
+        "inf": 0
+      },
+      "pct_wrong_le2": 29.032258064516128,
+      "mean_wrong_dist": 3.2580645161290325,
+      "directionality": {
+        "descendant_pred_lower_sym": 74,
+        "branch_jump": 14,
+        "correct": 5,
+        "ancestor_pred_higher_sym": 5
+      }
+    }
+  }
+}

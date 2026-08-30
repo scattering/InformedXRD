@@ -1,0 +1,66 @@
+{
+  "graph_json": "$SCRATCH/xrdbench_opxrd_community_20260727/tools/extinction_group_adjacency.json",
+  "failure_json": "$SCRATCH/xrdbench_opxrd_community_20260727/runs/job_868916/bigru/failure.json",
+  "bootstrap_rounds": 2000,
+  "models": {
+    "xrdbench_bigru_opxrd10_80": {
+      "point_estimate": {
+        "top1_pct": 4.081632653061225,
+        "correct": 4,
+        "wrong_n": 94,
+        "distance_buckets": {
+          "1": 4,
+          "2": 15,
+          "3": 37,
+          "4plus": 38,
+          "inf": 0
+        },
+        "pct_wrong_le2": 20.21276595744681,
+        "mean_wrong_dist": 3.393617021276596,
+        "directionality": {
+          "descendant_pred_lower_sym": 75,
+          "ancestor_pred_higher_sym": 3,
+          "branch_jump": 16,
+          "correct": 4
+        },
+        "directionality_fraction": {
+          "descendant_pred_lower_sym": 79.7872340425532,
+          "ancestor_pred_higher_sym": 3.1914893617021276,
+          "branch_jump": 17.02127659574468
+        }
+      },
+      "bootstrap": {
+        "top1_pct": {
+          "mean": 4.114285714285715,
+          "ci95_low": 1.0204081632653061,
+          "ci95_high": 8.16326530612245
+        },
+        "pct_wrong_le2": {
+          "mean": 20.143176484344732,
+          "ci95_low": 12.370844434148037,
+          "ci95_high": 28.42105263157895
+        },
+        "mean_wrong_dist": {
+          "mean": 3.392688930672195,
+          "ci95_low": 3.173387972210161,
+          "ci95_high": 3.6382978723404253
+        },
+        "descendant_pct_of_wrong": {
+          "mean": 79.75615063558246,
+          "ci95_low": 71.27659574468085,
+          "ci95_high": 87.23404255319149
+        },
+        "ancestor_pct_of_wrong": {
+          "mean": 3.1711761806190597,
+          "ci95_low": 0.0,
+          "ci95_high": 6.666666666666667
+        },
+        "branch_jump_pct_of_wrong": {
+          "mean": 17.0726731837985,
+          "ci95_low": 9.67741935483871,
+          "ci95_high": 25.006578947368386
+        }
+      }
+    }
+  }
+}

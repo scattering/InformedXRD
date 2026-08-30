@@ -1,0 +1,14 @@
+name: neurips-ai-diffraction
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - pip
+  - numpy=2.0.2
+  - scipy=1.13.1
+  - pandas=2.3.0
+  - matplotlib=3.9.4
+  - networkx=3.2.1
+  - h5py=3.14.0
+  - pip:
+      - tqdm==4.67.1

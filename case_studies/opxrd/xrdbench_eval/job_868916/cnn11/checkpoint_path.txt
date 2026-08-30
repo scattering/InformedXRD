@@ -1,0 +1,1 @@
+$SCRATCH/XRDBench/checkpoints/spg-cnn11_lr0.00025_bs128_2026-05-31 16:55:45_100/checkpoint.pth

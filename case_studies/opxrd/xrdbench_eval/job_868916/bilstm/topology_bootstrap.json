@@ -1,0 +1,66 @@
+{
+  "graph_json": "$SCRATCH/xrdbench_opxrd_community_20260727/tools/extinction_group_adjacency.json",
+  "failure_json": "$SCRATCH/xrdbench_opxrd_community_20260727/runs/job_868916/bilstm/failure.json",
+  "bootstrap_rounds": 2000,
+  "models": {
+    "xrdbench_bilstm_opxrd10_80": {
+      "point_estimate": {
+        "top1_pct": 5.1020408163265305,
+        "correct": 5,
+        "wrong_n": 93,
+        "distance_buckets": {
+          "1": 3,
+          "2": 19,
+          "3": 28,
+          "4plus": 43,
+          "inf": 0
+        },
+        "pct_wrong_le2": 23.655913978494624,
+        "mean_wrong_dist": 3.4408602150537635,
+        "directionality": {
+          "descendant_pred_lower_sym": 69,
+          "ancestor_pred_higher_sym": 4,
+          "branch_jump": 20,
+          "correct": 5
+        },
+        "directionality_fraction": {
+          "descendant_pred_lower_sym": 74.19354838709677,
+          "ancestor_pred_higher_sym": 4.301075268817204,
+          "branch_jump": 21.50537634408602
+        }
+      },
+      "bootstrap": {
+        "top1_pct": {
+          "mean": 5.1811224489795915,
+          "ci95_low": 1.0204081632653061,
+          "ci95_high": 10.204081632653061
+        },
+        "pct_wrong_le2": {
+          "mean": 23.668516284568533,
+          "ci95_low": 15.053763440860216,
+          "ci95_high": 32.55813953488372
+        },
+        "mean_wrong_dist": {
+          "mean": 3.4398836218275783,
+          "ci95_low": 3.1976958525345625,
+          "ci95_high": 3.6923684210526315
+        },
+        "descendant_pct_of_wrong": {
+          "mean": 74.15185158635519,
+          "ci95_low": 65.21739130434783,
+          "ci95_high": 82.97872340425532
+        },
+        "ancestor_pct_of_wrong": {
+          "mean": 4.342102193472818,
+          "ci95_low": 1.0526315789473684,
+          "ci95_high": 8.695652173913043
+        },
+        "branch_jump_pct_of_wrong": {
+          "mean": 21.506046220171992,
+          "ci95_low": 13.043478260869565,
+          "ci95_high": 29.896907216494846
+        }
+      }
+    }
+  }
+}

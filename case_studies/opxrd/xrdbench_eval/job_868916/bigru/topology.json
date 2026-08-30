@@ -1,0 +1,26 @@
+{
+  "graph_json": "$SCRATCH/xrdbench_opxrd_community_20260727/tools/extinction_group_adjacency.json",
+  "failure_json": "$SCRATCH/xrdbench_opxrd_community_20260727/runs/job_868916/bigru/failure.json",
+  "models": {
+    "xrdbench_bigru_opxrd10_80": {
+      "top1_pct": 4.081632653061225,
+      "correct": 4,
+      "wrong_n": 94,
+      "distance_buckets": {
+        "1": 4,
+        "2": 15,
+        "3": 37,
+        "4plus": 38,
+        "inf": 0
+      },
+      "pct_wrong_le2": 20.21276595744681,
+      "mean_wrong_dist": 3.393617021276596,
+      "directionality": {
+        "descendant_pred_lower_sym": 75,
+        "branch_jump": 16,
+        "ancestor_pred_higher_sym": 3,
+        "correct": 4
+      }
+    }
+  }
+}

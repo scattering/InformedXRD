@@ -1,0 +1,604 @@
+{
+  "source_artifact": "aggregate_extinction_group_prior",
+  "provenance_note": "Aggregate extinction-group prior used for calibration; released as rounded probabilities/log-priors with no raw source records.",
+  "smoothing": 1.0,
+  "num_classes": 99,
+  "probability_decimals": 8,
+  "log_prior_decimals": 6,
+  "rows": [
+    {
+      "ext_group": 1,
+      "probability": 0.00316747,
+      "log_prior": -5.754821,
+      "seen_in_source_corpus": true
+    },
+    {
+      "ext_group": 2,
+      "probability": 0.04389692,
+      "log_prior": -3.125911,
+      "seen_in_source_corpus": true
+    },
+    {
+      "ext_group": 3,
+      "probability": 0.01520653,
+      "log_prior": -4.18603,
+      "seen_in_source_corpus": true
+    },
+    {
+      "ext_group": 4,
+      "probability": 0.12278563,
+      "log_prior": -2.097315,
+      "seen_in_source_corpus": true
+    },
+    {
+      "ext_group": 5,
+      "probability": 0.0895607,
+      "log_prior": -2.412839,
+      "seen_in_source_corpus": true
+    },
+    {
+      "ext_group": 6,
+      "probability": 0.07884027,
+      "log_prior": -2.540331,
+      "seen_in_source_corpus": true
+    },
+    {
+      "ext_group": 7,
+      "probability": 5.3e-07,
+      "log_prior": -14.445968,
+      "seen_in_source_corpus": false
+    },
+    {
+      "ext_group": 8,
+      "probability": 5.3e-07,
+      "log_prior": -14.445968,
+      "seen_in_source_corpus": false
+    },
+    {
+      "ext_group": 9,
+      "probability": 0.00080118,
+      "log_prior": -7.129419,
+      "seen_in_source_corpus": true
+    },
+    {
+      "ext_group": 10,
+      "probability": 0.01764788,
+      "log_prior": -4.037139,
+      "seen_in_source_corpus": true
+    },
+    {
+      "ext_group": 11,
+      "probability": 0.0031366,
+      "log_prior": -5.764617,
+      "seen_in_source_corpus": true
+    },
+    {
+      "ext_group": 12,
+      "probability": 0.01042285,
+      "log_prior": -4.563755,
+      "seen_in_source_corpus": true
+    },
+    {
+      "ext_group": 13,
+      "probability": 5.3e-07,
+      "log_prior": -14.445968,
+      "seen_in_source_corpus": false
+    },
+    {
+      "ext_group": 14,
+      "probability": 0.00557954,
+      "log_prior": -5.188648,
+      "seen_in_source_corpus": true
+    },
+    {
+      "ext_group": 15,
+      "probability": 0.00077723,
+      "log_prior": -7.159776,
+      "seen_in_source_corpus": true
+    },
+    {
+      "ext_group": 16,
+      "probability": 0.0071899,
+      "log_prior": -4.935078,
+      "seen_in_source_corpus": true
+    },
+    {
+      "ext_group": 17,
+      "probability": 0.09716689,
+      "log_prior": -2.331325,
+      "seen_in_source_corpus": true
+    },
+    {
+      "ext_group": 18,
+      "probability": 0.01119263,
+      "log_prior": -4.4925,
+      "seen_in_source_corpus": true
+    },
+    {
+      "ext_group": 19,
+      "probability": 0.00157788,
+      "log_prior": -6.451673,
+      "seen_in_source_corpus": true
+    },
+    {
+      "ext_group": 20,
+      "probability": 5.3e-07,
+      "log_prior": -14.445968,
+      "seen_in_source_corpus": false
+    },
+    {
+      "ext_group": 21,
+      "probability": 0.01697766,
+      "log_prior": -4.075857,
+      "seen_in_source_corpus": true
+    },
+    {
+      "ext_group": 22,
+      "probability": 0.01857843,
+      "log_prior": -3.985754,
+      "seen_in_source_corpus": true
+    },
+    {
+      "ext_group": 23,
+      "probability": 0.00079799,
+      "log_prior": -7.133414,
+      "seen_in_source_corpus": true
+    },
+    {
+      "ext_group": 24,
+      "probability": 0.00317439,
+      "log_prior": -5.752639,
+      "seen_in_source_corpus": true
+    },
+    {
+      "ext_group": 25,
+      "probability": 5.3e-07,
+      "log_prior": -14.445968,
+      "seen_in_source_corpus": false
+    },
+    {
+      "ext_group": 26,
+      "probability": 0.00239716,
+      "log_prior": -6.033469,
+      "seen_in_source_corpus": true
+    },
+    {
+      "ext_group": 27,
+      "probability": 5.3e-07,
+      "log_prior": -14.445968,
+      "seen_in_source_corpus": false
+    },
+    {
+      "ext_group": 28,
+      "probability": 5.3e-07,
+      "log_prior": -14.445968,
+      "seen_in_source_corpus": false
+    },
+    {
+      "ext_group": 29,
+      "probability": 0.0254947,
+      "log_prior": -3.669285,
+      "seen_in_source_corpus": true
+    },
+    {
+      "ext_group": 30,
+      "probability": 0.00406448,
+      "log_prior": -5.505469,
+      "seen_in_source_corpus": true
+    },
+    {
+      "ext_group": 31,
+      "probability": 0.00315683,
+      "log_prior": -5.758188,
+      "seen_in_source_corpus": true
+    },
+    {
+      "ext_group": 32,
+      "probability": 0.00240196,
+      "log_prior": -6.031472,
+      "seen_in_source_corpus": true
+    },
+    {
+      "ext_group": 33,
+      "probability": 0.00644567,
+      "log_prior": -5.044346,
+      "seen_in_source_corpus": true
+    },
+    {
+      "ext_group": 34,
+      "probability": 0.00318291,
+      "log_prior": -5.749959,
+      "seen_in_source_corpus": true
+    },
+    {
+      "ext_group": 35,
+      "probability": 0.00237214,
+      "log_prior": -6.043961,
+      "seen_in_source_corpus": true
+    },
+    {
+      "ext_group": 36,
+      "probability": 5.3e-07,
+      "log_prior": -14.445968,
+      "seen_in_source_corpus": false
+    },
+    {
+      "ext_group": 37,
+      "probability": 5.3e-07,
+      "log_prior": -14.445968,
+      "seen_in_source_corpus": false
+    },
+    {
+      "ext_group": 38,
+      "probability": 0.00240994,
+      "log_prior": -6.028153,
+      "seen_in_source_corpus": true
+    },
+    {
+      "ext_group": 39,
+      "probability": 0.0016242,
+      "log_prior": -6.422743,
+      "seen_in_source_corpus": true
+    },
+    {
+      "ext_group": 40,
+      "probability": 0.00236735,
+      "log_prior": -6.045983,
+      "seen_in_source_corpus": true
+    },
+    {
+      "ext_group": 41,
+      "probability": 0.00081822,
+      "log_prior": -7.10838,
+      "seen_in_source_corpus": true
+    },
+    {
+      "ext_group": 42,
+      "probability": 0.00082408,
+      "log_prior": -7.101249,
+      "seen_in_source_corpus": true
+    },
+    {
+      "ext_group": 43,
+      "probability": 5.3e-07,
+      "log_prior": -14.445968,
+      "seen_in_source_corpus": false
+    },
+    {
+      "ext_group": 44,
+      "probability": 0.0008459,
+      "log_prior": -7.075107,
+      "seen_in_source_corpus": true
+    },
+    {
+      "ext_group": 45,
+      "probability": 0.00486566,
+      "log_prior": -5.325552,
+      "seen_in_source_corpus": true
+    },
+    {
+      "ext_group": 46,
+      "probability": 5.3e-07,
+      "log_prior": -14.445968,
+      "seen_in_source_corpus": false
+    },
+    {
+      "ext_group": 47,
+      "probability": 0.00078681,
+      "log_prior": -7.147523,
+      "seen_in_source_corpus": true
+    },
+    {
+      "ext_group": 48,
+      "probability": 5.3e-07,
+      "log_prior": -14.445968,
+      "seen_in_source_corpus": false
+    },
+    {
+      "ext_group": 49,
+      "probability": 0.00078255,
+      "log_prior": -7.15295,
+      "seen_in_source_corpus": true
+    },
+    {
+      "ext_group": 50,
+      "probability": 5.3e-07,
+      "log_prior": -14.445968,
+      "seen_in_source_corpus": false
+    },
+    {
+      "ext_group": 51,
+      "probability": 0.00160716,
+      "log_prior": -6.433287,
+      "seen_in_source_corpus": true
+    },
+    {
+      "ext_group": 52,
+      "probability": 0.00557954,
+      "log_prior": -5.188648,
+      "seen_in_source_corpus": true
+    },
+    {
+      "ext_group": 53,
+      "probability": 0.00157841,
+      "log_prior": -6.451335,
+      "seen_in_source_corpus": true
+    },
+    {
+      "ext_group": 54,
+      "probability": 0.00969406,
+      "log_prior": -4.636241,
+      "seen_in_source_corpus": true
+    },
+    {
+      "ext_group": 55,
+      "probability": 0.00323189,
+      "log_prior": -5.734689,
+      "seen_in_source_corpus": true
+    },
+    {
+      "ext_group": 56,
+      "probability": 5.3e-07,
+      "log_prior": -14.445968,
+      "seen_in_source_corpus": false
+    },
+    {
+      "ext_group": 57,
+      "probability": 5.3e-07,
+      "log_prior": -14.445968,
+      "seen_in_source_corpus": false
+    },
+    {
+      "ext_group": 58,
+      "probability": 0.00079533,
+      "log_prior": -7.136755,
+      "seen_in_source_corpus": true
+    },
+    {
+      "ext_group": 59,
+      "probability": 5.3e-07,
+      "log_prior": -14.445968,
+      "seen_in_source_corpus": false
+    },
+    {
+      "ext_group": 60,
+      "probability": 0.0031712,
+      "log_prior": -5.753645,
+      "seen_in_source_corpus": true
+    },
+    {
+      "ext_group": 61,
+      "probability": 5.3e-07,
+      "log_prior": -14.445968,
+      "seen_in_source_corpus": false
+    },
+    {
+      "ext_group": 62,
+      "probability": 0.00402455,
+      "log_prior": -5.515341,
+      "seen_in_source_corpus": true
+    },
+    {
+      "ext_group": 63,
+      "probability": 0.01599068,
+      "log_prior": -4.135749,
+      "seen_in_source_corpus": true
+    },
+    {
+      "ext_group": 64,
+      "probability": 5.3e-07,
+      "log_prior": -14.445968,
+      "seen_in_source_corpus": false
+    },
+    {
+      "ext_group": 65,
+      "probability": 0.00240142,
+      "log_prior": -6.031694,
+      "seen_in_source_corpus": true
+    },
+    {
+      "ext_group": 66,
+      "probability": 5.3e-07,
+      "log_prior": -14.445968,
+      "seen_in_source_corpus": false
+    },
+    {
+      "ext_group": 67,
+      "probability": 5.3e-07,
+      "log_prior": -14.445968,
+      "seen_in_source_corpus": false
+    },
+    {
+      "ext_group": 68,
+      "probability": 0.00649359,
+      "log_prior": -5.03694,
+      "seen_in_source_corpus": true
+    },
+    {
+      "ext_group": 69,
+      "probability": 0.00319462,
+      "log_prior": -5.746286,
+      "seen_in_source_corpus": true
+    },
+    {
+      "ext_group": 70,
+      "probability": 0.00242964,
+      "log_prior": -6.020013,
+      "seen_in_source_corpus": true
+    },
+    {
+      "ext_group": 71,
+      "probability": 0.02715829,
+      "log_prior": -3.606073,
+      "seen_in_source_corpus": true
+    },
+    {
+      "ext_group": 72,
+      "probability": 0.00311796,
+      "log_prior": -5.770575,
+      "seen_in_source_corpus": true
+    },
+    {
+      "ext_group": 73,
+      "probability": 0.03188501,
+      "log_prior": -3.445619,
+      "seen_in_source_corpus": true
+    },
+    {
+      "ext_group": 74,
+      "probability": 0.00484544,
+      "log_prior": -5.329718,
+      "seen_in_source_corpus": true
+    },
+    {
+      "ext_group": 75,
+      "probability": 0.05999088,
+      "log_prior": -2.813563,
+      "seen_in_source_corpus": true
+    },
+    {
+      "ext_group": 76,
+      "probability": 0.01690952,
+      "log_prior": -4.079879,
+      "seen_in_source_corpus": true
+    },
+    {
+      "ext_group": 77,
+      "probability": 0.03265904,
+      "log_prior": -3.421633,
+      "seen_in_source_corpus": true
+    },
+    {
+      "ext_group": 78,
+      "probability": 5.3e-07,
+      "log_prior": -14.445968,
+      "seen_in_source_corpus": false
+    },
+    {
+      "ext_group": 79,
+      "probability": 5.3e-07,
+      "log_prior": -14.445968,
+      "seen_in_source_corpus": false
+    },
+    {
+      "ext_group": 80,
+      "probability": 0.00959718,
+      "log_prior": -4.646286,
+      "seen_in_source_corpus": true
+    },
+    {
+      "ext_group": 81,
+      "probability": 0.0016013,
+      "log_prior": -6.436937,
+      "seen_in_source_corpus": true
+    },
+    {
+      "ext_group": 82,
+      "probability": 0.00081236,
+      "log_prior": -7.115562,
+      "seen_in_source_corpus": true
+    },
+    {
+      "ext_group": 83,
+      "probability": 5.3e-07,
+      "log_prior": -14.445968,
+      "seen_in_source_corpus": false
+    },
+    {
+      "ext_group": 84,
+      "probability": 5.3e-07,
+      "log_prior": -14.445968,
+      "seen_in_source_corpus": false
+    },
+    {
+      "ext_group": 85,
+      "probability": 0.00716222,
+      "log_prior": -4.938936,
+      "seen_in_source_corpus": true
+    },
+    {
+      "ext_group": 86,
+      "probability": 0.00321113,
+      "log_prior": -5.741134,
+      "seen_in_source_corpus": true
+    },
+    {
+      "ext_group": 87,
+      "probability": 0.00080757,
+      "log_prior": -7.121478,
+      "seen_in_source_corpus": true
+    },
+    {
+      "ext_group": 88,
+      "probability": 5.3e-07,
+      "log_prior": -14.445968,
+      "seen_in_source_corpus": false
+    },
+    {
+      "ext_group": 89,
+      "probability": 0.00476186,
+      "log_prior": -5.347118,
+      "seen_in_source_corpus": true
+    },
+    {
+      "ext_group": 90,
+      "probability": 5.3e-07,
+      "log_prior": -14.445968,
+      "seen_in_source_corpus": false
+    },
+    {
+      "ext_group": 91,
+      "probability": 0.00079852,
+      "log_prior": -7.132747,
+      "seen_in_source_corpus": true
+    },
+    {
+      "ext_group": 92,
+      "probability": 5.3e-07,
+      "log_prior": -14.445968,
+      "seen_in_source_corpus": false
+    },
+    {
+      "ext_group": 93,
+      "probability": 0.01607266,
+      "log_prior": -4.130635,
+      "seen_in_source_corpus": true
+    },
+    {
+      "ext_group": 94,
+      "probability": 0.00404106,
+      "log_prior": -5.511249,
+      "seen_in_source_corpus": true
+    },
+    {
+      "ext_group": 95,
+      "probability": 0.0016029,
+      "log_prior": -6.43594,
+      "seen_in_source_corpus": true
+    },
+    {
+      "ext_group": 96,
+      "probability": 5.3e-07,
+      "log_prior": -14.445968,
+      "seen_in_source_corpus": false
+    },
+    {
+      "ext_group": 97,
+      "probability": 0.01358181,
+      "log_prior": -4.299024,
+      "seen_in_source_corpus": true
+    },
+    {
+      "ext_group": 98,
+      "probability": 5.3e-07,
+      "log_prior": -14.445968,
+      "seen_in_source_corpus": false
+    },
+    {
+      "ext_group": 99,
+      "probability": 0.08585662,
+      "log_prior": -2.455077,
+      "seen_in_source_corpus": true
+    }
+  ]
+}

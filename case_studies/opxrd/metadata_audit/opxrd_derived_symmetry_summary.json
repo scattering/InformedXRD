@@ -1,0 +1,272 @@
+{
+  "archive": "<DATA_ROOT>/AI and Diffraction/OpXRD/opxrd.zip",
+  "software": {
+    "pymatgen": "2026.5.4",
+    "spglib": "2.7.0"
+  },
+  "parameters": {
+    "symprec": 0.01,
+    "angle_tolerance": 5.0
+  },
+  "counts": {
+    "multiphase_all_lattice_parameters": 4,
+    "multiphase_all_lattice_parameters_and_sg_assignable": 4,
+    "multiphase_all_sg_assignable": 320,
+    "multiphase_all_sg_computed": 4,
+    "multiphase_all_sg_stored": 316,
+    "multiphase_any_lattice_parameters": 308,
+    "multiphase_any_sg_assignable": 615,
+    "multiphase_any_sg_computed": 4,
+    "multiphase_any_sg_stored": 611,
+    "multiphase_records": 1110,
+    "records_all_lattice_parameters": 1073,
+    "records_all_lattice_parameters_and_sg_assignable": 912,
+    "records_all_sg_assignable": 1228,
+    "records_all_sg_computed": 912,
+    "records_all_sg_stored": 316,
+    "records_any_lattice_parameters": 1377,
+    "records_any_sg_assignable": 1523,
+    "records_any_sg_computed": 912,
+    "records_any_sg_stored": 611,
+    "records_total": 92552,
+    "records_with_phases": 2179,
+    "records_without_phases": 90373,
+    "single_phase_all_lattice_parameters": 1069,
+    "single_phase_all_lattice_parameters_and_sg_assignable": 908,
+    "single_phase_all_sg_assignable": 908,
+    "single_phase_all_sg_computed": 908,
+    "single_phase_any_lattice_parameters": 1069,
+    "single_phase_any_sg_assignable": 908,
+    "single_phase_any_sg_computed": 908,
+    "single_phase_records": 1069
+  },
+  "derived_space_group_counts": {
+    "1": 2,
+    "2": 69,
+    "3": 2,
+    "4": 18,
+    "5": 5,
+    "7": 2,
+    "9": 3,
+    "11": 17,
+    "12": 14,
+    "13": 7,
+    "14": 146,
+    "15": 50,
+    "18": 1,
+    "19": 35,
+    "26": 6,
+    "29": 5,
+    "31": 2,
+    "32": 2,
+    "33": 13,
+    "36": 8,
+    "43": 1,
+    "45": 4,
+    "46": 1,
+    "47": 1,
+    "51": 1,
+    "52": 1,
+    "53": 1,
+    "57": 1,
+    "58": 4,
+    "59": 5,
+    "60": 30,
+    "61": 14,
+    "62": 41,
+    "63": 13,
+    "64": 2,
+    "65": 2,
+    "67": 1,
+    "69": 1,
+    "70": 2,
+    "71": 3,
+    "72": 8,
+    "74": 37,
+    "85": 1,
+    "87": 4,
+    "88": 14,
+    "92": 4,
+    "101": 1,
+    "121": 6,
+    "123": 4,
+    "125": 16,
+    "127": 2,
+    "129": 33,
+    "136": 3,
+    "137": 1,
+    "139": 20,
+    "140": 8,
+    "141": 10,
+    "142": 1,
+    "145": 1,
+    "146": 1,
+    "148": 29,
+    "158": 1,
+    "161": 3,
+    "162": 2,
+    "163": 5,
+    "164": 6,
+    "166": 17,
+    "167": 6,
+    "175": 1,
+    "176": 8,
+    "182": 1,
+    "186": 2,
+    "188": 1,
+    "189": 2,
+    "191": 7,
+    "193": 8,
+    "194": 6,
+    "198": 4,
+    "199": 3,
+    "200": 1,
+    "201": 2,
+    "203": 5,
+    "205": 5,
+    "206": 1,
+    "209": 1,
+    "216": 5,
+    "217": 4,
+    "221": 18,
+    "223": 1,
+    "224": 2,
+    "225": 26,
+    "227": 20,
+    "229": 3,
+    "230": 2
+  },
+  "derivation_failures": {
+    "counts": {
+      "ValueError: unsupported lattice value: NoneType": 1908,
+      "ValueError: basis is absent or is not a nonempty list": 465
+    },
+    "examples": [
+      {
+        "record": "CNRS/pattern_5.json",
+        "phase_index": "0",
+        "error": "ValueError: basis is absent or is not a nonempty list"
+      },
+      {
+        "record": "CNRS/pattern_7.json",
+        "phase_index": "0",
+        "error": "ValueError: basis is absent or is not a nonempty list"
+      },
+      {
+        "record": "CNRS/pattern_25.json",
+        "phase_index": "0",
+        "error": "ValueError: basis is absent or is not a nonempty list"
+      },
+      {
+        "record": "CNRS/pattern_28.json",
+        "phase_index": "0",
+        "error": "ValueError: basis is absent or is not a nonempty list"
+      },
+      {
+        "record": "CNRS/pattern_29.json",
+        "phase_index": "0",
+        "error": "ValueError: basis is absent or is not a nonempty list"
+      },
+      {
+        "record": "CNRS/pattern_31.json",
+        "phase_index": "0",
+        "error": "ValueError: basis is absent or is not a nonempty list"
+      },
+      {
+        "record": "CNRS/pattern_39.json",
+        "phase_index": "0",
+        "error": "ValueError: basis is absent or is not a nonempty list"
+      },
+      {
+        "record": "CNRS/pattern_54.json",
+        "phase_index": "0",
+        "error": "ValueError: basis is absent or is not a nonempty list"
+      },
+      {
+        "record": "CNRS/pattern_56.json",
+        "phase_index": "0",
+        "error": "ValueError: basis is absent or is not a nonempty list"
+      },
+      {
+        "record": "CNRS/pattern_61.json",
+        "phase_index": "0",
+        "error": "ValueError: basis is absent or is not a nonempty list"
+      },
+      {
+        "record": "CNRS/pattern_68.json",
+        "phase_index": "0",
+        "error": "ValueError: basis is absent or is not a nonempty list"
+      },
+      {
+        "record": "CNRS/pattern_75.json",
+        "phase_index": "0",
+        "error": "ValueError: basis is absent or is not a nonempty list"
+      },
+      {
+        "record": "CNRS/pattern_83.json",
+        "phase_index": "0",
+        "error": "ValueError: basis is absent or is not a nonempty list"
+      },
+      {
+        "record": "CNRS/pattern_85.json",
+        "phase_index": "0",
+        "error": "ValueError: basis is absent or is not a nonempty list"
+      },
+      {
+        "record": "CNRS/pattern_87.json",
+        "phase_index": "0",
+        "error": "ValueError: basis is absent or is not a nonempty list"
+      },
+      {
+        "record": "CNRS/pattern_93.json",
+        "phase_index": "0",
+        "error": "ValueError: basis is absent or is not a nonempty list"
+      },
+      {
+        "record": "CNRS/pattern_94.json",
+        "phase_index": "0",
+        "error": "ValueError: basis is absent or is not a nonempty list"
+      },
+      {
+        "record": "CNRS/pattern_108.json",
+        "phase_index": "0",
+        "error": "ValueError: basis is absent or is not a nonempty list"
+      },
+      {
+        "record": "CNRS/pattern_111.json",
+        "phase_index": "0",
+        "error": "ValueError: basis is absent or is not a nonempty list"
+      },
+      {
+        "record": "CNRS/pattern_115.json",
+        "phase_index": "0",
+        "error": "ValueError: basis is absent or is not a nonempty list"
+      },
+      {
+        "record": "CNRS/pattern_149.json",
+        "phase_index": "0",
+        "error": "ValueError: basis is absent or is not a nonempty list"
+      },
+      {
+        "record": "CNRS/pattern_162.json",
+        "phase_index": "0",
+        "error": "ValueError: basis is absent or is not a nonempty list"
+      },
+      {
+        "record": "CNRS/pattern_163.json",
+        "phase_index": "0",
+        "error": "ValueError: basis is absent or is not a nonempty list"
+      },
+      {
+        "record": "CNRS/pattern_164.json",
+        "phase_index": "0",
+        "error": "ValueError: basis is absent or is not a nonempty list"
+      },
+      {
+        "record": "CNRS/pattern_182.json",
+        "phase_index": "0",
+        "error": "ValueError: basis is absent or is not a nonempty list"
+      }
+    ]
+  }
+}

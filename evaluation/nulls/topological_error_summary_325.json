@@ -1,0 +1,86 @@
+{
+  "graph_json": "$HOME/ai-diffraction/artifacts/topology_graphs/extinction_group_adjacency.json",
+  "failure_json": "$HOME/.tmp_compare_325_failure_modes.json",
+  "models": {
+    "ic6gfmvm_split_bayes": {
+      "top1_pct": 3.076923076923077,
+      "correct": 10,
+      "wrong_n": 315,
+      "distance_buckets": {
+        "1": 26,
+        "2": 78,
+        "3": 123,
+        "4plus": 88,
+        "inf": 0
+      },
+      "pct_wrong_le2": 33.01587301587302,
+      "mean_wrong_dist": 2.93015873015873,
+      "directionality": {
+        "ancestor_pred_higher_sym": 110,
+        "branch_jump": 151,
+        "descendant_pred_lower_sym": 54,
+        "correct": 10
+      }
+    },
+    "wwuvp1kj_aux_bayes_t1": {
+      "top1_pct": 4.923076923076923,
+      "correct": 16,
+      "wrong_n": 309,
+      "distance_buckets": {
+        "1": 11,
+        "2": 44,
+        "3": 87,
+        "4plus": 167,
+        "inf": 0
+      },
+      "pct_wrong_le2": 17.79935275080906,
+      "mean_wrong_dist": 3.501618122977346,
+      "directionality": {
+        "ancestor_pred_higher_sym": 158,
+        "descendant_pred_lower_sym": 64,
+        "branch_jump": 87,
+        "correct": 16
+      }
+    },
+    "7pv3pv3y_aux_bayes_t1": {
+      "top1_pct": 3.076923076923077,
+      "correct": 10,
+      "wrong_n": 315,
+      "distance_buckets": {
+        "1": 16,
+        "2": 35,
+        "3": 98,
+        "4plus": 166,
+        "inf": 0
+      },
+      "pct_wrong_le2": 16.19047619047619,
+      "mean_wrong_dist": 3.46984126984127,
+      "directionality": {
+        "correct": 10,
+        "branch_jump": 65,
+        "ancestor_pred_higher_sym": 137,
+        "descendant_pred_lower_sym": 113
+      }
+    },
+    "9rwv1qly_aux_bayes_t5": {
+      "top1_pct": 9.538461538461538,
+      "correct": 31,
+      "wrong_n": 294,
+      "distance_buckets": {
+        "1": 57,
+        "2": 56,
+        "3": 110,
+        "4plus": 71,
+        "inf": 0
+      },
+      "pct_wrong_le2": 38.435374149659864,
+      "mean_wrong_dist": 2.7176870748299318,
+      "directionality": {
+        "branch_jump": 76,
+        "descendant_pred_lower_sym": 191,
+        "ancestor_pred_higher_sym": 27,
+        "correct": 31
+      }
+    }
+  }
+}
