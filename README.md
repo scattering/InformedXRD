@@ -2,7 +2,23 @@
 
 Reproducibility repository for **InformedXRD: Reproducible Benchmarks and
 Physics-Informed Evaluation for Powder Diffraction Symmetry Classification**
-(NeurIPS 2026 AI for Science workshop submission).
+(Edward G. Friedman, Elizabeth J. Baggett, Abhishek Shetty, Derrick Chan-Sew,
+Vanellsa Acha, Harshitha Dwaracherla, Paul Kienzle, William Ratcliff).
+The same repository serves both venues of the paper:
+
+- NeurIPS 2026, Track on Evaluations and Datasets;
+- NeurIPS 2026 Workshop *AI for Science: Verification in the Age of AI
+  Scientists* (poster).
+
+Companion artifacts: the benchmark payloads are on Hugging Face at
+[informedxrd/informedxrd-benchmarks](https://huggingface.co/datasets/informedxrd/informedxrd-benchmarks)
+(with a Croissant file carrying core and Responsible-AI fields at
+`metadata/croissant_rai.jsonld`), and the case-study checkpoints at
+[informedxrd/informedxrd-checkpoints](https://huggingface.co/informedxrd/informedxrd-checkpoints).
+The companion paper *Attention Is Not All You Need for Diffraction*
+(Baggett et al., [arXiv:2604.23811](https://arxiv.org/abs/2604.23811)) has
+its own public repository,
+[scattering/paper-ai-diffraction](https://github.com/scattering/paper-ai-diffraction).
 
 InformedXRD is evaluation infrastructure for powder-X-ray-diffraction (PXRD)
 machine learning — deliberately not a new model architecture. It has four parts:
@@ -54,7 +70,8 @@ scores Top-k, and cross-checks against the released collapsed probabilities.
 | `case_studies/xrdbench/` | XRDBench six-architecture study: training/eval/export scripts under the SimXRD recipe, rescored on RRUFF-473/325 |
 | `case_studies/sg_vs_eg/` | Matched space-group vs extinction-group target comparison: config templates, scaling-study launchers, evaluation scripts, analysis notebook |
 | `case_studies/opxrd/` | opXRD instance: metadata audit, Cu-Kα community surface (manifests = exact record lists + `.npz` surfaces), six-model evaluation (`job_868916`) |
-| `docs/` | Benchmark, evaluation, figure, and training documentation from the upstream release |
+| `docs/` | Benchmark, evaluation, figure, and training documentation from the upstream release; `docs/RESEARCH_CODEBASE_MAP.csv` maps curated files to their origin in the research codebase |
+| `research_codebase/` | The full research codebase (ViT/CNN/transformer training, synthetic-pattern generation, structure-database pipeline, extinction-group mapping derivation, information-theory analyses, interpretability, notebooks) from which the curated directories above were extracted; see its README and [PROVENANCE.md](PROVENANCE.md) |
 
 ## Paper-claim → artifact map
 
@@ -112,3 +129,17 @@ for auditability of the exact submitted jobs; paths are parameterized by
   payloads, without cluster access.
 - `docs/UPSTREAM_README.md` is the README of the upstream frozen release this
   repository builds on.
+
+## Citation
+
+```bibtex
+@inproceedings{friedman2026informedxrd,
+  title     = {InformedXRD: Reproducible Benchmarks and Physics-Informed Evaluation
+               for Powder Diffraction Symmetry Classification},
+  author    = {Friedman, Edward G. and Baggett, Elizabeth J. and Shetty, Abhishek and
+               Chan-Sew, Derrick and Acha, Vanellsa and Dwaracherla, Harshitha and
+               Kienzle, Paul and Ratcliff, William},
+  booktitle = {NeurIPS 2026 Track on Evaluations and Datasets},
+  year      = {2026}
+}
+```

@@ -1,5 +1,14 @@
 # Neural Network Systematics for Crystal Structure Classification
 
+> **About this directory (added for the camera-ready release).** This is the
+> full research codebase of the project (`scattering/ai-diffraction`),
+> included verbatim from the snapshot prepared for the NeurIPS 2026 AI for
+> Science workshop submission. The paper-facing, curated artifacts live one
+> level up; see the top-level [README](../README.md) and
+> [PROVENANCE](../PROVENANCE.md). The placeholder names described in the note
+> below are retained as deliberate redactions of user names, institutions and
+> allocation identifiers; nothing in the paper depends on them.
+
 Anonymized code release supporting a double-blind submission. Here we apply the
 methods of AI to the analysis of diffraction data.
 
