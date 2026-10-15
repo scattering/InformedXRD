@@ -1,0 +1,6 @@
+# run_crossbin.py and absence_bins.py use the Python standard library only.
+# No gemmi, no numpy -- the absence-bin map is built from the canonical
+# extinction symbols in canonical_extinction_to_space_group.csv, so results
+# are reproducible across environments without any space-group-setting or
+# library-version dependence.
+python_requires = ">=3.8"

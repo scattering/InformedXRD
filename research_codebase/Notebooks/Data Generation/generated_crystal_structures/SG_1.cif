@@ -1,0 +1,49 @@
+#############################################################
+#             ______       _    _          _                #
+#            (_____ \     \ \  / /        | |               #
+#             _____) )   _ \ \/ / |_  ____| |               #
+#            |  ____/ | | | )  (|  _)/ _  | |               #
+#            | |    | |_| |/ /\ \ |_( (_| | |___            #
+#            |_|     \__  /_/  \_\___)__|_|_____)           #
+#                   (____/                                  #
+#---------------------(version    1.0.6)--------------------#
+#       A Python package for random crystal generation      #
+#       url: https://github.com/qzhu2017/pyxtal             #
+#       @Zhu's group at University of Nevada Las Vegas      #
+#############################################################
+data_from_pyxtal
+
+_symmetry_space_group_name_H-M 'P1'
+_symmetry_Int_Tables_number                    1
+_symmetry_cell_setting                 triclinic
+_cell_length_a            7.671963
+_cell_length_b            5.949690
+_cell_length_c            9.106154
+_cell_angle_alpha        83.623467
+_cell_angle_beta        117.214599
+_cell_angle_gamma       113.719287
+_cell_volume            337.060187
+
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+1 'x, y, z'
+
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+La     La       1     0.079981    0.084049    0.041089 1
+La     La       1     0.785918    0.638926    0.891172 1
+La     La       1     0.229427    0.553569    0.513581 1
+La     La       1     0.205075    0.811137    0.855719 1
+La     La       1     0.039678    0.404678    0.178066 1
+La     La       1     0.659619    0.975143    0.073696 1
+La     La       1     0.638493    0.303316    0.257878 1
+La     La       1     0.329537    0.823531    0.295732 1
+#END
+

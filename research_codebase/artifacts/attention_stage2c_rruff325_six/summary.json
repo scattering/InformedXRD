@@ -1,0 +1,110 @@
+[
+  {
+    "sample_index": 15,
+    "case_id": "Arsenopyrite__R050071-1__6130",
+    "true_eg": 99,
+    "decoder": "aux_bayes",
+    "aux_temperature": 5.0,
+    "topk_pred_egs": [
+      99,
+      4,
+      6,
+      17,
+      5
+    ],
+    "png": "/scratch/ALLOC3/UserE/attention_stage2c_rruff325_six/attention_0015_Arsenopyrite__R050071-1__6130.png",
+    "attention_npy": "/scratch/ALLOC3/UserE/attention_stage2c_rruff325_six/attention_0015_Arsenopyrite__R050071-1__6130.npy",
+    "hkl_annotated": true,
+    "hkl_error": null
+  },
+  {
+    "sample_index": 49,
+    "case_id": "Brochantite__R060117-1__6631",
+    "true_eg": 4,
+    "decoder": "aux_bayes",
+    "aux_temperature": 5.0,
+    "topk_pred_egs": [
+      4,
+      5,
+      75,
+      17,
+      6
+    ],
+    "png": "/scratch/ALLOC3/UserE/attention_stage2c_rruff325_six/attention_0049_Brochantite__R060117-1__6631.png",
+    "attention_npy": "/scratch/ALLOC3/UserE/attention_stage2c_rruff325_six/attention_0049_Brochantite__R060117-1__6631.npy",
+    "hkl_annotated": true,
+    "hkl_error": null
+  },
+  {
+    "sample_index": 68,
+    "case_id": "Clinoatacamite__R061066-9__10562",
+    "true_eg": 4,
+    "decoder": "aux_bayes",
+    "aux_temperature": 5.0,
+    "topk_pred_egs": [
+      4,
+      99,
+      5,
+      17,
+      6
+    ],
+    "png": "/scratch/ALLOC3/UserE/attention_stage2c_rruff325_six/attention_0068_Clinoatacamite__R061066-9__10562.png",
+    "attention_npy": "/scratch/ALLOC3/UserE/attention_stage2c_rruff325_six/attention_0068_Clinoatacamite__R061066-9__10562.npy",
+    "hkl_annotated": true,
+    "hkl_error": null
+  },
+  {
+    "sample_index": 3,
+    "case_id": "Adamite__R060593-1__5519",
+    "true_eg": 18,
+    "decoder": "aux_bayes",
+    "aux_temperature": 5.0,
+    "topk_pred_egs": [
+      4,
+      99,
+      5,
+      6,
+      17
+    ],
+    "png": "/scratch/ALLOC3/UserE/attention_stage2c_rruff325_six/attention_0003_Adamite__R060593-1__5519.png",
+    "attention_npy": "/scratch/ALLOC3/UserE/attention_stage2c_rruff325_six/attention_0003_Adamite__R060593-1__5519.npy",
+    "hkl_annotated": true,
+    "hkl_error": null
+  },
+  {
+    "sample_index": 4,
+    "case_id": "Afwillite__R080022-9__9364",
+    "true_eg": 6,
+    "decoder": "aux_bayes",
+    "aux_temperature": 5.0,
+    "topk_pred_egs": [
+      99,
+      4,
+      17,
+      5,
+      75
+    ],
+    "png": "/scratch/ALLOC3/UserE/attention_stage2c_rruff325_six/attention_0004_Afwillite__R080022-9__9364.png",
+    "attention_npy": "/scratch/ALLOC3/UserE/attention_stage2c_rruff325_six/attention_0004_Afwillite__R080022-9__9364.npy",
+    "hkl_annotated": true,
+    "hkl_error": null
+  },
+  {
+    "sample_index": 9,
+    "case_id": "Anglesite__R050052-1__4113",
+    "true_eg": 17,
+    "decoder": "aux_bayes",
+    "aux_temperature": 5.0,
+    "topk_pred_egs": [
+      4,
+      17,
+      6,
+      99,
+      5
+    ],
+    "png": "/scratch/ALLOC3/UserE/attention_stage2c_rruff325_six/attention_0009_Anglesite__R050052-1__4113.png",
+    "attention_npy": "/scratch/ALLOC3/UserE/attention_stage2c_rruff325_six/attention_0009_Anglesite__R050052-1__4113.npy",
+    "hkl_annotated": true,
+    "hkl_error": null
+  }
+]

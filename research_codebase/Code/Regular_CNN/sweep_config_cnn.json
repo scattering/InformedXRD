@@ -1,0 +1,88 @@
+{
+    "method": "bayes",
+    "metric": {
+        "name": "val_loss",
+        "goal": "minimize"
+    },
+    "parameters": {
+        "input_dim":{
+            "value":1
+        },
+        "res_dims":{
+            "value": [32, 64, 64, 64]
+        },
+        "res_kernel":{
+            "value": [5, 7, 17, 13]
+        },
+        "res_stride":{
+            "value": [4, 4, 5, 3]
+        },
+        "num_blocks":{
+            "value": [2, 2, 2, 2]
+        },
+        "first_kernel_size":{
+            "value": 13
+        },
+        "first_stride":{
+            "value": 1
+        },
+        "first_pool_kernel_size":{
+            "value": 7
+        },
+        "first_pool_stride":{
+            "value": 7
+        },
+        "num_epochs": {
+            "values": [5, 10, 15, 20, 25, 30, 35, 40, 45]
+        },
+        "batch_size": {
+            "values": [10, 50, 100, 250]
+        },
+        "learning_rate": {
+            "distribution": "log_uniform_values",
+            "min": 0.00003,
+            "max": 0.0005
+        },
+        "dropout": {
+            "values": [0.1, 0.3, 0.5]
+        },
+        "weight_decay": {
+            "values": [1e-4, 1e-3, 1e-2]
+        },
+        "optimizer": {
+            "values": ["Adam", "SGD"]
+        },
+        "checkpoint_dir": {
+            "value": "/scratch/ALLOC2/UserC/Models/checkpoints" 
+        },
+        "num_devices": {
+            "value": 1
+        },
+        "num_precision": {
+            "value": 16
+        },
+        "is_sweep": {
+            "value": true
+        },
+        "spec_length": {
+            "value": 1000
+        },
+        "data_path": {
+            "value": "../data/all_spacegroups_structures_230K_samples.h5_test_0.2_val_0.2.h5" 
+        },
+        "num_classes": {
+            "value": 230
+        },
+        "model_type":{"value":"resnet"},
+       "model_path": {
+            "value": "/scratch/ALLOC2/UserC/models/" 
+        },
+        "num_workers": {
+            "value": 12
+        },
+        "prefetch_factor": {
+            "value": 4
+        }
+    }
+}
+

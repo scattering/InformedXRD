@@ -1,0 +1,43 @@
+{
+    "method": "bayes",
+    "metric": {
+        "name": "val_loss",
+        "goal": "minimize"
+    },
+    "parameters": {
+
+        "num_epochs":   { "value": 40 },
+        "batch_size":   { "value": 128 },
+
+        "patch_size":   { "values": [25] },
+        "embed_dim":    { "values": [256] },
+        "depth":        { "values": [12] },
+        "num_heads":    { "values": [8] },
+        "mlp_ratio":    { "values": [4.0] },
+
+        "learning_rate": { "value": 0.0003639776944236625 },
+        "dropout":       { "values": [0.0] },
+        "weight_decay":  { "values": [0.0001] },
+        "optimizer":     { "values": ["Adam"] },
+
+        "num_precision": { "value": 16 },
+        "is_sweep":      { "value": true },
+
+        "spec_length":   { "value": 8501 },
+        "num_classes":   { "value": 99 },
+        "model_path":    { "value": "/scratch/10486/UserB/Models/" },
+
+        "use_rope":      { "value": false },
+
+        "scheduler":     { "values": ["none"] },
+        "warmup_epochs": { "values": [5] },
+        "eta_min":       { "values": [0.00001] },
+        "T_0":           { "values": [10] },
+        "T_mult":        { "values": [1] },
+        "step_size":     { "values": [100] },
+        "decay_rate":    { "values": [1.0] },
+
+        "use_mlp_head":        { "value": false },
+        "mlp_head_hidden_dim": { "value": 512 }
+    }
+}

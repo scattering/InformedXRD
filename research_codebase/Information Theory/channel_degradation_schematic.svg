@@ -1,0 +1,83 @@
+<svg viewBox="0 0 1000 500" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif">
+  <rect width="1000" height="500" fill="#ffffff"/>
+  <text x="500" y="26" text-anchor="middle" font-size="18" font-weight="600" fill="#1a1a1a">The measurement channel: nuisances destroy the absence pattern, not the Laue class</text>
+
+  <!-- stage gate labels (top band) -->
+  <g font-size="11.5" fill="#1a1a1a" text-anchor="middle">
+    <text x="300" y="52" font-weight="600">structure-factor</text><text x="300" y="66">weighting</text>
+    <text x="300" y="80" font-size="10" fill="#777">weak reflections</text>
+    <text x="400" y="52" font-weight="600">broadening /</text><text x="400" y="66">overlap</text>
+    <text x="400" y="80" font-size="10" fill="#777">merged peaks</text>
+    <text x="500" y="52" font-weight="600">background</text><text x="500" y="66">/ noise</text>
+    <text x="500" y="80" font-size="10" fill="#777">low-S/N reflections</text>
+    <text x="600" y="52" font-weight="700" fill="#c0892e">PREFERRED</text><text x="600" y="66" font-weight="700" fill="#c0892e">ORIENTATION</text>
+    <text x="600" y="80" font-size="10" fill="#c0892e">(opposing)</text>
+    <text x="690" y="52" font-weight="700" fill="#b8482e">IMPURITY</text><text x="690" y="66" fill="#b8482e">(dominant)</text>
+  </g>
+
+  <!-- ABSENCE sub-channel: wide -> collapses across both corruptors -->
+  <polygon points="200,95 300,101 400,108 500,116 600,131 690,159 760,160 760,190 690,191 600,219 500,234 400,242 300,249 200,255"
+           fill="#3b6ea5" opacity="0.82"/>
+  <text x="275" y="170" text-anchor="middle" font-size="12.5" font-weight="600" fill="#ffffff">absence-pattern</text>
+  <text x="275" y="186" text-anchor="middle" font-size="12.5" font-weight="600" fill="#ffffff">sub-channel</text>
+
+  <!-- LAUE sub-channel: stays intact -->
+  <polygon points="200,295 320,296 440,296 560,297 660,297 760,297 760,363 660,363 560,363 440,364 320,364 200,365"
+           fill="#3a7d5d" opacity="0.82"/>
+  <text x="430" y="334" text-anchor="middle" font-size="12.5" font-weight="600" fill="#ffffff">Laue-class sub-channel  (largely spared)</text>
+
+  <!-- stage gates -->
+  <g stroke-dasharray="4,4">
+    <line x1="300" y1="88" x2="300" y2="372" stroke="#888" stroke-width="1"/>
+    <line x1="400" y1="88" x2="400" y2="372" stroke="#888" stroke-width="1"/>
+    <line x1="500" y1="88" x2="500" y2="372" stroke="#888" stroke-width="1"/>
+  </g>
+  <line x1="600" y1="88" x2="600" y2="372" stroke="#c0892e" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="690" y1="88" x2="690" y2="372" stroke="#b8482e" stroke-width="2.5" stroke-dasharray="5,3"/>
+
+  <!-- opposing directional annotations for the two absence-corruptors -->
+  <g text-anchor="middle">
+    <text x="560" y="252" font-size="9.5" fill="#c0892e">&#8593; apparent absences</text>
+    <text x="560" y="264" font-size="9.5" fill="#c0892e">higher-sym &#8594; ancestor</text>
+    <text x="705" y="252" font-size="9.5" fill="#b8482e">&#8595; true absences</text>
+    <text x="705" y="264" font-size="9.5" fill="#b8482e">lower-sym &#8594; descendant</text>
+  </g>
+
+  <!-- flow arrowheads at output -->
+  <polygon points="760,168 778,175 760,182" fill="#3b6ea5"/>
+  <polygon points="760,315 778,330 760,345" fill="#3a7d5d"/>
+
+  <!-- input bracket + labels (left) -->
+  <text x="20" y="150" font-size="13" font-weight="600" fill="#1a1a1a">Noiseless EG</text>
+  <text x="20" y="166" font-size="13" font-weight="600" fill="#1a1a1a">information</text>
+  <text x="20" y="188" font-size="10.5" fill="#3b6ea5">absences alone:</text>
+  <text x="20" y="201" font-size="10.5" fill="#3b6ea5">63 / 65 classes</text>
+  <text x="20" y="320" font-size="10.5" fill="#3a7d5d">+ Laue closes</text>
+  <text x="20" y="333" font-size="10.5" fill="#3a7d5d">to 99 / 99</text>
+  <line x1="185" y1="95" x2="185" y2="365" stroke="#555" stroke-width="1"/>
+  <line x1="185" y1="95" x2="192" y2="95" stroke="#555" stroke-width="1"/>
+  <line x1="185" y1="365" x2="192" y2="365" stroke="#555" stroke-width="1"/>
+
+  <!-- output labels (right) -->
+  <text x="788" y="150" font-size="11.5" font-weight="600" fill="#3b6ea5">collapsed</text>
+  <text x="788" y="166" font-size="10.5" fill="#444">→ cross-bin errors</text>
+  <text x="788" y="180" font-size="10.5" fill="#444">(~99.5% of wrong calls)</text>
+  <text x="788" y="198" font-size="10.5" fill="#444">measurement floor where</text>
+  <text x="788" y="212" font-size="10.5" fill="#444">all models converge:</text>
+  <text x="788" y="226" font-size="10.5" font-weight="600" fill="#1a1a1a">~10–15% Top-1</text>
+  <text x="788" y="240" font-size="10.5" font-weight="600" fill="#1a1a1a">~35–53% Top-5</text>
+
+  <text x="788" y="318" font-size="11.5" font-weight="600" fill="#3a7d5d">intact</text>
+  <text x="788" y="334" font-size="10.5" fill="#444">→ Laue confusions rare</text>
+  <text x="788" y="348" font-size="10.5" fill="#444">(&lt;1% of errors)</text>
+
+  <!-- left axis hint -->
+  <text x="150" y="230" font-size="10" fill="#999" transform="rotate(-90 150 230)">lane width = information carried</text>
+
+  <!-- caption -->
+  <line x1="40" y1="408" x2="960" y2="408" stroke="#ddd" stroke-width="1"/>
+  <text x="40" y="428" font-size="10.5" fill="#555">Schematic of the mechanism. Lane width represents information carried; intermediate widths are illustrative and not to scale. Only the</text>
+  <text x="40" y="443" font-size="10.5" fill="#555">endpoints are quantified — the noiseless ceiling (63/65 by absences, 99/99 with Laue) and the rank-like measurement floor where independent</text>
+  <text x="40" y="458" font-size="10.5" fill="#555">model families converge. Impurity (absent→present) and preferred orientation (present→absent) are the two absence-corruptors, biasing the</text>
+  <text x="40" y="473" font-size="10.5" fill="#555">symmetry call in opposite directions (descendant vs ancestor); the net descendant skew indicates impurity dominates. The Laue sub-channel is spared.</text>
+</svg>

@@ -1,0 +1,311 @@
+{
+  "n_cases": 34,
+  "rows": [
+    {
+      "case_id": "Argentojarosite__R060097-1__3479",
+      "known_bravais": "hR",
+      "true_space_group": "R-3m",
+      "top_candidate": "R32",
+      "top_bic_symmetry_prior": 3214.478135299713,
+      "top_nnz_intensity": 58,
+      "n_candidates_scored": 2
+    },
+    {
+      "case_id": "Argentojarosite__R060098-1__6600",
+      "known_bravais": "hR",
+      "true_space_group": "R-3m",
+      "top_candidate": "R32",
+      "top_bic_symmetry_prior": 3089.5323029410342,
+      "top_nnz_intensity": 59,
+      "n_candidates_scored": 2
+    },
+    {
+      "case_id": "Barysilite__R050002-1__3951",
+      "known_bravais": "hR",
+      "true_space_group": "R-3c",
+      "top_candidate": "R-3c",
+      "top_bic_symmetry_prior": 3923.640413028821,
+      "top_nnz_intensity": 135,
+      "n_candidates_scored": 2
+    },
+    {
+      "case_id": "Barysilite__R070651__8997",
+      "known_bravais": "hR",
+      "true_space_group": "R-3c",
+      "top_candidate": "R-3c",
+      "top_bic_symmetry_prior": 1779.2579641523719,
+      "top_nnz_intensity": 108,
+      "n_candidates_scored": 2
+    },
+    {
+      "case_id": "Barysilite__R100057-9__10333",
+      "known_bravais": "hR",
+      "true_space_group": "R-3c",
+      "top_candidate": "R-3c",
+      "top_bic_symmetry_prior": 1843.631150532153,
+      "top_nnz_intensity": 90,
+      "n_candidates_scored": 2
+    },
+    {
+      "case_id": "Carrollite__R050089-1__4204",
+      "known_bravais": "cF",
+      "true_space_group": "Fd3m",
+      "top_candidate": "Fm-3m",
+      "top_bic_symmetry_prior": 2607.114793771205,
+      "top_nnz_intensity": 18,
+      "n_candidates_scored": 5
+    },
+    {
+      "case_id": "Dolomite__R050370-1__5229",
+      "known_bravais": "hR",
+      "true_space_group": "R-3",
+      "top_candidate": "R-3c",
+      "top_bic_symmetry_prior": 2232.8845662264757,
+      "top_nnz_intensity": 11,
+      "n_candidates_scored": 2
+    },
+    {
+      "case_id": "Fluorite__R050045-1__4103",
+      "known_bravais": "cF",
+      "true_space_group": "Fm3m",
+      "top_candidate": "Fd-3",
+      "top_bic_symmetry_prior": 2510.6207620992136,
+      "top_nnz_intensity": 5,
+      "n_candidates_scored": 5
+    },
+    {
+      "case_id": "Fluoruvite__R050172-1__4453",
+      "known_bravais": "hR",
+      "true_space_group": "R3m",
+      "top_candidate": "R32",
+      "top_bic_symmetry_prior": 3383.3800036564267,
+      "top_nnz_intensity": 78,
+      "n_candidates_scored": 2
+    },
+    {
+      "case_id": "Foitite__R050356-1__5283",
+      "known_bravais": "hR",
+      "true_space_group": "R3m",
+      "top_candidate": "R32",
+      "top_bic_symmetry_prior": 2903.461789776568,
+      "top_nnz_intensity": 85,
+      "n_candidates_scored": 2
+    },
+    {
+      "case_id": "Foitite__R050495-1__4937",
+      "known_bravais": "hR",
+      "true_space_group": "R3m",
+      "top_candidate": "R32",
+      "top_bic_symmetry_prior": 3140.040696948865,
+      "top_nnz_intensity": 103,
+      "n_candidates_scored": 2
+    },
+    {
+      "case_id": "Gillardite__R100074-9__10378",
+      "known_bravais": "hR",
+      "true_space_group": "R-3m",
+      "top_candidate": "R32",
+      "top_bic_symmetry_prior": 402.2387204480954,
+      "top_nnz_intensity": 15,
+      "n_candidates_scored": 2
+    },
+    {
+      "case_id": "Gillardite__R110068-9__12476",
+      "known_bravais": "hR",
+      "true_space_group": "R-3m",
+      "top_candidate": "R32",
+      "top_bic_symmetry_prior": 788.0532074523245,
+      "top_nnz_intensity": 16,
+      "n_candidates_scored": 2
+    },
+    {
+      "case_id": "Hematite__R040024-1__3048",
+      "known_bravais": "hR",
+      "true_space_group": "R-3c",
+      "top_candidate": "R-3c",
+      "top_bic_symmetry_prior": 2298.364322732773,
+      "top_nnz_intensity": 20,
+      "n_candidates_scored": 2
+    },
+    {
+      "case_id": "Hematite__R050300-1__5695",
+      "known_bravais": "hR",
+      "true_space_group": "R-3c",
+      "top_candidate": "R-3c",
+      "top_bic_symmetry_prior": 2089.9663692466056,
+      "top_nnz_intensity": 20,
+      "n_candidates_scored": 2
+    },
+    {
+      "case_id": "Hematite__R070240-1__8278",
+      "known_bravais": "hR",
+      "true_space_group": "R-3c",
+      "top_candidate": "R-3c",
+      "top_bic_symmetry_prior": 1960.2513957204953,
+      "top_nnz_intensity": 21,
+      "n_candidates_scored": 2
+    },
+    {
+      "case_id": "Jacobsite__R070719-9__9488",
+      "known_bravais": "cF",
+      "true_space_group": "Fd3m",
+      "top_candidate": "F4132",
+      "top_bic_symmetry_prior": -1264.9494201118284,
+      "top_nnz_intensity": 9,
+      "n_candidates_scored": 5
+    },
+    {
+      "case_id": "Jacobsite__R120170-9__11395",
+      "known_bravais": "cF",
+      "true_space_group": "Fd3m",
+      "top_candidate": "Fm-3m",
+      "top_bic_symmetry_prior": -1208.6693112965343,
+      "top_nnz_intensity": 9,
+      "n_candidates_scored": 5
+    },
+    {
+      "case_id": "Magnetite__R060191-1__6706",
+      "known_bravais": "cF",
+      "true_space_group": "Fd3m",
+      "top_candidate": "Fm-3m",
+      "top_bic_symmetry_prior": 1940.6164952529414,
+      "top_nnz_intensity": 9,
+      "n_candidates_scored": 5
+    },
+    {
+      "case_id": "Magnetite__R060656-1__5151",
+      "known_bravais": "cF",
+      "true_space_group": "Fd3m",
+      "top_candidate": "Fd-3",
+      "top_bic_symmetry_prior": 1800.3384956369655,
+      "top_nnz_intensity": 14,
+      "n_candidates_scored": 5
+    },
+    {
+      "case_id": "Magnetite__R080025-1__9448",
+      "known_bravais": "cF",
+      "true_space_group": "Fd3m",
+      "top_candidate": "Fd-3",
+      "top_bic_symmetry_prior": 1994.3140993685333,
+      "top_nnz_intensity": 14,
+      "n_candidates_scored": 5
+    },
+    {
+      "case_id": "Nordenskioldine__R061079-9__9970",
+      "known_bravais": "hR",
+      "true_space_group": "R-3",
+      "top_candidate": "R32",
+      "top_bic_symmetry_prior": 140.08932570806303,
+      "top_nnz_intensity": 16,
+      "n_candidates_scored": 2
+    },
+    {
+      "case_id": "Nordenskioldine__R130017-9__11454",
+      "known_bravais": "hR",
+      "true_space_group": "R-3",
+      "top_candidate": "R32",
+      "top_bic_symmetry_prior": 123.77886633159258,
+      "top_nnz_intensity": 17,
+      "n_candidates_scored": 2
+    },
+    {
+      "case_id": "Rhodochrosite__R050019-1__4010",
+      "known_bravais": "hR",
+      "true_space_group": "R-3c",
+      "top_candidate": "R-3c",
+      "top_bic_symmetry_prior": 2026.3508324946995,
+      "top_nnz_intensity": 21,
+      "n_candidates_scored": 2
+    },
+    {
+      "case_id": "Sakhaite__R060637-9__5423",
+      "known_bravais": "cF",
+      "true_space_group": "F4_132",
+      "top_candidate": "Fm-3m",
+      "top_bic_symmetry_prior": -127.62181665125468,
+      "top_nnz_intensity": 14,
+      "n_candidates_scored": 5
+    },
+    {
+      "case_id": "Sakhaite__R060897-9__9407",
+      "known_bravais": "cF",
+      "true_space_group": "F4_132",
+      "top_candidate": "Fm-3m",
+      "top_bic_symmetry_prior": -134.0613394678129,
+      "top_nnz_intensity": 14,
+      "n_candidates_scored": 5
+    },
+    {
+      "case_id": "Simonkolleite__R130117-9__11879",
+      "known_bravais": "hR",
+      "true_space_group": "R-3m",
+      "top_candidate": "R32",
+      "top_bic_symmetry_prior": 876.7828038050977,
+      "top_nnz_intensity": 17,
+      "n_candidates_scored": 2
+    },
+    {
+      "case_id": "Simonkolleite__R130616-9__11904",
+      "known_bravais": "hR",
+      "true_space_group": "R-3m",
+      "top_candidate": "R32",
+      "top_bic_symmetry_prior": 880.6476650880716,
+      "top_nnz_intensity": 17,
+      "n_candidates_scored": 2
+    },
+    {
+      "case_id": "Spherocobaltite__R060497-9__12016",
+      "known_bravais": "hR",
+      "true_space_group": "R-3c",
+      "top_candidate": "R-3c",
+      "top_bic_symmetry_prior": 97.38710083957275,
+      "top_nnz_intensity": 12,
+      "n_candidates_scored": 2
+    },
+    {
+      "case_id": "Spherocobaltite__R140338-9__12370",
+      "known_bravais": "hR",
+      "true_space_group": "R-3c",
+      "top_candidate": "R32",
+      "top_bic_symmetry_prior": 97.81406136258822,
+      "top_nnz_intensity": 12,
+      "n_candidates_scored": 2
+    },
+    {
+      "case_id": "Tetradymite__R110138-9__11902",
+      "known_bravais": "hR",
+      "true_space_group": "R-3m",
+      "top_candidate": "R32",
+      "top_bic_symmetry_prior": 711.7111507638963,
+      "top_nnz_intensity": 9,
+      "n_candidates_scored": 2
+    },
+    {
+      "case_id": "Tetradymite__R130067-9__11863",
+      "known_bravais": "hR",
+      "true_space_group": "R-3m",
+      "top_candidate": "R32",
+      "top_bic_symmetry_prior": 704.4251381532611,
+      "top_nnz_intensity": 9,
+      "n_candidates_scored": 2
+    },
+    {
+      "case_id": "Whitlockite__R070675-9__9370",
+      "known_bravais": "hR",
+      "true_space_group": "R3c",
+      "top_candidate": "R-3c",
+      "top_bic_symmetry_prior": 1005.5680960468205,
+      "top_nnz_intensity": 59,
+      "n_candidates_scored": 2
+    },
+    {
+      "case_id": "Whitlockite__R080052-9__9630",
+      "known_bravais": "hR",
+      "true_space_group": "R3c",
+      "top_candidate": "R-3c",
+      "top_bic_symmetry_prior": 1074.0146001830315,
+      "top_nnz_intensity": 62,
+      "n_candidates_scored": 2
+    }
+  ]
+}

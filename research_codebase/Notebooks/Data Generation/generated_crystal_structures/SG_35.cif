@@ -1,0 +1,59 @@
+#############################################################
+#             ______       _    _          _                #
+#            (_____ \     \ \  / /        | |               #
+#             _____) )   _ \ \/ / |_  ____| |               #
+#            |  ____/ | | | )  (|  _)/ _  | |               #
+#            | |    | |_| |/ /\ \ |_( (_| | |___            #
+#            |_|     \__  /_/  \_\___)__|_|_____)           #
+#                   (____/                                  #
+#---------------------(version    1.0.6)--------------------#
+#       A Python package for random crystal generation      #
+#       url: https://github.com/qzhu2017/pyxtal             #
+#       @Zhu's group at University of Nevada Las Vegas      #
+#############################################################
+data_from_pyxtal
+
+_symmetry_space_group_name_H-M 'Cmm2'
+_symmetry_Int_Tables_number                   35
+_symmetry_cell_setting              orthorhombic
+_cell_length_a            9.494096
+_cell_length_b           10.106876
+_cell_length_c           12.386714
+_cell_angle_alpha        90.000000
+_cell_angle_beta         90.000000
+_cell_angle_gamma        90.000000
+_cell_volume           1188.575195
+
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+1 'x, y, z'
+2 '-x, -y, z'
+3 'x, -y, z'
+4 '-x, y, z'
+5 'x+1/2, y+1/2, z'
+6 '-x+1/2, -y+1/2, z'
+7 'x+1/2, -y+1/2, z'
+8 '-x+1/2, y+1/2, z'
+
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+Na     Na       4     0.000000    0.388563    0.219102 1
+Na     Na       4     0.136587    0.000000    0.967454 1
+Na     Na       2     0.000000    0.000000    0.155364 1
+Na     Na       2     0.000000    0.000000    0.811601 1
+Nb     Nb       4     0.095936    0.000000    0.678198 1
+Nb     Nb       2     0.000000    0.000000    0.304374 1
+Nb     Nb       4     0.250000    0.250000    0.131116 1
+Nb     Nb       2     0.000000    0.500000    0.966169 1
+Hf     Hf       4     0.250000    0.250000    0.986158 1
+Hf     Hf       4     0.000000    0.397136    0.652597 1
+Hf     Hf       4     0.640276    0.000000    0.540889 1
+#END
+

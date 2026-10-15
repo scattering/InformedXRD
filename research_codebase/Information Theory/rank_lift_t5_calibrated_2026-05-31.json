@@ -1,0 +1,96 @@
+{
+  "n_samples": 325,
+  "n_classes": 99,
+  "topk": {
+    "1": {
+      "observed": 0.09538461538461539,
+      "prior_static_baseline": 0.12615384615384614,
+      "shuffle_null_closed_form": 0.09570650887573964,
+      "permutation_null": {
+        "observed": 0.09538461538461539,
+        "null_mean": 0.09571569230769231,
+        "null_std": 0.01188055469041989,
+        "null_95": [
+          0.07384615384615385,
+          0.12
+        ],
+        "z": -0.02786712671892526,
+        "p_one_sided": 0.5601439856014399
+      },
+      "bootstrap": {
+        "mean": 0.0953123076923077,
+        "ci95": [
+          0.06461538461538462,
+          0.12923076923076923
+        ]
+      },
+      "pattern_conditional_lift": -0.00033107692307692005
+    },
+    "3": {
+      "observed": 0.27384615384615385,
+      "prior_static_baseline": 0.32,
+      "shuffle_null_closed_form": 0.25845207100591716,
+      "permutation_null": {
+        "observed": 0.27384615384615385,
+        "null_mean": 0.2582230769230769,
+        "null_std": 0.012594191995443354,
+        "null_95": [
+          0.23384615384615384,
+          0.28307692307692306
+        ],
+        "z": 1.2404985510375717,
+        "p_one_sided": 0.12688731126887312
+      },
+      "bootstrap": {
+        "mean": 0.2728707692307692,
+        "ci95": [
+          0.2246153846153846,
+          0.32
+        ]
+      },
+      "pattern_conditional_lift": 0.015623076923076962
+    },
+    "5": {
+      "observed": 0.4307692307692308,
+      "prior_static_baseline": 0.4369230769230769,
+      "shuffle_null_closed_form": 0.40993136094674565,
+      "permutation_null": {
+        "observed": 0.4307692307692308,
+        "null_mean": 0.40988092307692303,
+        "null_std": 0.011309692486764783,
+        "null_95": [
+          0.38769230769230767,
+          0.4307692307692308
+        ],
+        "z": 1.8469386072968346,
+        "p_one_sided": 0.040695930406959305
+      },
+      "bootstrap": {
+        "mean": 0.4298615384615384,
+        "ci95": [
+          0.37538461538461537,
+          0.48
+        ]
+      },
+      "pattern_conditional_lift": 0.02088830769230776
+    }
+  },
+  "mean_true_rank": {
+    "observed": 13.541538461538462,
+    "permutation_null": {
+      "observed": 13.541538461538462,
+      "null_mean": 13.816226153846156,
+      "null_std": 0.15038985836917043,
+      "null_95": [
+        13.52,
+        14.104615384615384
+      ],
+      "z": 1.8265040959848247,
+      "p_one_sided": 0.034996500349965
+    },
+    "note": "1 = true label ranked top; lower is better; null = rank under shuffled labels (random pattern-label pairing)."
+  },
+  "tag": "t5_calibrated",
+  "posterior_npz": "/tmp/information_theory_outputs/rruff325_stage2c_9rwv1qly_t5.0_posteriors_s3.npz",
+  "posterior_key": "calibrated_probs"
+}

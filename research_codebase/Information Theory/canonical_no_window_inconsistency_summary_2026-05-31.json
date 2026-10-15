@@ -1,0 +1,308 @@
+{
+  "source_artifact": "/work2/ALLOC3/UserE/information_theory_outputs/canonical_no_window_ideal_channel.json",
+  "inconsistent_eg_count": 57,
+  "system_summary": [
+    {
+      "crystal_system": "Monoclinic",
+      "total_egs": 6,
+      "inconsistent_egs": 5,
+      "consistent_egs": 1
+    },
+    {
+      "crystal_system": "Orthorhombic",
+      "total_egs": 33,
+      "inconsistent_egs": 18,
+      "consistent_egs": 15
+    },
+    {
+      "crystal_system": "Tetragonal",
+      "total_egs": 31,
+      "inconsistent_egs": 17,
+      "consistent_egs": 14
+    },
+    {
+      "crystal_system": "Trigonal",
+      "total_egs": 6,
+      "inconsistent_egs": 6,
+      "consistent_egs": 0
+    },
+    {
+      "crystal_system": "Hexagonal",
+      "total_egs": 4,
+      "inconsistent_egs": 4,
+      "consistent_egs": 0
+    },
+    {
+      "crystal_system": "Cubic",
+      "total_egs": 18,
+      "inconsistent_egs": 7,
+      "consistent_egs": 11
+    },
+    {
+      "crystal_system": "Triclinic",
+      "total_egs": 1,
+      "inconsistent_egs": 0,
+      "consistent_egs": 1
+    }
+  ],
+  "tag_summary": [
+    {
+      "tag": "centering",
+      "total_egs": 36,
+      "inconsistent_egs": 21,
+      "consistent_egs": 15
+    },
+    {
+      "tag": "glide",
+      "total_egs": 66,
+      "inconsistent_egs": 35,
+      "consistent_egs": 31
+    },
+    {
+      "tag": "primitive_only",
+      "total_egs": 6,
+      "inconsistent_egs": 5,
+      "consistent_egs": 1
+    },
+    {
+      "tag": "screw",
+      "total_egs": 24,
+      "inconsistent_egs": 10,
+      "consistent_egs": 14
+    }
+  ],
+  "example_inconsistent_egs": [
+    {
+      "eg_index": 0,
+      "crystal_system": "Monoclinic",
+      "canonical_symbol": "P - 1 1 (equiv: P 1 - 1, P 1 1 -)",
+      "tags": [
+        "primitive_only"
+      ],
+      "n_sg_variants": 3
+    },
+    {
+      "eg_index": 1,
+      "crystal_system": "Monoclinic",
+      "canonical_symbol": "P 21 1 1 (equiv: P 1 21 1, P 1 1 21)",
+      "tags": [
+        "screw"
+      ],
+      "n_sg_variants": 2
+    },
+    {
+      "eg_index": 2,
+      "crystal_system": "Monoclinic",
+      "canonical_symbol": "P b 1 1 (equiv: P c 1 1, P n 1 1, P 1 a 1, P 1 c 1, P 1 n 1, P 1 1 a, P 1 1 b, P 1 1 n)",
+      "tags": [
+        "glide"
+      ],
+      "n_sg_variants": 2
+    },
+    {
+      "eg_index": 4,
+      "crystal_system": "Monoclinic",
+      "canonical_symbol": "C - 1 1 (equiv: B - 1 1, I - 1 1, C 1 - 1, A 1 - 1, I 1 - 1, B 1 1 -, A 1 1 -, I 1 1 -)",
+      "tags": [
+        "centering"
+      ],
+      "n_sg_variants": 3
+    },
+    {
+      "eg_index": 5,
+      "crystal_system": "Monoclinic",
+      "canonical_symbol": "C n 1 1 (equiv: B b 1 1, I c 1 1, C 1 c 1, A 1 n 1, I 1 a 1, B 1 1 n, A 1 1 a, I 1 1 b)",
+      "tags": [
+        "centering",
+        "glide"
+      ],
+      "n_sg_variants": 2
+    },
+    {
+      "eg_index": 6,
+      "crystal_system": "Orthorhombic",
+      "canonical_symbol": "P - - -",
+      "tags": [
+        "primitive_only"
+      ],
+      "n_sg_variants": 3
+    },
+    {
+      "eg_index": 10,
+      "crystal_system": "Orthorhombic",
+      "canonical_symbol": "P - - a (equiv: P - - b, P - a -, P - c -, P b - -, P c - -)",
+      "tags": [
+        "glide"
+      ],
+      "n_sg_variants": 3
+    },
+    {
+      "eg_index": 11,
+      "crystal_system": "Orthorhombic",
+      "canonical_symbol": "P - - n (equiv: P - n -, P n - -)",
+      "tags": [
+        "glide"
+      ],
+      "n_sg_variants": 2
+    },
+    {
+      "eg_index": 12,
+      "crystal_system": "Orthorhombic",
+      "canonical_symbol": "P - a a (equiv: P b - b, P c c -)",
+      "tags": [
+        "glide"
+      ],
+      "n_sg_variants": 2
+    },
+    {
+      "eg_index": 13,
+      "crystal_system": "Orthorhombic",
+      "canonical_symbol": "P - a b (equiv: P - c a, P b - a, P b c -, P c - b, P c a -)",
+      "tags": [
+        "glide"
+      ],
+      "n_sg_variants": 2
+    },
+    {
+      "eg_index": 14,
+      "crystal_system": "Orthorhombic",
+      "canonical_symbol": "P - a n (equiv: P - n a, P b - n, P c n -, P n - b, P n c -)",
+      "tags": [
+        "glide"
+      ],
+      "n_sg_variants": 2
+    },
+    {
+      "eg_index": 15,
+      "crystal_system": "Orthorhombic",
+      "canonical_symbol": "P - c b (equiv: P b a -, P c - a)",
+      "tags": [
+        "glide"
+      ],
+      "n_sg_variants": 2
+    },
+    {
+      "eg_index": 16,
+      "crystal_system": "Orthorhombic",
+      "canonical_symbol": "P - c n (equiv: P - n b, P b n -, P c - n, P n - a, P n a -)",
+      "tags": [
+        "glide"
+      ],
+      "n_sg_variants": 2
+    },
+    {
+      "eg_index": 17,
+      "crystal_system": "Orthorhombic",
+      "canonical_symbol": "P - n n (equiv: P n - n, P n n -)",
+      "tags": [
+        "glide"
+      ],
+      "n_sg_variants": 2
+    },
+    {
+      "eg_index": 25,
+      "crystal_system": "Orthorhombic",
+      "canonical_symbol": "C - - - (equiv: B - - -, A - - -)",
+      "tags": [
+        "centering"
+      ],
+      "n_sg_variants": 4
+    },
+    {
+      "eg_index": 27,
+      "crystal_system": "Orthorhombic",
+      "canonical_symbol": "C - - (ab) (equiv: B - (ac)-, A(bc)- -)",
+      "tags": [
+        "centering",
+        "glide"
+      ],
+      "n_sg_variants": 2
+    },
+    {
+      "eg_index": 28,
+      "crystal_system": "Orthorhombic",
+      "canonical_symbol": "C - c - (equiv: C c - -, B - - b, B b - -, A - - a, A - a -)",
+      "tags": [
+        "centering",
+        "glide"
+      ],
+      "n_sg_variants": 3
+    },
+    {
+      "eg_index": 29,
+      "crystal_system": "Orthorhombic",
+      "canonical_symbol": "C - c (ab) (equiv: C c - (ab), B - (ac)b, B b (ac)-, A(bc)- a, A(bc)a -)",
+      "tags": [
+        "centering",
+        "glide"
+      ],
+      "n_sg_variants": 2
+    },
+    {
+      "eg_index": 30,
+      "crystal_system": "Orthorhombic",
+      "canonical_symbol": "C c c - (equiv: B b - b, A - a a)",
+      "tags": [
+        "centering",
+        "glide"
+      ],
+      "n_sg_variants": 2
+    },
+    {
+      "eg_index": 32,
+      "crystal_system": "Orthorhombic",
+      "canonical_symbol": "I - - -",
+      "tags": [
+        "centering"
+      ],
+      "n_sg_variants": 4
+    },
+    {
+      "eg_index": 33,
+      "crystal_system": "Orthorhombic",
+      "canonical_symbol": "I - - (ab) (equiv: I - (ac)-, I(bc)- -)",
+      "tags": [
+        "centering",
+        "glide"
+      ],
+      "n_sg_variants": 2
+    },
+    {
+      "eg_index": 34,
+      "crystal_system": "Orthorhombic",
+      "canonical_symbol": "I - c b (equiv: I c - a, I b a -)",
+      "tags": [
+        "centering",
+        "glide"
+      ],
+      "n_sg_variants": 2
+    },
+    {
+      "eg_index": 36,
+      "crystal_system": "Orthorhombic",
+      "canonical_symbol": "F - - -",
+      "tags": [
+        "centering"
+      ],
+      "n_sg_variants": 3
+    },
+    {
+      "eg_index": 39,
+      "crystal_system": "Tetragonal",
+      "canonical_symbol": "P - - -",
+      "tags": [
+        "primitive_only"
+      ],
+      "n_sg_variants": 8
+    },
+    {
+      "eg_index": 40,
+      "crystal_system": "Tetragonal",
+      "canonical_symbol": "P - 21 -",
+      "tags": [
+        "screw"
+      ],
+      "n_sg_variants": 2
+    }
+  ]
+}

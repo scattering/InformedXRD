@@ -1,0 +1,100 @@
+{
+  "cases": [
+    {
+      "sample_index": 15,
+      "case_id": "Arsenopyrite__R050071-1__6130",
+      "mineral": "Arsenopyrite",
+      "label": "correct",
+      "true_eg": 99,
+      "top1_pred_eg": 99,
+      "norm_entropy": 0.9936564117760937,
+      "top1pct_mass": 0.02395089742487641,
+      "top5pct_mass": 0.0866691973682841,
+      "tail80_mass": 0.15985914615030022,
+      "effective_support_90pct": 6913
+    },
+    {
+      "sample_index": 49,
+      "case_id": "Brochantite__R060117-1__6631",
+      "mineral": "Brochantite",
+      "label": "correct",
+      "true_eg": 4,
+      "top1_pred_eg": 4,
+      "norm_entropy": 0.9951479696690568,
+      "top1pct_mass": 0.0294446837860575,
+      "top5pct_mass": 0.0967675679687105,
+      "tail80_mass": 0.14243279653564336,
+      "effective_support_90pct": 7195
+    },
+    {
+      "sample_index": 68,
+      "case_id": "Clinoatacamite__R061066-9__10562",
+      "mineral": "Clinoatacamite",
+      "label": "correct",
+      "true_eg": 4,
+      "top1_pred_eg": 4,
+      "norm_entropy": 0.9352187133511936,
+      "top1pct_mass": 0.0973251287303476,
+      "top5pct_mass": 0.26099608031963784,
+      "tail80_mass": 0.21777524989478528,
+      "effective_support_90pct": 4383
+    },
+    {
+      "sample_index": 3,
+      "case_id": "Adamite__R060593-1__5519",
+      "mineral": "Adamite",
+      "label": "descendant_error",
+      "true_eg": 18,
+      "top1_pred_eg": 4,
+      "norm_entropy": 0.9702050769968664,
+      "top1pct_mass": 0.053348697553862526,
+      "top5pct_mass": 0.18143339754364934,
+      "tail80_mass": 0.1595548120258759,
+      "effective_support_90pct": 5819
+    },
+    {
+      "sample_index": 4,
+      "case_id": "Afwillite__R080022-9__9364",
+      "mineral": "Afwillite",
+      "label": "descendant_error",
+      "true_eg": 6,
+      "top1_pred_eg": 99,
+      "norm_entropy": 0.959473311273863,
+      "top1pct_mass": 0.04427551634961306,
+      "top5pct_mass": 0.15535169743214988,
+      "tail80_mass": 0.1828625751544963,
+      "effective_support_90pct": 4862
+    },
+    {
+      "sample_index": 9,
+      "case_id": "Anglesite__R050052-1__4113",
+      "mineral": "Anglesite",
+      "label": "descendant_error",
+      "true_eg": 17,
+      "top1_pred_eg": 4,
+      "norm_entropy": 0.9663122231763143,
+      "top1pct_mass": 0.050953353113773026,
+      "top5pct_mass": 0.15921166091914138,
+      "tail80_mass": 0.20827997677739513,
+      "effective_support_90pct": 5465
+    }
+  ],
+  "group_summary": {
+    "correct": {
+      "count": 3,
+      "mean_norm_entropy": 0.9746743649321147,
+      "mean_top1pct_mass": 0.05024023664709384,
+      "mean_top5pct_mass": 0.14814428188554415,
+      "mean_tail80_mass": 0.17335573086024295,
+      "mean_effective_support_90pct": 6163.666666666667
+    },
+    "descendant_error": {
+      "count": 3,
+      "mean_norm_entropy": 0.9653302038156811,
+      "mean_top1pct_mass": 0.04952585567241621,
+      "mean_top5pct_mass": 0.16533225196498022,
+      "mean_tail80_mass": 0.1835657879859224,
+      "mean_effective_support_90pct": 5382.0
+    }
+  }
+}

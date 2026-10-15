@@ -1,0 +1,74 @@
+{
+  "ours_stage2c_rruff473": {
+    "n_total": 473,
+    "n_correct": 43,
+    "n_wrong": 430,
+    "within_bin_Laue": 0,
+    "cross_bin_absence": 430,
+    "within_bin_frac_of_wrong": 0.0,
+    "cross_bin_frac_of_wrong": 1.0
+  },
+  "schopmann_resnet101_synthetic_off_rruff473": {
+    "n_total": 473,
+    "n_correct": 45,
+    "n_wrong": 428,
+    "within_bin_Laue": 14,
+    "cross_bin_absence": 414,
+    "within_bin_frac_of_wrong": 0.03271028037383177,
+    "cross_bin_frac_of_wrong": 0.9672897196261683
+  },
+  "schopmann_resnet101_synthetic_on_rruff473": {
+    "n_total": 473,
+    "n_correct": 51,
+    "n_wrong": 422,
+    "within_bin_Laue": 27,
+    "cross_bin_absence": 395,
+    "within_bin_frac_of_wrong": 0.06398104265402843,
+    "cross_bin_frac_of_wrong": 0.9360189573459715
+  },
+  "schopmann_resnet50_experimental_off_rruff473": {
+    "n_total": 473,
+    "n_correct": 183,
+    "n_wrong": 290,
+    "within_bin_Laue": 0,
+    "cross_bin_absence": 290,
+    "within_bin_frac_of_wrong": 0.0,
+    "cross_bin_frac_of_wrong": 1.0
+  },
+  "schopmann_resnet50_experimental_on_rruff473": {
+    "n_total": 473,
+    "n_correct": 71,
+    "n_wrong": 402,
+    "within_bin_Laue": 2,
+    "cross_bin_absence": 400,
+    "within_bin_frac_of_wrong": 0.004975124378109453,
+    "cross_bin_frac_of_wrong": 0.9950248756218906
+  },
+  "xrdbench_bigru_rruff473": {
+    "n_total": 473,
+    "n_correct": 66,
+    "n_wrong": 407,
+    "within_bin_Laue": 4,
+    "cross_bin_absence": 403,
+    "within_bin_frac_of_wrong": 0.009828009828009828,
+    "cross_bin_frac_of_wrong": 0.9901719901719902
+  },
+  "xrdbench_cnn11_rruff473": {
+    "n_total": 473,
+    "n_correct": 60,
+    "n_wrong": 413,
+    "within_bin_Laue": 0,
+    "cross_bin_absence": 413,
+    "within_bin_frac_of_wrong": 0.0,
+    "cross_bin_frac_of_wrong": 1.0
+  },
+  "xrdbench_transformer_rruff473": {
+    "n_total": 473,
+    "n_correct": 40,
+    "n_wrong": 433,
+    "within_bin_Laue": 2,
+    "cross_bin_absence": 431,
+    "within_bin_frac_of_wrong": 0.004618937644341801,
+    "cross_bin_frac_of_wrong": 0.9953810623556582
+  }
+}

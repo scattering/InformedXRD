@@ -1,0 +1,57 @@
+#############################################################
+#             ______       _    _          _                #
+#            (_____ \     \ \  / /        | |               #
+#             _____) )   _ \ \/ / |_  ____| |               #
+#            |  ____/ | | | )  (|  _)/ _  | |               #
+#            | |    | |_| |/ /\ \ |_( (_| | |___            #
+#            |_|     \__  /_/  \_\___)__|_|_____)           #
+#                   (____/                                  #
+#---------------------(version    1.0.6)--------------------#
+#       A Python package for random crystal generation      #
+#       url: https://github.com/qzhu2017/pyxtal             #
+#       @Zhu's group at University of Nevada Las Vegas      #
+#############################################################
+data_from_pyxtal
+
+_symmetry_space_group_name_H-M 'P-31c'
+_symmetry_Int_Tables_number                  163
+_symmetry_cell_setting                  trigonal
+_cell_length_a           11.050750
+_cell_length_b           11.050750
+_cell_length_c            8.757482
+_cell_angle_alpha        90.000000
+_cell_angle_beta         90.000000
+_cell_angle_gamma       120.000000
+_cell_volume            926.175780
+
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+1 'x, y, z'
+2 '-y, x-y, z'
+3 '-x+y, -x, z'
+4 '-y, -x, -z+1/2'
+5 '-x+y, y, -z+1/2'
+6 'x, x-y, -z+1/2'
+7 '-x, -y, -z'
+8 'y, -x+y, -z'
+9 'x-y, x, -z'
+10 'y, x, z+1/2'
+11 'x-y, -y, z+1/2'
+12 '-x, -x+y, z+1/2'
+
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+Lu     Lu      12     0.095764    0.725292    0.509874 1
+Ce     Ce       2     0.333333    0.666667    0.250000 1
+Ce     Ce       2     0.000000    0.000000    0.000000 1
+Re     Re       6     0.508463    0.491537    0.250000 1
+Re     Re       6     0.067062    0.932938    0.250000 1
+#END
+

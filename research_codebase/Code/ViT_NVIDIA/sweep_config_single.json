@@ -1,0 +1,132 @@
+{
+    "method": "bayes",
+    "metric": {
+        "name": "val_loss",
+        "goal": "minimize"
+    },
+    "parameters": {
+        "num_epochs": {
+            "value": 20
+        },
+        "batch_size": {
+            "value": 128
+        },
+        "patch_size": {
+            "values": [25]
+        },
+        "embed_dim": {
+            "values": [256]
+        },
+        "depth": {
+            "values": [12]
+        },
+        "num_heads": {
+            "values": [8]
+        },
+        "mlp_ratio": {
+            "values": [4.0]
+        },
+        "learning_rate": {
+            "value": 0.0003639776944236625
+        },
+        "dropout": {
+            "values": [0.0]
+        },
+        "weight_decay": {
+            "values": [0.0001]
+        },
+        "optimizer": {
+            "values": ["Adam"]
+        },
+        "checkpoint_dir": {
+            "value": "/scratch/10486/UserB/Models/checkpoints"
+        },
+        "num_devices": {
+            "value": 1
+        },
+        "num_precision": {
+            "value": 16
+        },
+        "is_sweep": {
+            "value": true
+        },
+        "spec_length": {
+            "value": 8501
+        },
+        "data_path": {
+            "value": "/scratch/10486/UserB/Data/rruff_aug_10M_trainready_repacked.hdf5"
+        },
+        "num_classes": {
+            "value": 99
+        },
+        "num_labels": {
+            "value": 37
+        },
+        "label_mode": {
+            "value": "multilabel"
+        },
+        "data_mode": {
+            "value": "hdf5"
+        },
+        "model_path": {
+            "value": "/scratch/10486/UserB/Models/"
+        },
+        "canonical_table_path": {
+            "value": "/scratch/10486/UserB/Code/Post_Processing/canonical_extinction_to_space_group.csv"
+        },
+        "final_table_path": {
+            "value": "/scratch/10486/UserB/Code/Post_Processing/FINAL_SPG_ExtG_CrysS_Table.csv"
+        },
+        "sg_lookup_path": {
+            "value": "/scratch/10486/UserB/Code/Post_Processing/spacegroup_lookup.csv"
+        },
+        "num_workers": {
+            "value": 8
+        },
+        "prefetch_factor": {
+            "value": 2
+        },
+        "use_rope": {
+            "value": false
+        },
+        "start_col": {
+            "value": 1
+        },
+        "end_col": {
+            "value": 8501
+        },
+        "samples_per_epoch": {
+            "value": 100000
+        },
+        "weighted_sampling": {
+            "value": false
+        },
+        "scheduler": {
+            "values": ["none"]
+        },
+        "warmup_epochs": {
+            "values": [5]
+        },
+        "eta_min": {
+            "values": [0.00001]
+        },
+        "T_0": {
+            "values": [10]
+        },
+        "T_mult": {
+            "values": [1]
+        },
+        "step_size": {
+            "values": [100]
+        },
+        "decay_rate": {
+            "values": [1.0]
+        },
+        "use_mlp_head": {
+            "value": false
+        },
+        "mlp_head_hidden_dim": {
+            "value": 512
+        }
+    }
+}

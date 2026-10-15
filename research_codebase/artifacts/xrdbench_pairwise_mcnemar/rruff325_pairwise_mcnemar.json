@@ -1,0 +1,185 @@
+{
+  "benchmark": "rruff325",
+  "models": {
+    "CNN10": "/scratch/ALLOC3/UserE/xrdbench_clean_second_set_20260726/runs/job_867777/cnn10/evaluation/rruff325/failure.json",
+    "PatchTST": "/scratch/ALLOC3/UserE/xrdbench_clean_second_set_20260726/runs/job_867777/PatchTST/evaluation/rruff325/failure.json",
+    "CNN11": "/scratch/ALLOC3/UserE/xrdbench_clean_second_set_20260726/runs/job_867777/original_models_common_grid/cnn11/rruff325/failure.json"
+  },
+  "n": 325,
+  "bootstrap_replicates": 10000,
+  "bootstrap_seed": 20260727,
+  "multiplicity": "Holm adjustment is across the three model pairs separately within each Top-k metric.",
+  "comparisons": [
+    {
+      "n": 325,
+      "both_correct": 8,
+      "model_a_only_correct": 24,
+      "model_b_only_correct": 22,
+      "neither_correct": 271,
+      "model_a_accuracy_pct": 9.846153846153847,
+      "model_b_accuracy_pct": 9.230769230769232,
+      "model_a_minus_b_percentage_points": 0.6153846153846154,
+      "paired_bootstrap_95_percentage_points": [
+        -3.3846153846153846,
+        4.615384615384616
+      ],
+      "mcnemar_exact_two_sided_p": 0.8829959121223965,
+      "top_k": 1,
+      "model_a": "CNN10",
+      "model_b": "PatchTST",
+      "mcnemar_holm_p_within_topk_family": 1.0
+    },
+    {
+      "n": 325,
+      "both_correct": 18,
+      "model_a_only_correct": 14,
+      "model_b_only_correct": 9,
+      "neither_correct": 284,
+      "model_a_accuracy_pct": 9.846153846153847,
+      "model_b_accuracy_pct": 8.307692307692308,
+      "model_a_minus_b_percentage_points": 1.5384615384615385,
+      "paired_bootstrap_95_percentage_points": [
+        -1.2307692307692308,
+        4.3076923076923075
+      ],
+      "mcnemar_exact_two_sided_p": 0.4048728942871094,
+      "top_k": 1,
+      "model_a": "CNN10",
+      "model_b": "CNN11",
+      "mcnemar_holm_p_within_topk_family": 1.0
+    },
+    {
+      "n": 325,
+      "both_correct": 9,
+      "model_a_only_correct": 21,
+      "model_b_only_correct": 18,
+      "neither_correct": 277,
+      "model_a_accuracy_pct": 9.230769230769232,
+      "model_b_accuracy_pct": 8.307692307692308,
+      "model_a_minus_b_percentage_points": 0.9230769230769231,
+      "paired_bootstrap_95_percentage_points": [
+        -2.769230769230769,
+        4.615384615384616
+      ],
+      "mcnemar_exact_two_sided_p": 0.7492586247608415,
+      "top_k": 1,
+      "model_a": "PatchTST",
+      "model_b": "CNN11",
+      "mcnemar_holm_p_within_topk_family": 1.0
+    },
+    {
+      "n": 325,
+      "both_correct": 60,
+      "model_a_only_correct": 24,
+      "model_b_only_correct": 35,
+      "neither_correct": 206,
+      "model_a_accuracy_pct": 25.846153846153847,
+      "model_b_accuracy_pct": 29.230769230769234,
+      "model_a_minus_b_percentage_points": -3.3846153846153846,
+      "paired_bootstrap_95_percentage_points": [
+        -8.0,
+        1.2307692307692308
+      ],
+      "mcnemar_exact_two_sided_p": 0.19252645776146274,
+      "top_k": 3,
+      "model_a": "CNN10",
+      "model_b": "PatchTST",
+      "mcnemar_holm_p_within_topk_family": 0.3850529155229255
+    },
+    {
+      "n": 325,
+      "both_correct": 58,
+      "model_a_only_correct": 26,
+      "model_b_only_correct": 24,
+      "neither_correct": 217,
+      "model_a_accuracy_pct": 25.846153846153847,
+      "model_b_accuracy_pct": 25.23076923076923,
+      "model_a_minus_b_percentage_points": 0.6153846153846154,
+      "paired_bootstrap_95_percentage_points": [
+        -3.6923076923076925,
+        4.923076923076923
+      ],
+      "mcnemar_exact_two_sided_p": 0.887724827340783,
+      "top_k": 3,
+      "model_a": "CNN10",
+      "model_b": "CNN11",
+      "mcnemar_holm_p_within_topk_family": 0.887724827340783
+    },
+    {
+      "n": 325,
+      "both_correct": 58,
+      "model_a_only_correct": 37,
+      "model_b_only_correct": 24,
+      "neither_correct": 206,
+      "model_a_accuracy_pct": 29.230769230769234,
+      "model_b_accuracy_pct": 25.23076923076923,
+      "model_a_minus_b_percentage_points": 4.0,
+      "paired_bootstrap_95_percentage_points": [
+        -0.6153846153846154,
+        8.615384615384615
+      ],
+      "mcnemar_exact_two_sided_p": 0.12373144253809217,
+      "top_k": 3,
+      "model_a": "PatchTST",
+      "model_b": "CNN11",
+      "mcnemar_holm_p_within_topk_family": 0.3711943276142765
+    },
+    {
+      "n": 325,
+      "both_correct": 100,
+      "model_a_only_correct": 27,
+      "model_b_only_correct": 32,
+      "neither_correct": 166,
+      "model_a_accuracy_pct": 39.07692307692307,
+      "model_b_accuracy_pct": 40.61538461538461,
+      "model_a_minus_b_percentage_points": -1.5384615384615385,
+      "paired_bootstrap_95_percentage_points": [
+        -6.153846153846154,
+        3.076923076923077
+      ],
+      "mcnemar_exact_two_sided_p": 0.6029232012571503,
+      "top_k": 5,
+      "model_a": "CNN10",
+      "model_b": "PatchTST",
+      "mcnemar_holm_p_within_topk_family": 1.0
+    },
+    {
+      "n": 325,
+      "both_correct": 103,
+      "model_a_only_correct": 24,
+      "model_b_only_correct": 28,
+      "neither_correct": 170,
+      "model_a_accuracy_pct": 39.07692307692307,
+      "model_b_accuracy_pct": 40.30769230769231,
+      "model_a_minus_b_percentage_points": -1.2307692307692308,
+      "paired_bootstrap_95_percentage_points": [
+        -5.538461538461538,
+        3.076923076923077
+      ],
+      "mcnemar_exact_two_sided_p": 0.6778086391424605,
+      "top_k": 5,
+      "model_a": "CNN10",
+      "model_b": "CNN11",
+      "mcnemar_holm_p_within_topk_family": 1.0
+    },
+    {
+      "n": 325,
+      "both_correct": 106,
+      "model_a_only_correct": 26,
+      "model_b_only_correct": 25,
+      "neither_correct": 168,
+      "model_a_accuracy_pct": 40.61538461538461,
+      "model_b_accuracy_pct": 40.30769230769231,
+      "model_a_minus_b_percentage_points": 0.3076923076923077,
+      "paired_bootstrap_95_percentage_points": [
+        -4.0,
+        4.615384615384616
+      ],
+      "mcnemar_exact_two_sided_p": 1.0,
+      "top_k": 5,
+      "model_a": "PatchTST",
+      "model_b": "CNN11",
+      "mcnemar_holm_p_within_topk_family": 1.0
+    }
+  ]
+}

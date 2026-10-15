@@ -1,0 +1,116 @@
+{
+  "cases": [
+    {
+      "sample_index": 15,
+      "case_id": "Arsenopyrite__R050071-1__6130",
+      "label": "correct",
+      "true_eg": 99,
+      "top1_pred_eg": 99,
+      "n_observed_peaks": 104,
+      "n_allowed_reflections": 97,
+      "n_absence_windows": 1,
+      "peak_window_mass": 0.5038591082029207,
+      "inter_peak_mass": 0.49614089179707926,
+      "allowed_window_mass": 0.3220676300832549,
+      "absence_window_mass": 0.0026760507943781654,
+      "allowed_minus_absence_mass": 0.31939157928887674
+    },
+    {
+      "sample_index": 49,
+      "case_id": "Brochantite__R060117-1__6631",
+      "label": "correct",
+      "true_eg": 4,
+      "top1_pred_eg": 4,
+      "n_observed_peaks": 41,
+      "n_allowed_reflections": 99,
+      "n_absence_windows": 8,
+      "peak_window_mass": 0.23829234348645323,
+      "inter_peak_mass": 0.7617076565135467,
+      "allowed_window_mass": 0.2610334528491231,
+      "absence_window_mass": 0.02502675605361177,
+      "allowed_minus_absence_mass": 0.23600669679551134
+    },
+    {
+      "sample_index": 68,
+      "case_id": "Clinoatacamite__R061066-9__10562",
+      "label": "correct",
+      "true_eg": 4,
+      "top1_pred_eg": 4,
+      "n_observed_peaks": 13,
+      "n_allowed_reflections": 108,
+      "n_absence_windows": 31,
+      "peak_window_mass": 0.1879691014122987,
+      "inter_peak_mass": 0.8120308985877013,
+      "allowed_window_mass": 0.351947510151823,
+      "absence_window_mass": 0.07184541112031725,
+      "allowed_minus_absence_mass": 0.28010209903150574
+    },
+    {
+      "sample_index": 3,
+      "case_id": "Adamite__R060593-1__5519",
+      "label": "descendant_error",
+      "true_eg": 18,
+      "top1_pred_eg": 4,
+      "n_observed_peaks": 52,
+      "n_allowed_reflections": 65,
+      "n_absence_windows": 17,
+      "peak_window_mass": 0.2638176132915347,
+      "inter_peak_mass": 0.7361823867084653,
+      "allowed_window_mass": 0.3028295404566198,
+      "absence_window_mass": 0.07933445030034059,
+      "allowed_minus_absence_mass": 0.22349509015627922
+    },
+    {
+      "sample_index": 4,
+      "case_id": "Afwillite__R080022-9__9364",
+      "label": "descendant_error",
+      "true_eg": 6,
+      "top1_pred_eg": 99,
+      "n_observed_peaks": 38,
+      "n_allowed_reflections": 132,
+      "n_absence_windows": 38,
+      "peak_window_mass": 0.2690099326440931,
+      "inter_peak_mass": 0.7309900673559069,
+      "allowed_window_mass": 0.26699604218800777,
+      "absence_window_mass": 0.0877960524767164,
+      "allowed_minus_absence_mass": 0.17919998971129136
+    },
+    {
+      "sample_index": 9,
+      "case_id": "Anglesite__R050052-1__4113",
+      "label": "descendant_error",
+      "true_eg": 17,
+      "top1_pred_eg": 4,
+      "n_observed_peaks": 145,
+      "n_allowed_reflections": 63,
+      "n_absence_windows": 21,
+      "peak_window_mass": 0.5801334764056149,
+      "inter_peak_mass": 0.41986652359438514,
+      "allowed_window_mass": 0.24123754326145044,
+      "absence_window_mass": 0.07151204855573644,
+      "allowed_minus_absence_mass": 0.16972549470571402
+    }
+  ],
+  "group_summary": {
+    "correct": {
+      "count": 3,
+      "mean_peak_window_mass": 0.3100401843672242,
+      "mean_inter_peak_mass": 0.6899598156327756,
+      "mean_allowed_window_mass": 0.3116828643614003,
+      "mean_absence_window_mass": 0.033182739322769064,
+      "mean_allowed_minus_absence_mass": 0.27850012503863125,
+      "mean_n_observed_peaks": 52.666666666666664,
+      "mean_n_absence_windows": 13.333333333333334
+    },
+    "descendant_error": {
+      "count": 3,
+      "mean_peak_window_mass": 0.37098700744708085,
+      "mean_inter_peak_mass": 0.629012992552919,
+      "mean_allowed_window_mass": 0.270354375302026,
+      "mean_absence_window_mass": 0.07954751711093115,
+      "mean_allowed_minus_absence_mass": 0.19080685819109489,
+      "mean_n_observed_peaks": 78.33333333333333,
+      "mean_n_absence_windows": 25.333333333333332
+    }
+  }
+}

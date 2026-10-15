@@ -1,0 +1,64 @@
+{
+    "parameters": {
+      "embed_dim": {
+        "values": [256]
+      },
+      "num_heads": {
+        "values": [8]
+      },
+      "ff_dim": {
+        "values": [128]
+      },
+      "depth": {
+        "values": [8]
+      },
+      "dropout": {
+        "values": [0]
+      },
+      "mlp_units": {
+        "values": [256]
+      },
+      "pos_encoding": {
+      "values": ["rope"]
+      },
+      "learning_rate": {
+        "values": [0.0003]
+      },
+      "model_type": {
+        "value": "transformer"
+      },
+      "batch_size": {
+        "value": 128
+      },
+      "weight_decay": {
+        "values": [0.001]
+      },
+      "optimizer": {
+          "values": ["AdamW"]
+      },
+      "checkpoint": {
+          "value": "/scratch/ALLOC1/UserA/models/xrd_model_41klnyef.pth"
+      },
+      "model_note": {
+          "value": "pyxtal-unbiased"
+      },
+      "num_devices": {
+          "value": 1
+      },
+      "num_precision": {
+          "value": 16
+      },
+      "data_path": {
+          "value": "/scratch/ALLOC1/UserA/data/10million_pyxtal_repacked_cleaned.hdf5"
+      },
+      "num_classes": {
+          "value": 99
+      },
+      "num_workers": {
+          "value": 8
+      },
+      "prefetch_factor": {
+          "value": 2
+      }
+    }
+}

@@ -1,0 +1,35 @@
+{
+  "null_definition": "For each benchmark true label, enumerate all 98 incorrect labels uniformly and summarize their positions on the condensed DAG.",
+  "graph_json": "/scratch/ALLOC3/UserE/project/artifacts/topology_graphs/extinction_group_adjacency.json",
+  "failure_json": "/scratch/ALLOC3/UserE/xrdbench_clean_second_set_20260726/runs/job_867777/original_models_common_grid/cnn11/rruff473/failure.json",
+  "source_model_key": "xrdbench_cnn11_common_grid",
+  "conditioning": "model_wrong_cases",
+  "n_source_examples": 473,
+  "n_examples": 418,
+  "num_labels": 99,
+  "n_wrong_label_pairs": 40964,
+  "mean_wrong_distance": 2.919465872473391,
+  "pct_wrong_distance_le2": 31.093154965335415,
+  "distance_counts": {
+    "0": 21,
+    "1": 2642,
+    "2": 10074,
+    "3": 17573,
+    "4": 9298,
+    "5": 1244,
+    "6": 112
+  },
+  "directionality_counts": {
+    "descendant_pred_lower_sym": 3934,
+    "ancestor_pred_higher_sym": 12172,
+    "branch_jump": 24837,
+    "same_condensed_node": 21
+  },
+  "directionality_pct": {
+    "descendant_pred_lower_sym": 9.603554340396446,
+    "ancestor_pred_higher_sym": 29.713895127428962,
+    "branch_jump": 60.63128600722586,
+    "same_condensed_node": 0.05126452494873548
+  },
+  "descendant_including_same_condensed_node_pct": 9.654818865345181
+}

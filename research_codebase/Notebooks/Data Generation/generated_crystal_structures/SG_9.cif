@@ -1,0 +1,47 @@
+#############################################################
+#             ______       _    _          _                #
+#            (_____ \     \ \  / /        | |               #
+#             _____) )   _ \ \/ / |_  ____| |               #
+#            |  ____/ | | | )  (|  _)/ _  | |               #
+#            | |    | |_| |/ /\ \ |_( (_| | |___            #
+#            |_|     \__  /_/  \_\___)__|_|_____)           #
+#                   (____/                                  #
+#---------------------(version    1.0.6)--------------------#
+#       A Python package for random crystal generation      #
+#       url: https://github.com/qzhu2017/pyxtal             #
+#       @Zhu's group at University of Nevada Las Vegas      #
+#############################################################
+data_from_pyxtal
+
+_symmetry_space_group_name_H-M 'Cc'
+_symmetry_Int_Tables_number                    9
+_symmetry_cell_setting                monoclinic
+_cell_length_a            5.672730
+_cell_length_b           11.728917
+_cell_length_c            6.425749
+_cell_angle_alpha        90.000000
+_cell_angle_beta        104.324116
+_cell_angle_gamma        90.000000
+_cell_volume            414.245647
+
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+1 'x, y, z'
+2 'x, -y, z+1/2'
+3 'x+1/2, y+1/2, z'
+4 'x+1/2, -y+1/2, z+1/2'
+
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+Sr     Sr       4     0.057711    0.735054    0.982619 1
+Al     Al       4     0.755793    0.580143    0.130444 1
+Gd     Gd       4     0.961313    0.518732    0.579829 1
+#END
+

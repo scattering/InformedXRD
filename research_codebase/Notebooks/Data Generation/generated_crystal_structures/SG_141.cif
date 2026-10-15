@@ -1,0 +1,74 @@
+#############################################################
+#             ______       _    _          _                #
+#            (_____ \     \ \  / /        | |               #
+#             _____) )   _ \ \/ / |_  ____| |               #
+#            |  ____/ | | | )  (|  _)/ _  | |               #
+#            | |    | |_| |/ /\ \ |_( (_| | |___            #
+#            |_|     \__  /_/  \_\___)__|_|_____)           #
+#                   (____/                                  #
+#---------------------(version    1.0.6)--------------------#
+#       A Python package for random crystal generation      #
+#       url: https://github.com/qzhu2017/pyxtal             #
+#       @Zhu's group at University of Nevada Las Vegas      #
+#############################################################
+data_from_pyxtal
+
+_symmetry_space_group_name_H-M 'I41/amd'
+_symmetry_Int_Tables_number                  141
+_symmetry_cell_setting                tetragonal
+_cell_length_a            7.379107
+_cell_length_b            7.379107
+_cell_length_c            6.723839
+_cell_angle_alpha        90.000000
+_cell_angle_beta         90.000000
+_cell_angle_gamma        90.000000
+_cell_volume            366.121268
+
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+1 'x, y, z'
+2 '-x+1/2, -y, z+1/2'
+3 '-y+1/4, x+3/4, z+1/4'
+4 'y+1/4, -x+1/4, z+3/4'
+5 '-x+1/2, y, -z+1/2'
+6 'x, -y, -z'
+7 'y+1/4, x+3/4, -z+1/4'
+8 '-y+1/4, -x+1/4, -z+3/4'
+9 '-x, -y, -z'
+10 'x+1/2, y, -z+1/2'
+11 'y+3/4, -x+1/4, -z+3/4'
+12 '-y+3/4, x+3/4, -z+1/4'
+13 'x+1/2, -y, z+1/2'
+14 '-x, y, z'
+15 '-y+3/4, -x+1/4, z+3/4'
+16 'y+3/4, x+3/4, z+1/4'
+17 'x+1/2, y+1/2, z+1/2'
+18 '-x+1, -y+1/2, z+1'
+19 '-y+3/4, x+5/4, z+3/4'
+20 'y+3/4, -x+3/4, z+5/4'
+21 '-x+1, y+1/2, -z+1'
+22 'x+1/2, -y+1/2, -z+1/2'
+23 'y+3/4, x+5/4, -z+3/4'
+24 '-y+3/4, -x+3/4, -z+5/4'
+25 '-x+1/2, -y+1/2, -z+1/2'
+26 'x+1, y+1/2, -z+1'
+27 'y+5/4, -x+3/4, -z+5/4'
+28 '-y+5/4, x+5/4, -z+3/4'
+29 'x+1, -y+1/2, z+1'
+30 '-x+1/2, y+1/2, z+1/2'
+31 '-y+5/4, -x+3/4, z+5/4'
+32 'y+5/4, x+5/4, z+3/4'
+
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+Hg     Hg       4     0.000000    0.750000    0.125000 1
+Pr     Pr       8     0.000000    0.000000    0.000000 1
+#END
+

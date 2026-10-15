@@ -1,0 +1,47 @@
+#############################################################
+#             ______       _    _          _                #
+#            (_____ \     \ \  / /        | |               #
+#             _____) )   _ \ \/ / |_  ____| |               #
+#            |  ____/ | | | )  (|  _)/ _  | |               #
+#            | |    | |_| |/ /\ \ |_( (_| | |___            #
+#            |_|     \__  /_/  \_\___)__|_|_____)           #
+#                   (____/                                  #
+#---------------------(version    1.0.6)--------------------#
+#       A Python package for random crystal generation      #
+#       url: https://github.com/qzhu2017/pyxtal             #
+#       @Zhu's group at University of Nevada Las Vegas      #
+#############################################################
+data_from_pyxtal
+
+_symmetry_space_group_name_H-M 'P-1'
+_symmetry_Int_Tables_number                    2
+_symmetry_cell_setting                 triclinic
+_cell_length_a            8.669036
+_cell_length_b            5.801818
+_cell_length_c            4.869044
+_cell_angle_alpha       105.343220
+_cell_angle_beta        120.988170
+_cell_angle_gamma        98.697364
+_cell_volume            189.826639
+
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+1 'x, y, z'
+2 '-x, -y, -z'
+
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+Br     Br       1     0.500000    0.000000    0.500000 1
+Br     Br       1     0.500000    0.500000    0.500000 1
+Hf     Hf       2     0.711929    0.399768    0.542843 1
+Sm     Sm       1     0.000000    0.500000    0.500000 1
+Sm     Sm       1     0.500000    0.500000    0.000000 1
+#END
+

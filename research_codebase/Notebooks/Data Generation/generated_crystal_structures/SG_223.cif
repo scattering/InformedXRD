@@ -1,0 +1,92 @@
+#############################################################
+#             ______       _    _          _                #
+#            (_____ \     \ \  / /        | |               #
+#             _____) )   _ \ \/ / |_  ____| |               #
+#            |  ____/ | | | )  (|  _)/ _  | |               #
+#            | |    | |_| |/ /\ \ |_( (_| | |___            #
+#            |_|     \__  /_/  \_\___)__|_|_____)           #
+#                   (____/                                  #
+#---------------------(version    1.0.6)--------------------#
+#       A Python package for random crystal generation      #
+#       url: https://github.com/qzhu2017/pyxtal             #
+#       @Zhu's group at University of Nevada Las Vegas      #
+#############################################################
+data_from_pyxtal
+
+_symmetry_space_group_name_H-M 'Pm-3n'
+_symmetry_Int_Tables_number                  223
+_symmetry_cell_setting                     cubic
+_cell_length_a            8.602344
+_cell_length_b            8.602344
+_cell_length_c            8.602344
+_cell_angle_alpha        90.000000
+_cell_angle_beta         90.000000
+_cell_angle_gamma        90.000000
+_cell_volume            636.576324
+
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+1 'x, y, z'
+2 '-x, -y, z'
+3 '-x, y, -z'
+4 'x, -y, -z'
+5 'z, x, y'
+6 'z, -x, -y'
+7 '-z, -x, y'
+8 '-z, x, -y'
+9 'y, z, x'
+10 '-y, z, -x'
+11 'y, -z, -x'
+12 '-y, -z, x'
+13 'y+1/2, x+1/2, -z+1/2'
+14 '-y+1/2, -x+1/2, -z+1/2'
+15 'y+1/2, -x+1/2, z+1/2'
+16 '-y+1/2, x+1/2, z+1/2'
+17 'x+1/2, z+1/2, -y+1/2'
+18 '-x+1/2, z+1/2, y+1/2'
+19 '-x+1/2, -z+1/2, -y+1/2'
+20 'x+1/2, -z+1/2, y+1/2'
+21 'z+1/2, y+1/2, -x+1/2'
+22 'z+1/2, -y+1/2, x+1/2'
+23 '-z+1/2, y+1/2, x+1/2'
+24 '-z+1/2, -y+1/2, -x+1/2'
+25 '-x, -y, -z'
+26 'x, y, -z'
+27 'x, -y, z'
+28 '-x, y, z'
+29 '-z, -x, -y'
+30 '-z, x, y'
+31 'z, x, -y'
+32 'z, -x, y'
+33 '-y, -z, -x'
+34 'y, -z, x'
+35 '-y, z, x'
+36 'y, z, -x'
+37 '-y+1/2, -x+1/2, z+1/2'
+38 'y+1/2, x+1/2, z+1/2'
+39 '-y+1/2, x+1/2, -z+1/2'
+40 'y+1/2, -x+1/2, -z+1/2'
+41 '-x+1/2, -z+1/2, y+1/2'
+42 'x+1/2, -z+1/2, -y+1/2'
+43 'x+1/2, z+1/2, y+1/2'
+44 '-x+1/2, z+1/2, -y+1/2'
+45 '-z+1/2, -y+1/2, x+1/2'
+46 '-z+1/2, y+1/2, -x+1/2'
+47 'z+1/2, -y+1/2, -x+1/2'
+48 'z+1/2, y+1/2, x+1/2'
+
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+Al     Al      12     0.820612    0.000000    0.500000 1
+Al     Al       6     0.250000    0.500000    0.000000 1
+I      I        2     0.000000    0.000000    0.000000 1
+I      I       16     0.393089    0.393089    0.393089 1
+#END
+

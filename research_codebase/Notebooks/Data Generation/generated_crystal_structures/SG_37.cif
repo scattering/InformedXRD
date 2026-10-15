@@ -1,0 +1,52 @@
+#############################################################
+#             ______       _    _          _                #
+#            (_____ \     \ \  / /        | |               #
+#             _____) )   _ \ \/ / |_  ____| |               #
+#            |  ____/ | | | )  (|  _)/ _  | |               #
+#            | |    | |_| |/ /\ \ |_( (_| | |___            #
+#            |_|     \__  /_/  \_\___)__|_|_____)           #
+#                   (____/                                  #
+#---------------------(version    1.0.6)--------------------#
+#       A Python package for random crystal generation      #
+#       url: https://github.com/qzhu2017/pyxtal             #
+#       @Zhu's group at University of Nevada Las Vegas      #
+#############################################################
+data_from_pyxtal
+
+_symmetry_space_group_name_H-M 'Ccc2'
+_symmetry_Int_Tables_number                   37
+_symmetry_cell_setting              orthorhombic
+_cell_length_a            5.996166
+_cell_length_b            3.729558
+_cell_length_c           14.247462
+_cell_angle_alpha        90.000000
+_cell_angle_beta         90.000000
+_cell_angle_gamma        90.000000
+_cell_volume            318.616689
+
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+1 'x, y, z'
+2 '-x, -y, z'
+3 'x, -y, z+1/2'
+4 '-x, y, z+1/2'
+5 'x+1/2, y+1/2, z'
+6 '-x+1/2, -y+1/2, z'
+7 'x+1/2, -y+1/2, z+1/2'
+8 '-x+1/2, y+1/2, z+1/2'
+
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+Pd     Pd       4     0.000000    0.000000    0.324754 1
+Pd     Pd       4     0.250000    0.250000    0.735754 1
+Te     Te       4     0.250000    0.250000    0.498731 1
+Ir     Ir       4     0.000000    0.500000    0.457235 1
+#END
+

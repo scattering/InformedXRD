@@ -1,0 +1,34 @@
+[
+  {
+    "sample_index": 126,
+    "case_id": "Hematite__R040024-1__3048",
+    "true_eg": 77,
+    "decoder": "aux_bayes",
+    "aux_temperature": 5.0,
+    "topk_pred_egs": [
+      75,
+      4,
+      99,
+      17,
+      5
+    ],
+    "png": "/scratch/ALLOC3/UserE/attention_stage2c_rruff325/attention_0126_Hematite__R040024-1__3048.png",
+    "attention_npy": "/scratch/ALLOC3/UserE/attention_stage2c_rruff325/attention_0126_Hematite__R040024-1__3048.npy"
+  },
+  {
+    "sample_index": 277,
+    "case_id": "Tintinaite__R110046-9__10894",
+    "true_eg": 19,
+    "decoder": "aux_bayes",
+    "aux_temperature": 5.0,
+    "topk_pred_egs": [
+      4,
+      99,
+      5,
+      17,
+      6
+    ],
+    "png": "/scratch/ALLOC3/UserE/attention_stage2c_rruff325/attention_0277_Tintinaite__R110046-9__10894.png",
+    "attention_npy": "/scratch/ALLOC3/UserE/attention_stage2c_rruff325/attention_0277_Tintinaite__R110046-9__10894.npy"
+  }
+]
